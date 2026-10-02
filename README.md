@@ -1,7 +1,7 @@
 # ASTRA · moteurs de calcul et bilan (Phases 1-2)
 
 Calcul **déterministe** d'un profil Astrologie + Human Design + Numérologie à partir des données de naissance.
-Aucune IA n'intervient dans le calcul ou la présentation. Audit et architecture : [docs/AUDIT-ARCHITECTURE.md](docs/AUDIT-ARCHITECTURE.md). Bilan, cartes de référence et convention numérologique : [docs/PHASE-2.md](docs/PHASE-2.md).
+Aucune IA n'intervient dans le calcul ou la présentation. Audit et architecture : [docs/AUDIT-ARCHITECTURE.md](docs/AUDIT-ARCHITECTURE.md). Bilan, cartes de référence et convention numérologique : [docs/PHASE-2.md](docs/PHASE-2.md). Matrice du destin : [docs/MATRICE-DU-DESTIN.md](docs/MATRICE-DU-DESTIN.md). Astrologie védique : [docs/JYOTISH.md](docs/JYOTISH.md).
 
 ## Démarrer
 

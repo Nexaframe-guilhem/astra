@@ -14201,5 +14201,1916 @@
     "status": "draft",
     "version": 1,
     "origin": "pré-rédaction automatique (composée)"
+  },
+  "jyotish.lagna.aries": {
+    "title": "Lagna en Bélier",
+    "body": "Avec un lagna en Mesha (Bélier), la personne aborde la vie de façon directe et énergique. Mars, maître de l'ascendant, met l'accent sur l'action, le courage et l'envie d'ouvrir des chemins. Elle gagne à canaliser son impatience pour transformer ses élans en réalisations durables.",
+    "status": "draft",
+    "version": 1,
+    "origin": "pré-rédaction automatique"
+  },
+  "jyotish.lagna.taurus": {
+    "title": "Lagna en Taureau",
+    "body": "Avec un lagna en Vrishabha (Taureau), la personne aborde la vie avec calme et constance. Vénus, maître de l'ascendant, donne le sens de la beauté, du confort et des valeurs stables. Elle construit lentement mais solidement, et gagne à cultiver la souplesse face au changement.",
+    "status": "draft",
+    "version": 1,
+    "origin": "pré-rédaction automatique"
+  },
+  "jyotish.lagna.gemini": {
+    "title": "Lagna en Gémeaux",
+    "body": "Avec un lagna en Mithuna (Gémeaux), la personne aborde la vie par la curiosité et l'échange. Mercure, maître de l'ascendant, donne un esprit vif, le goût d'apprendre et de communiquer. Elle gagne à approfondir ses centres d'intérêt pour ne pas se disperser.",
+    "status": "draft",
+    "version": 1,
+    "origin": "pré-rédaction automatique"
+  },
+  "jyotish.lagna.cancer": {
+    "title": "Lagna en Cancer",
+    "body": "Avec un lagna en Karka (Cancer), la personne aborde la vie par la sensibilité. La Lune, maître de l'ascendant, rend l'humeur et l'environnement affectif très importants. Elle a un grand sens du soin et de la protection, et gagne à se créer une sécurité intérieure qui ne dépende pas seulement des autres.",
+    "status": "draft",
+    "version": 1,
+    "origin": "pré-rédaction automatique"
+  },
+  "jyotish.lagna.leo": {
+    "title": "Lagna en Lion",
+    "body": "Avec un lagna en Simha (Lion), la personne aborde la vie avec dignité et le désir de rayonner. Le Soleil, maître de l'ascendant, donne un sens naturel du commandement et de la générosité. Elle gagne à mettre sa force au service des autres plutôt qu'à rechercher la reconnaissance.",
+    "status": "draft",
+    "version": 1,
+    "origin": "pré-rédaction automatique"
+  },
+  "jyotish.lagna.virgo": {
+    "title": "Lagna en Vierge",
+    "body": "Avec un lagna en Kanya (Vierge), la personne aborde la vie par l'analyse et le discernement. Mercure, maître de l'ascendant, donne le goût de l'ordre, du service et du travail bien fait. Elle gagne à apaiser son exigence envers elle-même pour profiter de ses nombreuses compétences.",
+    "status": "draft",
+    "version": 1,
+    "origin": "pré-rédaction automatique"
+  },
+  "jyotish.lagna.libra": {
+    "title": "Lagna en Balance",
+    "body": "Avec un lagna en Tula (Balance), la personne aborde la vie par la relation et la recherche d'équilibre. Vénus, maître de l'ascendant, donne du tact, le sens de la justice et de l'esthétique. Elle gagne à affirmer ses propres choix plutôt qu'à chercher à plaire à tous.",
+    "status": "draft",
+    "version": 1,
+    "origin": "pré-rédaction automatique"
+  },
+  "jyotish.lagna.scorpio": {
+    "title": "Lagna en Scorpion",
+    "body": "Avec un lagna en Vrishchika (Scorpion), la personne aborde la vie avec intensité et profondeur. Mars, maître de l'ascendant, donne une grande force de volonté et une capacité à traverser les crises. Elle gagne à transformer sa méfiance en lucidité et à oser se montrer vulnérable.",
+    "status": "draft",
+    "version": 1,
+    "origin": "pré-rédaction automatique"
+  },
+  "jyotish.lagna.sagittarius": {
+    "title": "Lagna en Sagittaire",
+    "body": "Avec un lagna en Dhanu (Sagittaire), la personne aborde la vie avec idéal et optimisme. Jupiter, maître de l'ascendant, donne le goût de la connaissance, des voyages et des valeurs morales. Elle gagne à ancrer ses grandes visions dans des engagements concrets.",
+    "status": "draft",
+    "version": 1,
+    "origin": "pré-rédaction automatique"
+  },
+  "jyotish.lagna.capricorn": {
+    "title": "Lagna en Capricorne",
+    "body": "Avec un lagna en Makara (Capricorne), la personne aborde la vie avec sérieux et sens des responsabilités. Saturne, maître de l'ascendant, donne de la persévérance et une réussite qui se construit avec le temps. Elle gagne à s'accorder de la légèreté et à reconnaître le chemin déjà parcouru.",
+    "status": "draft",
+    "version": 1,
+    "origin": "pré-rédaction automatique"
+  },
+  "jyotish.lagna.aquarius": {
+    "title": "Lagna en Verseau",
+    "body": "Avec un lagna en Kumbha (Verseau), la personne aborde la vie avec indépendance et un sens du collectif. Saturne, maître de l'ascendant, donne une pensée structurée et un intérêt pour les causes humaines. Elle gagne à relier ses idées à la chaleur des relations personnelles.",
+    "status": "draft",
+    "version": 1,
+    "origin": "pré-rédaction automatique"
+  },
+  "jyotish.lagna.pisces": {
+    "title": "Lagna en Poissons",
+    "body": "Avec un lagna en Meena (Poissons), la personne aborde la vie par l'intuition et la compassion. Jupiter, maître de l'ascendant, donne une sensibilité spirituelle et une grande capacité d'accueil. Elle gagne à se donner des limites claires pour préserver son énergie.",
+    "status": "draft",
+    "version": 1,
+    "origin": "pré-rédaction automatique"
+  },
+  "jyotish.grahas.sun": {
+    "title": "Soleil",
+    "body": "En Jyotish, le Soleil (Surya) représente l'âme, la vitalité et la place que la personne occupe dans le monde. Il est associé au père, à l'autorité et au sens du devoir. Bien disposé, il donne de la confiance, de la dignité et une capacité à guider ; affaibli, il peut se traduire par un manque d'assurance ou au contraire par un orgueil défensif.",
+    "status": "draft",
+    "version": 1,
+    "origin": "pré-rédaction automatique"
+  },
+  "jyotish.grahas.moon": {
+    "title": "Lune",
+    "body": "La Lune (Chandra) est sans doute la planète la plus importante du Jyotish : elle représente le mental, la sensibilité et la manière de ressentir. Elle est associée à la mère et au bien-être intérieur. Son nakshatra sert de point de départ au calcul des périodes de vie (dashas). Forte, elle donne de la stabilité émotionnelle ; agitée, elle rend plus vulnérable aux variations d'humeur.",
+    "status": "draft",
+    "version": 1,
+    "origin": "pré-rédaction automatique"
+  },
+  "jyotish.grahas.mars": {
+    "title": "Mars",
+    "body": "Mars (Mangala) représente le courage, l'énergie physique et la capacité de se défendre. Il est associé aux frères et sœurs, aux terres et aux compétences techniques. Bien disposé, il donne de la détermination et le sens de l'initiative ; mal canalisé, il peut se manifester par l'impatience, l'irritabilité ou les conflits.",
+    "status": "draft",
+    "version": 1,
+    "origin": "pré-rédaction automatique"
+  },
+  "jyotish.grahas.mercury": {
+    "title": "Mercure",
+    "body": "Mercure (Budha) représente l'intelligence pratique, la parole, le commerce et l'apprentissage. Il est associé à la jeunesse, à l'humour et à la capacité d'analyser. Bien disposé, il donne de la vivacité d'esprit et un talent pour communiquer ; affaibli, il peut se traduire par la dispersion, l'hésitation ou l'anxiété.",
+    "status": "draft",
+    "version": 1,
+    "origin": "pré-rédaction automatique"
+  },
+  "jyotish.grahas.jupiter": {
+    "title": "Jupiter",
+    "body": "Jupiter (Guru, « l'enseignant ») est la planète la plus bénéfique du Jyotish. Il représente la sagesse, la foi, les enseignants et la croissance sous toutes ses formes, ainsi que les enfants. Bien disposé, il apporte protection, optimisme et sens moral ; affaibli, il peut se traduire par un excès de confiance ou une difficulté à trouver des repères.",
+    "status": "draft",
+    "version": 1,
+    "origin": "pré-rédaction automatique"
+  },
+  "jyotish.grahas.venus": {
+    "title": "Vénus",
+    "body": "Vénus (Shukra) représente l'amour, le couple, la beauté, les arts et le confort matériel. Elle est aussi, dans la tradition, l'enseignante des savoirs pratiques et la gardienne de la vitalité. Bien disposée, elle donne du charme, le sens de l'esthétique et des relations harmonieuses ; affaiblie, elle peut tendre vers l'excès de plaisir ou les déceptions affectives.",
+    "status": "draft",
+    "version": 1,
+    "origin": "pré-rédaction automatique"
+  },
+  "jyotish.grahas.saturn": {
+    "title": "Saturne",
+    "body": "Saturne (Shani) représente le temps, la discipline, le travail persévérant et les responsabilités. Il est réputé exigeant, mais ce qu'il donne est durable. Bien disposé, il apporte endurance, sérieux et sens de la justice ; affaibli, il peut se traduire par des retards, de la lourdeur ou un sentiment de restriction, qui deviennent des leçons de maturité.",
+    "status": "draft",
+    "version": 1,
+    "origin": "pré-rédaction automatique"
+  },
+  "jyotish.grahas.rahu": {
+    "title": "Rahu",
+    "body": "Rahu est le nœud nord de la Lune. Ce n'est pas un corps céleste mais un point sensible, considéré comme une « planète d'ombre ». Il représente le désir insatiable, l'ambition, l'attrait pour ce qui est étranger ou nouveau. Il amplifie ce qu'il touche : il peut pousser vers des réussites inattendues comme vers la confusion et l'insatisfaction.",
+    "status": "draft",
+    "version": 1,
+    "origin": "pré-rédaction automatique"
+  },
+  "jyotish.grahas.ketu": {
+    "title": "Ketu",
+    "body": "Ketu est le nœud sud de la Lune, toujours opposé à Rahu. Il représente le détachement, l'intuition, la spiritualité et les savoir-faire acquis dans le passé. Il tend à rendre indifférent à ce qu'il touche, ce qui peut se vivre comme un manque ou comme une forme de libération et de profondeur intérieure.",
+    "status": "draft",
+    "version": 1,
+    "origin": "pré-rédaction automatique"
+  },
+  "jyotish.nakshatras.ashwini": {
+    "title": "Nakshatra Ashwini",
+    "body": "Ashwini (0° à 13°20′ Bélier) est gouverné par Ketu et associé aux Ashvins, les jumeaux guérisseurs. Il évoque la rapidité, l'initiative et un don pour soigner ou porter secours. Les personnes marquées par ce nakshatra aiment commencer, agir vite et apporter de l'aide là où elle est nécessaire.",
+    "status": "draft",
+    "version": 1,
+    "origin": "pré-rédaction automatique"
+  },
+  "jyotish.nakshatras.bharani": {
+    "title": "Nakshatra Bharani",
+    "body": "Bharani (13°20′ à 26°40′ Bélier) est gouverné par Vénus et associé à Yama, gardien des passages. Il évoque la capacité à porter, à contenir et à traverser les grandes transitions de la vie. Il donne de l'intensité, de la créativité et un rapport fort à la responsabilité.",
+    "status": "draft",
+    "version": 1,
+    "origin": "pré-rédaction automatique"
+  },
+  "jyotish.nakshatras.krittika": {
+    "title": "Nakshatra Krittika",
+    "body": "Krittika (26°40′ Bélier à 10° Taureau) est gouverné par le Soleil et associé à Agni, le feu. Il évoque la lame qui tranche et la flamme qui purifie. Il donne de la détermination, un esprit critique et le courage de dire ce qui est juste, parfois avec une franchise piquante.",
+    "status": "draft",
+    "version": 1,
+    "origin": "pré-rédaction automatique"
+  },
+  "jyotish.nakshatras.rohini": {
+    "title": "Nakshatra Rohini",
+    "body": "Rohini (10° à 23°20′ Taureau) est gouverné par la Lune et associé à Brahma, le créateur. C'est l'un des nakshatras les plus fertiles : il évoque la croissance, la beauté et le goût des plaisirs simples. Il donne du charme, de la créativité et un attachement au confort.",
+    "status": "draft",
+    "version": 1,
+    "origin": "pré-rédaction automatique"
+  },
+  "jyotish.nakshatras.mrigashira": {
+    "title": "Nakshatra Mrigashira",
+    "body": "Mrigashira (23°20′ Taureau à 6°40′ Gémeaux) est gouverné par Mars et symbolisé par la tête du cerf. Il évoque la recherche, la curiosité et l'exploration. Il donne un esprit en quête, aimable et sensible, qui a besoin de nouveauté pour rester vivant.",
+    "status": "draft",
+    "version": 1,
+    "origin": "pré-rédaction automatique"
+  },
+  "jyotish.nakshatras.ardra": {
+    "title": "Nakshatra Ardra",
+    "body": "Ardra (6°40′ à 20° Gémeaux) est gouverné par Rahu et associé à Rudra, la tempête. Il évoque les émotions fortes, les remises en question et le renouveau après l'orage. Il donne une intelligence pénétrante et une capacité à se transformer à travers les épreuves.",
+    "status": "draft",
+    "version": 1,
+    "origin": "pré-rédaction automatique"
+  },
+  "jyotish.nakshatras.punarvasu": {
+    "title": "Nakshatra Punarvasu",
+    "body": "Punarvasu (20° Gémeaux à 3°20′ Cancer) est gouverné par Jupiter et associé à Aditi, mère des dieux. Son nom signifie « retour de la lumière ». Il évoque le renouvellement, l'optimisme et la capacité à se relever. Il donne de la bienveillance, de la simplicité et un besoin de liberté.",
+    "status": "draft",
+    "version": 1,
+    "origin": "pré-rédaction automatique"
+  },
+  "jyotish.nakshatras.pushya": {
+    "title": "Nakshatra Pushya",
+    "body": "Pushya (3°20′ à 16°40′ Cancer) est gouverné par Saturne et associé à Brihaspati, le maître spirituel. Il est réputé être l'un des nakshatras les plus favorables. Il évoque le soin, la nourriture et la protection. Il donne le sens du devoir, de la générosité et une stabilité rassurante.",
+    "status": "draft",
+    "version": 1,
+    "origin": "pré-rédaction automatique"
+  },
+  "jyotish.nakshatras.ashlesha": {
+    "title": "Nakshatra Ashlesha",
+    "body": "Ashlesha (16°40′ à 30° Cancer) est gouverné par Mercure et associé aux serpents (Nagas). Il évoque la sagesse cachée, la perspicacité et le pouvoir de l'emprise. Il donne une grande intelligence psychologique, qui gagne à être mise au service de la guérison plutôt que du contrôle.",
+    "status": "draft",
+    "version": 1,
+    "origin": "pré-rédaction automatique"
+  },
+  "jyotish.nakshatras.magha": {
+    "title": "Nakshatra Magha",
+    "body": "Magha (0° à 13°20′ Lion) est gouverné par Ketu et associé aux Pitris, les ancêtres. Il évoque le trône, la lignée et l'héritage. Il donne de la noblesse, le respect des traditions et un désir de reconnaissance, ainsi qu'un lien fort avec les générations précédentes.",
+    "status": "draft",
+    "version": 1,
+    "origin": "pré-rédaction automatique"
+  },
+  "jyotish.nakshatras.purva-phalguni": {
+    "title": "Nakshatra Purva Phalguni",
+    "body": "Purva Phalguni (13°20′ à 26°40′ Lion) est gouverné par Vénus et associé à Bhaga, divinité du bonheur partagé. Il évoque le repos, le plaisir, l'amour et la créativité. Il donne de la chaleur, du charme et un talent pour profiter de la vie et la rendre agréable aux autres.",
+    "status": "draft",
+    "version": 1,
+    "origin": "pré-rédaction automatique"
+  },
+  "jyotish.nakshatras.uttara-phalguni": {
+    "title": "Nakshatra Uttara Phalguni",
+    "body": "Uttara Phalguni (26°40′ Lion à 10° Vierge) est gouverné par le Soleil et associé à Aryaman, divinité des alliances. Il évoque les engagements, l'amitié fidèle et le soutien mutuel. Il donne de la générosité, de la fiabilité et le sens des contrats tenus.",
+    "status": "draft",
+    "version": 1,
+    "origin": "pré-rédaction automatique"
+  },
+  "jyotish.nakshatras.hasta": {
+    "title": "Nakshatra Hasta",
+    "body": "Hasta (10° à 23°20′ Vierge) est gouverné par la Lune et symbolisé par la main. Il évoque l'habileté manuelle, l'artisanat et l'art de réaliser. Il donne de l'adresse, de l'humour et une intelligence pratique capable de transformer les idées en résultats.",
+    "status": "draft",
+    "version": 1,
+    "origin": "pré-rédaction automatique"
+  },
+  "jyotish.nakshatras.chitra": {
+    "title": "Nakshatra Chitra",
+    "body": "Chitra (23°20′ Vierge à 6°40′ Balance) est gouverné par Mars et associé à Vishvakarma, l'architecte céleste. Il évoque la beauté construite, le design et l'éclat. Il donne un sens esthétique marqué, du charisme et le désir de créer des choses remarquables.",
+    "status": "draft",
+    "version": 1,
+    "origin": "pré-rédaction automatique"
+  },
+  "jyotish.nakshatras.swati": {
+    "title": "Nakshatra Swati",
+    "body": "Swati (6°40′ à 20° Balance) est gouverné par Rahu et associé à Vayu, le vent. Il évoque l'indépendance, la mobilité et la capacité à plier sans rompre. Il donne de l'adaptabilité, un sens du commerce et un fort besoin de liberté.",
+    "status": "draft",
+    "version": 1,
+    "origin": "pré-rédaction automatique"
+  },
+  "jyotish.nakshatras.vishakha": {
+    "title": "Nakshatra Vishakha",
+    "body": "Vishakha (20° Balance à 3°20′ Scorpion) est gouverné par Jupiter et associé au couple Indra-Agni. Il évoque la poursuite déterminée d'un but. Il donne de l'ambition, de la persévérance et une grande concentration, qui gagnent à s'accompagner de patience.",
+    "status": "draft",
+    "version": 1,
+    "origin": "pré-rédaction automatique"
+  },
+  "jyotish.nakshatras.anuradha": {
+    "title": "Nakshatra Anuradha",
+    "body": "Anuradha (3°20′ à 16°40′ Scorpion) est gouverné par Saturne et associé à Mitra, divinité de l'amitié. Il évoque la loyauté, la coopération et la réussite loin de chez soi. Il donne de la fidélité, de la dévotion et un talent pour fédérer les personnes.",
+    "status": "draft",
+    "version": 1,
+    "origin": "pré-rédaction automatique"
+  },
+  "jyotish.nakshatras.jyeshtha": {
+    "title": "Nakshatra Jyeshtha",
+    "body": "Jyeshtha (16°40′ à 30° Scorpion) est gouverné par Mercure et associé à Indra, le roi des dieux. Son nom signifie « l'aîné ». Il évoque la responsabilité, la protection et le pouvoir. Il donne de l'autorité et du courage, mais aussi le besoin d'être reconnu à sa juste valeur.",
+    "status": "draft",
+    "version": 1,
+    "origin": "pré-rédaction automatique"
+  },
+  "jyotish.nakshatras.mula": {
+    "title": "Nakshatra Mula",
+    "body": "Mula (0° à 13°20′ Sagittaire) est gouverné par Ketu et associé à Nirriti. Son nom signifie « la racine ». Il évoque la recherche de vérité, le fait d'aller au fond des choses et parfois de tout déraciner pour reconstruire. Il donne une profondeur d'investigation et un intérêt pour les questions essentielles.",
+    "status": "draft",
+    "version": 1,
+    "origin": "pré-rédaction automatique"
+  },
+  "jyotish.nakshatras.purva-ashadha": {
+    "title": "Nakshatra Purva Ashadha",
+    "body": "Purva Ashadha (13°20′ à 26°40′ Sagittaire) est gouverné par Vénus et associé à Apas, les eaux. Il évoque la conviction, l'enthousiasme et la purification. Il donne une force de persuasion, de la fierté et l'énergie de ceux qui ne s'avouent pas vaincus.",
+    "status": "draft",
+    "version": 1,
+    "origin": "pré-rédaction automatique"
+  },
+  "jyotish.nakshatras.uttara-ashadha": {
+    "title": "Nakshatra Uttara Ashadha",
+    "body": "Uttara Ashadha (26°40′ Sagittaire à 10° Capricorne) est gouverné par le Soleil et associé aux Vishvadevas, divinités universelles. Il évoque la victoire durable et l'intégrité. Il donne un sens moral, de la persévérance et une capacité à mener des projets à leur terme.",
+    "status": "draft",
+    "version": 1,
+    "origin": "pré-rédaction automatique"
+  },
+  "jyotish.nakshatras.shravana": {
+    "title": "Nakshatra Shravana",
+    "body": "Shravana (10° à 23°20′ Capricorne) est gouverné par la Lune et associé à Vishnu. Son nom signifie « l'écoute ». Il évoque l'apprentissage, la transmission et la connexion. Il donne une grande capacité d'écoute, de la mémoire et le goût de la connaissance.",
+    "status": "draft",
+    "version": 1,
+    "origin": "pré-rédaction automatique"
+  },
+  "jyotish.nakshatras.dhanishta": {
+    "title": "Nakshatra Dhanishta",
+    "body": "Dhanishta (23°20′ Capricorne à 6°40′ Verseau) est gouverné par Mars et associé aux Vasus, divinités de l'abondance. Il évoque le rythme, la musique et la prospérité. Il donne de l'ambition, de l'énergie et un sens du rythme, au propre comme au figuré.",
+    "status": "draft",
+    "version": 1,
+    "origin": "pré-rédaction automatique"
+  },
+  "jyotish.nakshatras.shatabhisha": {
+    "title": "Nakshatra Shatabhisha",
+    "body": "Shatabhisha (6°40′ à 20° Verseau) est gouverné par Rahu et associé à Varuna, gardien de l'ordre cosmique. Son nom évoque « les cent guérisseurs ». Il donne un esprit indépendant, un intérêt pour les sciences et la guérison, et parfois un besoin de solitude.",
+    "status": "draft",
+    "version": 1,
+    "origin": "pré-rédaction automatique"
+  },
+  "jyotish.nakshatras.purva-bhadrapada": {
+    "title": "Nakshatra Purva Bhadrapada",
+    "body": "Purva Bhadrapada (20° Verseau à 3°20′ Poissons) est gouverné par Jupiter et associé à Aja Ekapada. Il évoque l'idéalisme ardent, la transformation et l'intensité. Il donne de la passion pour les causes qui comptent et une capacité de sacrifice.",
+    "status": "draft",
+    "version": 1,
+    "origin": "pré-rédaction automatique"
+  },
+  "jyotish.nakshatras.uttara-bhadrapada": {
+    "title": "Nakshatra Uttara Bhadrapada",
+    "body": "Uttara Bhadrapada (3°20′ à 16°40′ Poissons) est gouverné par Saturne et associé à Ahir Budhnya, le serpent des profondeurs. Il évoque la sagesse calme, la maîtrise de soi et la profondeur. Il donne de la patience, de la générosité et une stabilité intérieure.",
+    "status": "draft",
+    "version": 1,
+    "origin": "pré-rédaction automatique"
+  },
+  "jyotish.nakshatras.revati": {
+    "title": "Nakshatra Revati",
+    "body": "Revati (16°40′ à 30° Poissons) est gouverné par Mercure et associé à Pushan, le protecteur des voyageurs. Dernier nakshatra du zodiaque, il évoque l'accompagnement, la bienveillance et le passage. Il donne de la douceur, de la créativité et le désir de prendre soin des autres.",
+    "status": "draft",
+    "version": 1,
+    "origin": "pré-rédaction automatique"
+  },
+  "jyotish.dashas.ketu": {
+    "title": "Mahadasha de Ketu",
+    "body": "La mahadasha de Ketu dure 7 ans. C'est une période de détachement et de remise en question, propice à l'introspection et à la spiritualité. Les choses matérielles peuvent sembler moins importantes ; certaines situations se terminent pour laisser place à un nouvel élan.",
+    "status": "draft",
+    "version": 1,
+    "origin": "pré-rédaction automatique"
+  },
+  "jyotish.dashas.venus": {
+    "title": "Mahadasha de Vénus",
+    "body": "La mahadasha de Vénus dure 20 ans, la plus longue du cycle. C'est une période tournée vers les relations, le confort, la créativité et les plaisirs de la vie. Elle est souvent associée au mariage, aux arts et à l'amélioration des conditions matérielles.",
+    "status": "draft",
+    "version": 1,
+    "origin": "pré-rédaction automatique"
+  },
+  "jyotish.dashas.sun": {
+    "title": "Mahadasha de Soleil",
+    "body": "La mahadasha du Soleil dure 6 ans. C'est une période où la question de l'identité, de l'autorité et de la reconnaissance passe au premier plan. Elle peut apporter des responsabilités, des relations importantes avec des figures d'autorité ou avec le père.",
+    "status": "draft",
+    "version": 1,
+    "origin": "pré-rédaction automatique"
+  },
+  "jyotish.dashas.moon": {
+    "title": "Mahadasha de Lune",
+    "body": "La mahadasha de la Lune dure 10 ans. C'est une période où la vie émotionnelle, la famille et le foyer prennent une place centrale. Elle favorise la sensibilité, les liens avec la mère et le besoin de sécurité intérieure.",
+    "status": "draft",
+    "version": 1,
+    "origin": "pré-rédaction automatique"
+  },
+  "jyotish.dashas.mars": {
+    "title": "Mahadasha de Mars",
+    "body": "La mahadasha de Mars dure 7 ans. C'est une période d'action, d'énergie et de courage, propice à l'initiative, aux projets concrets et à l'affirmation de soi. Elle demande de canaliser l'impulsivité et d'éviter les conflits inutiles.",
+    "status": "draft",
+    "version": 1,
+    "origin": "pré-rédaction automatique"
+  },
+  "jyotish.dashas.rahu": {
+    "title": "Mahadasha de Rahu",
+    "body": "La mahadasha de Rahu dure 18 ans. C'est une période d'ambition et de désirs forts, souvent marquée par des changements soudains, des opportunités inhabituelles ou un contact avec l'étranger. Elle peut apporter de grandes réussites comme des moments de confusion.",
+    "status": "draft",
+    "version": 1,
+    "origin": "pré-rédaction automatique"
+  },
+  "jyotish.dashas.jupiter": {
+    "title": "Mahadasha de Jupiter",
+    "body": "La mahadasha de Jupiter dure 16 ans. C'est une période de croissance, d'apprentissage et d'expansion, souvent associée à l'enseignement, à la spiritualité, aux enfants et à une protection bienveillante. Elle favorise la confiance et les projets à long terme.",
+    "status": "draft",
+    "version": 1,
+    "origin": "pré-rédaction automatique"
+  },
+  "jyotish.dashas.saturn": {
+    "title": "Mahadasha de Saturne",
+    "body": "La mahadasha de Saturne dure 19 ans. C'est une période de travail, de discipline et de responsabilités. Les résultats viennent avec le temps et l'effort ; elle est souvent l'occasion de construire des bases solides et de gagner en maturité.",
+    "status": "draft",
+    "version": 1,
+    "origin": "pré-rédaction automatique"
+  },
+  "jyotish.dashas.mercury": {
+    "title": "Mahadasha de Mercure",
+    "body": "La mahadasha de Mercure dure 17 ans. C'est une période favorable aux études, à la communication, au commerce et aux échanges. Elle stimule la curiosité, l'adaptabilité et le développement des compétences intellectuelles.",
+    "status": "draft",
+    "version": 1,
+    "origin": "pré-rédaction automatique"
+  },
+  "jyotish.grahaInRashi.sun.aries": {
+    "title": "Soleil en Bélier",
+    "body": "Le Soleil (Surya) en Mesha (Bélier) exprime l'âme, l'autorité et le sens du devoir avec élan, courage et esprit pionnier. Dans ce signe, le Soleil est exalté : il exprime ses qualités avec une force et une clarté particulières.",
+    "status": "draft",
+    "version": 1,
+    "origin": "pré-rédaction automatique (composée)"
+  },
+  "jyotish.grahaInRashi.sun.taurus": {
+    "title": "Soleil en Taureau",
+    "body": "Le Soleil (Surya) en Vrishabha (Taureau) exprime l'âme, l'autorité et le sens du devoir avec constance, patience et goût du concret.",
+    "status": "draft",
+    "version": 1,
+    "origin": "pré-rédaction automatique (composée)"
+  },
+  "jyotish.grahaInRashi.sun.gemini": {
+    "title": "Soleil en Gémeaux",
+    "body": "Le Soleil (Surya) en Mithuna (Gémeaux) exprime l'âme, l'autorité et le sens du devoir avec curiosité, agilité et goût de l'échange.",
+    "status": "draft",
+    "version": 1,
+    "origin": "pré-rédaction automatique (composée)"
+  },
+  "jyotish.grahaInRashi.sun.cancer": {
+    "title": "Soleil en Cancer",
+    "body": "Le Soleil (Surya) en Karka (Cancer) exprime l'âme, l'autorité et le sens du devoir avec sensibilité, attachement et besoin de protection.",
+    "status": "draft",
+    "version": 1,
+    "origin": "pré-rédaction automatique (composée)"
+  },
+  "jyotish.grahaInRashi.sun.leo": {
+    "title": "Soleil en Lion",
+    "body": "Le Soleil (Surya) en Simha (Lion) exprime l'âme, l'autorité et le sens du devoir avec dignité, générosité et désir de rayonner. Ce signe est un domicile du Soleil : il s'y trouve à l'aise et s'exprime de façon naturelle et stable.",
+    "status": "draft",
+    "version": 1,
+    "origin": "pré-rédaction automatique (composée)"
+  },
+  "jyotish.grahaInRashi.sun.virgo": {
+    "title": "Soleil en Vierge",
+    "body": "Le Soleil (Surya) en Kanya (Vierge) exprime l'âme, l'autorité et le sens du devoir avec discernement, méthode et souci du détail.",
+    "status": "draft",
+    "version": 1,
+    "origin": "pré-rédaction automatique (composée)"
+  },
+  "jyotish.grahaInRashi.sun.libra": {
+    "title": "Soleil en Balance",
+    "body": "Le Soleil (Surya) en Tula (Balance) exprime l'âme, l'autorité et le sens du devoir avec diplomatie, sens de l'équilibre et attention à l'autre. Dans ce signe, le Soleil est en chute : ses qualités s'expriment avec plus de difficulté et demandent un travail conscient, qui peut devenir une source de force.",
+    "status": "draft",
+    "version": 1,
+    "origin": "pré-rédaction automatique (composée)"
+  },
+  "jyotish.grahaInRashi.sun.scorpio": {
+    "title": "Soleil en Scorpion",
+    "body": "Le Soleil (Surya) en Vrishchika (Scorpion) exprime l'âme, l'autorité et le sens du devoir avec intensité, profondeur et goût du secret.",
+    "status": "draft",
+    "version": 1,
+    "origin": "pré-rédaction automatique (composée)"
+  },
+  "jyotish.grahaInRashi.sun.sagittarius": {
+    "title": "Soleil en Sagittaire",
+    "body": "Le Soleil (Surya) en Dhanu (Sagittaire) exprime l'âme, l'autorité et le sens du devoir avec idéal, ouverture et recherche de sens.",
+    "status": "draft",
+    "version": 1,
+    "origin": "pré-rédaction automatique (composée)"
+  },
+  "jyotish.grahaInRashi.sun.capricorn": {
+    "title": "Soleil en Capricorne",
+    "body": "Le Soleil (Surya) en Makara (Capricorne) exprime l'âme, l'autorité et le sens du devoir avec sérieux, persévérance et sens pratique.",
+    "status": "draft",
+    "version": 1,
+    "origin": "pré-rédaction automatique (composée)"
+  },
+  "jyotish.grahaInRashi.sun.aquarius": {
+    "title": "Soleil en Verseau",
+    "body": "Le Soleil (Surya) en Kumbha (Verseau) exprime l'âme, l'autorité et le sens du devoir avec indépendance, réflexion et esprit collectif.",
+    "status": "draft",
+    "version": 1,
+    "origin": "pré-rédaction automatique (composée)"
+  },
+  "jyotish.grahaInRashi.sun.pisces": {
+    "title": "Soleil en Poissons",
+    "body": "Le Soleil (Surya) en Meena (Poissons) exprime l'âme, l'autorité et le sens du devoir avec intuition, compassion et imagination.",
+    "status": "draft",
+    "version": 1,
+    "origin": "pré-rédaction automatique (composée)"
+  },
+  "jyotish.grahaInBhava.sun.1": {
+    "title": "Soleil en maison 1",
+    "body": "Le Soleil (Surya) en maison 1 met l'âme, l'autorité et le sens du devoir au service des domaines de cette maison : le corps, la personnalité et l'orientation générale de la vie. C'est à la fois une maison angulaire (kendra) et une maison de bonheur (trikona), la plus personnelle du thème.",
+    "status": "draft",
+    "version": 1,
+    "origin": "pré-rédaction automatique (composée)"
+  },
+  "jyotish.grahaInBhava.sun.2": {
+    "title": "Soleil en maison 2",
+    "body": "Le Soleil (Surya) en maison 2 met l'âme, l'autorité et le sens du devoir au service des domaines de cette maison : la famille, la parole, l'alimentation et les ressources accumulées. C'est une maison de ressources, liée à ce que la personne accumule et transmet.",
+    "status": "draft",
+    "version": 1,
+    "origin": "pré-rédaction automatique (composée)"
+  },
+  "jyotish.grahaInBhava.sun.3": {
+    "title": "Soleil en maison 3",
+    "body": "Le Soleil (Surya) en maison 3 met l'âme, l'autorité et le sens du devoir au service des domaines de cette maison : le courage, les frères et sœurs, les initiatives et la communication. C'est une maison de croissance (upachaya), où les résultats s'améliorent avec le temps et l'effort.",
+    "status": "draft",
+    "version": 1,
+    "origin": "pré-rédaction automatique (composée)"
+  },
+  "jyotish.grahaInBhava.sun.4": {
+    "title": "Soleil en maison 4",
+    "body": "Le Soleil (Surya) en maison 4 met l'âme, l'autorité et le sens du devoir au service des domaines de cette maison : la mère, le foyer, la paix intérieure et les biens immobiliers. C'est une maison angulaire (kendra), où les planètes agissent avec force et visibilité.",
+    "status": "draft",
+    "version": 1,
+    "origin": "pré-rédaction automatique (composée)"
+  },
+  "jyotish.grahaInBhava.sun.5": {
+    "title": "Soleil en maison 5",
+    "body": "Le Soleil (Surya) en maison 5 met l'âme, l'autorité et le sens du devoir au service des domaines de cette maison : l'intelligence, la créativité, les enfants et les mérites du passé. C'est une maison de bonheur (trikona), considérée comme particulièrement favorable.",
+    "status": "draft",
+    "version": 1,
+    "origin": "pré-rédaction automatique (composée)"
+  },
+  "jyotish.grahaInBhava.sun.6": {
+    "title": "Soleil en maison 6",
+    "body": "Le Soleil (Surya) en maison 6 met l'âme, l'autorité et le sens du devoir au service des domaines de cette maison : les obstacles, la santé, le service et la capacité à surmonter les adversaires. C'est une maison réputée difficile (dusthana) : elle demande un travail conscient, mais peut développer une grande résilience.",
+    "status": "draft",
+    "version": 1,
+    "origin": "pré-rédaction automatique (composée)"
+  },
+  "jyotish.grahaInBhava.sun.7": {
+    "title": "Soleil en maison 7",
+    "body": "Le Soleil (Surya) en maison 7 met l'âme, l'autorité et le sens du devoir au service des domaines de cette maison : le couple, les partenariats et les relations avec autrui. C'est une maison angulaire (kendra), où les planètes agissent avec force et visibilité.",
+    "status": "draft",
+    "version": 1,
+    "origin": "pré-rédaction automatique (composée)"
+  },
+  "jyotish.grahaInBhava.sun.8": {
+    "title": "Soleil en maison 8",
+    "body": "Le Soleil (Surya) en maison 8 met l'âme, l'autorité et le sens du devoir au service des domaines de cette maison : les transformations, la longévité, les ressources cachées et la recherche. C'est une maison réputée difficile (dusthana) : elle demande un travail conscient, mais peut développer une grande résilience.",
+    "status": "draft",
+    "version": 1,
+    "origin": "pré-rédaction automatique (composée)"
+  },
+  "jyotish.grahaInBhava.sun.9": {
+    "title": "Soleil en maison 9",
+    "body": "Le Soleil (Surya) en maison 9 met l'âme, l'autorité et le sens du devoir au service des domaines de cette maison : le dharma, la chance, le père, les maîtres et la quête de sens. C'est une maison de bonheur (trikona), considérée comme particulièrement favorable.",
+    "status": "draft",
+    "version": 1,
+    "origin": "pré-rédaction automatique (composée)"
+  },
+  "jyotish.grahaInBhava.sun.10": {
+    "title": "Soleil en maison 10",
+    "body": "Le Soleil (Surya) en maison 10 met l'âme, l'autorité et le sens du devoir au service des domaines de cette maison : la carrière, l'action dans le monde et la réputation. C'est une maison angulaire (kendra), où les planètes agissent avec force et visibilité.",
+    "status": "draft",
+    "version": 1,
+    "origin": "pré-rédaction automatique (composée)"
+  },
+  "jyotish.grahaInBhava.sun.11": {
+    "title": "Soleil en maison 11",
+    "body": "Le Soleil (Surya) en maison 11 met l'âme, l'autorité et le sens du devoir au service des domaines de cette maison : les gains, les amitiés, les réseaux et la réalisation des désirs. C'est une maison de croissance (upachaya), où les résultats s'améliorent avec le temps et l'effort.",
+    "status": "draft",
+    "version": 1,
+    "origin": "pré-rédaction automatique (composée)"
+  },
+  "jyotish.grahaInBhava.sun.12": {
+    "title": "Soleil en maison 12",
+    "body": "Le Soleil (Surya) en maison 12 met l'âme, l'autorité et le sens du devoir au service des domaines de cette maison : le détachement, les dépenses, l'étranger et la libération spirituelle. C'est une maison réputée difficile (dusthana) : elle demande un travail conscient, mais peut développer une grande résilience.",
+    "status": "draft",
+    "version": 1,
+    "origin": "pré-rédaction automatique (composée)"
+  },
+  "jyotish.grahaInRashi.moon.aries": {
+    "title": "Lune en Bélier",
+    "body": "La Lune (Chandra) en Mesha (Bélier) exprime le mental, les émotions et le besoin de sécurité avec élan, courage et esprit pionnier.",
+    "status": "draft",
+    "version": 1,
+    "origin": "pré-rédaction automatique (composée)"
+  },
+  "jyotish.grahaInRashi.moon.taurus": {
+    "title": "Lune en Taureau",
+    "body": "La Lune (Chandra) en Vrishabha (Taureau) exprime le mental, les émotions et le besoin de sécurité avec constance, patience et goût du concret. Dans ce signe, la Lune est exaltée : elle exprime ses qualités avec une force et une clarté particulières.",
+    "status": "draft",
+    "version": 1,
+    "origin": "pré-rédaction automatique (composée)"
+  },
+  "jyotish.grahaInRashi.moon.gemini": {
+    "title": "Lune en Gémeaux",
+    "body": "La Lune (Chandra) en Mithuna (Gémeaux) exprime le mental, les émotions et le besoin de sécurité avec curiosité, agilité et goût de l'échange.",
+    "status": "draft",
+    "version": 1,
+    "origin": "pré-rédaction automatique (composée)"
+  },
+  "jyotish.grahaInRashi.moon.cancer": {
+    "title": "Lune en Cancer",
+    "body": "La Lune (Chandra) en Karka (Cancer) exprime le mental, les émotions et le besoin de sécurité avec sensibilité, attachement et besoin de protection. Ce signe est un domicile de la Lune : elle s'y trouve à l'aise et s'exprime de façon naturelle et stable.",
+    "status": "draft",
+    "version": 1,
+    "origin": "pré-rédaction automatique (composée)"
+  },
+  "jyotish.grahaInRashi.moon.leo": {
+    "title": "Lune en Lion",
+    "body": "La Lune (Chandra) en Simha (Lion) exprime le mental, les émotions et le besoin de sécurité avec dignité, générosité et désir de rayonner.",
+    "status": "draft",
+    "version": 1,
+    "origin": "pré-rédaction automatique (composée)"
+  },
+  "jyotish.grahaInRashi.moon.virgo": {
+    "title": "Lune en Vierge",
+    "body": "La Lune (Chandra) en Kanya (Vierge) exprime le mental, les émotions et le besoin de sécurité avec discernement, méthode et souci du détail.",
+    "status": "draft",
+    "version": 1,
+    "origin": "pré-rédaction automatique (composée)"
+  },
+  "jyotish.grahaInRashi.moon.libra": {
+    "title": "Lune en Balance",
+    "body": "La Lune (Chandra) en Tula (Balance) exprime le mental, les émotions et le besoin de sécurité avec diplomatie, sens de l'équilibre et attention à l'autre.",
+    "status": "draft",
+    "version": 1,
+    "origin": "pré-rédaction automatique (composée)"
+  },
+  "jyotish.grahaInRashi.moon.scorpio": {
+    "title": "Lune en Scorpion",
+    "body": "La Lune (Chandra) en Vrishchika (Scorpion) exprime le mental, les émotions et le besoin de sécurité avec intensité, profondeur et goût du secret. Dans ce signe, la Lune est en chute : ses qualités s'expriment avec plus de difficulté et demandent un travail conscient, qui peut devenir une source de force.",
+    "status": "draft",
+    "version": 1,
+    "origin": "pré-rédaction automatique (composée)"
+  },
+  "jyotish.grahaInRashi.moon.sagittarius": {
+    "title": "Lune en Sagittaire",
+    "body": "La Lune (Chandra) en Dhanu (Sagittaire) exprime le mental, les émotions et le besoin de sécurité avec idéal, ouverture et recherche de sens.",
+    "status": "draft",
+    "version": 1,
+    "origin": "pré-rédaction automatique (composée)"
+  },
+  "jyotish.grahaInRashi.moon.capricorn": {
+    "title": "Lune en Capricorne",
+    "body": "La Lune (Chandra) en Makara (Capricorne) exprime le mental, les émotions et le besoin de sécurité avec sérieux, persévérance et sens pratique.",
+    "status": "draft",
+    "version": 1,
+    "origin": "pré-rédaction automatique (composée)"
+  },
+  "jyotish.grahaInRashi.moon.aquarius": {
+    "title": "Lune en Verseau",
+    "body": "La Lune (Chandra) en Kumbha (Verseau) exprime le mental, les émotions et le besoin de sécurité avec indépendance, réflexion et esprit collectif.",
+    "status": "draft",
+    "version": 1,
+    "origin": "pré-rédaction automatique (composée)"
+  },
+  "jyotish.grahaInRashi.moon.pisces": {
+    "title": "Lune en Poissons",
+    "body": "La Lune (Chandra) en Meena (Poissons) exprime le mental, les émotions et le besoin de sécurité avec intuition, compassion et imagination.",
+    "status": "draft",
+    "version": 1,
+    "origin": "pré-rédaction automatique (composée)"
+  },
+  "jyotish.grahaInBhava.moon.1": {
+    "title": "Lune en maison 1",
+    "body": "La Lune (Chandra) en maison 1 met le mental, les émotions et le besoin de sécurité au service des domaines de cette maison : le corps, la personnalité et l'orientation générale de la vie. C'est à la fois une maison angulaire (kendra) et une maison de bonheur (trikona), la plus personnelle du thème.",
+    "status": "draft",
+    "version": 1,
+    "origin": "pré-rédaction automatique (composée)"
+  },
+  "jyotish.grahaInBhava.moon.2": {
+    "title": "Lune en maison 2",
+    "body": "La Lune (Chandra) en maison 2 met le mental, les émotions et le besoin de sécurité au service des domaines de cette maison : la famille, la parole, l'alimentation et les ressources accumulées. C'est une maison de ressources, liée à ce que la personne accumule et transmet.",
+    "status": "draft",
+    "version": 1,
+    "origin": "pré-rédaction automatique (composée)"
+  },
+  "jyotish.grahaInBhava.moon.3": {
+    "title": "Lune en maison 3",
+    "body": "La Lune (Chandra) en maison 3 met le mental, les émotions et le besoin de sécurité au service des domaines de cette maison : le courage, les frères et sœurs, les initiatives et la communication. C'est une maison de croissance (upachaya), où les résultats s'améliorent avec le temps et l'effort.",
+    "status": "draft",
+    "version": 1,
+    "origin": "pré-rédaction automatique (composée)"
+  },
+  "jyotish.grahaInBhava.moon.4": {
+    "title": "Lune en maison 4",
+    "body": "La Lune (Chandra) en maison 4 met le mental, les émotions et le besoin de sécurité au service des domaines de cette maison : la mère, le foyer, la paix intérieure et les biens immobiliers. C'est une maison angulaire (kendra), où les planètes agissent avec force et visibilité.",
+    "status": "draft",
+    "version": 1,
+    "origin": "pré-rédaction automatique (composée)"
+  },
+  "jyotish.grahaInBhava.moon.5": {
+    "title": "Lune en maison 5",
+    "body": "La Lune (Chandra) en maison 5 met le mental, les émotions et le besoin de sécurité au service des domaines de cette maison : l'intelligence, la créativité, les enfants et les mérites du passé. C'est une maison de bonheur (trikona), considérée comme particulièrement favorable.",
+    "status": "draft",
+    "version": 1,
+    "origin": "pré-rédaction automatique (composée)"
+  },
+  "jyotish.grahaInBhava.moon.6": {
+    "title": "Lune en maison 6",
+    "body": "La Lune (Chandra) en maison 6 met le mental, les émotions et le besoin de sécurité au service des domaines de cette maison : les obstacles, la santé, le service et la capacité à surmonter les adversaires. C'est une maison réputée difficile (dusthana) : elle demande un travail conscient, mais peut développer une grande résilience.",
+    "status": "draft",
+    "version": 1,
+    "origin": "pré-rédaction automatique (composée)"
+  },
+  "jyotish.grahaInBhava.moon.7": {
+    "title": "Lune en maison 7",
+    "body": "La Lune (Chandra) en maison 7 met le mental, les émotions et le besoin de sécurité au service des domaines de cette maison : le couple, les partenariats et les relations avec autrui. C'est une maison angulaire (kendra), où les planètes agissent avec force et visibilité.",
+    "status": "draft",
+    "version": 1,
+    "origin": "pré-rédaction automatique (composée)"
+  },
+  "jyotish.grahaInBhava.moon.8": {
+    "title": "Lune en maison 8",
+    "body": "La Lune (Chandra) en maison 8 met le mental, les émotions et le besoin de sécurité au service des domaines de cette maison : les transformations, la longévité, les ressources cachées et la recherche. C'est une maison réputée difficile (dusthana) : elle demande un travail conscient, mais peut développer une grande résilience.",
+    "status": "draft",
+    "version": 1,
+    "origin": "pré-rédaction automatique (composée)"
+  },
+  "jyotish.grahaInBhava.moon.9": {
+    "title": "Lune en maison 9",
+    "body": "La Lune (Chandra) en maison 9 met le mental, les émotions et le besoin de sécurité au service des domaines de cette maison : le dharma, la chance, le père, les maîtres et la quête de sens. C'est une maison de bonheur (trikona), considérée comme particulièrement favorable.",
+    "status": "draft",
+    "version": 1,
+    "origin": "pré-rédaction automatique (composée)"
+  },
+  "jyotish.grahaInBhava.moon.10": {
+    "title": "Lune en maison 10",
+    "body": "La Lune (Chandra) en maison 10 met le mental, les émotions et le besoin de sécurité au service des domaines de cette maison : la carrière, l'action dans le monde et la réputation. C'est une maison angulaire (kendra), où les planètes agissent avec force et visibilité.",
+    "status": "draft",
+    "version": 1,
+    "origin": "pré-rédaction automatique (composée)"
+  },
+  "jyotish.grahaInBhava.moon.11": {
+    "title": "Lune en maison 11",
+    "body": "La Lune (Chandra) en maison 11 met le mental, les émotions et le besoin de sécurité au service des domaines de cette maison : les gains, les amitiés, les réseaux et la réalisation des désirs. C'est une maison de croissance (upachaya), où les résultats s'améliorent avec le temps et l'effort.",
+    "status": "draft",
+    "version": 1,
+    "origin": "pré-rédaction automatique (composée)"
+  },
+  "jyotish.grahaInBhava.moon.12": {
+    "title": "Lune en maison 12",
+    "body": "La Lune (Chandra) en maison 12 met le mental, les émotions et le besoin de sécurité au service des domaines de cette maison : le détachement, les dépenses, l'étranger et la libération spirituelle. C'est une maison réputée difficile (dusthana) : elle demande un travail conscient, mais peut développer une grande résilience.",
+    "status": "draft",
+    "version": 1,
+    "origin": "pré-rédaction automatique (composée)"
+  },
+  "jyotish.grahaInRashi.mars.aries": {
+    "title": "Mars en Bélier",
+    "body": "Mars (Mangala) en Mesha (Bélier) exprime le courage, l'énergie et la capacité d'agir avec élan, courage et esprit pionnier. Ce signe est un domicile de Mars : il s'y trouve à l'aise et s'exprime de façon naturelle et stable.",
+    "status": "draft",
+    "version": 1,
+    "origin": "pré-rédaction automatique (composée)"
+  },
+  "jyotish.grahaInRashi.mars.taurus": {
+    "title": "Mars en Taureau",
+    "body": "Mars (Mangala) en Vrishabha (Taureau) exprime le courage, l'énergie et la capacité d'agir avec constance, patience et goût du concret.",
+    "status": "draft",
+    "version": 1,
+    "origin": "pré-rédaction automatique (composée)"
+  },
+  "jyotish.grahaInRashi.mars.gemini": {
+    "title": "Mars en Gémeaux",
+    "body": "Mars (Mangala) en Mithuna (Gémeaux) exprime le courage, l'énergie et la capacité d'agir avec curiosité, agilité et goût de l'échange.",
+    "status": "draft",
+    "version": 1,
+    "origin": "pré-rédaction automatique (composée)"
+  },
+  "jyotish.grahaInRashi.mars.cancer": {
+    "title": "Mars en Cancer",
+    "body": "Mars (Mangala) en Karka (Cancer) exprime le courage, l'énergie et la capacité d'agir avec sensibilité, attachement et besoin de protection. Dans ce signe, Mars est en chute : ses qualités s'expriment avec plus de difficulté et demandent un travail conscient, qui peut devenir une source de force.",
+    "status": "draft",
+    "version": 1,
+    "origin": "pré-rédaction automatique (composée)"
+  },
+  "jyotish.grahaInRashi.mars.leo": {
+    "title": "Mars en Lion",
+    "body": "Mars (Mangala) en Simha (Lion) exprime le courage, l'énergie et la capacité d'agir avec dignité, générosité et désir de rayonner.",
+    "status": "draft",
+    "version": 1,
+    "origin": "pré-rédaction automatique (composée)"
+  },
+  "jyotish.grahaInRashi.mars.virgo": {
+    "title": "Mars en Vierge",
+    "body": "Mars (Mangala) en Kanya (Vierge) exprime le courage, l'énergie et la capacité d'agir avec discernement, méthode et souci du détail.",
+    "status": "draft",
+    "version": 1,
+    "origin": "pré-rédaction automatique (composée)"
+  },
+  "jyotish.grahaInRashi.mars.libra": {
+    "title": "Mars en Balance",
+    "body": "Mars (Mangala) en Tula (Balance) exprime le courage, l'énergie et la capacité d'agir avec diplomatie, sens de l'équilibre et attention à l'autre.",
+    "status": "draft",
+    "version": 1,
+    "origin": "pré-rédaction automatique (composée)"
+  },
+  "jyotish.grahaInRashi.mars.scorpio": {
+    "title": "Mars en Scorpion",
+    "body": "Mars (Mangala) en Vrishchika (Scorpion) exprime le courage, l'énergie et la capacité d'agir avec intensité, profondeur et goût du secret. Ce signe est un domicile de Mars : il s'y trouve à l'aise et s'exprime de façon naturelle et stable.",
+    "status": "draft",
+    "version": 1,
+    "origin": "pré-rédaction automatique (composée)"
+  },
+  "jyotish.grahaInRashi.mars.sagittarius": {
+    "title": "Mars en Sagittaire",
+    "body": "Mars (Mangala) en Dhanu (Sagittaire) exprime le courage, l'énergie et la capacité d'agir avec idéal, ouverture et recherche de sens.",
+    "status": "draft",
+    "version": 1,
+    "origin": "pré-rédaction automatique (composée)"
+  },
+  "jyotish.grahaInRashi.mars.capricorn": {
+    "title": "Mars en Capricorne",
+    "body": "Mars (Mangala) en Makara (Capricorne) exprime le courage, l'énergie et la capacité d'agir avec sérieux, persévérance et sens pratique. Dans ce signe, Mars est exalté : il exprime ses qualités avec une force et une clarté particulières.",
+    "status": "draft",
+    "version": 1,
+    "origin": "pré-rédaction automatique (composée)"
+  },
+  "jyotish.grahaInRashi.mars.aquarius": {
+    "title": "Mars en Verseau",
+    "body": "Mars (Mangala) en Kumbha (Verseau) exprime le courage, l'énergie et la capacité d'agir avec indépendance, réflexion et esprit collectif.",
+    "status": "draft",
+    "version": 1,
+    "origin": "pré-rédaction automatique (composée)"
+  },
+  "jyotish.grahaInRashi.mars.pisces": {
+    "title": "Mars en Poissons",
+    "body": "Mars (Mangala) en Meena (Poissons) exprime le courage, l'énergie et la capacité d'agir avec intuition, compassion et imagination.",
+    "status": "draft",
+    "version": 1,
+    "origin": "pré-rédaction automatique (composée)"
+  },
+  "jyotish.grahaInBhava.mars.1": {
+    "title": "Mars en maison 1",
+    "body": "Mars (Mangala) en maison 1 met le courage, l'énergie et la capacité d'agir au service des domaines de cette maison : le corps, la personnalité et l'orientation générale de la vie. C'est à la fois une maison angulaire (kendra) et une maison de bonheur (trikona), la plus personnelle du thème.",
+    "status": "draft",
+    "version": 1,
+    "origin": "pré-rédaction automatique (composée)"
+  },
+  "jyotish.grahaInBhava.mars.2": {
+    "title": "Mars en maison 2",
+    "body": "Mars (Mangala) en maison 2 met le courage, l'énergie et la capacité d'agir au service des domaines de cette maison : la famille, la parole, l'alimentation et les ressources accumulées. C'est une maison de ressources, liée à ce que la personne accumule et transmet.",
+    "status": "draft",
+    "version": 1,
+    "origin": "pré-rédaction automatique (composée)"
+  },
+  "jyotish.grahaInBhava.mars.3": {
+    "title": "Mars en maison 3",
+    "body": "Mars (Mangala) en maison 3 met le courage, l'énergie et la capacité d'agir au service des domaines de cette maison : le courage, les frères et sœurs, les initiatives et la communication. C'est une maison de croissance (upachaya), où les résultats s'améliorent avec le temps et l'effort.",
+    "status": "draft",
+    "version": 1,
+    "origin": "pré-rédaction automatique (composée)"
+  },
+  "jyotish.grahaInBhava.mars.4": {
+    "title": "Mars en maison 4",
+    "body": "Mars (Mangala) en maison 4 met le courage, l'énergie et la capacité d'agir au service des domaines de cette maison : la mère, le foyer, la paix intérieure et les biens immobiliers. C'est une maison angulaire (kendra), où les planètes agissent avec force et visibilité.",
+    "status": "draft",
+    "version": 1,
+    "origin": "pré-rédaction automatique (composée)"
+  },
+  "jyotish.grahaInBhava.mars.5": {
+    "title": "Mars en maison 5",
+    "body": "Mars (Mangala) en maison 5 met le courage, l'énergie et la capacité d'agir au service des domaines de cette maison : l'intelligence, la créativité, les enfants et les mérites du passé. C'est une maison de bonheur (trikona), considérée comme particulièrement favorable.",
+    "status": "draft",
+    "version": 1,
+    "origin": "pré-rédaction automatique (composée)"
+  },
+  "jyotish.grahaInBhava.mars.6": {
+    "title": "Mars en maison 6",
+    "body": "Mars (Mangala) en maison 6 met le courage, l'énergie et la capacité d'agir au service des domaines de cette maison : les obstacles, la santé, le service et la capacité à surmonter les adversaires. C'est une maison réputée difficile (dusthana) : elle demande un travail conscient, mais peut développer une grande résilience.",
+    "status": "draft",
+    "version": 1,
+    "origin": "pré-rédaction automatique (composée)"
+  },
+  "jyotish.grahaInBhava.mars.7": {
+    "title": "Mars en maison 7",
+    "body": "Mars (Mangala) en maison 7 met le courage, l'énergie et la capacité d'agir au service des domaines de cette maison : le couple, les partenariats et les relations avec autrui. C'est une maison angulaire (kendra), où les planètes agissent avec force et visibilité.",
+    "status": "draft",
+    "version": 1,
+    "origin": "pré-rédaction automatique (composée)"
+  },
+  "jyotish.grahaInBhava.mars.8": {
+    "title": "Mars en maison 8",
+    "body": "Mars (Mangala) en maison 8 met le courage, l'énergie et la capacité d'agir au service des domaines de cette maison : les transformations, la longévité, les ressources cachées et la recherche. C'est une maison réputée difficile (dusthana) : elle demande un travail conscient, mais peut développer une grande résilience.",
+    "status": "draft",
+    "version": 1,
+    "origin": "pré-rédaction automatique (composée)"
+  },
+  "jyotish.grahaInBhava.mars.9": {
+    "title": "Mars en maison 9",
+    "body": "Mars (Mangala) en maison 9 met le courage, l'énergie et la capacité d'agir au service des domaines de cette maison : le dharma, la chance, le père, les maîtres et la quête de sens. C'est une maison de bonheur (trikona), considérée comme particulièrement favorable.",
+    "status": "draft",
+    "version": 1,
+    "origin": "pré-rédaction automatique (composée)"
+  },
+  "jyotish.grahaInBhava.mars.10": {
+    "title": "Mars en maison 10",
+    "body": "Mars (Mangala) en maison 10 met le courage, l'énergie et la capacité d'agir au service des domaines de cette maison : la carrière, l'action dans le monde et la réputation. C'est une maison angulaire (kendra), où les planètes agissent avec force et visibilité.",
+    "status": "draft",
+    "version": 1,
+    "origin": "pré-rédaction automatique (composée)"
+  },
+  "jyotish.grahaInBhava.mars.11": {
+    "title": "Mars en maison 11",
+    "body": "Mars (Mangala) en maison 11 met le courage, l'énergie et la capacité d'agir au service des domaines de cette maison : les gains, les amitiés, les réseaux et la réalisation des désirs. C'est une maison de croissance (upachaya), où les résultats s'améliorent avec le temps et l'effort.",
+    "status": "draft",
+    "version": 1,
+    "origin": "pré-rédaction automatique (composée)"
+  },
+  "jyotish.grahaInBhava.mars.12": {
+    "title": "Mars en maison 12",
+    "body": "Mars (Mangala) en maison 12 met le courage, l'énergie et la capacité d'agir au service des domaines de cette maison : le détachement, les dépenses, l'étranger et la libération spirituelle. C'est une maison réputée difficile (dusthana) : elle demande un travail conscient, mais peut développer une grande résilience.",
+    "status": "draft",
+    "version": 1,
+    "origin": "pré-rédaction automatique (composée)"
+  },
+  "jyotish.grahaInRashi.mercury.aries": {
+    "title": "Mercure en Bélier",
+    "body": "Mercure (Budha) en Mesha (Bélier) exprime l'intelligence, la parole et l'adaptabilité avec élan, courage et esprit pionnier.",
+    "status": "draft",
+    "version": 1,
+    "origin": "pré-rédaction automatique (composée)"
+  },
+  "jyotish.grahaInRashi.mercury.taurus": {
+    "title": "Mercure en Taureau",
+    "body": "Mercure (Budha) en Vrishabha (Taureau) exprime l'intelligence, la parole et l'adaptabilité avec constance, patience et goût du concret.",
+    "status": "draft",
+    "version": 1,
+    "origin": "pré-rédaction automatique (composée)"
+  },
+  "jyotish.grahaInRashi.mercury.gemini": {
+    "title": "Mercure en Gémeaux",
+    "body": "Mercure (Budha) en Mithuna (Gémeaux) exprime l'intelligence, la parole et l'adaptabilité avec curiosité, agilité et goût de l'échange. Ce signe est un domicile de Mercure : il s'y trouve à l'aise et s'exprime de façon naturelle et stable.",
+    "status": "draft",
+    "version": 1,
+    "origin": "pré-rédaction automatique (composée)"
+  },
+  "jyotish.grahaInRashi.mercury.cancer": {
+    "title": "Mercure en Cancer",
+    "body": "Mercure (Budha) en Karka (Cancer) exprime l'intelligence, la parole et l'adaptabilité avec sensibilité, attachement et besoin de protection.",
+    "status": "draft",
+    "version": 1,
+    "origin": "pré-rédaction automatique (composée)"
+  },
+  "jyotish.grahaInRashi.mercury.leo": {
+    "title": "Mercure en Lion",
+    "body": "Mercure (Budha) en Simha (Lion) exprime l'intelligence, la parole et l'adaptabilité avec dignité, générosité et désir de rayonner.",
+    "status": "draft",
+    "version": 1,
+    "origin": "pré-rédaction automatique (composée)"
+  },
+  "jyotish.grahaInRashi.mercury.virgo": {
+    "title": "Mercure en Vierge",
+    "body": "Mercure (Budha) en Kanya (Vierge) exprime l'intelligence, la parole et l'adaptabilité avec discernement, méthode et souci du détail. Dans ce signe, Mercure est exalté : il exprime ses qualités avec une force et une clarté particulières.",
+    "status": "draft",
+    "version": 1,
+    "origin": "pré-rédaction automatique (composée)"
+  },
+  "jyotish.grahaInRashi.mercury.libra": {
+    "title": "Mercure en Balance",
+    "body": "Mercure (Budha) en Tula (Balance) exprime l'intelligence, la parole et l'adaptabilité avec diplomatie, sens de l'équilibre et attention à l'autre.",
+    "status": "draft",
+    "version": 1,
+    "origin": "pré-rédaction automatique (composée)"
+  },
+  "jyotish.grahaInRashi.mercury.scorpio": {
+    "title": "Mercure en Scorpion",
+    "body": "Mercure (Budha) en Vrishchika (Scorpion) exprime l'intelligence, la parole et l'adaptabilité avec intensité, profondeur et goût du secret.",
+    "status": "draft",
+    "version": 1,
+    "origin": "pré-rédaction automatique (composée)"
+  },
+  "jyotish.grahaInRashi.mercury.sagittarius": {
+    "title": "Mercure en Sagittaire",
+    "body": "Mercure (Budha) en Dhanu (Sagittaire) exprime l'intelligence, la parole et l'adaptabilité avec idéal, ouverture et recherche de sens.",
+    "status": "draft",
+    "version": 1,
+    "origin": "pré-rédaction automatique (composée)"
+  },
+  "jyotish.grahaInRashi.mercury.capricorn": {
+    "title": "Mercure en Capricorne",
+    "body": "Mercure (Budha) en Makara (Capricorne) exprime l'intelligence, la parole et l'adaptabilité avec sérieux, persévérance et sens pratique.",
+    "status": "draft",
+    "version": 1,
+    "origin": "pré-rédaction automatique (composée)"
+  },
+  "jyotish.grahaInRashi.mercury.aquarius": {
+    "title": "Mercure en Verseau",
+    "body": "Mercure (Budha) en Kumbha (Verseau) exprime l'intelligence, la parole et l'adaptabilité avec indépendance, réflexion et esprit collectif.",
+    "status": "draft",
+    "version": 1,
+    "origin": "pré-rédaction automatique (composée)"
+  },
+  "jyotish.grahaInRashi.mercury.pisces": {
+    "title": "Mercure en Poissons",
+    "body": "Mercure (Budha) en Meena (Poissons) exprime l'intelligence, la parole et l'adaptabilité avec intuition, compassion et imagination. Dans ce signe, Mercure est en chute : ses qualités s'expriment avec plus de difficulté et demandent un travail conscient, qui peut devenir une source de force.",
+    "status": "draft",
+    "version": 1,
+    "origin": "pré-rédaction automatique (composée)"
+  },
+  "jyotish.grahaInBhava.mercury.1": {
+    "title": "Mercure en maison 1",
+    "body": "Mercure (Budha) en maison 1 met l'intelligence, la parole et l'adaptabilité au service des domaines de cette maison : le corps, la personnalité et l'orientation générale de la vie. C'est à la fois une maison angulaire (kendra) et une maison de bonheur (trikona), la plus personnelle du thème.",
+    "status": "draft",
+    "version": 1,
+    "origin": "pré-rédaction automatique (composée)"
+  },
+  "jyotish.grahaInBhava.mercury.2": {
+    "title": "Mercure en maison 2",
+    "body": "Mercure (Budha) en maison 2 met l'intelligence, la parole et l'adaptabilité au service des domaines de cette maison : la famille, la parole, l'alimentation et les ressources accumulées. C'est une maison de ressources, liée à ce que la personne accumule et transmet.",
+    "status": "draft",
+    "version": 1,
+    "origin": "pré-rédaction automatique (composée)"
+  },
+  "jyotish.grahaInBhava.mercury.3": {
+    "title": "Mercure en maison 3",
+    "body": "Mercure (Budha) en maison 3 met l'intelligence, la parole et l'adaptabilité au service des domaines de cette maison : le courage, les frères et sœurs, les initiatives et la communication. C'est une maison de croissance (upachaya), où les résultats s'améliorent avec le temps et l'effort.",
+    "status": "draft",
+    "version": 1,
+    "origin": "pré-rédaction automatique (composée)"
+  },
+  "jyotish.grahaInBhava.mercury.4": {
+    "title": "Mercure en maison 4",
+    "body": "Mercure (Budha) en maison 4 met l'intelligence, la parole et l'adaptabilité au service des domaines de cette maison : la mère, le foyer, la paix intérieure et les biens immobiliers. C'est une maison angulaire (kendra), où les planètes agissent avec force et visibilité.",
+    "status": "draft",
+    "version": 1,
+    "origin": "pré-rédaction automatique (composée)"
+  },
+  "jyotish.grahaInBhava.mercury.5": {
+    "title": "Mercure en maison 5",
+    "body": "Mercure (Budha) en maison 5 met l'intelligence, la parole et l'adaptabilité au service des domaines de cette maison : l'intelligence, la créativité, les enfants et les mérites du passé. C'est une maison de bonheur (trikona), considérée comme particulièrement favorable.",
+    "status": "draft",
+    "version": 1,
+    "origin": "pré-rédaction automatique (composée)"
+  },
+  "jyotish.grahaInBhava.mercury.6": {
+    "title": "Mercure en maison 6",
+    "body": "Mercure (Budha) en maison 6 met l'intelligence, la parole et l'adaptabilité au service des domaines de cette maison : les obstacles, la santé, le service et la capacité à surmonter les adversaires. C'est une maison réputée difficile (dusthana) : elle demande un travail conscient, mais peut développer une grande résilience.",
+    "status": "draft",
+    "version": 1,
+    "origin": "pré-rédaction automatique (composée)"
+  },
+  "jyotish.grahaInBhava.mercury.7": {
+    "title": "Mercure en maison 7",
+    "body": "Mercure (Budha) en maison 7 met l'intelligence, la parole et l'adaptabilité au service des domaines de cette maison : le couple, les partenariats et les relations avec autrui. C'est une maison angulaire (kendra), où les planètes agissent avec force et visibilité.",
+    "status": "draft",
+    "version": 1,
+    "origin": "pré-rédaction automatique (composée)"
+  },
+  "jyotish.grahaInBhava.mercury.8": {
+    "title": "Mercure en maison 8",
+    "body": "Mercure (Budha) en maison 8 met l'intelligence, la parole et l'adaptabilité au service des domaines de cette maison : les transformations, la longévité, les ressources cachées et la recherche. C'est une maison réputée difficile (dusthana) : elle demande un travail conscient, mais peut développer une grande résilience.",
+    "status": "draft",
+    "version": 1,
+    "origin": "pré-rédaction automatique (composée)"
+  },
+  "jyotish.grahaInBhava.mercury.9": {
+    "title": "Mercure en maison 9",
+    "body": "Mercure (Budha) en maison 9 met l'intelligence, la parole et l'adaptabilité au service des domaines de cette maison : le dharma, la chance, le père, les maîtres et la quête de sens. C'est une maison de bonheur (trikona), considérée comme particulièrement favorable.",
+    "status": "draft",
+    "version": 1,
+    "origin": "pré-rédaction automatique (composée)"
+  },
+  "jyotish.grahaInBhava.mercury.10": {
+    "title": "Mercure en maison 10",
+    "body": "Mercure (Budha) en maison 10 met l'intelligence, la parole et l'adaptabilité au service des domaines de cette maison : la carrière, l'action dans le monde et la réputation. C'est une maison angulaire (kendra), où les planètes agissent avec force et visibilité.",
+    "status": "draft",
+    "version": 1,
+    "origin": "pré-rédaction automatique (composée)"
+  },
+  "jyotish.grahaInBhava.mercury.11": {
+    "title": "Mercure en maison 11",
+    "body": "Mercure (Budha) en maison 11 met l'intelligence, la parole et l'adaptabilité au service des domaines de cette maison : les gains, les amitiés, les réseaux et la réalisation des désirs. C'est une maison de croissance (upachaya), où les résultats s'améliorent avec le temps et l'effort.",
+    "status": "draft",
+    "version": 1,
+    "origin": "pré-rédaction automatique (composée)"
+  },
+  "jyotish.grahaInBhava.mercury.12": {
+    "title": "Mercure en maison 12",
+    "body": "Mercure (Budha) en maison 12 met l'intelligence, la parole et l'adaptabilité au service des domaines de cette maison : le détachement, les dépenses, l'étranger et la libération spirituelle. C'est une maison réputée difficile (dusthana) : elle demande un travail conscient, mais peut développer une grande résilience.",
+    "status": "draft",
+    "version": 1,
+    "origin": "pré-rédaction automatique (composée)"
+  },
+  "jyotish.grahaInRashi.jupiter.aries": {
+    "title": "Jupiter en Bélier",
+    "body": "Jupiter (Guru) en Mesha (Bélier) exprime la sagesse, la croissance et la bienveillance avec élan, courage et esprit pionnier.",
+    "status": "draft",
+    "version": 1,
+    "origin": "pré-rédaction automatique (composée)"
+  },
+  "jyotish.grahaInRashi.jupiter.taurus": {
+    "title": "Jupiter en Taureau",
+    "body": "Jupiter (Guru) en Vrishabha (Taureau) exprime la sagesse, la croissance et la bienveillance avec constance, patience et goût du concret.",
+    "status": "draft",
+    "version": 1,
+    "origin": "pré-rédaction automatique (composée)"
+  },
+  "jyotish.grahaInRashi.jupiter.gemini": {
+    "title": "Jupiter en Gémeaux",
+    "body": "Jupiter (Guru) en Mithuna (Gémeaux) exprime la sagesse, la croissance et la bienveillance avec curiosité, agilité et goût de l'échange.",
+    "status": "draft",
+    "version": 1,
+    "origin": "pré-rédaction automatique (composée)"
+  },
+  "jyotish.grahaInRashi.jupiter.cancer": {
+    "title": "Jupiter en Cancer",
+    "body": "Jupiter (Guru) en Karka (Cancer) exprime la sagesse, la croissance et la bienveillance avec sensibilité, attachement et besoin de protection. Dans ce signe, Jupiter est exalté : il exprime ses qualités avec une force et une clarté particulières.",
+    "status": "draft",
+    "version": 1,
+    "origin": "pré-rédaction automatique (composée)"
+  },
+  "jyotish.grahaInRashi.jupiter.leo": {
+    "title": "Jupiter en Lion",
+    "body": "Jupiter (Guru) en Simha (Lion) exprime la sagesse, la croissance et la bienveillance avec dignité, générosité et désir de rayonner.",
+    "status": "draft",
+    "version": 1,
+    "origin": "pré-rédaction automatique (composée)"
+  },
+  "jyotish.grahaInRashi.jupiter.virgo": {
+    "title": "Jupiter en Vierge",
+    "body": "Jupiter (Guru) en Kanya (Vierge) exprime la sagesse, la croissance et la bienveillance avec discernement, méthode et souci du détail.",
+    "status": "draft",
+    "version": 1,
+    "origin": "pré-rédaction automatique (composée)"
+  },
+  "jyotish.grahaInRashi.jupiter.libra": {
+    "title": "Jupiter en Balance",
+    "body": "Jupiter (Guru) en Tula (Balance) exprime la sagesse, la croissance et la bienveillance avec diplomatie, sens de l'équilibre et attention à l'autre.",
+    "status": "draft",
+    "version": 1,
+    "origin": "pré-rédaction automatique (composée)"
+  },
+  "jyotish.grahaInRashi.jupiter.scorpio": {
+    "title": "Jupiter en Scorpion",
+    "body": "Jupiter (Guru) en Vrishchika (Scorpion) exprime la sagesse, la croissance et la bienveillance avec intensité, profondeur et goût du secret.",
+    "status": "draft",
+    "version": 1,
+    "origin": "pré-rédaction automatique (composée)"
+  },
+  "jyotish.grahaInRashi.jupiter.sagittarius": {
+    "title": "Jupiter en Sagittaire",
+    "body": "Jupiter (Guru) en Dhanu (Sagittaire) exprime la sagesse, la croissance et la bienveillance avec idéal, ouverture et recherche de sens. Ce signe est un domicile de Jupiter : il s'y trouve à l'aise et s'exprime de façon naturelle et stable.",
+    "status": "draft",
+    "version": 1,
+    "origin": "pré-rédaction automatique (composée)"
+  },
+  "jyotish.grahaInRashi.jupiter.capricorn": {
+    "title": "Jupiter en Capricorne",
+    "body": "Jupiter (Guru) en Makara (Capricorne) exprime la sagesse, la croissance et la bienveillance avec sérieux, persévérance et sens pratique. Dans ce signe, Jupiter est en chute : ses qualités s'expriment avec plus de difficulté et demandent un travail conscient, qui peut devenir une source de force.",
+    "status": "draft",
+    "version": 1,
+    "origin": "pré-rédaction automatique (composée)"
+  },
+  "jyotish.grahaInRashi.jupiter.aquarius": {
+    "title": "Jupiter en Verseau",
+    "body": "Jupiter (Guru) en Kumbha (Verseau) exprime la sagesse, la croissance et la bienveillance avec indépendance, réflexion et esprit collectif.",
+    "status": "draft",
+    "version": 1,
+    "origin": "pré-rédaction automatique (composée)"
+  },
+  "jyotish.grahaInRashi.jupiter.pisces": {
+    "title": "Jupiter en Poissons",
+    "body": "Jupiter (Guru) en Meena (Poissons) exprime la sagesse, la croissance et la bienveillance avec intuition, compassion et imagination. Ce signe est un domicile de Jupiter : il s'y trouve à l'aise et s'exprime de façon naturelle et stable.",
+    "status": "draft",
+    "version": 1,
+    "origin": "pré-rédaction automatique (composée)"
+  },
+  "jyotish.grahaInBhava.jupiter.1": {
+    "title": "Jupiter en maison 1",
+    "body": "Jupiter (Guru) en maison 1 met la sagesse, la croissance et la bienveillance au service des domaines de cette maison : le corps, la personnalité et l'orientation générale de la vie. C'est à la fois une maison angulaire (kendra) et une maison de bonheur (trikona), la plus personnelle du thème.",
+    "status": "draft",
+    "version": 1,
+    "origin": "pré-rédaction automatique (composée)"
+  },
+  "jyotish.grahaInBhava.jupiter.2": {
+    "title": "Jupiter en maison 2",
+    "body": "Jupiter (Guru) en maison 2 met la sagesse, la croissance et la bienveillance au service des domaines de cette maison : la famille, la parole, l'alimentation et les ressources accumulées. C'est une maison de ressources, liée à ce que la personne accumule et transmet.",
+    "status": "draft",
+    "version": 1,
+    "origin": "pré-rédaction automatique (composée)"
+  },
+  "jyotish.grahaInBhava.jupiter.3": {
+    "title": "Jupiter en maison 3",
+    "body": "Jupiter (Guru) en maison 3 met la sagesse, la croissance et la bienveillance au service des domaines de cette maison : le courage, les frères et sœurs, les initiatives et la communication. C'est une maison de croissance (upachaya), où les résultats s'améliorent avec le temps et l'effort.",
+    "status": "draft",
+    "version": 1,
+    "origin": "pré-rédaction automatique (composée)"
+  },
+  "jyotish.grahaInBhava.jupiter.4": {
+    "title": "Jupiter en maison 4",
+    "body": "Jupiter (Guru) en maison 4 met la sagesse, la croissance et la bienveillance au service des domaines de cette maison : la mère, le foyer, la paix intérieure et les biens immobiliers. C'est une maison angulaire (kendra), où les planètes agissent avec force et visibilité.",
+    "status": "draft",
+    "version": 1,
+    "origin": "pré-rédaction automatique (composée)"
+  },
+  "jyotish.grahaInBhava.jupiter.5": {
+    "title": "Jupiter en maison 5",
+    "body": "Jupiter (Guru) en maison 5 met la sagesse, la croissance et la bienveillance au service des domaines de cette maison : l'intelligence, la créativité, les enfants et les mérites du passé. C'est une maison de bonheur (trikona), considérée comme particulièrement favorable.",
+    "status": "draft",
+    "version": 1,
+    "origin": "pré-rédaction automatique (composée)"
+  },
+  "jyotish.grahaInBhava.jupiter.6": {
+    "title": "Jupiter en maison 6",
+    "body": "Jupiter (Guru) en maison 6 met la sagesse, la croissance et la bienveillance au service des domaines de cette maison : les obstacles, la santé, le service et la capacité à surmonter les adversaires. C'est une maison réputée difficile (dusthana) : elle demande un travail conscient, mais peut développer une grande résilience.",
+    "status": "draft",
+    "version": 1,
+    "origin": "pré-rédaction automatique (composée)"
+  },
+  "jyotish.grahaInBhava.jupiter.7": {
+    "title": "Jupiter en maison 7",
+    "body": "Jupiter (Guru) en maison 7 met la sagesse, la croissance et la bienveillance au service des domaines de cette maison : le couple, les partenariats et les relations avec autrui. C'est une maison angulaire (kendra), où les planètes agissent avec force et visibilité.",
+    "status": "draft",
+    "version": 1,
+    "origin": "pré-rédaction automatique (composée)"
+  },
+  "jyotish.grahaInBhava.jupiter.8": {
+    "title": "Jupiter en maison 8",
+    "body": "Jupiter (Guru) en maison 8 met la sagesse, la croissance et la bienveillance au service des domaines de cette maison : les transformations, la longévité, les ressources cachées et la recherche. C'est une maison réputée difficile (dusthana) : elle demande un travail conscient, mais peut développer une grande résilience.",
+    "status": "draft",
+    "version": 1,
+    "origin": "pré-rédaction automatique (composée)"
+  },
+  "jyotish.grahaInBhava.jupiter.9": {
+    "title": "Jupiter en maison 9",
+    "body": "Jupiter (Guru) en maison 9 met la sagesse, la croissance et la bienveillance au service des domaines de cette maison : le dharma, la chance, le père, les maîtres et la quête de sens. C'est une maison de bonheur (trikona), considérée comme particulièrement favorable.",
+    "status": "draft",
+    "version": 1,
+    "origin": "pré-rédaction automatique (composée)"
+  },
+  "jyotish.grahaInBhava.jupiter.10": {
+    "title": "Jupiter en maison 10",
+    "body": "Jupiter (Guru) en maison 10 met la sagesse, la croissance et la bienveillance au service des domaines de cette maison : la carrière, l'action dans le monde et la réputation. C'est une maison angulaire (kendra), où les planètes agissent avec force et visibilité.",
+    "status": "draft",
+    "version": 1,
+    "origin": "pré-rédaction automatique (composée)"
+  },
+  "jyotish.grahaInBhava.jupiter.11": {
+    "title": "Jupiter en maison 11",
+    "body": "Jupiter (Guru) en maison 11 met la sagesse, la croissance et la bienveillance au service des domaines de cette maison : les gains, les amitiés, les réseaux et la réalisation des désirs. C'est une maison de croissance (upachaya), où les résultats s'améliorent avec le temps et l'effort.",
+    "status": "draft",
+    "version": 1,
+    "origin": "pré-rédaction automatique (composée)"
+  },
+  "jyotish.grahaInBhava.jupiter.12": {
+    "title": "Jupiter en maison 12",
+    "body": "Jupiter (Guru) en maison 12 met la sagesse, la croissance et la bienveillance au service des domaines de cette maison : le détachement, les dépenses, l'étranger et la libération spirituelle. C'est une maison réputée difficile (dusthana) : elle demande un travail conscient, mais peut développer une grande résilience.",
+    "status": "draft",
+    "version": 1,
+    "origin": "pré-rédaction automatique (composée)"
+  },
+  "jyotish.grahaInRashi.venus.aries": {
+    "title": "Vénus en Bélier",
+    "body": "Vénus (Shukra) en Mesha (Bélier) exprime l'amour, la beauté et les plaisirs de la vie avec élan, courage et esprit pionnier.",
+    "status": "draft",
+    "version": 1,
+    "origin": "pré-rédaction automatique (composée)"
+  },
+  "jyotish.grahaInRashi.venus.taurus": {
+    "title": "Vénus en Taureau",
+    "body": "Vénus (Shukra) en Vrishabha (Taureau) exprime l'amour, la beauté et les plaisirs de la vie avec constance, patience et goût du concret. Ce signe est un domicile de Vénus : elle s'y trouve à l'aise et s'exprime de façon naturelle et stable.",
+    "status": "draft",
+    "version": 1,
+    "origin": "pré-rédaction automatique (composée)"
+  },
+  "jyotish.grahaInRashi.venus.gemini": {
+    "title": "Vénus en Gémeaux",
+    "body": "Vénus (Shukra) en Mithuna (Gémeaux) exprime l'amour, la beauté et les plaisirs de la vie avec curiosité, agilité et goût de l'échange.",
+    "status": "draft",
+    "version": 1,
+    "origin": "pré-rédaction automatique (composée)"
+  },
+  "jyotish.grahaInRashi.venus.cancer": {
+    "title": "Vénus en Cancer",
+    "body": "Vénus (Shukra) en Karka (Cancer) exprime l'amour, la beauté et les plaisirs de la vie avec sensibilité, attachement et besoin de protection.",
+    "status": "draft",
+    "version": 1,
+    "origin": "pré-rédaction automatique (composée)"
+  },
+  "jyotish.grahaInRashi.venus.leo": {
+    "title": "Vénus en Lion",
+    "body": "Vénus (Shukra) en Simha (Lion) exprime l'amour, la beauté et les plaisirs de la vie avec dignité, générosité et désir de rayonner.",
+    "status": "draft",
+    "version": 1,
+    "origin": "pré-rédaction automatique (composée)"
+  },
+  "jyotish.grahaInRashi.venus.virgo": {
+    "title": "Vénus en Vierge",
+    "body": "Vénus (Shukra) en Kanya (Vierge) exprime l'amour, la beauté et les plaisirs de la vie avec discernement, méthode et souci du détail. Dans ce signe, Vénus est en chute : ses qualités s'expriment avec plus de difficulté et demandent un travail conscient, qui peut devenir une source de force.",
+    "status": "draft",
+    "version": 1,
+    "origin": "pré-rédaction automatique (composée)"
+  },
+  "jyotish.grahaInRashi.venus.libra": {
+    "title": "Vénus en Balance",
+    "body": "Vénus (Shukra) en Tula (Balance) exprime l'amour, la beauté et les plaisirs de la vie avec diplomatie, sens de l'équilibre et attention à l'autre. Ce signe est un domicile de Vénus : elle s'y trouve à l'aise et s'exprime de façon naturelle et stable.",
+    "status": "draft",
+    "version": 1,
+    "origin": "pré-rédaction automatique (composée)"
+  },
+  "jyotish.grahaInRashi.venus.scorpio": {
+    "title": "Vénus en Scorpion",
+    "body": "Vénus (Shukra) en Vrishchika (Scorpion) exprime l'amour, la beauté et les plaisirs de la vie avec intensité, profondeur et goût du secret.",
+    "status": "draft",
+    "version": 1,
+    "origin": "pré-rédaction automatique (composée)"
+  },
+  "jyotish.grahaInRashi.venus.sagittarius": {
+    "title": "Vénus en Sagittaire",
+    "body": "Vénus (Shukra) en Dhanu (Sagittaire) exprime l'amour, la beauté et les plaisirs de la vie avec idéal, ouverture et recherche de sens.",
+    "status": "draft",
+    "version": 1,
+    "origin": "pré-rédaction automatique (composée)"
+  },
+  "jyotish.grahaInRashi.venus.capricorn": {
+    "title": "Vénus en Capricorne",
+    "body": "Vénus (Shukra) en Makara (Capricorne) exprime l'amour, la beauté et les plaisirs de la vie avec sérieux, persévérance et sens pratique.",
+    "status": "draft",
+    "version": 1,
+    "origin": "pré-rédaction automatique (composée)"
+  },
+  "jyotish.grahaInRashi.venus.aquarius": {
+    "title": "Vénus en Verseau",
+    "body": "Vénus (Shukra) en Kumbha (Verseau) exprime l'amour, la beauté et les plaisirs de la vie avec indépendance, réflexion et esprit collectif.",
+    "status": "draft",
+    "version": 1,
+    "origin": "pré-rédaction automatique (composée)"
+  },
+  "jyotish.grahaInRashi.venus.pisces": {
+    "title": "Vénus en Poissons",
+    "body": "Vénus (Shukra) en Meena (Poissons) exprime l'amour, la beauté et les plaisirs de la vie avec intuition, compassion et imagination. Dans ce signe, Vénus est exaltée : elle exprime ses qualités avec une force et une clarté particulières.",
+    "status": "draft",
+    "version": 1,
+    "origin": "pré-rédaction automatique (composée)"
+  },
+  "jyotish.grahaInBhava.venus.1": {
+    "title": "Vénus en maison 1",
+    "body": "Vénus (Shukra) en maison 1 met l'amour, la beauté et les plaisirs de la vie au service des domaines de cette maison : le corps, la personnalité et l'orientation générale de la vie. C'est à la fois une maison angulaire (kendra) et une maison de bonheur (trikona), la plus personnelle du thème.",
+    "status": "draft",
+    "version": 1,
+    "origin": "pré-rédaction automatique (composée)"
+  },
+  "jyotish.grahaInBhava.venus.2": {
+    "title": "Vénus en maison 2",
+    "body": "Vénus (Shukra) en maison 2 met l'amour, la beauté et les plaisirs de la vie au service des domaines de cette maison : la famille, la parole, l'alimentation et les ressources accumulées. C'est une maison de ressources, liée à ce que la personne accumule et transmet.",
+    "status": "draft",
+    "version": 1,
+    "origin": "pré-rédaction automatique (composée)"
+  },
+  "jyotish.grahaInBhava.venus.3": {
+    "title": "Vénus en maison 3",
+    "body": "Vénus (Shukra) en maison 3 met l'amour, la beauté et les plaisirs de la vie au service des domaines de cette maison : le courage, les frères et sœurs, les initiatives et la communication. C'est une maison de croissance (upachaya), où les résultats s'améliorent avec le temps et l'effort.",
+    "status": "draft",
+    "version": 1,
+    "origin": "pré-rédaction automatique (composée)"
+  },
+  "jyotish.grahaInBhava.venus.4": {
+    "title": "Vénus en maison 4",
+    "body": "Vénus (Shukra) en maison 4 met l'amour, la beauté et les plaisirs de la vie au service des domaines de cette maison : la mère, le foyer, la paix intérieure et les biens immobiliers. C'est une maison angulaire (kendra), où les planètes agissent avec force et visibilité.",
+    "status": "draft",
+    "version": 1,
+    "origin": "pré-rédaction automatique (composée)"
+  },
+  "jyotish.grahaInBhava.venus.5": {
+    "title": "Vénus en maison 5",
+    "body": "Vénus (Shukra) en maison 5 met l'amour, la beauté et les plaisirs de la vie au service des domaines de cette maison : l'intelligence, la créativité, les enfants et les mérites du passé. C'est une maison de bonheur (trikona), considérée comme particulièrement favorable.",
+    "status": "draft",
+    "version": 1,
+    "origin": "pré-rédaction automatique (composée)"
+  },
+  "jyotish.grahaInBhava.venus.6": {
+    "title": "Vénus en maison 6",
+    "body": "Vénus (Shukra) en maison 6 met l'amour, la beauté et les plaisirs de la vie au service des domaines de cette maison : les obstacles, la santé, le service et la capacité à surmonter les adversaires. C'est une maison réputée difficile (dusthana) : elle demande un travail conscient, mais peut développer une grande résilience.",
+    "status": "draft",
+    "version": 1,
+    "origin": "pré-rédaction automatique (composée)"
+  },
+  "jyotish.grahaInBhava.venus.7": {
+    "title": "Vénus en maison 7",
+    "body": "Vénus (Shukra) en maison 7 met l'amour, la beauté et les plaisirs de la vie au service des domaines de cette maison : le couple, les partenariats et les relations avec autrui. C'est une maison angulaire (kendra), où les planètes agissent avec force et visibilité.",
+    "status": "draft",
+    "version": 1,
+    "origin": "pré-rédaction automatique (composée)"
+  },
+  "jyotish.grahaInBhava.venus.8": {
+    "title": "Vénus en maison 8",
+    "body": "Vénus (Shukra) en maison 8 met l'amour, la beauté et les plaisirs de la vie au service des domaines de cette maison : les transformations, la longévité, les ressources cachées et la recherche. C'est une maison réputée difficile (dusthana) : elle demande un travail conscient, mais peut développer une grande résilience.",
+    "status": "draft",
+    "version": 1,
+    "origin": "pré-rédaction automatique (composée)"
+  },
+  "jyotish.grahaInBhava.venus.9": {
+    "title": "Vénus en maison 9",
+    "body": "Vénus (Shukra) en maison 9 met l'amour, la beauté et les plaisirs de la vie au service des domaines de cette maison : le dharma, la chance, le père, les maîtres et la quête de sens. C'est une maison de bonheur (trikona), considérée comme particulièrement favorable.",
+    "status": "draft",
+    "version": 1,
+    "origin": "pré-rédaction automatique (composée)"
+  },
+  "jyotish.grahaInBhava.venus.10": {
+    "title": "Vénus en maison 10",
+    "body": "Vénus (Shukra) en maison 10 met l'amour, la beauté et les plaisirs de la vie au service des domaines de cette maison : la carrière, l'action dans le monde et la réputation. C'est une maison angulaire (kendra), où les planètes agissent avec force et visibilité.",
+    "status": "draft",
+    "version": 1,
+    "origin": "pré-rédaction automatique (composée)"
+  },
+  "jyotish.grahaInBhava.venus.11": {
+    "title": "Vénus en maison 11",
+    "body": "Vénus (Shukra) en maison 11 met l'amour, la beauté et les plaisirs de la vie au service des domaines de cette maison : les gains, les amitiés, les réseaux et la réalisation des désirs. C'est une maison de croissance (upachaya), où les résultats s'améliorent avec le temps et l'effort.",
+    "status": "draft",
+    "version": 1,
+    "origin": "pré-rédaction automatique (composée)"
+  },
+  "jyotish.grahaInBhava.venus.12": {
+    "title": "Vénus en maison 12",
+    "body": "Vénus (Shukra) en maison 12 met l'amour, la beauté et les plaisirs de la vie au service des domaines de cette maison : le détachement, les dépenses, l'étranger et la libération spirituelle. C'est une maison réputée difficile (dusthana) : elle demande un travail conscient, mais peut développer une grande résilience.",
+    "status": "draft",
+    "version": 1,
+    "origin": "pré-rédaction automatique (composée)"
+  },
+  "jyotish.grahaInRashi.saturn.aries": {
+    "title": "Saturne en Bélier",
+    "body": "Saturne (Shani) en Mesha (Bélier) exprime la discipline, la patience et les leçons du temps avec élan, courage et esprit pionnier. Dans ce signe, Saturne est en chute : ses qualités s'expriment avec plus de difficulté et demandent un travail conscient, qui peut devenir une source de force.",
+    "status": "draft",
+    "version": 1,
+    "origin": "pré-rédaction automatique (composée)"
+  },
+  "jyotish.grahaInRashi.saturn.taurus": {
+    "title": "Saturne en Taureau",
+    "body": "Saturne (Shani) en Vrishabha (Taureau) exprime la discipline, la patience et les leçons du temps avec constance, patience et goût du concret.",
+    "status": "draft",
+    "version": 1,
+    "origin": "pré-rédaction automatique (composée)"
+  },
+  "jyotish.grahaInRashi.saturn.gemini": {
+    "title": "Saturne en Gémeaux",
+    "body": "Saturne (Shani) en Mithuna (Gémeaux) exprime la discipline, la patience et les leçons du temps avec curiosité, agilité et goût de l'échange.",
+    "status": "draft",
+    "version": 1,
+    "origin": "pré-rédaction automatique (composée)"
+  },
+  "jyotish.grahaInRashi.saturn.cancer": {
+    "title": "Saturne en Cancer",
+    "body": "Saturne (Shani) en Karka (Cancer) exprime la discipline, la patience et les leçons du temps avec sensibilité, attachement et besoin de protection.",
+    "status": "draft",
+    "version": 1,
+    "origin": "pré-rédaction automatique (composée)"
+  },
+  "jyotish.grahaInRashi.saturn.leo": {
+    "title": "Saturne en Lion",
+    "body": "Saturne (Shani) en Simha (Lion) exprime la discipline, la patience et les leçons du temps avec dignité, générosité et désir de rayonner.",
+    "status": "draft",
+    "version": 1,
+    "origin": "pré-rédaction automatique (composée)"
+  },
+  "jyotish.grahaInRashi.saturn.virgo": {
+    "title": "Saturne en Vierge",
+    "body": "Saturne (Shani) en Kanya (Vierge) exprime la discipline, la patience et les leçons du temps avec discernement, méthode et souci du détail.",
+    "status": "draft",
+    "version": 1,
+    "origin": "pré-rédaction automatique (composée)"
+  },
+  "jyotish.grahaInRashi.saturn.libra": {
+    "title": "Saturne en Balance",
+    "body": "Saturne (Shani) en Tula (Balance) exprime la discipline, la patience et les leçons du temps avec diplomatie, sens de l'équilibre et attention à l'autre. Dans ce signe, Saturne est exalté : il exprime ses qualités avec une force et une clarté particulières.",
+    "status": "draft",
+    "version": 1,
+    "origin": "pré-rédaction automatique (composée)"
+  },
+  "jyotish.grahaInRashi.saturn.scorpio": {
+    "title": "Saturne en Scorpion",
+    "body": "Saturne (Shani) en Vrishchika (Scorpion) exprime la discipline, la patience et les leçons du temps avec intensité, profondeur et goût du secret.",
+    "status": "draft",
+    "version": 1,
+    "origin": "pré-rédaction automatique (composée)"
+  },
+  "jyotish.grahaInRashi.saturn.sagittarius": {
+    "title": "Saturne en Sagittaire",
+    "body": "Saturne (Shani) en Dhanu (Sagittaire) exprime la discipline, la patience et les leçons du temps avec idéal, ouverture et recherche de sens.",
+    "status": "draft",
+    "version": 1,
+    "origin": "pré-rédaction automatique (composée)"
+  },
+  "jyotish.grahaInRashi.saturn.capricorn": {
+    "title": "Saturne en Capricorne",
+    "body": "Saturne (Shani) en Makara (Capricorne) exprime la discipline, la patience et les leçons du temps avec sérieux, persévérance et sens pratique. Ce signe est un domicile de Saturne : il s'y trouve à l'aise et s'exprime de façon naturelle et stable.",
+    "status": "draft",
+    "version": 1,
+    "origin": "pré-rédaction automatique (composée)"
+  },
+  "jyotish.grahaInRashi.saturn.aquarius": {
+    "title": "Saturne en Verseau",
+    "body": "Saturne (Shani) en Kumbha (Verseau) exprime la discipline, la patience et les leçons du temps avec indépendance, réflexion et esprit collectif. Ce signe est un domicile de Saturne : il s'y trouve à l'aise et s'exprime de façon naturelle et stable.",
+    "status": "draft",
+    "version": 1,
+    "origin": "pré-rédaction automatique (composée)"
+  },
+  "jyotish.grahaInRashi.saturn.pisces": {
+    "title": "Saturne en Poissons",
+    "body": "Saturne (Shani) en Meena (Poissons) exprime la discipline, la patience et les leçons du temps avec intuition, compassion et imagination.",
+    "status": "draft",
+    "version": 1,
+    "origin": "pré-rédaction automatique (composée)"
+  },
+  "jyotish.grahaInBhava.saturn.1": {
+    "title": "Saturne en maison 1",
+    "body": "Saturne (Shani) en maison 1 met la discipline, la patience et les leçons du temps au service des domaines de cette maison : le corps, la personnalité et l'orientation générale de la vie. C'est à la fois une maison angulaire (kendra) et une maison de bonheur (trikona), la plus personnelle du thème.",
+    "status": "draft",
+    "version": 1,
+    "origin": "pré-rédaction automatique (composée)"
+  },
+  "jyotish.grahaInBhava.saturn.2": {
+    "title": "Saturne en maison 2",
+    "body": "Saturne (Shani) en maison 2 met la discipline, la patience et les leçons du temps au service des domaines de cette maison : la famille, la parole, l'alimentation et les ressources accumulées. C'est une maison de ressources, liée à ce que la personne accumule et transmet.",
+    "status": "draft",
+    "version": 1,
+    "origin": "pré-rédaction automatique (composée)"
+  },
+  "jyotish.grahaInBhava.saturn.3": {
+    "title": "Saturne en maison 3",
+    "body": "Saturne (Shani) en maison 3 met la discipline, la patience et les leçons du temps au service des domaines de cette maison : le courage, les frères et sœurs, les initiatives et la communication. C'est une maison de croissance (upachaya), où les résultats s'améliorent avec le temps et l'effort.",
+    "status": "draft",
+    "version": 1,
+    "origin": "pré-rédaction automatique (composée)"
+  },
+  "jyotish.grahaInBhava.saturn.4": {
+    "title": "Saturne en maison 4",
+    "body": "Saturne (Shani) en maison 4 met la discipline, la patience et les leçons du temps au service des domaines de cette maison : la mère, le foyer, la paix intérieure et les biens immobiliers. C'est une maison angulaire (kendra), où les planètes agissent avec force et visibilité.",
+    "status": "draft",
+    "version": 1,
+    "origin": "pré-rédaction automatique (composée)"
+  },
+  "jyotish.grahaInBhava.saturn.5": {
+    "title": "Saturne en maison 5",
+    "body": "Saturne (Shani) en maison 5 met la discipline, la patience et les leçons du temps au service des domaines de cette maison : l'intelligence, la créativité, les enfants et les mérites du passé. C'est une maison de bonheur (trikona), considérée comme particulièrement favorable.",
+    "status": "draft",
+    "version": 1,
+    "origin": "pré-rédaction automatique (composée)"
+  },
+  "jyotish.grahaInBhava.saturn.6": {
+    "title": "Saturne en maison 6",
+    "body": "Saturne (Shani) en maison 6 met la discipline, la patience et les leçons du temps au service des domaines de cette maison : les obstacles, la santé, le service et la capacité à surmonter les adversaires. C'est une maison réputée difficile (dusthana) : elle demande un travail conscient, mais peut développer une grande résilience.",
+    "status": "draft",
+    "version": 1,
+    "origin": "pré-rédaction automatique (composée)"
+  },
+  "jyotish.grahaInBhava.saturn.7": {
+    "title": "Saturne en maison 7",
+    "body": "Saturne (Shani) en maison 7 met la discipline, la patience et les leçons du temps au service des domaines de cette maison : le couple, les partenariats et les relations avec autrui. C'est une maison angulaire (kendra), où les planètes agissent avec force et visibilité.",
+    "status": "draft",
+    "version": 1,
+    "origin": "pré-rédaction automatique (composée)"
+  },
+  "jyotish.grahaInBhava.saturn.8": {
+    "title": "Saturne en maison 8",
+    "body": "Saturne (Shani) en maison 8 met la discipline, la patience et les leçons du temps au service des domaines de cette maison : les transformations, la longévité, les ressources cachées et la recherche. C'est une maison réputée difficile (dusthana) : elle demande un travail conscient, mais peut développer une grande résilience.",
+    "status": "draft",
+    "version": 1,
+    "origin": "pré-rédaction automatique (composée)"
+  },
+  "jyotish.grahaInBhava.saturn.9": {
+    "title": "Saturne en maison 9",
+    "body": "Saturne (Shani) en maison 9 met la discipline, la patience et les leçons du temps au service des domaines de cette maison : le dharma, la chance, le père, les maîtres et la quête de sens. C'est une maison de bonheur (trikona), considérée comme particulièrement favorable.",
+    "status": "draft",
+    "version": 1,
+    "origin": "pré-rédaction automatique (composée)"
+  },
+  "jyotish.grahaInBhava.saturn.10": {
+    "title": "Saturne en maison 10",
+    "body": "Saturne (Shani) en maison 10 met la discipline, la patience et les leçons du temps au service des domaines de cette maison : la carrière, l'action dans le monde et la réputation. C'est une maison angulaire (kendra), où les planètes agissent avec force et visibilité.",
+    "status": "draft",
+    "version": 1,
+    "origin": "pré-rédaction automatique (composée)"
+  },
+  "jyotish.grahaInBhava.saturn.11": {
+    "title": "Saturne en maison 11",
+    "body": "Saturne (Shani) en maison 11 met la discipline, la patience et les leçons du temps au service des domaines de cette maison : les gains, les amitiés, les réseaux et la réalisation des désirs. C'est une maison de croissance (upachaya), où les résultats s'améliorent avec le temps et l'effort.",
+    "status": "draft",
+    "version": 1,
+    "origin": "pré-rédaction automatique (composée)"
+  },
+  "jyotish.grahaInBhava.saturn.12": {
+    "title": "Saturne en maison 12",
+    "body": "Saturne (Shani) en maison 12 met la discipline, la patience et les leçons du temps au service des domaines de cette maison : le détachement, les dépenses, l'étranger et la libération spirituelle. C'est une maison réputée difficile (dusthana) : elle demande un travail conscient, mais peut développer une grande résilience.",
+    "status": "draft",
+    "version": 1,
+    "origin": "pré-rédaction automatique (composée)"
+  },
+  "jyotish.grahaInRashi.rahu.aries": {
+    "title": "Rahu en Bélier",
+    "body": "Rahu en Mesha (Bélier) exprime le désir, l'ambition et l'attrait pour la nouveauté avec élan, courage et esprit pionnier.",
+    "status": "draft",
+    "version": 1,
+    "origin": "pré-rédaction automatique (composée)"
+  },
+  "jyotish.grahaInRashi.rahu.taurus": {
+    "title": "Rahu en Taureau",
+    "body": "Rahu en Vrishabha (Taureau) exprime le désir, l'ambition et l'attrait pour la nouveauté avec constance, patience et goût du concret.",
+    "status": "draft",
+    "version": 1,
+    "origin": "pré-rédaction automatique (composée)"
+  },
+  "jyotish.grahaInRashi.rahu.gemini": {
+    "title": "Rahu en Gémeaux",
+    "body": "Rahu en Mithuna (Gémeaux) exprime le désir, l'ambition et l'attrait pour la nouveauté avec curiosité, agilité et goût de l'échange.",
+    "status": "draft",
+    "version": 1,
+    "origin": "pré-rédaction automatique (composée)"
+  },
+  "jyotish.grahaInRashi.rahu.cancer": {
+    "title": "Rahu en Cancer",
+    "body": "Rahu en Karka (Cancer) exprime le désir, l'ambition et l'attrait pour la nouveauté avec sensibilité, attachement et besoin de protection.",
+    "status": "draft",
+    "version": 1,
+    "origin": "pré-rédaction automatique (composée)"
+  },
+  "jyotish.grahaInRashi.rahu.leo": {
+    "title": "Rahu en Lion",
+    "body": "Rahu en Simha (Lion) exprime le désir, l'ambition et l'attrait pour la nouveauté avec dignité, générosité et désir de rayonner.",
+    "status": "draft",
+    "version": 1,
+    "origin": "pré-rédaction automatique (composée)"
+  },
+  "jyotish.grahaInRashi.rahu.virgo": {
+    "title": "Rahu en Vierge",
+    "body": "Rahu en Kanya (Vierge) exprime le désir, l'ambition et l'attrait pour la nouveauté avec discernement, méthode et souci du détail.",
+    "status": "draft",
+    "version": 1,
+    "origin": "pré-rédaction automatique (composée)"
+  },
+  "jyotish.grahaInRashi.rahu.libra": {
+    "title": "Rahu en Balance",
+    "body": "Rahu en Tula (Balance) exprime le désir, l'ambition et l'attrait pour la nouveauté avec diplomatie, sens de l'équilibre et attention à l'autre.",
+    "status": "draft",
+    "version": 1,
+    "origin": "pré-rédaction automatique (composée)"
+  },
+  "jyotish.grahaInRashi.rahu.scorpio": {
+    "title": "Rahu en Scorpion",
+    "body": "Rahu en Vrishchika (Scorpion) exprime le désir, l'ambition et l'attrait pour la nouveauté avec intensité, profondeur et goût du secret.",
+    "status": "draft",
+    "version": 1,
+    "origin": "pré-rédaction automatique (composée)"
+  },
+  "jyotish.grahaInRashi.rahu.sagittarius": {
+    "title": "Rahu en Sagittaire",
+    "body": "Rahu en Dhanu (Sagittaire) exprime le désir, l'ambition et l'attrait pour la nouveauté avec idéal, ouverture et recherche de sens.",
+    "status": "draft",
+    "version": 1,
+    "origin": "pré-rédaction automatique (composée)"
+  },
+  "jyotish.grahaInRashi.rahu.capricorn": {
+    "title": "Rahu en Capricorne",
+    "body": "Rahu en Makara (Capricorne) exprime le désir, l'ambition et l'attrait pour la nouveauté avec sérieux, persévérance et sens pratique.",
+    "status": "draft",
+    "version": 1,
+    "origin": "pré-rédaction automatique (composée)"
+  },
+  "jyotish.grahaInRashi.rahu.aquarius": {
+    "title": "Rahu en Verseau",
+    "body": "Rahu en Kumbha (Verseau) exprime le désir, l'ambition et l'attrait pour la nouveauté avec indépendance, réflexion et esprit collectif.",
+    "status": "draft",
+    "version": 1,
+    "origin": "pré-rédaction automatique (composée)"
+  },
+  "jyotish.grahaInRashi.rahu.pisces": {
+    "title": "Rahu en Poissons",
+    "body": "Rahu en Meena (Poissons) exprime le désir, l'ambition et l'attrait pour la nouveauté avec intuition, compassion et imagination.",
+    "status": "draft",
+    "version": 1,
+    "origin": "pré-rédaction automatique (composée)"
+  },
+  "jyotish.grahaInBhava.rahu.1": {
+    "title": "Rahu en maison 1",
+    "body": "Rahu en maison 1 met le désir, l'ambition et l'attrait pour la nouveauté au service des domaines de cette maison : le corps, la personnalité et l'orientation générale de la vie. C'est à la fois une maison angulaire (kendra) et une maison de bonheur (trikona), la plus personnelle du thème.",
+    "status": "draft",
+    "version": 1,
+    "origin": "pré-rédaction automatique (composée)"
+  },
+  "jyotish.grahaInBhava.rahu.2": {
+    "title": "Rahu en maison 2",
+    "body": "Rahu en maison 2 met le désir, l'ambition et l'attrait pour la nouveauté au service des domaines de cette maison : la famille, la parole, l'alimentation et les ressources accumulées. C'est une maison de ressources, liée à ce que la personne accumule et transmet.",
+    "status": "draft",
+    "version": 1,
+    "origin": "pré-rédaction automatique (composée)"
+  },
+  "jyotish.grahaInBhava.rahu.3": {
+    "title": "Rahu en maison 3",
+    "body": "Rahu en maison 3 met le désir, l'ambition et l'attrait pour la nouveauté au service des domaines de cette maison : le courage, les frères et sœurs, les initiatives et la communication. C'est une maison de croissance (upachaya), où les résultats s'améliorent avec le temps et l'effort.",
+    "status": "draft",
+    "version": 1,
+    "origin": "pré-rédaction automatique (composée)"
+  },
+  "jyotish.grahaInBhava.rahu.4": {
+    "title": "Rahu en maison 4",
+    "body": "Rahu en maison 4 met le désir, l'ambition et l'attrait pour la nouveauté au service des domaines de cette maison : la mère, le foyer, la paix intérieure et les biens immobiliers. C'est une maison angulaire (kendra), où les planètes agissent avec force et visibilité.",
+    "status": "draft",
+    "version": 1,
+    "origin": "pré-rédaction automatique (composée)"
+  },
+  "jyotish.grahaInBhava.rahu.5": {
+    "title": "Rahu en maison 5",
+    "body": "Rahu en maison 5 met le désir, l'ambition et l'attrait pour la nouveauté au service des domaines de cette maison : l'intelligence, la créativité, les enfants et les mérites du passé. C'est une maison de bonheur (trikona), considérée comme particulièrement favorable.",
+    "status": "draft",
+    "version": 1,
+    "origin": "pré-rédaction automatique (composée)"
+  },
+  "jyotish.grahaInBhava.rahu.6": {
+    "title": "Rahu en maison 6",
+    "body": "Rahu en maison 6 met le désir, l'ambition et l'attrait pour la nouveauté au service des domaines de cette maison : les obstacles, la santé, le service et la capacité à surmonter les adversaires. C'est une maison réputée difficile (dusthana) : elle demande un travail conscient, mais peut développer une grande résilience.",
+    "status": "draft",
+    "version": 1,
+    "origin": "pré-rédaction automatique (composée)"
+  },
+  "jyotish.grahaInBhava.rahu.7": {
+    "title": "Rahu en maison 7",
+    "body": "Rahu en maison 7 met le désir, l'ambition et l'attrait pour la nouveauté au service des domaines de cette maison : le couple, les partenariats et les relations avec autrui. C'est une maison angulaire (kendra), où les planètes agissent avec force et visibilité.",
+    "status": "draft",
+    "version": 1,
+    "origin": "pré-rédaction automatique (composée)"
+  },
+  "jyotish.grahaInBhava.rahu.8": {
+    "title": "Rahu en maison 8",
+    "body": "Rahu en maison 8 met le désir, l'ambition et l'attrait pour la nouveauté au service des domaines de cette maison : les transformations, la longévité, les ressources cachées et la recherche. C'est une maison réputée difficile (dusthana) : elle demande un travail conscient, mais peut développer une grande résilience.",
+    "status": "draft",
+    "version": 1,
+    "origin": "pré-rédaction automatique (composée)"
+  },
+  "jyotish.grahaInBhava.rahu.9": {
+    "title": "Rahu en maison 9",
+    "body": "Rahu en maison 9 met le désir, l'ambition et l'attrait pour la nouveauté au service des domaines de cette maison : le dharma, la chance, le père, les maîtres et la quête de sens. C'est une maison de bonheur (trikona), considérée comme particulièrement favorable.",
+    "status": "draft",
+    "version": 1,
+    "origin": "pré-rédaction automatique (composée)"
+  },
+  "jyotish.grahaInBhava.rahu.10": {
+    "title": "Rahu en maison 10",
+    "body": "Rahu en maison 10 met le désir, l'ambition et l'attrait pour la nouveauté au service des domaines de cette maison : la carrière, l'action dans le monde et la réputation. C'est une maison angulaire (kendra), où les planètes agissent avec force et visibilité.",
+    "status": "draft",
+    "version": 1,
+    "origin": "pré-rédaction automatique (composée)"
+  },
+  "jyotish.grahaInBhava.rahu.11": {
+    "title": "Rahu en maison 11",
+    "body": "Rahu en maison 11 met le désir, l'ambition et l'attrait pour la nouveauté au service des domaines de cette maison : les gains, les amitiés, les réseaux et la réalisation des désirs. C'est une maison de croissance (upachaya), où les résultats s'améliorent avec le temps et l'effort.",
+    "status": "draft",
+    "version": 1,
+    "origin": "pré-rédaction automatique (composée)"
+  },
+  "jyotish.grahaInBhava.rahu.12": {
+    "title": "Rahu en maison 12",
+    "body": "Rahu en maison 12 met le désir, l'ambition et l'attrait pour la nouveauté au service des domaines de cette maison : le détachement, les dépenses, l'étranger et la libération spirituelle. C'est une maison réputée difficile (dusthana) : elle demande un travail conscient, mais peut développer une grande résilience.",
+    "status": "draft",
+    "version": 1,
+    "origin": "pré-rédaction automatique (composée)"
+  },
+  "jyotish.grahaInRashi.ketu.aries": {
+    "title": "Ketu en Bélier",
+    "body": "Ketu en Mesha (Bélier) exprime le détachement, l'intuition et les acquis du passé avec élan, courage et esprit pionnier.",
+    "status": "draft",
+    "version": 1,
+    "origin": "pré-rédaction automatique (composée)"
+  },
+  "jyotish.grahaInRashi.ketu.taurus": {
+    "title": "Ketu en Taureau",
+    "body": "Ketu en Vrishabha (Taureau) exprime le détachement, l'intuition et les acquis du passé avec constance, patience et goût du concret.",
+    "status": "draft",
+    "version": 1,
+    "origin": "pré-rédaction automatique (composée)"
+  },
+  "jyotish.grahaInRashi.ketu.gemini": {
+    "title": "Ketu en Gémeaux",
+    "body": "Ketu en Mithuna (Gémeaux) exprime le détachement, l'intuition et les acquis du passé avec curiosité, agilité et goût de l'échange.",
+    "status": "draft",
+    "version": 1,
+    "origin": "pré-rédaction automatique (composée)"
+  },
+  "jyotish.grahaInRashi.ketu.cancer": {
+    "title": "Ketu en Cancer",
+    "body": "Ketu en Karka (Cancer) exprime le détachement, l'intuition et les acquis du passé avec sensibilité, attachement et besoin de protection.",
+    "status": "draft",
+    "version": 1,
+    "origin": "pré-rédaction automatique (composée)"
+  },
+  "jyotish.grahaInRashi.ketu.leo": {
+    "title": "Ketu en Lion",
+    "body": "Ketu en Simha (Lion) exprime le détachement, l'intuition et les acquis du passé avec dignité, générosité et désir de rayonner.",
+    "status": "draft",
+    "version": 1,
+    "origin": "pré-rédaction automatique (composée)"
+  },
+  "jyotish.grahaInRashi.ketu.virgo": {
+    "title": "Ketu en Vierge",
+    "body": "Ketu en Kanya (Vierge) exprime le détachement, l'intuition et les acquis du passé avec discernement, méthode et souci du détail.",
+    "status": "draft",
+    "version": 1,
+    "origin": "pré-rédaction automatique (composée)"
+  },
+  "jyotish.grahaInRashi.ketu.libra": {
+    "title": "Ketu en Balance",
+    "body": "Ketu en Tula (Balance) exprime le détachement, l'intuition et les acquis du passé avec diplomatie, sens de l'équilibre et attention à l'autre.",
+    "status": "draft",
+    "version": 1,
+    "origin": "pré-rédaction automatique (composée)"
+  },
+  "jyotish.grahaInRashi.ketu.scorpio": {
+    "title": "Ketu en Scorpion",
+    "body": "Ketu en Vrishchika (Scorpion) exprime le détachement, l'intuition et les acquis du passé avec intensité, profondeur et goût du secret.",
+    "status": "draft",
+    "version": 1,
+    "origin": "pré-rédaction automatique (composée)"
+  },
+  "jyotish.grahaInRashi.ketu.sagittarius": {
+    "title": "Ketu en Sagittaire",
+    "body": "Ketu en Dhanu (Sagittaire) exprime le détachement, l'intuition et les acquis du passé avec idéal, ouverture et recherche de sens.",
+    "status": "draft",
+    "version": 1,
+    "origin": "pré-rédaction automatique (composée)"
+  },
+  "jyotish.grahaInRashi.ketu.capricorn": {
+    "title": "Ketu en Capricorne",
+    "body": "Ketu en Makara (Capricorne) exprime le détachement, l'intuition et les acquis du passé avec sérieux, persévérance et sens pratique.",
+    "status": "draft",
+    "version": 1,
+    "origin": "pré-rédaction automatique (composée)"
+  },
+  "jyotish.grahaInRashi.ketu.aquarius": {
+    "title": "Ketu en Verseau",
+    "body": "Ketu en Kumbha (Verseau) exprime le détachement, l'intuition et les acquis du passé avec indépendance, réflexion et esprit collectif.",
+    "status": "draft",
+    "version": 1,
+    "origin": "pré-rédaction automatique (composée)"
+  },
+  "jyotish.grahaInRashi.ketu.pisces": {
+    "title": "Ketu en Poissons",
+    "body": "Ketu en Meena (Poissons) exprime le détachement, l'intuition et les acquis du passé avec intuition, compassion et imagination.",
+    "status": "draft",
+    "version": 1,
+    "origin": "pré-rédaction automatique (composée)"
+  },
+  "jyotish.grahaInBhava.ketu.1": {
+    "title": "Ketu en maison 1",
+    "body": "Ketu en maison 1 met le détachement, l'intuition et les acquis du passé au service des domaines de cette maison : le corps, la personnalité et l'orientation générale de la vie. C'est à la fois une maison angulaire (kendra) et une maison de bonheur (trikona), la plus personnelle du thème.",
+    "status": "draft",
+    "version": 1,
+    "origin": "pré-rédaction automatique (composée)"
+  },
+  "jyotish.grahaInBhava.ketu.2": {
+    "title": "Ketu en maison 2",
+    "body": "Ketu en maison 2 met le détachement, l'intuition et les acquis du passé au service des domaines de cette maison : la famille, la parole, l'alimentation et les ressources accumulées. C'est une maison de ressources, liée à ce que la personne accumule et transmet.",
+    "status": "draft",
+    "version": 1,
+    "origin": "pré-rédaction automatique (composée)"
+  },
+  "jyotish.grahaInBhava.ketu.3": {
+    "title": "Ketu en maison 3",
+    "body": "Ketu en maison 3 met le détachement, l'intuition et les acquis du passé au service des domaines de cette maison : le courage, les frères et sœurs, les initiatives et la communication. C'est une maison de croissance (upachaya), où les résultats s'améliorent avec le temps et l'effort.",
+    "status": "draft",
+    "version": 1,
+    "origin": "pré-rédaction automatique (composée)"
+  },
+  "jyotish.grahaInBhava.ketu.4": {
+    "title": "Ketu en maison 4",
+    "body": "Ketu en maison 4 met le détachement, l'intuition et les acquis du passé au service des domaines de cette maison : la mère, le foyer, la paix intérieure et les biens immobiliers. C'est une maison angulaire (kendra), où les planètes agissent avec force et visibilité.",
+    "status": "draft",
+    "version": 1,
+    "origin": "pré-rédaction automatique (composée)"
+  },
+  "jyotish.grahaInBhava.ketu.5": {
+    "title": "Ketu en maison 5",
+    "body": "Ketu en maison 5 met le détachement, l'intuition et les acquis du passé au service des domaines de cette maison : l'intelligence, la créativité, les enfants et les mérites du passé. C'est une maison de bonheur (trikona), considérée comme particulièrement favorable.",
+    "status": "draft",
+    "version": 1,
+    "origin": "pré-rédaction automatique (composée)"
+  },
+  "jyotish.grahaInBhava.ketu.6": {
+    "title": "Ketu en maison 6",
+    "body": "Ketu en maison 6 met le détachement, l'intuition et les acquis du passé au service des domaines de cette maison : les obstacles, la santé, le service et la capacité à surmonter les adversaires. C'est une maison réputée difficile (dusthana) : elle demande un travail conscient, mais peut développer une grande résilience.",
+    "status": "draft",
+    "version": 1,
+    "origin": "pré-rédaction automatique (composée)"
+  },
+  "jyotish.grahaInBhava.ketu.7": {
+    "title": "Ketu en maison 7",
+    "body": "Ketu en maison 7 met le détachement, l'intuition et les acquis du passé au service des domaines de cette maison : le couple, les partenariats et les relations avec autrui. C'est une maison angulaire (kendra), où les planètes agissent avec force et visibilité.",
+    "status": "draft",
+    "version": 1,
+    "origin": "pré-rédaction automatique (composée)"
+  },
+  "jyotish.grahaInBhava.ketu.8": {
+    "title": "Ketu en maison 8",
+    "body": "Ketu en maison 8 met le détachement, l'intuition et les acquis du passé au service des domaines de cette maison : les transformations, la longévité, les ressources cachées et la recherche. C'est une maison réputée difficile (dusthana) : elle demande un travail conscient, mais peut développer une grande résilience.",
+    "status": "draft",
+    "version": 1,
+    "origin": "pré-rédaction automatique (composée)"
+  },
+  "jyotish.grahaInBhava.ketu.9": {
+    "title": "Ketu en maison 9",
+    "body": "Ketu en maison 9 met le détachement, l'intuition et les acquis du passé au service des domaines de cette maison : le dharma, la chance, le père, les maîtres et la quête de sens. C'est une maison de bonheur (trikona), considérée comme particulièrement favorable.",
+    "status": "draft",
+    "version": 1,
+    "origin": "pré-rédaction automatique (composée)"
+  },
+  "jyotish.grahaInBhava.ketu.10": {
+    "title": "Ketu en maison 10",
+    "body": "Ketu en maison 10 met le détachement, l'intuition et les acquis du passé au service des domaines de cette maison : la carrière, l'action dans le monde et la réputation. C'est une maison angulaire (kendra), où les planètes agissent avec force et visibilité.",
+    "status": "draft",
+    "version": 1,
+    "origin": "pré-rédaction automatique (composée)"
+  },
+  "jyotish.grahaInBhava.ketu.11": {
+    "title": "Ketu en maison 11",
+    "body": "Ketu en maison 11 met le détachement, l'intuition et les acquis du passé au service des domaines de cette maison : les gains, les amitiés, les réseaux et la réalisation des désirs. C'est une maison de croissance (upachaya), où les résultats s'améliorent avec le temps et l'effort.",
+    "status": "draft",
+    "version": 1,
+    "origin": "pré-rédaction automatique (composée)"
+  },
+  "jyotish.grahaInBhava.ketu.12": {
+    "title": "Ketu en maison 12",
+    "body": "Ketu en maison 12 met le détachement, l'intuition et les acquis du passé au service des domaines de cette maison : le détachement, les dépenses, l'étranger et la libération spirituelle. C'est une maison réputée difficile (dusthana) : elle demande un travail conscient, mais peut développer une grande résilience.",
+    "status": "draft",
+    "version": 1,
+    "origin": "pré-rédaction automatique (composée)"
   }
 }
