@@ -161,3 +161,16 @@ export function chironLongitude(utcMs: number): number | null {
   const eqj = new Astronomy.Vector(d[0], d[1] * c - d[2] * s, d[1] * s + d[2] * c, time);
   return norm360(Astronomy.Ecliptic(eqj).elon);
 }
+
+/** Instant (UTC ms) où la longitude apparente du Soleil atteint `longitude`, cherché après `fromMs`. */
+export function sunLongitudeTime(longitude: number, fromMs: number, limitDays = 400): number {
+  const t = Astronomy.SearchSunLongitude(longitude, new Date(fromMs), limitDays);
+  if (!t) throw new Error(`Longitude solaire ${longitude}° introuvable`);
+  return t.date.getTime();
+}
+
+/** Heure solaire vraie locale (0-24 h) au lieu donné : angle horaire du Soleil + 12 h. */
+export function apparentSolarTimeHours(utcMs: number, latitude: number, longitude: number): number {
+  const ha = Astronomy.HourAngle(Astronomy.Body.Sun, new Date(utcMs), new Astronomy.Observer(latitude, longitude, 0));
+  return (ha + 12) % 24;
+}

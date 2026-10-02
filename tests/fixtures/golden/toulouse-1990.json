@@ -3352,8 +3352,210 @@
     "house12": [],
     "warnings": []
   },
+  "bazi": {
+    "meta": {
+      "engine": "astra-bazi",
+      "engineVersion": "0.1.0",
+      "schemaVersion": "1.1",
+      "calculatedAt": "2026-10-02T00:00:00.000Z",
+      "dependencies": {
+        "astronomy-engine": "2.1.19"
+      },
+      "settings": {
+        "timeBasis": "true-solar",
+        "dayBoundary": "midnight"
+      },
+      "inputHash": "a0b1a508beb657d49b71fd0b7cf4877405aeddcc0f11f0d7129ac566facbff06"
+    },
+    "pillars": {
+      "year": {
+        "stem": {
+          "id": "geng",
+          "hanzi": "庚",
+          "element": "metal",
+          "yang": true
+        },
+        "branch": {
+          "id": "wu",
+          "hanzi": "午",
+          "element": "fire",
+          "yang": true,
+          "animal": "horse"
+        },
+        "stemGod": "robWealth",
+        "hiddenStems": [
+          {
+            "id": "ding",
+            "element": "fire",
+            "god": "sevenKillings"
+          },
+          {
+            "id": "ji",
+            "element": "earth",
+            "god": "indirectResource"
+          }
+        ],
+        "contentKey": "bazi.pillars.year"
+      },
+      "month": {
+        "stem": {
+          "id": "ren",
+          "hanzi": "壬",
+          "element": "water",
+          "yang": true
+        },
+        "branch": {
+          "id": "wu",
+          "hanzi": "午",
+          "element": "fire",
+          "yang": true,
+          "animal": "horse"
+        },
+        "stemGod": "hurtingOfficer",
+        "hiddenStems": [
+          {
+            "id": "ding",
+            "element": "fire",
+            "god": "sevenKillings"
+          },
+          {
+            "id": "ji",
+            "element": "earth",
+            "god": "indirectResource"
+          }
+        ],
+        "contentKey": "bazi.pillars.month"
+      },
+      "day": {
+        "stem": {
+          "id": "xin",
+          "hanzi": "辛",
+          "element": "metal",
+          "yang": false
+        },
+        "branch": {
+          "id": "hai",
+          "hanzi": "亥",
+          "element": "water",
+          "yang": false,
+          "animal": "pig"
+        },
+        "stemGod": null,
+        "hiddenStems": [
+          {
+            "id": "ren",
+            "element": "water",
+            "god": "hurtingOfficer"
+          },
+          {
+            "id": "jia",
+            "element": "wood",
+            "god": "directWealth"
+          }
+        ],
+        "contentKey": "bazi.dayPillar.xin-hai"
+      },
+      "hour": {
+        "stem": {
+          "id": "jia",
+          "hanzi": "甲",
+          "element": "wood",
+          "yang": true
+        },
+        "branch": {
+          "id": "wu",
+          "hanzi": "午",
+          "element": "fire",
+          "yang": true,
+          "animal": "horse"
+        },
+        "stemGod": "directWealth",
+        "hiddenStems": [
+          {
+            "id": "ding",
+            "element": "fire",
+            "god": "sevenKillings"
+          },
+          {
+            "id": "ji",
+            "element": "earth",
+            "god": "indirectResource"
+          }
+        ],
+        "contentKey": "bazi.pillars.hour"
+      }
+    },
+    "localTime": "1990-06-15T12:35",
+    "dayMaster": {
+      "stem": "xin",
+      "element": "metal",
+      "yang": false,
+      "seasonalState": "dead",
+      "contentKeys": {
+        "dayMaster": "bazi.dayMaster.xin",
+        "seasonal": "bazi.seasonal.dead"
+      }
+    },
+    "elements": {
+      "visible": {
+        "wood": 1,
+        "fire": 3,
+        "earth": 0,
+        "metal": 2,
+        "water": 2
+      },
+      "withHidden": {
+        "wood": 2,
+        "fire": 3,
+        "earth": 3,
+        "metal": 2,
+        "water": 2
+      },
+      "balance": [
+        {
+          "element": "fire",
+          "state": "excess",
+          "contentKey": "bazi.elementBalance.fire.excess"
+        },
+        {
+          "element": "earth",
+          "state": "missing",
+          "contentKey": "bazi.elementBalance.earth.missing"
+        }
+      ]
+    },
+    "yearAnimal": {
+      "id": "horse",
+      "contentKey": "bazi.animals.horse"
+    },
+    "tenGods": [
+      {
+        "god": "robWealth",
+        "count": 1,
+        "contentKey": "bazi.tenGods.robWealth"
+      },
+      {
+        "god": "hurtingOfficer",
+        "count": 2,
+        "contentKey": "bazi.tenGods.hurtingOfficer"
+      },
+      {
+        "god": "directWealth",
+        "count": 1,
+        "contentKey": "bazi.tenGods.directWealth"
+      },
+      {
+        "god": "sevenKillings",
+        "count": 3,
+        "contentKey": "bazi.tenGods.sevenKillings"
+      }
+    ],
+    "sex": null,
+    "luck": null,
+    "warnings": []
+  },
   "meta": {
     "builtAt": "2026-10-02T00:00:00.000Z",
-    "inputHash": "819b4bda3f40966e28a8e39d253f0102769dd666819eeab22d97120a90a9e9bb"
+    "inputHash": "5a0198cd5ad01da42bf1a8a6fdd86c910e4d1e8bfc2faa97a9a6d4eb19541b91"
   }
 }

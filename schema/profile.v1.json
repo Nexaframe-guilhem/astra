@@ -3898,6 +3898,1227 @@
       ],
       "additionalProperties": false
     },
+    "bazi": {
+      "type": "object",
+      "properties": {
+        "meta": {
+          "type": "object",
+          "properties": {
+            "engine": {
+              "type": "string"
+            },
+            "engineVersion": {
+              "type": "string"
+            },
+            "schemaVersion": {
+              "type": "string"
+            },
+            "calculatedAt": {
+              "type": "string",
+              "format": "date-time",
+              "pattern": "^(?:(?:\\d\\d[2468][048]|\\d\\d[13579][26]|\\d\\d0[48]|[02468][048]00|[13579][26]00)-02-29|\\d{4}-(?:(?:0[13578]|1[02])-(?:0[1-9]|[12]\\d|3[01])|(?:0[469]|11)-(?:0[1-9]|[12]\\d|30)|(?:02)-(?:0[1-9]|1\\d|2[0-8])))T(?:(?:[01]\\d|2[0-3]):[0-5]\\d:[0-5]\\d(?:\\.\\d+)?(?:Z))$"
+            },
+            "dependencies": {
+              "type": "object",
+              "propertyNames": {
+                "type": "string"
+              },
+              "additionalProperties": {
+                "type": "string"
+              }
+            },
+            "settings": {
+              "type": "object",
+              "propertyNames": {
+                "type": "string"
+              },
+              "additionalProperties": {}
+            },
+            "inputHash": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "engine",
+            "engineVersion",
+            "schemaVersion",
+            "calculatedAt",
+            "dependencies",
+            "settings",
+            "inputHash"
+          ],
+          "additionalProperties": false
+        },
+        "pillars": {
+          "type": "object",
+          "properties": {
+            "year": {
+              "type": "object",
+              "properties": {
+                "stem": {
+                  "type": "object",
+                  "properties": {
+                    "id": {
+                      "type": "string",
+                      "enum": [
+                        "jia",
+                        "yi",
+                        "bing",
+                        "ding",
+                        "wu",
+                        "ji",
+                        "geng",
+                        "xin",
+                        "ren",
+                        "gui"
+                      ]
+                    },
+                    "hanzi": {
+                      "type": "string"
+                    },
+                    "element": {
+                      "type": "string",
+                      "enum": [
+                        "wood",
+                        "fire",
+                        "earth",
+                        "metal",
+                        "water"
+                      ]
+                    },
+                    "yang": {
+                      "type": "boolean"
+                    }
+                  },
+                  "required": [
+                    "id",
+                    "hanzi",
+                    "element",
+                    "yang"
+                  ],
+                  "additionalProperties": false
+                },
+                "branch": {
+                  "type": "object",
+                  "properties": {
+                    "id": {
+                      "type": "string",
+                      "enum": [
+                        "zi",
+                        "chou",
+                        "yin",
+                        "mao",
+                        "chen",
+                        "si",
+                        "wu",
+                        "wei",
+                        "shen",
+                        "you",
+                        "xu",
+                        "hai"
+                      ]
+                    },
+                    "hanzi": {
+                      "type": "string"
+                    },
+                    "element": {
+                      "type": "string",
+                      "enum": [
+                        "wood",
+                        "fire",
+                        "earth",
+                        "metal",
+                        "water"
+                      ]
+                    },
+                    "yang": {
+                      "type": "boolean"
+                    },
+                    "animal": {
+                      "type": "string",
+                      "enum": [
+                        "rat",
+                        "ox",
+                        "tiger",
+                        "rabbit",
+                        "dragon",
+                        "snake",
+                        "horse",
+                        "goat",
+                        "monkey",
+                        "rooster",
+                        "dog",
+                        "pig"
+                      ]
+                    }
+                  },
+                  "required": [
+                    "id",
+                    "hanzi",
+                    "element",
+                    "yang",
+                    "animal"
+                  ],
+                  "additionalProperties": false
+                },
+                "stemGod": {
+                  "anyOf": [
+                    {
+                      "type": "string",
+                      "enum": [
+                        "friend",
+                        "robWealth",
+                        "eatingGod",
+                        "hurtingOfficer",
+                        "indirectWealth",
+                        "directWealth",
+                        "sevenKillings",
+                        "directOfficer",
+                        "indirectResource",
+                        "directResource"
+                      ]
+                    },
+                    {
+                      "type": "null"
+                    }
+                  ]
+                },
+                "hiddenStems": {
+                  "type": "array",
+                  "items": {
+                    "type": "object",
+                    "properties": {
+                      "id": {
+                        "type": "string",
+                        "enum": [
+                          "jia",
+                          "yi",
+                          "bing",
+                          "ding",
+                          "wu",
+                          "ji",
+                          "geng",
+                          "xin",
+                          "ren",
+                          "gui"
+                        ]
+                      },
+                      "element": {
+                        "type": "string",
+                        "enum": [
+                          "wood",
+                          "fire",
+                          "earth",
+                          "metal",
+                          "water"
+                        ]
+                      },
+                      "god": {
+                        "type": "string",
+                        "enum": [
+                          "friend",
+                          "robWealth",
+                          "eatingGod",
+                          "hurtingOfficer",
+                          "indirectWealth",
+                          "directWealth",
+                          "sevenKillings",
+                          "directOfficer",
+                          "indirectResource",
+                          "directResource"
+                        ]
+                      }
+                    },
+                    "required": [
+                      "id",
+                      "element",
+                      "god"
+                    ],
+                    "additionalProperties": false
+                  }
+                },
+                "contentKey": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                "stem",
+                "branch",
+                "stemGod",
+                "hiddenStems",
+                "contentKey"
+              ],
+              "additionalProperties": false
+            },
+            "month": {
+              "type": "object",
+              "properties": {
+                "stem": {
+                  "type": "object",
+                  "properties": {
+                    "id": {
+                      "type": "string",
+                      "enum": [
+                        "jia",
+                        "yi",
+                        "bing",
+                        "ding",
+                        "wu",
+                        "ji",
+                        "geng",
+                        "xin",
+                        "ren",
+                        "gui"
+                      ]
+                    },
+                    "hanzi": {
+                      "type": "string"
+                    },
+                    "element": {
+                      "type": "string",
+                      "enum": [
+                        "wood",
+                        "fire",
+                        "earth",
+                        "metal",
+                        "water"
+                      ]
+                    },
+                    "yang": {
+                      "type": "boolean"
+                    }
+                  },
+                  "required": [
+                    "id",
+                    "hanzi",
+                    "element",
+                    "yang"
+                  ],
+                  "additionalProperties": false
+                },
+                "branch": {
+                  "type": "object",
+                  "properties": {
+                    "id": {
+                      "type": "string",
+                      "enum": [
+                        "zi",
+                        "chou",
+                        "yin",
+                        "mao",
+                        "chen",
+                        "si",
+                        "wu",
+                        "wei",
+                        "shen",
+                        "you",
+                        "xu",
+                        "hai"
+                      ]
+                    },
+                    "hanzi": {
+                      "type": "string"
+                    },
+                    "element": {
+                      "type": "string",
+                      "enum": [
+                        "wood",
+                        "fire",
+                        "earth",
+                        "metal",
+                        "water"
+                      ]
+                    },
+                    "yang": {
+                      "type": "boolean"
+                    },
+                    "animal": {
+                      "type": "string",
+                      "enum": [
+                        "rat",
+                        "ox",
+                        "tiger",
+                        "rabbit",
+                        "dragon",
+                        "snake",
+                        "horse",
+                        "goat",
+                        "monkey",
+                        "rooster",
+                        "dog",
+                        "pig"
+                      ]
+                    }
+                  },
+                  "required": [
+                    "id",
+                    "hanzi",
+                    "element",
+                    "yang",
+                    "animal"
+                  ],
+                  "additionalProperties": false
+                },
+                "stemGod": {
+                  "anyOf": [
+                    {
+                      "type": "string",
+                      "enum": [
+                        "friend",
+                        "robWealth",
+                        "eatingGod",
+                        "hurtingOfficer",
+                        "indirectWealth",
+                        "directWealth",
+                        "sevenKillings",
+                        "directOfficer",
+                        "indirectResource",
+                        "directResource"
+                      ]
+                    },
+                    {
+                      "type": "null"
+                    }
+                  ]
+                },
+                "hiddenStems": {
+                  "type": "array",
+                  "items": {
+                    "type": "object",
+                    "properties": {
+                      "id": {
+                        "type": "string",
+                        "enum": [
+                          "jia",
+                          "yi",
+                          "bing",
+                          "ding",
+                          "wu",
+                          "ji",
+                          "geng",
+                          "xin",
+                          "ren",
+                          "gui"
+                        ]
+                      },
+                      "element": {
+                        "type": "string",
+                        "enum": [
+                          "wood",
+                          "fire",
+                          "earth",
+                          "metal",
+                          "water"
+                        ]
+                      },
+                      "god": {
+                        "type": "string",
+                        "enum": [
+                          "friend",
+                          "robWealth",
+                          "eatingGod",
+                          "hurtingOfficer",
+                          "indirectWealth",
+                          "directWealth",
+                          "sevenKillings",
+                          "directOfficer",
+                          "indirectResource",
+                          "directResource"
+                        ]
+                      }
+                    },
+                    "required": [
+                      "id",
+                      "element",
+                      "god"
+                    ],
+                    "additionalProperties": false
+                  }
+                },
+                "contentKey": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                "stem",
+                "branch",
+                "stemGod",
+                "hiddenStems",
+                "contentKey"
+              ],
+              "additionalProperties": false
+            },
+            "day": {
+              "type": "object",
+              "properties": {
+                "stem": {
+                  "type": "object",
+                  "properties": {
+                    "id": {
+                      "type": "string",
+                      "enum": [
+                        "jia",
+                        "yi",
+                        "bing",
+                        "ding",
+                        "wu",
+                        "ji",
+                        "geng",
+                        "xin",
+                        "ren",
+                        "gui"
+                      ]
+                    },
+                    "hanzi": {
+                      "type": "string"
+                    },
+                    "element": {
+                      "type": "string",
+                      "enum": [
+                        "wood",
+                        "fire",
+                        "earth",
+                        "metal",
+                        "water"
+                      ]
+                    },
+                    "yang": {
+                      "type": "boolean"
+                    }
+                  },
+                  "required": [
+                    "id",
+                    "hanzi",
+                    "element",
+                    "yang"
+                  ],
+                  "additionalProperties": false
+                },
+                "branch": {
+                  "type": "object",
+                  "properties": {
+                    "id": {
+                      "type": "string",
+                      "enum": [
+                        "zi",
+                        "chou",
+                        "yin",
+                        "mao",
+                        "chen",
+                        "si",
+                        "wu",
+                        "wei",
+                        "shen",
+                        "you",
+                        "xu",
+                        "hai"
+                      ]
+                    },
+                    "hanzi": {
+                      "type": "string"
+                    },
+                    "element": {
+                      "type": "string",
+                      "enum": [
+                        "wood",
+                        "fire",
+                        "earth",
+                        "metal",
+                        "water"
+                      ]
+                    },
+                    "yang": {
+                      "type": "boolean"
+                    },
+                    "animal": {
+                      "type": "string",
+                      "enum": [
+                        "rat",
+                        "ox",
+                        "tiger",
+                        "rabbit",
+                        "dragon",
+                        "snake",
+                        "horse",
+                        "goat",
+                        "monkey",
+                        "rooster",
+                        "dog",
+                        "pig"
+                      ]
+                    }
+                  },
+                  "required": [
+                    "id",
+                    "hanzi",
+                    "element",
+                    "yang",
+                    "animal"
+                  ],
+                  "additionalProperties": false
+                },
+                "stemGod": {
+                  "anyOf": [
+                    {
+                      "type": "string",
+                      "enum": [
+                        "friend",
+                        "robWealth",
+                        "eatingGod",
+                        "hurtingOfficer",
+                        "indirectWealth",
+                        "directWealth",
+                        "sevenKillings",
+                        "directOfficer",
+                        "indirectResource",
+                        "directResource"
+                      ]
+                    },
+                    {
+                      "type": "null"
+                    }
+                  ]
+                },
+                "hiddenStems": {
+                  "type": "array",
+                  "items": {
+                    "type": "object",
+                    "properties": {
+                      "id": {
+                        "type": "string",
+                        "enum": [
+                          "jia",
+                          "yi",
+                          "bing",
+                          "ding",
+                          "wu",
+                          "ji",
+                          "geng",
+                          "xin",
+                          "ren",
+                          "gui"
+                        ]
+                      },
+                      "element": {
+                        "type": "string",
+                        "enum": [
+                          "wood",
+                          "fire",
+                          "earth",
+                          "metal",
+                          "water"
+                        ]
+                      },
+                      "god": {
+                        "type": "string",
+                        "enum": [
+                          "friend",
+                          "robWealth",
+                          "eatingGod",
+                          "hurtingOfficer",
+                          "indirectWealth",
+                          "directWealth",
+                          "sevenKillings",
+                          "directOfficer",
+                          "indirectResource",
+                          "directResource"
+                        ]
+                      }
+                    },
+                    "required": [
+                      "id",
+                      "element",
+                      "god"
+                    ],
+                    "additionalProperties": false
+                  }
+                },
+                "contentKey": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                "stem",
+                "branch",
+                "stemGod",
+                "hiddenStems",
+                "contentKey"
+              ],
+              "additionalProperties": false
+            },
+            "hour": {
+              "type": "object",
+              "properties": {
+                "stem": {
+                  "type": "object",
+                  "properties": {
+                    "id": {
+                      "type": "string",
+                      "enum": [
+                        "jia",
+                        "yi",
+                        "bing",
+                        "ding",
+                        "wu",
+                        "ji",
+                        "geng",
+                        "xin",
+                        "ren",
+                        "gui"
+                      ]
+                    },
+                    "hanzi": {
+                      "type": "string"
+                    },
+                    "element": {
+                      "type": "string",
+                      "enum": [
+                        "wood",
+                        "fire",
+                        "earth",
+                        "metal",
+                        "water"
+                      ]
+                    },
+                    "yang": {
+                      "type": "boolean"
+                    }
+                  },
+                  "required": [
+                    "id",
+                    "hanzi",
+                    "element",
+                    "yang"
+                  ],
+                  "additionalProperties": false
+                },
+                "branch": {
+                  "type": "object",
+                  "properties": {
+                    "id": {
+                      "type": "string",
+                      "enum": [
+                        "zi",
+                        "chou",
+                        "yin",
+                        "mao",
+                        "chen",
+                        "si",
+                        "wu",
+                        "wei",
+                        "shen",
+                        "you",
+                        "xu",
+                        "hai"
+                      ]
+                    },
+                    "hanzi": {
+                      "type": "string"
+                    },
+                    "element": {
+                      "type": "string",
+                      "enum": [
+                        "wood",
+                        "fire",
+                        "earth",
+                        "metal",
+                        "water"
+                      ]
+                    },
+                    "yang": {
+                      "type": "boolean"
+                    },
+                    "animal": {
+                      "type": "string",
+                      "enum": [
+                        "rat",
+                        "ox",
+                        "tiger",
+                        "rabbit",
+                        "dragon",
+                        "snake",
+                        "horse",
+                        "goat",
+                        "monkey",
+                        "rooster",
+                        "dog",
+                        "pig"
+                      ]
+                    }
+                  },
+                  "required": [
+                    "id",
+                    "hanzi",
+                    "element",
+                    "yang",
+                    "animal"
+                  ],
+                  "additionalProperties": false
+                },
+                "stemGod": {
+                  "anyOf": [
+                    {
+                      "type": "string",
+                      "enum": [
+                        "friend",
+                        "robWealth",
+                        "eatingGod",
+                        "hurtingOfficer",
+                        "indirectWealth",
+                        "directWealth",
+                        "sevenKillings",
+                        "directOfficer",
+                        "indirectResource",
+                        "directResource"
+                      ]
+                    },
+                    {
+                      "type": "null"
+                    }
+                  ]
+                },
+                "hiddenStems": {
+                  "type": "array",
+                  "items": {
+                    "type": "object",
+                    "properties": {
+                      "id": {
+                        "type": "string",
+                        "enum": [
+                          "jia",
+                          "yi",
+                          "bing",
+                          "ding",
+                          "wu",
+                          "ji",
+                          "geng",
+                          "xin",
+                          "ren",
+                          "gui"
+                        ]
+                      },
+                      "element": {
+                        "type": "string",
+                        "enum": [
+                          "wood",
+                          "fire",
+                          "earth",
+                          "metal",
+                          "water"
+                        ]
+                      },
+                      "god": {
+                        "type": "string",
+                        "enum": [
+                          "friend",
+                          "robWealth",
+                          "eatingGod",
+                          "hurtingOfficer",
+                          "indirectWealth",
+                          "directWealth",
+                          "sevenKillings",
+                          "directOfficer",
+                          "indirectResource",
+                          "directResource"
+                        ]
+                      }
+                    },
+                    "required": [
+                      "id",
+                      "element",
+                      "god"
+                    ],
+                    "additionalProperties": false
+                  }
+                },
+                "contentKey": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                "stem",
+                "branch",
+                "stemGod",
+                "hiddenStems",
+                "contentKey"
+              ],
+              "additionalProperties": false
+            }
+          },
+          "required": [
+            "year",
+            "month",
+            "day",
+            "hour"
+          ],
+          "additionalProperties": false
+        },
+        "localTime": {
+          "type": "string"
+        },
+        "dayMaster": {
+          "type": "object",
+          "properties": {
+            "stem": {
+              "type": "string",
+              "enum": [
+                "jia",
+                "yi",
+                "bing",
+                "ding",
+                "wu",
+                "ji",
+                "geng",
+                "xin",
+                "ren",
+                "gui"
+              ]
+            },
+            "element": {
+              "type": "string",
+              "enum": [
+                "wood",
+                "fire",
+                "earth",
+                "metal",
+                "water"
+              ]
+            },
+            "yang": {
+              "type": "boolean"
+            },
+            "seasonalState": {
+              "type": "string",
+              "enum": [
+                "prosperous",
+                "strong",
+                "resting",
+                "trapped",
+                "dead"
+              ]
+            },
+            "contentKeys": {
+              "type": "object",
+              "properties": {
+                "dayMaster": {
+                  "type": "string"
+                },
+                "seasonal": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                "dayMaster",
+                "seasonal"
+              ],
+              "additionalProperties": false
+            }
+          },
+          "required": [
+            "stem",
+            "element",
+            "yang",
+            "seasonalState",
+            "contentKeys"
+          ],
+          "additionalProperties": false
+        },
+        "elements": {
+          "type": "object",
+          "properties": {
+            "visible": {
+              "type": "object",
+              "propertyNames": {
+                "type": "string",
+                "enum": [
+                  "wood",
+                  "fire",
+                  "earth",
+                  "metal",
+                  "water"
+                ]
+              },
+              "additionalProperties": {
+                "type": "integer",
+                "minimum": -9007199254740991,
+                "maximum": 9007199254740991
+              },
+              "required": [
+                "wood",
+                "fire",
+                "earth",
+                "metal",
+                "water"
+              ]
+            },
+            "withHidden": {
+              "type": "object",
+              "propertyNames": {
+                "type": "string",
+                "enum": [
+                  "wood",
+                  "fire",
+                  "earth",
+                  "metal",
+                  "water"
+                ]
+              },
+              "additionalProperties": {
+                "type": "integer",
+                "minimum": -9007199254740991,
+                "maximum": 9007199254740991
+              },
+              "required": [
+                "wood",
+                "fire",
+                "earth",
+                "metal",
+                "water"
+              ]
+            },
+            "balance": {
+              "type": "array",
+              "items": {
+                "type": "object",
+                "properties": {
+                  "element": {
+                    "type": "string",
+                    "enum": [
+                      "wood",
+                      "fire",
+                      "earth",
+                      "metal",
+                      "water"
+                    ]
+                  },
+                  "state": {
+                    "type": "string",
+                    "enum": [
+                      "excess",
+                      "missing"
+                    ]
+                  },
+                  "contentKey": {
+                    "type": "string"
+                  }
+                },
+                "required": [
+                  "element",
+                  "state",
+                  "contentKey"
+                ],
+                "additionalProperties": false
+              }
+            }
+          },
+          "required": [
+            "visible",
+            "withHidden",
+            "balance"
+          ],
+          "additionalProperties": false
+        },
+        "yearAnimal": {
+          "type": "object",
+          "properties": {
+            "id": {
+              "type": "string",
+              "enum": [
+                "rat",
+                "ox",
+                "tiger",
+                "rabbit",
+                "dragon",
+                "snake",
+                "horse",
+                "goat",
+                "monkey",
+                "rooster",
+                "dog",
+                "pig"
+              ]
+            },
+            "contentKey": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "id",
+            "contentKey"
+          ],
+          "additionalProperties": false
+        },
+        "tenGods": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "god": {
+                "type": "string",
+                "enum": [
+                  "friend",
+                  "robWealth",
+                  "eatingGod",
+                  "hurtingOfficer",
+                  "indirectWealth",
+                  "directWealth",
+                  "sevenKillings",
+                  "directOfficer",
+                  "indirectResource",
+                  "directResource"
+                ]
+              },
+              "count": {
+                "type": "integer",
+                "minimum": -9007199254740991,
+                "maximum": 9007199254740991
+              },
+              "contentKey": {
+                "type": "string"
+              }
+            },
+            "required": [
+              "god",
+              "count",
+              "contentKey"
+            ],
+            "additionalProperties": false
+          }
+        },
+        "sex": {
+          "anyOf": [
+            {
+              "type": "string",
+              "enum": [
+                "female",
+                "male"
+              ]
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "luck": {
+          "anyOf": [
+            {
+              "type": "object",
+              "properties": {
+                "forward": {
+                  "type": "boolean"
+                },
+                "startAge": {
+                  "type": "number"
+                },
+                "pillars": {
+                  "type": "array",
+                  "items": {
+                    "type": "object",
+                    "properties": {
+                      "stem": {
+                        "type": "string",
+                        "enum": [
+                          "jia",
+                          "yi",
+                          "bing",
+                          "ding",
+                          "wu",
+                          "ji",
+                          "geng",
+                          "xin",
+                          "ren",
+                          "gui"
+                        ]
+                      },
+                      "branch": {
+                        "type": "string",
+                        "enum": [
+                          "zi",
+                          "chou",
+                          "yin",
+                          "mao",
+                          "chen",
+                          "si",
+                          "wu",
+                          "wei",
+                          "shen",
+                          "you",
+                          "xu",
+                          "hai"
+                        ]
+                      },
+                      "hanzi": {
+                        "type": "string"
+                      },
+                      "startAge": {
+                        "type": "number"
+                      },
+                      "startYear": {
+                        "type": "integer",
+                        "minimum": -9007199254740991,
+                        "maximum": 9007199254740991
+                      },
+                      "stemGod": {
+                        "type": "string",
+                        "enum": [
+                          "friend",
+                          "robWealth",
+                          "eatingGod",
+                          "hurtingOfficer",
+                          "indirectWealth",
+                          "directWealth",
+                          "sevenKillings",
+                          "directOfficer",
+                          "indirectResource",
+                          "directResource"
+                        ]
+                      }
+                    },
+                    "required": [
+                      "stem",
+                      "branch",
+                      "hanzi",
+                      "startAge",
+                      "startYear",
+                      "stemGod"
+                    ],
+                    "additionalProperties": false
+                  }
+                }
+              },
+              "required": [
+                "forward",
+                "startAge",
+                "pillars"
+              ],
+              "additionalProperties": false
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "warnings": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        }
+      },
+      "required": [
+        "meta",
+        "pillars",
+        "localTime",
+        "dayMaster",
+        "elements",
+        "yearAnimal",
+        "tenGods",
+        "sex",
+        "luck",
+        "warnings"
+      ],
+      "additionalProperties": false
+    },
     "meta": {
       "type": "object",
       "properties": {
@@ -3925,6 +5146,7 @@
     "destinyMatrix",
     "jyotish",
     "karmic",
+    "bazi",
     "meta"
   ],
   "additionalProperties": false

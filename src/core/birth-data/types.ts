@@ -21,6 +21,8 @@ export const birthInputSchema = z.object({
    * Sans cette information, une heure ambiguë est refusée.
    */
   dstAmbiguity: z.enum(['earlier', 'later']).optional(),
+  /** Sexe, facultatif : utilisé seulement pour le sens des cycles de chance du BaZi. */
+  sex: z.enum(['female', 'male']).optional(),
 });
 export type BirthInput = z.infer<typeof birthInputSchema>;
 

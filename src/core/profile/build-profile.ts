@@ -5,6 +5,7 @@
 import { calculateAstrology, type AstrologySettings } from '../astrology/index.js';
 import { calculateDestinyMatrix } from '../destiny-matrix/index.js';
 import { normalizeBirthData } from '../birth-data/normalize.js';
+import { calculateBazi, type BaziSettings } from '../bazi/index.js';
 import { calculateKarmic } from '../karmic/index.js';
 import { calculateJyotish, type JyotishSettings } from '../jyotish/index.js';
 import { calculateHumanDesign, type HumanDesignSettings } from '../human-design/index.js';
@@ -17,6 +18,7 @@ export interface BuildProfileOptions {
   astrology?: Partial<AstrologySettings>;
   humanDesign?: Partial<HumanDesignSettings>;
   jyotish?: Partial<JyotishSettings>;
+  bazi?: Partial<BaziSettings>;
   numerology?: Partial<NumerologySettings> & { preset?: NumerologyPreset };
   /** Date de référence des cycles numérologiques personnels (AAAA-MM-JJ). Défaut : date de `now` (UTC). */
   referenceDate?: string;
@@ -45,6 +47,7 @@ export function buildProfile(rawInput: unknown, options: BuildProfileOptions = {
   const destinyMatrix = calculateDestinyMatrix({ birthDate: input.birthDate }, now);
   const jyotish = calculateJyotish(birth, options.jyotish, now, referenceDate);
   const karmic = calculateKarmic(birth, astrology, now);
+  const bazi = calculateBazi(birth, input.sex ?? null, options.bazi, now);
 
   const profile: Profile = {
     schemaVersion: SCHEMA_VERSION,
@@ -61,9 +64,10 @@ export function buildProfile(rawInput: unknown, options: BuildProfileOptions = {
     destinyMatrix,
     jyotish,
     karmic,
+    bazi,
     meta: {
       builtAt: now.toISOString(),
-      inputHash: sha256([astrology.meta.inputHash, humanDesign.meta.inputHash, numerology.meta.inputHash, destinyMatrix.meta.inputHash, jyotish.meta.inputHash, karmic.meta.inputHash]),
+      inputHash: sha256([astrology.meta.inputHash, humanDesign.meta.inputHash, numerology.meta.inputHash, destinyMatrix.meta.inputHash, jyotish.meta.inputHash, karmic.meta.inputHash, bazi.meta.inputHash]),
     },
   };
 
