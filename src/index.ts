@@ -10,3 +10,6 @@ export { type BirthInput, type BirthData } from './core/birth-data/types.js';
 export { AstraError } from './core/shared/errors.js';
 export { SCHEMA_VERSION } from './core/shared/meta.js';
 export { resolveContent, type ContentEntry } from './content/repository.js';
+export { buildReport, renderReportHtml, type ReportDocument } from './reports/index.js';
+export { renderAstroWheel } from './components/astrology/wheel.js';
+export { renderBodyGraph } from './components/human-design/bodygraph.js';

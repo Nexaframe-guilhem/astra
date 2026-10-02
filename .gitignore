@@ -2,3 +2,6 @@ node_modules
 .DS_Store
 *.log
 .scratch
+out
+web/astra.js
+web/astra.js.LEGAL.txt

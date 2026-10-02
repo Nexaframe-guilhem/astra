@@ -16,6 +16,8 @@ export interface ContentEntry {
   body: string;
   status: ContentStatus;
   version: number;
+  /** Provenance du texte, par ex. « pré-rédaction automatique (composée) » ; absent pour un texte écrit par l'école. */
+  origin?: string;
 }
 
 type RawEntry = Omit<ContentEntry, 'key' | 'locale'>;

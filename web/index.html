@@ -1,0 +1,252 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="robots" content="noindex">
+<title>ASTRA · démonstration</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600&family=Source+Sans+3:wght@400;600&family=JetBrains+Mono:wght@400&display=swap">
+<style>
+/* Mise en page : formulaire de saisie à gauche (fiche de naissance), bilan à droite ; une colonne sur téléphone. */
+:root {
+  --bg: #f3f4f7; --surface: #ffffff; --fg: #1b2233; --muted: #5b6478; --line: #d9dde6;
+  --accent: #9a6b1f; --accent-soft: #f4ead8; --ink: #22305a; --bad: #a3312b; --bad-soft: #fbe9e7; --warn: #8a5a00; --warn-soft: #fff4dc;
+  --display: "Cormorant Garamond", Georgia, "Times New Roman", serif;
+  --body: "Source Sans 3", system-ui, -apple-system, "Segoe UI", sans-serif;
+  --mono: "JetBrains Mono", ui-monospace, Menlo, Consolas, monospace;
+}
+@media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) {
+  --bg: #12151d; --surface: #1a1f2b; --fg: #e6e8ee; --muted: #9aa2b5; --line: #2c3344;
+  --accent: #d9a85a; --accent-soft: #2e2617; --ink: #b9c6ef; --bad: #ff8a80; --bad-soft: #3a1e1c; --warn: #f0c060; --warn-soft: #33290f; color-scheme: dark } }
+:root[data-theme="dark"] {
+  --bg: #12151d; --surface: #1a1f2b; --fg: #e6e8ee; --muted: #9aa2b5; --line: #2c3344;
+  --accent: #d9a85a; --accent-soft: #2e2617; --ink: #b9c6ef; --bad: #ff8a80; --bad-soft: #3a1e1c; --warn: #f0c060; --warn-soft: #33290f; color-scheme: dark }
+* { box-sizing: border-box }
+[hidden] { display: none !important }
+body { background: var(--bg); color: var(--fg); font: 15px/1.5 var(--body); padding: 24px 16px 48px; }
+.wrap { max-width: 1240px; margin: 0 auto; display: grid; gap: 24px; grid-template-columns: minmax(0, 340px) minmax(0, 1fr); align-items: start; }
+@media (max-width: 860px) { .wrap { grid-template-columns: minmax(0, 1fr); } }
+header.top { max-width: 1240px; margin: 0 auto 20px; display: flex; flex-wrap: wrap; align-items: baseline; gap: 6px 16px; }
+h1 { font: 600 2rem/1.1 var(--display); margin: 0; color: var(--ink); text-wrap: balance; }
+.sub { color: var(--muted); margin: 0; }
+.demo { max-width: 1240px; margin: 0 auto 16px; background: var(--accent-soft); color: var(--fg); border-radius: 8px; padding: 10px 14px; font-size: .9rem; }
+footer { max-width: 1240px; margin: 32px auto 0; color: var(--muted); font-size: .8rem; }
+footer a { color: var(--ink); }
+form { background: var(--surface); border: 1px solid var(--line); border-radius: 10px; padding: 20px; display: grid; gap: 14px; position: sticky; top: calc(env(safe-area-inset-top, 0px) + 12px); }
+@media (max-width: 860px) { form { position: static; } }
+fieldset { border: 0; padding: 0; margin: 0; display: grid; gap: 10px; }
+legend { font: 600 .72rem/1 var(--body); letter-spacing: .09em; text-transform: uppercase; color: var(--accent); margin-bottom: 8px; }
+.row { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; }
+label { display: grid; gap: 4px; font-size: .85rem; color: var(--muted); min-width: 0; }
+input, select { font: inherit; color: var(--fg); background: var(--bg); border: 1px solid var(--line); border-radius: 6px; padding: 7px 9px; width: 100%; min-width: 0; }
+input:focus-visible, select:focus-visible, button:focus-visible, summary:focus-visible { outline: 2px solid var(--accent); outline-offset: 1px; }
+.check { display: flex; gap: 8px; align-items: center; color: var(--fg); font-size: .9rem; }
+.check input { width: auto; }
+button { font: 600 1rem var(--body); border: 0; border-radius: 6px; padding: 10px 14px; cursor: pointer; background: var(--ink); color: var(--surface); }
+button.ghost { background: transparent; color: var(--ink); border: 1px solid var(--line); font-weight: 400; font-size: .85rem; padding: 6px 10px; }
+.hint { font-size: .8rem; color: var(--muted); margin: 0; }
+.msg { border-radius: 6px; padding: 10px 12px; font-size: .9rem; }
+.msg.err { background: var(--bad-soft); color: var(--bad); }
+.msg.warn { background: var(--warn-soft); color: var(--warn); }
+main { display: grid; gap: 16px; min-width: 0; }
+.summary { display: grid; grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); gap: 10px; }
+.tile { background: var(--surface); border: 1px solid var(--line); border-radius: 8px; padding: 10px 12px; min-width: 0; }
+.tile .k { font-size: .7rem; letter-spacing: .08em; text-transform: uppercase; color: var(--muted); }
+.tile .v { font: 600 1.25rem/1.25 var(--display); color: var(--ink); }
+.meta { font: .78rem/1.5 var(--mono); color: var(--muted); display: flex; flex-wrap: wrap; gap: 4px 16px; font-variant-numeric: tabular-nums; }
+.example { display: inline-block; font-size: .72rem; letter-spacing: .06em; text-transform: uppercase; background: var(--accent-soft); color: var(--accent); border-radius: 999px; padding: 2px 9px; }
+.report { background: #fff; border: 1px solid var(--line); border-radius: 8px; overflow: hidden; }
+.report iframe { width: 100%; border: 0; display: block; min-height: 600px; background: #fff; }
+details { background: var(--surface); border: 1px solid var(--line); border-radius: 8px; padding: 10px 14px; }
+summary { cursor: pointer; font-weight: 600; }
+pre { font: .75rem/1.45 var(--mono); max-height: 420px; overflow: auto; background: var(--bg); padding: 10px; border-radius: 6px; }
+.toolbar { display: flex; flex-wrap: wrap; gap: 8px; align-items: center; justify-content: space-between; }
+@media (prefers-reduced-motion: no-preference) { .tile { transition: border-color .2s; } }
+</style>
+
+</head>
+<body>
+<header class="top">
+  <h1>Banc d'essai ASTRA</h1>
+  <p class="sub">Saisie des données de naissance, calcul des trois moteurs et bilan complet, exécutés dans votre navigateur.</p>
+</header>
+
+<p class="demo"><strong>Version de démonstration.</strong> Les textes du bilan sont des brouillons non encore relus par l'école. Les calculs se font entièrement dans votre navigateur : aucune donnée saisie n'est envoyée ni conservée.</p>
+
+<div class="wrap">
+  <form id="f" novalidate>
+    <fieldset>
+      <legend>Identité</legend>
+      <div class="row">
+        <label for="firstName">Prénom<input id="firstName" required autocomplete="off"></label>
+        <label for="lastName">Nom<input id="lastName" required autocomplete="off"></label>
+      </div>
+      <label for="middleNames">Autres prénoms (facultatif)<input id="middleNames" autocomplete="off"></label>
+      <label for="birthLastName">Nom de naissance, si différent<input id="birthLastName" autocomplete="off"></label>
+    </fieldset>
+    <fieldset>
+      <legend>Naissance</legend>
+      <div class="row">
+        <label for="birthDate">Date<input id="birthDate" type="date" required></label>
+        <label for="birthTime">Heure locale<input id="birthTime" type="time" required></label>
+      </div>
+      <label for="city">Ville<select id="city"></select></label>
+      <div id="manual" class="row" hidden>
+        <label for="place">Lieu<input id="place"></label>
+        <label for="tz">Fuseau<select id="tz"></select></label>
+        <label for="lat">Latitude<input id="lat" type="number" step="0.0001" placeholder="48.8566"></label>
+        <label for="lon">Longitude<input id="lon" type="number" step="0.0001" placeholder="2.3522"></label>
+      </div>
+      <label for="dst" id="dstWrap" hidden>Heure vécue deux fois (passage à l'heure d'hiver)
+        <select id="dst"><option value="">Choisir…</option><option value="earlier">Première occurrence (heure d'été)</option><option value="later">Seconde occurrence (heure d'hiver)</option></select>
+      </label>
+    </fieldset>
+    <fieldset>
+      <legend>Réglages</legend>
+      <label for="preset">Convention de numérologie
+        <select id="preset">
+          <option value="astra-standard">ASTRA standard (par défaut)</option>
+          <option value="decoz">Decoz (Y voyelle selon le contexte)</option>
+          <option value="simple">Simple (somme de tous les chiffres)</option>
+          <option value="chaldean">Chaldéenne</option>
+        </select>
+      </label>
+      <label class="check" for="draft"><input id="draft" type="checkbox" checked> Afficher les textes en brouillon</label>
+      <p class="hint">Sans cette case, le bilan ne montre que les textes validés par l'école (aucun pour l'instant).</p>
+    </fieldset>
+    <div id="msg" hidden></div>
+    <button type="submit">Calculer le bilan</button>
+  </form>
+
+  <main>
+    <div class="toolbar">
+      <span id="who"></span>
+      <span class="meta" id="meta"></span>
+    </div>
+    <div class="summary" id="summary"></div>
+    <div class="report"><iframe id="report" title="Bilan"></iframe></div>
+    <details>
+      <summary>Profil calculé (JSON versionné)</summary>
+      <div class="toolbar" style="margin-top:8px"><span class="hint">C'est ce qui sera stocké en base : des valeurs et des clés de contenu, jamais les textes.</span><button type="button" class="ghost" id="copy">Copier le JSON</button></div>
+      <pre id="json"></pre>
+    </details>
+  </main>
+</div>
+
+<footer>Calculs astronomiques : astronomy-engine (licence MIT). Licences des composants : <a href="astra.js.LEGAL.txt">astra.js.LEGAL.txt</a>.</footer>
+
+<script src="astra.js"></script>
+<script>
+const CITIES = [
+  ['Paris', 'France', 48.8566, 2.3522, 'Europe/Paris'], ['Marseille', 'France', 43.2965, 5.3698, 'Europe/Paris'],
+  ['Lyon', 'France', 45.764, 4.8357, 'Europe/Paris'], ['Toulouse', 'France', 43.6047, 1.4442, 'Europe/Paris'],
+  ['Nice', 'France', 43.7102, 7.262, 'Europe/Paris'], ['Nantes', 'France', 47.2184, -1.5536, 'Europe/Paris'],
+  ['Montpellier', 'France', 43.6108, 3.8767, 'Europe/Paris'], ['Strasbourg', 'France', 48.5734, 7.7521, 'Europe/Paris'],
+  ['Bordeaux', 'France', 44.8378, -0.5792, 'Europe/Paris'], ['Lille', 'France', 50.6292, 3.0573, 'Europe/Paris'],
+  ['Rennes', 'France', 48.1173, -1.6778, 'Europe/Paris'], ['Reims', 'France', 49.2583, 4.0317, 'Europe/Paris'],
+  ['Toulon', 'France', 43.1242, 5.928, 'Europe/Paris'], ['Grenoble', 'France', 45.1885, 5.7245, 'Europe/Paris'],
+  ['Dijon', 'France', 47.322, 5.0415, 'Europe/Paris'], ['Angers', 'France', 47.4784, -0.5632, 'Europe/Paris'],
+  ['Clermont-Ferrand', 'France', 45.7772, 3.087, 'Europe/Paris'], ['Tours', 'France', 47.3941, 0.6848, 'Europe/Paris'],
+  ['Limoges', 'France', 45.8336, 1.2611, 'Europe/Paris'], ['Perpignan', 'France', 42.6887, 2.8948, 'Europe/Paris'],
+  ['Brest', 'France', 48.3904, -4.4861, 'Europe/Paris'], ['Rouen', 'France', 49.4432, 1.0999, 'Europe/Paris'],
+  ['Ajaccio', 'France', 41.9192, 8.7386, 'Europe/Paris'], ['Fort-de-France', 'Martinique', 14.6161, -61.0588, 'America/Martinique'],
+  ['Pointe-à-Pitre', 'Guadeloupe', 16.2411, -61.5331, 'America/Guadeloupe'], ['Saint-Denis', 'La Réunion', -20.8823, 55.4504, 'Indian/Reunion'],
+  ['Cayenne', 'Guyane', 4.9224, -52.3135, 'America/Cayenne'], ['Nouméa', 'Nouvelle-Calédonie', -22.2758, 166.458, 'Pacific/Noumea'],
+  ['Bruxelles', 'Belgique', 50.8503, 4.3517, 'Europe/Brussels'], ['Genève', 'Suisse', 46.2044, 6.1432, 'Europe/Zurich'],
+  ['Lausanne', 'Suisse', 46.5197, 6.6323, 'Europe/Zurich'], ['Luxembourg', 'Luxembourg', 49.6116, 6.1319, 'Europe/Luxembourg'],
+  ['Montréal', 'Canada', 45.5019, -73.5674, 'America/Toronto'], ['Québec', 'Canada', 46.8139, -71.208, 'America/Toronto'],
+  ['Londres', 'Royaume-Uni', 51.5072, -0.1276, 'Europe/London'], ['Madrid', 'Espagne', 40.4168, -3.7038, 'Europe/Madrid'],
+  ['Barcelone', 'Espagne', 41.3874, 2.1686, 'Europe/Madrid'], ['Rome', 'Italie', 41.9028, 12.4964, 'Europe/Rome'],
+  ['Berlin', 'Allemagne', 52.52, 13.405, 'Europe/Berlin'], ['Lisbonne', 'Portugal', 38.7223, -9.1393, 'Europe/Lisbon'],
+  ['Amsterdam', 'Pays-Bas', 52.3676, 4.9041, 'Europe/Amsterdam'], ['Casablanca', 'Maroc', 33.5731, -7.5898, 'Africa/Casablanca'],
+  ['Alger', 'Algérie', 36.7538, 3.0588, 'Africa/Algiers'], ['Tunis', 'Tunisie', 36.8065, 10.1815, 'Africa/Tunis'],
+  ['Dakar', 'Sénégal', 14.7167, -17.4677, 'Africa/Dakar'], ['Abidjan', "Côte d'Ivoire", 5.36, -4.0083, 'Africa/Abidjan'],
+  ['New York', 'États-Unis', 40.7128, -74.006, 'America/New_York'], ['Los Angeles', 'États-Unis', 34.0522, -118.2437, 'America/Los_Angeles'],
+  ['Bay City (Michigan)', 'États-Unis', 43.5945, -83.8889, 'America/Detroit'], ['Tokyo', 'Japon', 35.6762, 139.6503, 'Asia/Tokyo'],
+  ['Sydney', 'Australie', -33.8688, 151.2093, 'Australia/Sydney'], ['São Paulo', 'Brésil', -23.5505, -46.6333, 'America/Sao_Paulo'],
+];
+const $ = (id) => document.getElementById(id);
+const L = { aries: 'Bélier', taurus: 'Taureau', gemini: 'Gémeaux', cancer: 'Cancer', leo: 'Lion', virgo: 'Vierge', libra: 'Balance', scorpio: 'Scorpion', sagittarius: 'Sagittaire', capricorn: 'Capricorne', aquarius: 'Verseau', pisces: 'Poissons',
+  manifestor: 'Manifestor', generator: 'Generator', 'manifesting-generator': 'Manifesting Generator', projector: 'Projector', reflector: 'Reflector',
+  emotional: 'émotionnelle', sacral: 'sacrale', splenic: 'splénique', 'ego-manifested': 'Ego manifestée', 'ego-projected': 'Ego projetée', 'self-projected': 'auto-projetée', mental: 'mentale', lunar: 'lunaire' };
+const ERRORS = {
+  NONEXISTENT_LOCAL_TIME: "Cette heure n'a pas existé ce jour-là à cet endroit (passage à l'heure d'été). Vérifiez l'heure inscrite sur l'acte de naissance.",
+  AMBIGUOUS_LOCAL_TIME: "Cette heure a été vécue deux fois ce jour-là (passage à l'heure d'hiver). Indiquez laquelle ci-dessous puis recalculez.",
+  UNKNOWN_TIMEZONE: "Fuseau horaire manquant ou inconnu. Choisissez une ville de la liste ou un fuseau.",
+};
+
+const citySel = $('city');
+citySel.innerHTML = CITIES.map((c, i) => `<option value="${i}">${c[0]} · ${c[1]}</option>`).join('') + '<option value="manual">Autre lieu (coordonnées)…</option>';
+let zones = []; try { zones = Intl.supportedValuesOf('timeZone'); } catch { zones = ['Europe/Paris', 'UTC']; }
+$('tz').innerHTML = zones.map((z) => `<option${z === 'Europe/Paris' ? ' selected' : ''}>${z}</option>`).join('');
+citySel.addEventListener('change', () => { $('manual').hidden = citySel.value !== 'manual'; });
+['birthDate', 'birthTime', 'city'].forEach((id) => $(id).addEventListener('change', () => { $('dstWrap').hidden = true; $('dst').value = ''; }));
+
+function readInput() {
+  const v = (id) => $(id).value.trim();
+  const input = { firstName: v('firstName'), lastName: v('lastName'), birthDate: v('birthDate'), birthTime: v('birthTime') };
+  if (v('middleNames')) input.middleNames = v('middleNames');
+  if (v('birthLastName')) input.birthLastName = v('birthLastName');
+  if (citySel.value === 'manual') {
+    Object.assign(input, { birthPlace: v('place') || 'Lieu saisi', latitude: Number(v('lat')), longitude: Number(v('lon')), timezone: v('tz') });
+  } else {
+    const c = CITIES[Number(citySel.value)];
+    Object.assign(input, { birthPlace: c[0], country: c[1], latitude: c[2], longitude: c[3], timezone: c[4] });
+  }
+  if (!$('dstWrap').hidden && v('dst')) input.dstAmbiguity = v('dst');
+  return input;
+}
+function show(kind, text) { const m = $('msg'); m.hidden = !text; m.className = 'msg ' + kind; m.textContent = text || ''; }
+const esc = (s) => String(s).replace(/[&<>"]/g, (c) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[c]));
+
+function run(isExample) {
+  show('', '');
+  const input = readInput();
+  const missing = ['firstName', 'lastName', 'birthDate', 'birthTime'].filter((k) => !input[k]);
+  if (missing.length || Number.isNaN(input.latitude) || Number.isNaN(input.longitude)) return show('err', 'Complétez le prénom, le nom, la date, l\'heure et le lieu de naissance.');
+  let profile;
+  try {
+    profile = ASTRA.buildProfile(input, { numerology: { preset: $('preset').value } });
+  } catch (e) {
+    const code = e && e.code;
+    if (code === 'AMBIGUOUS_LOCAL_TIME') $('dstWrap').hidden = false;
+    const detail = e && e.issues ? e.issues.map((i) => i.message).join(' ; ') : (e && e.message) || String(e);
+    return show('err', ERRORS[code] || 'Données refusées : ' + detail);
+  }
+  const report = ASTRA.buildReport(profile, { draftMode: $('draft').checked });
+  const frame = $('report');
+  frame.onload = () => { try { frame.style.height = frame.contentDocument.documentElement.scrollHeight + 'px'; } catch {} };
+  frame.srcdoc = ASTRA.renderReportHtml(report);
+
+  const a = profile.astrology, h = profile.humanDesign, n = profile.numerology;
+  const tiles = [
+    ['Soleil', L[a.bodies.sun.sign]], ['Lune', L[a.bodies.moon.sign]], ['Ascendant', a.angles?.ascendant ? L[a.angles.ascendant.sign] : '—'],
+    ['Type HD', L[h.type.id]], ['Autorité', L[h.authority.id] ?? h.authority.id], ['Profil', h.profile.id],
+    ['Chemin de vie', n.lifePath.value], ['Expression', n.expression?.value ?? '—'],
+  ];
+  $('summary').innerHTML = tiles.map(([k, v]) => `<div class="tile"><div class="k">${k}</div><div class="v">${esc(v)}</div></div>`).join('');
+  $('who').innerHTML = `<strong>${esc(input.firstName)} ${esc(input.lastName)}</strong>${isExample ? ' <span class="example">exemple</span>' : ''}`;
+  const b = profile.birth || {};
+  $('meta').innerHTML = [`UTC ${esc((b.utc || '').replace('T', ' ').slice(0, 16))}`, `schéma ${esc(profile.schemaVersion ?? '1.0')}`, `empreinte ${esc(profile.meta.inputHash.slice(0, 12))}…`].map((x) => `<span>${x}</span>`).join('');
+  const warns = [...(b.warnings || [])];
+  if (warns.length) show('warn', 'Avertissements : ' + warns.join(' · '));
+  $('json').textContent = JSON.stringify(profile, null, 2);
+}
+
+$('f').addEventListener('submit', (e) => { e.preventDefault(); run(false); });
+$('copy').addEventListener('click', async () => {
+  const t = $('json').textContent;
+  try { await navigator.clipboard.writeText(t); $('copy').textContent = 'Copié'; }
+  catch { const r = document.createRange(); r.selectNodeContents($('json')); const s = getSelection(); s.removeAllRanges(); s.addRange(r); $('copy').textContent = 'Texte sélectionné'; }
+  setTimeout(() => { $('copy').textContent = 'Copier le JSON'; }, 1800);
+});
+
+// Exemple chargé à l'ouverture : carte publiée de Madonna (données publiques), à remplacer par vos propres données.
+Object.entries({ firstName: 'Madonna', lastName: 'Ciccone', birthDate: '1958-08-16', birthTime: '07:05' }).forEach(([k, v]) => { $(k).value = v; });
+citySel.value = String(CITIES.findIndex((c) => c[0].startsWith('Bay City')));
+run(true);
+</script>
+</body>
+</html>

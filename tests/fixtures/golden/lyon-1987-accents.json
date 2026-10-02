@@ -1745,6 +1745,8 @@
       "calculatedAt": "2026-10-02T00:00:00.000Z",
       "dependencies": {},
       "settings": {
+        "convention": "astra-standard",
+        "customized": false,
         "method": "pythagorean",
         "masterNumbers": [
           11,
@@ -1766,7 +1768,7 @@
         "nameReduction": "perName",
         "lifePathMethod": "components"
       },
-      "inputHash": "2ebf22139597c75bd78038d99f62585d44b01d234fdb5fcf85745166cd9ae3f4"
+      "inputHash": "fabe05bbaafb83971daa318f503b41dc5d0cad7a54d8c788f772c073db78ada6"
     },
     "method": "pythagorean",
     "normalizedName": {
@@ -2012,6 +2014,6 @@
   },
   "meta": {
     "builtAt": "2026-10-02T00:00:00.000Z",
-    "inputHash": "1963d2bd171cbac80d404ce6c08ab8cd1d1b86e2a8af371fc4aaa027e645a2b0"
+    "inputHash": "9f9d93c96ec800b1f22ceceab8ffd22f003c3ab692ed0e228e9158d57c133f39"
   }
 }

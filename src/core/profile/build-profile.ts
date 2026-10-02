@@ -5,7 +5,7 @@
 import { calculateAstrology, type AstrologySettings } from '../astrology/index.js';
 import { normalizeBirthData } from '../birth-data/normalize.js';
 import { calculateHumanDesign, type HumanDesignSettings } from '../human-design/index.js';
-import { calculateNumerology, type NumerologySettings } from '../numerology/index.js';
+import { calculateNumerology, type NumerologyPreset, type NumerologySettings } from '../numerology/index.js';
 import { AstraError } from '../shared/errors.js';
 import { SCHEMA_VERSION, sha256 } from '../shared/meta.js';
 import { profileSchema, type Profile } from './schema.js';
@@ -13,7 +13,7 @@ import { profileSchema, type Profile } from './schema.js';
 export interface BuildProfileOptions {
   astrology?: Partial<AstrologySettings>;
   humanDesign?: Partial<HumanDesignSettings>;
-  numerology?: Partial<NumerologySettings>;
+  numerology?: Partial<NumerologySettings> & { preset?: NumerologyPreset };
   /** Date de référence des cycles numérologiques personnels (AAAA-MM-JJ). Défaut : date de `now` (UTC). */
   referenceDate?: string;
   now?: Date;
