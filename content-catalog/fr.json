@@ -14512,5 +14512,665 @@
   "domain": "karmic",
   "title": "Lilith (Lune noire) en maison 12",
   "priority": 3
+ },
+ {
+  "key": "bazi.dayMaster.jia",
+  "domain": "bazi",
+  "title": "Maître du jour Jia (Bois yang)",
+  "priority": 1
+ },
+ {
+  "key": "bazi.dayMaster.yi",
+  "domain": "bazi",
+  "title": "Maître du jour Yi (Bois yin)",
+  "priority": 1
+ },
+ {
+  "key": "bazi.dayMaster.bing",
+  "domain": "bazi",
+  "title": "Maître du jour Bing (Feu yang)",
+  "priority": 1
+ },
+ {
+  "key": "bazi.dayMaster.ding",
+  "domain": "bazi",
+  "title": "Maître du jour Ding (Feu yin)",
+  "priority": 1
+ },
+ {
+  "key": "bazi.dayMaster.wu",
+  "domain": "bazi",
+  "title": "Maître du jour Wu (Terre yang)",
+  "priority": 1
+ },
+ {
+  "key": "bazi.dayMaster.ji",
+  "domain": "bazi",
+  "title": "Maître du jour Ji (Terre yin)",
+  "priority": 1
+ },
+ {
+  "key": "bazi.dayMaster.geng",
+  "domain": "bazi",
+  "title": "Maître du jour Geng (Métal yang)",
+  "priority": 1
+ },
+ {
+  "key": "bazi.dayMaster.xin",
+  "domain": "bazi",
+  "title": "Maître du jour Xin (Métal yin)",
+  "priority": 1
+ },
+ {
+  "key": "bazi.dayMaster.ren",
+  "domain": "bazi",
+  "title": "Maître du jour Ren (Eau yang)",
+  "priority": 1
+ },
+ {
+  "key": "bazi.dayMaster.gui",
+  "domain": "bazi",
+  "title": "Maître du jour Gui (Eau yin)",
+  "priority": 1
+ },
+ {
+  "key": "bazi.animals.rat",
+  "domain": "bazi",
+  "title": "Année du Rat",
+  "priority": 1
+ },
+ {
+  "key": "bazi.animals.ox",
+  "domain": "bazi",
+  "title": "Année du Buffle",
+  "priority": 1
+ },
+ {
+  "key": "bazi.animals.tiger",
+  "domain": "bazi",
+  "title": "Année du Tigre",
+  "priority": 1
+ },
+ {
+  "key": "bazi.animals.rabbit",
+  "domain": "bazi",
+  "title": "Année du Lapin",
+  "priority": 1
+ },
+ {
+  "key": "bazi.animals.dragon",
+  "domain": "bazi",
+  "title": "Année du Dragon",
+  "priority": 1
+ },
+ {
+  "key": "bazi.animals.snake",
+  "domain": "bazi",
+  "title": "Année du Serpent",
+  "priority": 1
+ },
+ {
+  "key": "bazi.animals.horse",
+  "domain": "bazi",
+  "title": "Année du Cheval",
+  "priority": 1
+ },
+ {
+  "key": "bazi.animals.goat",
+  "domain": "bazi",
+  "title": "Année du Chèvre",
+  "priority": 1
+ },
+ {
+  "key": "bazi.animals.monkey",
+  "domain": "bazi",
+  "title": "Année du Singe",
+  "priority": 1
+ },
+ {
+  "key": "bazi.animals.rooster",
+  "domain": "bazi",
+  "title": "Année du Coq",
+  "priority": 1
+ },
+ {
+  "key": "bazi.animals.dog",
+  "domain": "bazi",
+  "title": "Année du Chien",
+  "priority": 1
+ },
+ {
+  "key": "bazi.animals.pig",
+  "domain": "bazi",
+  "title": "Année du Cochon",
+  "priority": 1
+ },
+ {
+  "key": "bazi.seasonal.prosperous",
+  "domain": "bazi",
+  "title": "Maître du jour prospère",
+  "priority": 2
+ },
+ {
+  "key": "bazi.seasonal.strong",
+  "domain": "bazi",
+  "title": "Maître du jour soutenu",
+  "priority": 2
+ },
+ {
+  "key": "bazi.seasonal.resting",
+  "domain": "bazi",
+  "title": "Maître du jour au repos",
+  "priority": 2
+ },
+ {
+  "key": "bazi.seasonal.trapped",
+  "domain": "bazi",
+  "title": "Maître du jour entravé",
+  "priority": 2
+ },
+ {
+  "key": "bazi.seasonal.dead",
+  "domain": "bazi",
+  "title": "Maître du jour affaibli",
+  "priority": 2
+ },
+ {
+  "key": "bazi.pillars.year",
+  "domain": "bazi",
+  "title": "Pilier de l'année",
+  "priority": 2
+ },
+ {
+  "key": "bazi.pillars.month",
+  "domain": "bazi",
+  "title": "Pilier du mois",
+  "priority": 2
+ },
+ {
+  "key": "bazi.pillars.hour",
+  "domain": "bazi",
+  "title": "Pilier de l'heure",
+  "priority": 2
+ },
+ {
+  "key": "bazi.elementBalance.wood.excess",
+  "domain": "bazi",
+  "title": "Bois dominant",
+  "priority": 2
+ },
+ {
+  "key": "bazi.elementBalance.wood.missing",
+  "domain": "bazi",
+  "title": "Bois absent",
+  "priority": 2
+ },
+ {
+  "key": "bazi.elementBalance.fire.excess",
+  "domain": "bazi",
+  "title": "Feu dominant",
+  "priority": 2
+ },
+ {
+  "key": "bazi.elementBalance.fire.missing",
+  "domain": "bazi",
+  "title": "Feu absent",
+  "priority": 2
+ },
+ {
+  "key": "bazi.elementBalance.earth.excess",
+  "domain": "bazi",
+  "title": "Terre dominant",
+  "priority": 2
+ },
+ {
+  "key": "bazi.elementBalance.earth.missing",
+  "domain": "bazi",
+  "title": "Terre absent",
+  "priority": 2
+ },
+ {
+  "key": "bazi.elementBalance.metal.excess",
+  "domain": "bazi",
+  "title": "Métal dominant",
+  "priority": 2
+ },
+ {
+  "key": "bazi.elementBalance.metal.missing",
+  "domain": "bazi",
+  "title": "Métal absent",
+  "priority": 2
+ },
+ {
+  "key": "bazi.elementBalance.water.excess",
+  "domain": "bazi",
+  "title": "Eau dominant",
+  "priority": 2
+ },
+ {
+  "key": "bazi.elementBalance.water.missing",
+  "domain": "bazi",
+  "title": "Eau absent",
+  "priority": 2
+ },
+ {
+  "key": "bazi.tenGods.friend",
+  "domain": "bazi",
+  "title": "Compagnon (Bi Jian)",
+  "priority": 2
+ },
+ {
+  "key": "bazi.tenGods.robWealth",
+  "domain": "bazi",
+  "title": "Rival (Jie Cai)",
+  "priority": 2
+ },
+ {
+  "key": "bazi.tenGods.eatingGod",
+  "domain": "bazi",
+  "title": "Dieu de la nourriture (Shi Shen)",
+  "priority": 2
+ },
+ {
+  "key": "bazi.tenGods.hurtingOfficer",
+  "domain": "bazi",
+  "title": "Officier blessé (Shang Guan)",
+  "priority": 2
+ },
+ {
+  "key": "bazi.tenGods.indirectWealth",
+  "domain": "bazi",
+  "title": "Richesse indirecte (Pian Cai)",
+  "priority": 2
+ },
+ {
+  "key": "bazi.tenGods.directWealth",
+  "domain": "bazi",
+  "title": "Richesse directe (Zheng Cai)",
+  "priority": 2
+ },
+ {
+  "key": "bazi.tenGods.sevenKillings",
+  "domain": "bazi",
+  "title": "Sept tueurs (Qi Sha)",
+  "priority": 2
+ },
+ {
+  "key": "bazi.tenGods.directOfficer",
+  "domain": "bazi",
+  "title": "Officier direct (Zheng Guan)",
+  "priority": 2
+ },
+ {
+  "key": "bazi.tenGods.indirectResource",
+  "domain": "bazi",
+  "title": "Ressource indirecte (Pian Yin)",
+  "priority": 2
+ },
+ {
+  "key": "bazi.tenGods.directResource",
+  "domain": "bazi",
+  "title": "Ressource directe (Zheng Yin)",
+  "priority": 2
+ },
+ {
+  "key": "bazi.dayPillar.jia-zi",
+  "domain": "bazi",
+  "title": "Pilier du jour Jia Zi (Rat)",
+  "priority": 3
+ },
+ {
+  "key": "bazi.dayPillar.yi-chou",
+  "domain": "bazi",
+  "title": "Pilier du jour Yi Chou (Buffle)",
+  "priority": 3
+ },
+ {
+  "key": "bazi.dayPillar.bing-yin",
+  "domain": "bazi",
+  "title": "Pilier du jour Bing Yin (Tigre)",
+  "priority": 3
+ },
+ {
+  "key": "bazi.dayPillar.ding-mao",
+  "domain": "bazi",
+  "title": "Pilier du jour Ding Mao (Lapin)",
+  "priority": 3
+ },
+ {
+  "key": "bazi.dayPillar.wu-chen",
+  "domain": "bazi",
+  "title": "Pilier du jour Wu Chen (Dragon)",
+  "priority": 3
+ },
+ {
+  "key": "bazi.dayPillar.ji-si",
+  "domain": "bazi",
+  "title": "Pilier du jour Ji Si (Serpent)",
+  "priority": 3
+ },
+ {
+  "key": "bazi.dayPillar.geng-wu",
+  "domain": "bazi",
+  "title": "Pilier du jour Geng Wu (Cheval)",
+  "priority": 3
+ },
+ {
+  "key": "bazi.dayPillar.xin-wei",
+  "domain": "bazi",
+  "title": "Pilier du jour Xin Wei (Chèvre)",
+  "priority": 3
+ },
+ {
+  "key": "bazi.dayPillar.ren-shen",
+  "domain": "bazi",
+  "title": "Pilier du jour Ren Shen (Singe)",
+  "priority": 3
+ },
+ {
+  "key": "bazi.dayPillar.gui-you",
+  "domain": "bazi",
+  "title": "Pilier du jour Gui You (Coq)",
+  "priority": 3
+ },
+ {
+  "key": "bazi.dayPillar.jia-xu",
+  "domain": "bazi",
+  "title": "Pilier du jour Jia Xu (Chien)",
+  "priority": 3
+ },
+ {
+  "key": "bazi.dayPillar.yi-hai",
+  "domain": "bazi",
+  "title": "Pilier du jour Yi Hai (Cochon)",
+  "priority": 3
+ },
+ {
+  "key": "bazi.dayPillar.bing-zi",
+  "domain": "bazi",
+  "title": "Pilier du jour Bing Zi (Rat)",
+  "priority": 3
+ },
+ {
+  "key": "bazi.dayPillar.ding-chou",
+  "domain": "bazi",
+  "title": "Pilier du jour Ding Chou (Buffle)",
+  "priority": 3
+ },
+ {
+  "key": "bazi.dayPillar.wu-yin",
+  "domain": "bazi",
+  "title": "Pilier du jour Wu Yin (Tigre)",
+  "priority": 3
+ },
+ {
+  "key": "bazi.dayPillar.ji-mao",
+  "domain": "bazi",
+  "title": "Pilier du jour Ji Mao (Lapin)",
+  "priority": 3
+ },
+ {
+  "key": "bazi.dayPillar.geng-chen",
+  "domain": "bazi",
+  "title": "Pilier du jour Geng Chen (Dragon)",
+  "priority": 3
+ },
+ {
+  "key": "bazi.dayPillar.xin-si",
+  "domain": "bazi",
+  "title": "Pilier du jour Xin Si (Serpent)",
+  "priority": 3
+ },
+ {
+  "key": "bazi.dayPillar.ren-wu",
+  "domain": "bazi",
+  "title": "Pilier du jour Ren Wu (Cheval)",
+  "priority": 3
+ },
+ {
+  "key": "bazi.dayPillar.gui-wei",
+  "domain": "bazi",
+  "title": "Pilier du jour Gui Wei (Chèvre)",
+  "priority": 3
+ },
+ {
+  "key": "bazi.dayPillar.jia-shen",
+  "domain": "bazi",
+  "title": "Pilier du jour Jia Shen (Singe)",
+  "priority": 3
+ },
+ {
+  "key": "bazi.dayPillar.yi-you",
+  "domain": "bazi",
+  "title": "Pilier du jour Yi You (Coq)",
+  "priority": 3
+ },
+ {
+  "key": "bazi.dayPillar.bing-xu",
+  "domain": "bazi",
+  "title": "Pilier du jour Bing Xu (Chien)",
+  "priority": 3
+ },
+ {
+  "key": "bazi.dayPillar.ding-hai",
+  "domain": "bazi",
+  "title": "Pilier du jour Ding Hai (Cochon)",
+  "priority": 3
+ },
+ {
+  "key": "bazi.dayPillar.wu-zi",
+  "domain": "bazi",
+  "title": "Pilier du jour Wu Zi (Rat)",
+  "priority": 3
+ },
+ {
+  "key": "bazi.dayPillar.ji-chou",
+  "domain": "bazi",
+  "title": "Pilier du jour Ji Chou (Buffle)",
+  "priority": 3
+ },
+ {
+  "key": "bazi.dayPillar.geng-yin",
+  "domain": "bazi",
+  "title": "Pilier du jour Geng Yin (Tigre)",
+  "priority": 3
+ },
+ {
+  "key": "bazi.dayPillar.xin-mao",
+  "domain": "bazi",
+  "title": "Pilier du jour Xin Mao (Lapin)",
+  "priority": 3
+ },
+ {
+  "key": "bazi.dayPillar.ren-chen",
+  "domain": "bazi",
+  "title": "Pilier du jour Ren Chen (Dragon)",
+  "priority": 3
+ },
+ {
+  "key": "bazi.dayPillar.gui-si",
+  "domain": "bazi",
+  "title": "Pilier du jour Gui Si (Serpent)",
+  "priority": 3
+ },
+ {
+  "key": "bazi.dayPillar.jia-wu",
+  "domain": "bazi",
+  "title": "Pilier du jour Jia Wu (Cheval)",
+  "priority": 3
+ },
+ {
+  "key": "bazi.dayPillar.yi-wei",
+  "domain": "bazi",
+  "title": "Pilier du jour Yi Wei (Chèvre)",
+  "priority": 3
+ },
+ {
+  "key": "bazi.dayPillar.bing-shen",
+  "domain": "bazi",
+  "title": "Pilier du jour Bing Shen (Singe)",
+  "priority": 3
+ },
+ {
+  "key": "bazi.dayPillar.ding-you",
+  "domain": "bazi",
+  "title": "Pilier du jour Ding You (Coq)",
+  "priority": 3
+ },
+ {
+  "key": "bazi.dayPillar.wu-xu",
+  "domain": "bazi",
+  "title": "Pilier du jour Wu Xu (Chien)",
+  "priority": 3
+ },
+ {
+  "key": "bazi.dayPillar.ji-hai",
+  "domain": "bazi",
+  "title": "Pilier du jour Ji Hai (Cochon)",
+  "priority": 3
+ },
+ {
+  "key": "bazi.dayPillar.geng-zi",
+  "domain": "bazi",
+  "title": "Pilier du jour Geng Zi (Rat)",
+  "priority": 3
+ },
+ {
+  "key": "bazi.dayPillar.xin-chou",
+  "domain": "bazi",
+  "title": "Pilier du jour Xin Chou (Buffle)",
+  "priority": 3
+ },
+ {
+  "key": "bazi.dayPillar.ren-yin",
+  "domain": "bazi",
+  "title": "Pilier du jour Ren Yin (Tigre)",
+  "priority": 3
+ },
+ {
+  "key": "bazi.dayPillar.gui-mao",
+  "domain": "bazi",
+  "title": "Pilier du jour Gui Mao (Lapin)",
+  "priority": 3
+ },
+ {
+  "key": "bazi.dayPillar.jia-chen",
+  "domain": "bazi",
+  "title": "Pilier du jour Jia Chen (Dragon)",
+  "priority": 3
+ },
+ {
+  "key": "bazi.dayPillar.yi-si",
+  "domain": "bazi",
+  "title": "Pilier du jour Yi Si (Serpent)",
+  "priority": 3
+ },
+ {
+  "key": "bazi.dayPillar.bing-wu",
+  "domain": "bazi",
+  "title": "Pilier du jour Bing Wu (Cheval)",
+  "priority": 3
+ },
+ {
+  "key": "bazi.dayPillar.ding-wei",
+  "domain": "bazi",
+  "title": "Pilier du jour Ding Wei (Chèvre)",
+  "priority": 3
+ },
+ {
+  "key": "bazi.dayPillar.wu-shen",
+  "domain": "bazi",
+  "title": "Pilier du jour Wu Shen (Singe)",
+  "priority": 3
+ },
+ {
+  "key": "bazi.dayPillar.ji-you",
+  "domain": "bazi",
+  "title": "Pilier du jour Ji You (Coq)",
+  "priority": 3
+ },
+ {
+  "key": "bazi.dayPillar.geng-xu",
+  "domain": "bazi",
+  "title": "Pilier du jour Geng Xu (Chien)",
+  "priority": 3
+ },
+ {
+  "key": "bazi.dayPillar.xin-hai",
+  "domain": "bazi",
+  "title": "Pilier du jour Xin Hai (Cochon)",
+  "priority": 3
+ },
+ {
+  "key": "bazi.dayPillar.ren-zi",
+  "domain": "bazi",
+  "title": "Pilier du jour Ren Zi (Rat)",
+  "priority": 3
+ },
+ {
+  "key": "bazi.dayPillar.gui-chou",
+  "domain": "bazi",
+  "title": "Pilier du jour Gui Chou (Buffle)",
+  "priority": 3
+ },
+ {
+  "key": "bazi.dayPillar.jia-yin",
+  "domain": "bazi",
+  "title": "Pilier du jour Jia Yin (Tigre)",
+  "priority": 3
+ },
+ {
+  "key": "bazi.dayPillar.yi-mao",
+  "domain": "bazi",
+  "title": "Pilier du jour Yi Mao (Lapin)",
+  "priority": 3
+ },
+ {
+  "key": "bazi.dayPillar.bing-chen",
+  "domain": "bazi",
+  "title": "Pilier du jour Bing Chen (Dragon)",
+  "priority": 3
+ },
+ {
+  "key": "bazi.dayPillar.ding-si",
+  "domain": "bazi",
+  "title": "Pilier du jour Ding Si (Serpent)",
+  "priority": 3
+ },
+ {
+  "key": "bazi.dayPillar.wu-wu",
+  "domain": "bazi",
+  "title": "Pilier du jour Wu Wu (Cheval)",
+  "priority": 3
+ },
+ {
+  "key": "bazi.dayPillar.ji-wei",
+  "domain": "bazi",
+  "title": "Pilier du jour Ji Wei (Chèvre)",
+  "priority": 3
+ },
+ {
+  "key": "bazi.dayPillar.geng-shen",
+  "domain": "bazi",
+  "title": "Pilier du jour Geng Shen (Singe)",
+  "priority": 3
+ },
+ {
+  "key": "bazi.dayPillar.xin-you",
+  "domain": "bazi",
+  "title": "Pilier du jour Xin You (Coq)",
+  "priority": 3
+ },
+ {
+  "key": "bazi.dayPillar.ren-xu",
+  "domain": "bazi",
+  "title": "Pilier du jour Ren Xu (Chien)",
+  "priority": 3
+ },
+ {
+  "key": "bazi.dayPillar.gui-hai",
+  "domain": "bazi",
+  "title": "Pilier du jour Gui Hai (Cochon)",
+  "priority": 3
  }
 ]

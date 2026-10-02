@@ -3300,8 +3300,204 @@
     "house12": [],
     "warnings": []
   },
+  "bazi": {
+    "meta": {
+      "engine": "astra-bazi",
+      "engineVersion": "0.1.0",
+      "schemaVersion": "1.1",
+      "calculatedAt": "2026-10-02T00:00:00.000Z",
+      "dependencies": {
+        "astronomy-engine": "2.1.19"
+      },
+      "settings": {
+        "timeBasis": "true-solar",
+        "dayBoundary": "midnight"
+      },
+      "inputHash": "a119aa08cbf854bb3bf593e00b32c3ecaa8cf09b83ddf4ed9a2cf31b8eaae23c"
+    },
+    "pillars": {
+      "year": {
+        "stem": {
+          "id": "ding",
+          "hanzi": "丁",
+          "element": "fire",
+          "yang": false
+        },
+        "branch": {
+          "id": "mao",
+          "hanzi": "卯",
+          "element": "wood",
+          "yang": false,
+          "animal": "rabbit"
+        },
+        "stemGod": "directWealth",
+        "hiddenStems": [
+          {
+            "id": "yi",
+            "element": "wood",
+            "god": "hurtingOfficer"
+          }
+        ],
+        "contentKey": "bazi.pillars.year"
+      },
+      "month": {
+        "stem": {
+          "id": "xin",
+          "hanzi": "辛",
+          "element": "metal",
+          "yang": false
+        },
+        "branch": {
+          "id": "hai",
+          "hanzi": "亥",
+          "element": "water",
+          "yang": false,
+          "animal": "pig"
+        },
+        "stemGod": "directResource",
+        "hiddenStems": [
+          {
+            "id": "ren",
+            "element": "water",
+            "god": "friend"
+          },
+          {
+            "id": "jia",
+            "element": "wood",
+            "god": "eatingGod"
+          }
+        ],
+        "contentKey": "bazi.pillars.month"
+      },
+      "day": {
+        "stem": {
+          "id": "ren",
+          "hanzi": "壬",
+          "element": "water",
+          "yang": true
+        },
+        "branch": {
+          "id": "wu",
+          "hanzi": "午",
+          "element": "fire",
+          "yang": true,
+          "animal": "horse"
+        },
+        "stemGod": null,
+        "hiddenStems": [
+          {
+            "id": "ding",
+            "element": "fire",
+            "god": "directWealth"
+          },
+          {
+            "id": "ji",
+            "element": "earth",
+            "god": "directOfficer"
+          }
+        ],
+        "contentKey": "bazi.dayPillar.ren-wu"
+      },
+      "hour": {
+        "stem": {
+          "id": "xin",
+          "hanzi": "辛",
+          "element": "metal",
+          "yang": false
+        },
+        "branch": {
+          "id": "chou",
+          "hanzi": "丑",
+          "element": "earth",
+          "yang": false,
+          "animal": "ox"
+        },
+        "stemGod": "directResource",
+        "hiddenStems": [
+          {
+            "id": "ji",
+            "element": "earth",
+            "god": "directOfficer"
+          },
+          {
+            "id": "gui",
+            "element": "water",
+            "god": "robWealth"
+          },
+          {
+            "id": "xin",
+            "element": "metal",
+            "god": "directResource"
+          }
+        ],
+        "contentKey": "bazi.pillars.hour"
+      }
+    },
+    "localTime": "1987-11-29T02:36",
+    "dayMaster": {
+      "stem": "ren",
+      "element": "water",
+      "yang": true,
+      "seasonalState": "prosperous",
+      "contentKeys": {
+        "dayMaster": "bazi.dayMaster.ren",
+        "seasonal": "bazi.seasonal.prosperous"
+      }
+    },
+    "elements": {
+      "visible": {
+        "wood": 1,
+        "fire": 2,
+        "earth": 1,
+        "metal": 2,
+        "water": 2
+      },
+      "withHidden": {
+        "wood": 2,
+        "fire": 2,
+        "earth": 2,
+        "metal": 3,
+        "water": 3
+      },
+      "balance": []
+    },
+    "yearAnimal": {
+      "id": "rabbit",
+      "contentKey": "bazi.animals.rabbit"
+    },
+    "tenGods": [
+      {
+        "god": "friend",
+        "count": 1,
+        "contentKey": "bazi.tenGods.friend"
+      },
+      {
+        "god": "hurtingOfficer",
+        "count": 1,
+        "contentKey": "bazi.tenGods.hurtingOfficer"
+      },
+      {
+        "god": "directWealth",
+        "count": 2,
+        "contentKey": "bazi.tenGods.directWealth"
+      },
+      {
+        "god": "directOfficer",
+        "count": 1,
+        "contentKey": "bazi.tenGods.directOfficer"
+      },
+      {
+        "god": "directResource",
+        "count": 2,
+        "contentKey": "bazi.tenGods.directResource"
+      }
+    ],
+    "sex": null,
+    "luck": null,
+    "warnings": []
+  },
   "meta": {
     "builtAt": "2026-10-02T00:00:00.000Z",
-    "inputHash": "66e95087af7e1877998aa09f1929b69405997650a9674d3c71cd2d0602b97aa9"
+    "inputHash": "e29edda4e9df25a8a79e10656dd835b9cf3ee85ffc7dec732d345b3405291672"
   }
 }

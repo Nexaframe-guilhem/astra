@@ -3489,8 +3489,247 @@
     ],
     "warnings": []
   },
+  "bazi": {
+    "meta": {
+      "engine": "astra-bazi",
+      "engineVersion": "0.1.0",
+      "schemaVersion": "1.1",
+      "calculatedAt": "2026-10-02T00:00:00.000Z",
+      "dependencies": {
+        "astronomy-engine": "2.1.19"
+      },
+      "settings": {
+        "timeBasis": "true-solar",
+        "dayBoundary": "midnight"
+      },
+      "inputHash": "8f8058d363cfe75142d6d8970884c9039b54d4f3796be53e67b93cab57012d92"
+    },
+    "pillars": {
+      "year": {
+        "stem": {
+          "id": "ren",
+          "hanzi": "壬",
+          "element": "water",
+          "yang": true
+        },
+        "branch": {
+          "id": "wu",
+          "hanzi": "午",
+          "element": "fire",
+          "yang": true,
+          "animal": "horse"
+        },
+        "stemGod": "indirectWealth",
+        "hiddenStems": [
+          {
+            "id": "ding",
+            "element": "fire",
+            "god": "directResource"
+          },
+          {
+            "id": "ji",
+            "element": "earth",
+            "god": "robWealth"
+          }
+        ],
+        "contentKey": "bazi.pillars.year"
+      },
+      "month": {
+        "stem": {
+          "id": "gui",
+          "hanzi": "癸",
+          "element": "water",
+          "yang": false
+        },
+        "branch": {
+          "id": "chou",
+          "hanzi": "丑",
+          "element": "earth",
+          "yang": false,
+          "animal": "ox"
+        },
+        "stemGod": "directWealth",
+        "hiddenStems": [
+          {
+            "id": "ji",
+            "element": "earth",
+            "god": "robWealth"
+          },
+          {
+            "id": "gui",
+            "element": "water",
+            "god": "directWealth"
+          },
+          {
+            "id": "xin",
+            "element": "metal",
+            "god": "hurtingOfficer"
+          }
+        ],
+        "contentKey": "bazi.pillars.month"
+      },
+      "day": {
+        "stem": {
+          "id": "wu",
+          "hanzi": "戊",
+          "element": "earth",
+          "yang": true
+        },
+        "branch": {
+          "id": "chen",
+          "hanzi": "辰",
+          "element": "earth",
+          "yang": true,
+          "animal": "dragon"
+        },
+        "stemGod": null,
+        "hiddenStems": [
+          {
+            "id": "wu",
+            "element": "earth",
+            "god": "friend"
+          },
+          {
+            "id": "yi",
+            "element": "wood",
+            "god": "directOfficer"
+          },
+          {
+            "id": "gui",
+            "element": "water",
+            "god": "directWealth"
+          }
+        ],
+        "contentKey": "bazi.dayPillar.wu-chen"
+      },
+      "hour": {
+        "stem": {
+          "id": "ding",
+          "hanzi": "丁",
+          "element": "fire",
+          "yang": false
+        },
+        "branch": {
+          "id": "si",
+          "hanzi": "巳",
+          "element": "fire",
+          "yang": false,
+          "animal": "snake"
+        },
+        "stemGod": "directResource",
+        "hiddenStems": [
+          {
+            "id": "bing",
+            "element": "fire",
+            "god": "indirectResource"
+          },
+          {
+            "id": "geng",
+            "element": "metal",
+            "god": "eatingGod"
+          },
+          {
+            "id": "wu",
+            "element": "earth",
+            "god": "friend"
+          }
+        ],
+        "contentKey": "bazi.pillars.hour"
+      }
+    },
+    "localTime": "1943-01-10T09:02",
+    "dayMaster": {
+      "stem": "wu",
+      "element": "earth",
+      "yang": true,
+      "seasonalState": "prosperous",
+      "contentKeys": {
+        "dayMaster": "bazi.dayMaster.wu",
+        "seasonal": "bazi.seasonal.prosperous"
+      }
+    },
+    "elements": {
+      "visible": {
+        "wood": 0,
+        "fire": 3,
+        "earth": 3,
+        "metal": 0,
+        "water": 2
+      },
+      "withHidden": {
+        "wood": 1,
+        "fire": 3,
+        "earth": 5,
+        "metal": 2,
+        "water": 4
+      },
+      "balance": [
+        {
+          "element": "wood",
+          "state": "missing",
+          "contentKey": "bazi.elementBalance.wood.missing"
+        },
+        {
+          "element": "fire",
+          "state": "excess",
+          "contentKey": "bazi.elementBalance.fire.excess"
+        },
+        {
+          "element": "earth",
+          "state": "excess",
+          "contentKey": "bazi.elementBalance.earth.excess"
+        },
+        {
+          "element": "metal",
+          "state": "missing",
+          "contentKey": "bazi.elementBalance.metal.missing"
+        }
+      ]
+    },
+    "yearAnimal": {
+      "id": "horse",
+      "contentKey": "bazi.animals.horse"
+    },
+    "tenGods": [
+      {
+        "god": "friend",
+        "count": 1,
+        "contentKey": "bazi.tenGods.friend"
+      },
+      {
+        "god": "robWealth",
+        "count": 1,
+        "contentKey": "bazi.tenGods.robWealth"
+      },
+      {
+        "god": "indirectWealth",
+        "count": 1,
+        "contentKey": "bazi.tenGods.indirectWealth"
+      },
+      {
+        "god": "directWealth",
+        "count": 1,
+        "contentKey": "bazi.tenGods.directWealth"
+      },
+      {
+        "god": "indirectResource",
+        "count": 1,
+        "contentKey": "bazi.tenGods.indirectResource"
+      },
+      {
+        "god": "directResource",
+        "count": 2,
+        "contentKey": "bazi.tenGods.directResource"
+      }
+    ],
+    "sex": null,
+    "luck": null,
+    "warnings": [
+      "HOUR_BOUNDARY: la naissance est à 2 min d'un changement de double heure ; une heure imprécise peut changer le pilier de l'heure."
+    ]
+  },
   "meta": {
     "builtAt": "2026-10-02T00:00:00.000Z",
-    "inputHash": "9ce413ab111c3791a9be5bf79acab9685299cc4cb077cb23e5bb2aca5d5a49e4"
+    "inputHash": "1a6e9c146d66ef7cad9202f0999609ba6f11bb79e94bc656a6c80ccba38e12a5"
   }
 }

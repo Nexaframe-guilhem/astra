@@ -28,7 +28,7 @@ export interface TableBlock {
 
 export interface FigureBlock {
   kind: 'figure';
-  figure: 'astro-wheel' | 'bodygraph' | 'destiny-matrix' | 'jyotish-chart';
+  figure: 'astro-wheel' | 'bodygraph' | 'destiny-matrix' | 'jyotish-chart' | 'bazi-pillars';
   caption: string;
   /** SVG autonome, généré côté serveur. */
   svg: string;
@@ -43,7 +43,7 @@ export interface NoticeBlock {
 export type ReportBlock = ContentBlock | FactsBlock | TableBlock | FigureBlock | NoticeBlock;
 
 export interface ReportSection {
-  id: 'identity' | 'astrology' | 'humanDesign' | 'numerology' | 'destinyMatrix' | 'jyotish' | 'karmic' | 'methodology';
+  id: 'identity' | 'astrology' | 'humanDesign' | 'numerology' | 'destinyMatrix' | 'jyotish' | 'karmic' | 'bazi' | 'methodology';
   title: string;
   subsections: Array<{ id: string; title: string; blocks: ReportBlock[] }>;
 }

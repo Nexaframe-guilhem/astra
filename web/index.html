@@ -86,6 +86,7 @@ pre { font: .75rem/1.45 var(--mono); max-height: 420px; overflow: auto; backgrou
       </div>
       <label for="middleNames">Autres prénoms (facultatif)<input id="middleNames" autocomplete="off"></label>
       <label for="birthLastName">Nom de naissance, si différent<input id="birthLastName" autocomplete="off"></label>
+      <label for="sex">Sexe (facultatif, sert seulement aux cycles de 10 ans du BaZi)<select id="sex"><option value="">Non précisé</option><option value="female">Femme</option><option value="male">Homme</option></select></label>
     </fieldset>
     <fieldset>
       <legend>Naissance</legend>
@@ -192,6 +193,7 @@ function readInput() {
   const input = { firstName: v('firstName'), lastName: v('lastName'), birthDate: v('birthDate'), birthTime: v('birthTime') };
   if (v('middleNames')) input.middleNames = v('middleNames');
   if (v('birthLastName')) input.birthLastName = v('birthLastName');
+  if (v('sex')) input.sex = v('sex');
   if (citySel.value === 'manual') {
     Object.assign(input, { birthPlace: v('place') || 'Lieu saisi', latitude: Number(v('lat')), longitude: Number(v('lon')), timezone: v('tz') });
   } else {
@@ -231,6 +233,7 @@ function run(isExample) {
     ['Chemin de vie', n.lifePath.value], ['Expression', n.expression?.value ?? '—'],
     ['Matrice · centre', profile.destinyMatrix.points.find((p) => p.id === 'E').value],
     ['Nœud Nord', L[profile.karmic.nodes.north.sign]], ['Chiron', profile.karmic.chiron ? L[profile.karmic.chiron.sign] : '—'],
+    ['BaZi · maître du jour', ASTRA.label('stem.' + profile.bazi.dayMaster.stem, 'fr')], ['Animal chinois', ASTRA.label('animal.' + profile.bazi.yearAnimal.id, 'fr')],
     ['Lagna védique', L[profile.jyotish.lagna.sign]], ['Nakshatra lunaire', ASTRA.label('nakshatra.' + profile.jyotish.grahas.find((g) => g.id === 'moon').nakshatra.id, 'fr')],
   ];
   $('summary').innerHTML = tiles.map(([k, v]) => `<div class="tile"><div class="k">${k}</div><div class="v">${esc(v)}</div></div>`).join('');

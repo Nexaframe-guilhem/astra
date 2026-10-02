@@ -7,12 +7,13 @@ import { SIGNS } from '../core/shared/zodiac.js';
 import { ACTIVATION_POINTS, CENTERS, CHANNELS } from '../core/human-design/data.js';
 import { label } from './repository.js';
 import { GRAHAS, NAKSHATRAS } from '../core/jyotish/data.js';
+import { BRANCH_ANIMAL, BRANCHES, ELEMENTS as BAZI_ELEMENTS, STEMS, TEN_GODS } from '../core/bazi/data.js';
 import { HOUSE12_BODIES, RETROGRADE_PLANETS } from '../core/karmic/index.js';
 import { MATRIX_POSITIONS, POSITIONS_WITH_ARCANA_TEXT } from '../core/destiny-matrix/types.js';
 
 export interface CatalogEntry {
   key: string;
-  domain: 'astrology' | 'humanDesign' | 'numerology' | 'destinyMatrix' | 'jyotish' | 'karmic';
+  domain: 'astrology' | 'humanDesign' | 'numerology' | 'destinyMatrix' | 'jyotish' | 'karmic' | 'bazi';
   title: string;
   /** 1 = utilisé en tête de bilan ; 2 = détail affiché ; 3 = approfondissement. */
   priority: 1 | 2 | 3;
@@ -100,6 +101,15 @@ export function buildContentCatalog(locale = 'fr'): CatalogEntry[] {
   for (const [k, name] of KARMIC_POINTS) for (let h = 1; h <= 12; h++) add('karmic', `karmic.${k}House.${h}`, `${name} en maison ${h} (lecture karmique)`, 2);
   for (const p of RETROGRADE_PLANETS) add('karmic', `karmic.retrograde.${p}`, `${L(p)} rétrograde`, 2);
   for (const b of HOUSE12_BODIES) add('karmic', `karmic.house12.${b}`, `${L(b)} en maison 12`, 3);
+
+  // BaZi
+  for (const s of STEMS) add('bazi', `bazi.dayMaster.${s}`, `Maître du jour ${L(`stem.${s}`)}`, 1);
+  for (const a of BRANCH_ANIMAL) add('bazi', `bazi.animals.${a}`, `Année du ${L(`animal.${a}`)}`, 1);
+  for (const st of ['prosperous', 'strong', 'resting', 'trapped', 'dead']) add('bazi', `bazi.seasonal.${st}`, `Maître du jour ${L(`seasonal.${st}`)}`, 2);
+  for (const p of ['year', 'month', 'hour']) add('bazi', `bazi.pillars.${p}`, L(`pillar.${p}`), 2);
+  for (const e of BAZI_ELEMENTS) for (const st of ['excess', 'missing']) add('bazi', `bazi.elementBalance.${e}.${st}`, `${L(`element.${e}`)} ${st === 'excess' ? 'dominant' : 'absent'}`, 2);
+  for (const g of TEN_GODS) add('bazi', `bazi.tenGods.${g}`, L(`god.${g}`), 2);
+  for (let i = 0; i < 60; i++) add('bazi', `bazi.dayPillar.${STEMS[i % 10]}-${BRANCHES[i % 12]}`, `Pilier du jour ${L(`stem.${STEMS[i % 10]}`).split(' (')[0]} ${L(`branch.${BRANCHES[i % 12]}`)}`, 3);
 
   return out;
 }

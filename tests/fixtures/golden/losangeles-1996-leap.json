@@ -3401,8 +3401,210 @@
     "house12": [],
     "warnings": []
   },
+  "bazi": {
+    "meta": {
+      "engine": "astra-bazi",
+      "engineVersion": "0.1.0",
+      "schemaVersion": "1.1",
+      "calculatedAt": "2026-10-02T00:00:00.000Z",
+      "dependencies": {
+        "astronomy-engine": "2.1.19"
+      },
+      "settings": {
+        "timeBasis": "true-solar",
+        "dayBoundary": "midnight"
+      },
+      "inputHash": "d0678f67ffd32eb079a7934a02dfb222c1b730f6ed70bc41f936d982e9a2d228"
+    },
+    "pillars": {
+      "year": {
+        "stem": {
+          "id": "bing",
+          "hanzi": "丙",
+          "element": "fire",
+          "yang": true
+        },
+        "branch": {
+          "id": "zi",
+          "hanzi": "子",
+          "element": "water",
+          "yang": true,
+          "animal": "rat"
+        },
+        "stemGod": "friend",
+        "hiddenStems": [
+          {
+            "id": "gui",
+            "element": "water",
+            "god": "directOfficer"
+          }
+        ],
+        "contentKey": "bazi.pillars.year"
+      },
+      "month": {
+        "stem": {
+          "id": "geng",
+          "hanzi": "庚",
+          "element": "metal",
+          "yang": true
+        },
+        "branch": {
+          "id": "yin",
+          "hanzi": "寅",
+          "element": "wood",
+          "yang": true,
+          "animal": "tiger"
+        },
+        "stemGod": "indirectWealth",
+        "hiddenStems": [
+          {
+            "id": "jia",
+            "element": "wood",
+            "god": "indirectResource"
+          },
+          {
+            "id": "bing",
+            "element": "fire",
+            "god": "friend"
+          },
+          {
+            "id": "wu",
+            "element": "earth",
+            "god": "eatingGod"
+          }
+        ],
+        "contentKey": "bazi.pillars.month"
+      },
+      "day": {
+        "stem": {
+          "id": "bing",
+          "hanzi": "丙",
+          "element": "fire",
+          "yang": true
+        },
+        "branch": {
+          "id": "shen",
+          "hanzi": "申",
+          "element": "metal",
+          "yang": true,
+          "animal": "monkey"
+        },
+        "stemGod": null,
+        "hiddenStems": [
+          {
+            "id": "geng",
+            "element": "metal",
+            "god": "indirectWealth"
+          },
+          {
+            "id": "ren",
+            "element": "water",
+            "god": "sevenKillings"
+          },
+          {
+            "id": "wu",
+            "element": "earth",
+            "god": "eatingGod"
+          }
+        ],
+        "contentKey": "bazi.dayPillar.bing-shen"
+      },
+      "hour": {
+        "stem": {
+          "id": "geng",
+          "hanzi": "庚",
+          "element": "metal",
+          "yang": true
+        },
+        "branch": {
+          "id": "zi",
+          "hanzi": "子",
+          "element": "water",
+          "yang": true,
+          "animal": "rat"
+        },
+        "stemGod": "indirectWealth",
+        "hiddenStems": [
+          {
+            "id": "gui",
+            "element": "water",
+            "god": "directOfficer"
+          }
+        ],
+        "contentKey": "bazi.pillars.hour"
+      }
+    },
+    "localTime": "1996-02-29T23:54",
+    "dayMaster": {
+      "stem": "bing",
+      "element": "fire",
+      "yang": true,
+      "seasonalState": "strong",
+      "contentKeys": {
+        "dayMaster": "bazi.dayMaster.bing",
+        "seasonal": "bazi.seasonal.strong"
+      }
+    },
+    "elements": {
+      "visible": {
+        "wood": 1,
+        "fire": 2,
+        "earth": 0,
+        "metal": 3,
+        "water": 2
+      },
+      "withHidden": {
+        "wood": 1,
+        "fire": 3,
+        "earth": 2,
+        "metal": 3,
+        "water": 3
+      },
+      "balance": [
+        {
+          "element": "earth",
+          "state": "missing",
+          "contentKey": "bazi.elementBalance.earth.missing"
+        },
+        {
+          "element": "metal",
+          "state": "excess",
+          "contentKey": "bazi.elementBalance.metal.excess"
+        }
+      ]
+    },
+    "yearAnimal": {
+      "id": "rat",
+      "contentKey": "bazi.animals.rat"
+    },
+    "tenGods": [
+      {
+        "god": "friend",
+        "count": 1,
+        "contentKey": "bazi.tenGods.friend"
+      },
+      {
+        "god": "indirectWealth",
+        "count": 3,
+        "contentKey": "bazi.tenGods.indirectWealth"
+      },
+      {
+        "god": "directOfficer",
+        "count": 2,
+        "contentKey": "bazi.tenGods.directOfficer"
+      },
+      {
+        "god": "indirectResource",
+        "count": 1,
+        "contentKey": "bazi.tenGods.indirectResource"
+      }
+    ],
+    "sex": null,
+    "luck": null,
+    "warnings": []
+  },
   "meta": {
     "builtAt": "2026-10-02T00:00:00.000Z",
-    "inputHash": "e67832027cc04330d7380bac15a36e25b673fa56896057cf354cfaebc4c777f7"
+    "inputHash": "c33521ca0fed12be1fa07b17ac3ef5004fbd1d67495de9368ba6e1a449e2864a"
   }
 }

@@ -6,6 +6,7 @@ import { renderAstroWheel } from '../../components/astrology/wheel.js';
 import { renderBodyGraph } from '../../components/human-design/bodygraph.js';
 import { renderDestinyMatrix } from '../../components/destiny-matrix/matrix.js';
 import { renderJyotishChart } from '../../components/jyotish/chart.js';
+import { renderBaziPillars } from '../../components/bazi/pillars.js';
 import { label, resolveContent } from '../../content/repository.js';
 import type { Profile } from '../../core/profile/schema.js';
 
@@ -54,7 +55,7 @@ export function buildReport(profile: Profile, options: BuildReportOptions = {}):
         })),
     );
 
-  const { identity: id, birth: b, astrology: a, humanDesign: h, numerology: n, destinyMatrix: dm, jyotish: jy, karmic: k } = profile;
+  const { identity: id, birth: b, astrology: a, humanDesign: h, numerology: n, destinyMatrix: dm, jyotish: jy, karmic: k, bazi: bz } = profile;
   const fullName = [id.firstName, id.middleNames, id.lastName].filter(Boolean).join(' ');
 
   const sections: ReportSection[] = [];
@@ -454,6 +455,78 @@ export function buildReport(profile: Profile, options: BuildReportOptions = {}):
     ],
   });
 
+  // ---------- BaZi ----------
+  const PILLARS = ['year', 'month', 'day', 'hour'] as const;
+  const god = (g: string | null) => (g ? L(`god.${g}`) : 'Maître du jour');
+  const dmLabel = `${L(`stem.${bz.dayMaster.stem}`)}`;
+  sections.push({
+    id: 'bazi',
+    title: 'Astrologie chinoise (BaZi)',
+    subsections: [
+      {
+        id: 'pillars',
+        title: 'Les Quatre Piliers',
+        blocks: [
+          { kind: 'figure', figure: 'bazi-pillars', caption: `Heure solaire vraie retenue : ${bz.localTime.replace('T', ' à ')}`, svg: renderBaziPillars(bz, { width: 440, stemLabel: (s) => L(`stem.${s}`).split(' (')[0]!, branchLabel: (b) => L(`branch.${b}`) }) },
+          {
+            kind: 'table',
+            columns: ['Pilier', 'Tronc', 'Branche', 'Dieu du tronc', 'Troncs cachés'],
+            rows: PILLARS.map((k) => {
+              const p = bz.pillars[k];
+              return [L(`pillar.${k}`), `${p.stem.hanzi} ${L(`stem.${p.stem.id}`)}`, `${p.branch.hanzi} ${L(`branch.${p.branch.id}`)}`, god(p.stemGod),
+                p.hiddenStems.map((h) => `${L(`stem.${h.id}`).split(' (')[0]} : ${L(`god.${h.god}`).split(' (')[0]}`).join(', ')];
+            }),
+          },
+          ...notices(bz.warnings),
+          ...PILLARS.filter((k) => k !== 'day').flatMap((k) => content(bz.pillars[k].contentKey, L(`pillar.${k}`))),
+          ...content(bz.yearAnimal.contentKey, `Année du ${L(`animal.${bz.yearAnimal.id}`)}`),
+        ],
+      },
+      {
+        id: 'dayMaster',
+        title: 'Le maître du jour',
+        blocks: [
+          { kind: 'facts', items: [
+            { label: 'Maître du jour', value: `${bz.pillars.day.stem.hanzi} ${dmLabel}`, contentKey: bz.dayMaster.contentKeys.dayMaster },
+            { label: 'Saison de naissance', value: `${L(`element.${bz.pillars.month.branch.element}`)} : maître du jour ${L(`seasonal.${bz.dayMaster.seasonalState}`)}`, contentKey: bz.dayMaster.contentKeys.seasonal },
+          ] },
+          ...content(bz.dayMaster.contentKeys.dayMaster, `Maître du jour ${dmLabel}`),
+          ...content(bz.dayMaster.contentKeys.seasonal, `Maître du jour ${L(`seasonal.${bz.dayMaster.seasonalState}`)}`),
+          ...content(bz.pillars.day.contentKey, `Pilier du jour ${bz.pillars.day.stem.hanzi}${bz.pillars.day.branch.hanzi}`),
+        ],
+      },
+      {
+        id: 'elements',
+        title: 'Équilibre des cinq éléments',
+        blocks: [
+          {
+            kind: 'table',
+            columns: ['Élément', 'Caractères visibles', 'Avec troncs cachés'],
+            rows: (['wood', 'fire', 'earth', 'metal', 'water'] as const).map((e) => [L(`element.${e}`), String(bz.elements.visible[e]), String(bz.elements.withHidden[e])]),
+          },
+          ...bz.elements.balance.flatMap((x) => content(x.contentKey, `${L(`element.${x.element}`)} ${x.state === 'excess' ? 'dominant' : 'absent'}`)),
+        ],
+      },
+      {
+        id: 'tenGods',
+        title: 'Les dix dieux présents',
+        blocks: bz.tenGods.flatMap((g) => content(g.contentKey, `${L(`god.${g.god}`)}${g.count > 1 ? ` (×${g.count})` : ''}`)),
+      },
+      ...(bz.luck ? [{
+        id: 'luck',
+        title: 'Piliers de chance (cycles de 10 ans)',
+        blocks: [
+          {
+            kind: 'table' as const,
+            columns: ['Âge', 'Année', 'Pilier', 'Dieu du tronc'],
+            rows: bz.luck.pillars.map((p) => [`${Math.floor(p.startAge)} ans`, String(p.startYear), `${p.hanzi} ${L(`stem.${p.stem}`).split(' (')[0]} ${L(`branch.${p.branch}`)}`, L(`god.${p.stemGod}`)]),
+          },
+          { kind: 'notice' as const, level: 'info' as const, text: `Cycles en sens ${bz.luck.forward ? 'direct' : 'inverse'}, premier cycle à ${bz.luck.startAge.toFixed(1).replace('.', ',')} ans.` },
+        ],
+      }] : []),
+    ],
+  });
+
   // ---------- Méthodologie ----------
   sections.push({
     id: 'methodology',
@@ -471,6 +544,7 @@ export function buildReport(profile: Profile, options: BuildReportOptions = {}):
             ['Numérologie', `${n.meta.engine} ${n.meta.engineVersion}`, `convention ${String(n.meta.settings.convention)}${n.meta.settings.customized ? ' (personnalisée)' : ''}, méthode ${L(n.method)}`],
             ['Jyotish', `${jy.meta.engine} ${jy.meta.engineVersion}`, `zodiaque sidéral, ayanamsa Lahiri, maisons en signes entiers, Rahu/Ketu nœud ${jy.meta.settings.nodeType === 'true' ? 'vrai' : 'moyen'}, Vimshottari (année de ${String(jy.meta.settings.dashaYearDays).replace('.', ',')} jours)`],
             ['Astrologie karmique', `${k.meta.engine} ${k.meta.engineVersion}`, 'thème tropical ci-dessus, Lilith moyenne (apogée lunaire moyen), Chiron par intégration numérique (1900-2100)'],
+            ['BaZi', `${bz.meta.engine} ${bz.meta.engineVersion}`, `année à Lichun, mois par les termes solaires, ${bz.meta.settings.timeBasis === 'true-solar' ? 'heure solaire vraie' : 'heure légale'}, changement de jour ${bz.meta.settings.dayBoundary === '23h' ? 'à 23 h' : 'à minuit'}`],
             ['Matrice du destin', `${dm.meta.engine} ${dm.meta.engineVersion}`, `convention ${String(dm.meta.settings.convention)}, 22 arcanes, réduction par somme des chiffres`],
           ],
         },

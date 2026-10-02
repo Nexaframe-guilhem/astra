@@ -16931,5 +16931,775 @@
     "status": "draft",
     "version": 1,
     "origin": "pré-rédaction automatique"
+  },
+  "bazi.dayMaster.jia": {
+    "title": "Maître du jour Jia (Bois yang)",
+    "body": "Le maître du jour Jia est le Bois yang, symbolisé par le grand arbre. Droit, stable et tourné vers la croissance, il donne une nature fiable, protectrice et ambitieuse, avec le sens des principes. Comme l'arbre, il plie difficilement : la souplesse est souvent sa leçon.",
+    "status": "draft",
+    "version": 1,
+    "origin": "pré-rédaction automatique"
+  },
+  "bazi.dayMaster.yi": {
+    "title": "Maître du jour Yi (Bois yin)",
+    "body": "Le maître du jour Yi est le Bois yin, symbolisé par la fleur, l'herbe ou la liane. Souple, adaptable et diplomate, il sait contourner les obstacles et tirer parti de son entourage. Sa force est la persévérance discrète ; son défi, ne pas trop dépendre des appuis extérieurs.",
+    "status": "draft",
+    "version": 1,
+    "origin": "pré-rédaction automatique"
+  },
+  "bazi.dayMaster.bing": {
+    "title": "Maître du jour Bing (Feu yang)",
+    "body": "Le maître du jour Bing est le Feu yang, symbolisé par le soleil. Chaleureux, généreux et rayonnant, il éclaire son entourage et aime être visible. Il donne de l'enthousiasme et de l'optimisme ; sa leçon est de doser son intensité et de tenir dans la durée.",
+    "status": "draft",
+    "version": 1,
+    "origin": "pré-rédaction automatique"
+  },
+  "bazi.dayMaster.ding": {
+    "title": "Maître du jour Ding (Feu yin)",
+    "body": "Le maître du jour Ding est le Feu yin, symbolisé par la bougie ou la lampe. Délicat, attentif et intuitif, il éclaire de près et réchauffe en profondeur. Il donne une intelligence fine et le sens du soin ; sa leçon est de protéger sa flamme des influences qui l'épuisent.",
+    "status": "draft",
+    "version": 1,
+    "origin": "pré-rédaction automatique"
+  },
+  "bazi.dayMaster.wu": {
+    "title": "Maître du jour Wu (Terre yang)",
+    "body": "Le maître du jour Wu est la Terre yang, symbolisée par la montagne. Solide, fiable et protecteur, il inspire confiance et tient bon dans la tempête. Il donne de la constance et de la loyauté ; sa leçon est de ne pas se figer et d'accueillir le changement.",
+    "status": "draft",
+    "version": 1,
+    "origin": "pré-rédaction automatique"
+  },
+  "bazi.dayMaster.ji": {
+    "title": "Maître du jour Ji (Terre yin)",
+    "body": "Le maître du jour Ji est la Terre yin, symbolisée par la terre du jardin. Nourricier, patient et accueillant, il fait grandir ce qu'on lui confie. Il donne le sens du service et de l'organisation ; sa leçon est de poser des limites pour ne pas s'épuiser.",
+    "status": "draft",
+    "version": 1,
+    "origin": "pré-rédaction automatique"
+  },
+  "bazi.dayMaster.geng": {
+    "title": "Maître du jour Geng (Métal yang)",
+    "body": "Le maître du jour Geng est le Métal yang, symbolisé par la hache ou le minerai. Direct, courageux et loyal, il tranche les situations et défend ce qui est juste. Il donne de la détermination et de la droiture ; sa leçon est d'adoucir sa franchise.",
+    "status": "draft",
+    "version": 1,
+    "origin": "pré-rédaction automatique"
+  },
+  "bazi.dayMaster.xin": {
+    "title": "Maître du jour Xin (Métal yin)",
+    "body": "Le maître du jour Xin est le Métal yin, symbolisé par le bijou ou la lame fine. Raffiné, précis et sensible à la qualité, il aime ce qui est beau et bien fait. Il donne de l'élégance et de l'exigence ; sa leçon est d'accepter l'imperfection, chez soi comme chez les autres.",
+    "status": "draft",
+    "version": 1,
+    "origin": "pré-rédaction automatique"
+  },
+  "bazi.dayMaster.ren": {
+    "title": "Maître du jour Ren (Eau yang)",
+    "body": "Le maître du jour Ren est l'Eau yang, symbolisée par l'océan ou le grand fleuve. Vaste, intelligent et mobile, il aime explorer et voir grand. Il donne de l'adaptabilité et de l'audace ; sa leçon est de canaliser son énergie pour ne pas déborder.",
+    "status": "draft",
+    "version": 1,
+    "origin": "pré-rédaction automatique"
+  },
+  "bazi.dayMaster.gui": {
+    "title": "Maître du jour Gui (Eau yin)",
+    "body": "Le maître du jour Gui est l'Eau yin, symbolisée par la pluie ou la rosée. Intuitif, discret et imaginatif, il nourrit son entourage sans bruit. Il donne de la sensibilité et une grande intelligence intérieure ; sa leçon est d'avoir confiance en sa propre valeur.",
+    "status": "draft",
+    "version": 1,
+    "origin": "pré-rédaction automatique"
+  },
+  "bazi.animals.rat": {
+    "title": "Année du Rat",
+    "body": "L'année du Rat est associée à la vivacité d'esprit, à l'ingéniosité et au sens des opportunités. Dans le BaZi, l'animal de l'année décrit surtout l'image sociale et l'héritage familial ; la personnalité profonde se lit plutôt dans le pilier du jour.",
+    "status": "draft",
+    "version": 1,
+    "origin": "pré-rédaction automatique"
+  },
+  "bazi.animals.ox": {
+    "title": "Année du Buffle",
+    "body": "L'année du Buffle est associée à la patience, au travail persévérant et à la fiabilité. Dans le BaZi, l'animal de l'année décrit surtout l'image sociale et l'héritage familial ; la personnalité profonde se lit plutôt dans le pilier du jour.",
+    "status": "draft",
+    "version": 1,
+    "origin": "pré-rédaction automatique"
+  },
+  "bazi.animals.tiger": {
+    "title": "Année du Tigre",
+    "body": "L'année du Tigre est associée au courage, à l'indépendance et à l'esprit d'entreprise. Dans le BaZi, l'animal de l'année décrit surtout l'image sociale et l'héritage familial ; la personnalité profonde se lit plutôt dans le pilier du jour.",
+    "status": "draft",
+    "version": 1,
+    "origin": "pré-rédaction automatique"
+  },
+  "bazi.animals.rabbit": {
+    "title": "Année du Lapin",
+    "body": "L'année du Lapin est associée à la douceur, à la diplomatie et au goût de l'harmonie. Dans le BaZi, l'animal de l'année décrit surtout l'image sociale et l'héritage familial ; la personnalité profonde se lit plutôt dans le pilier du jour.",
+    "status": "draft",
+    "version": 1,
+    "origin": "pré-rédaction automatique"
+  },
+  "bazi.animals.dragon": {
+    "title": "Année du Dragon",
+    "body": "L'année du Dragon est associée à l'énergie, au charisme et à l'ambition. Dans le BaZi, l'animal de l'année décrit surtout l'image sociale et l'héritage familial ; la personnalité profonde se lit plutôt dans le pilier du jour.",
+    "status": "draft",
+    "version": 1,
+    "origin": "pré-rédaction automatique"
+  },
+  "bazi.animals.snake": {
+    "title": "Année du Serpent",
+    "body": "L'année du Serpent est associée à la réflexion, à l'intuition et à la discrétion. Dans le BaZi, l'animal de l'année décrit surtout l'image sociale et l'héritage familial ; la personnalité profonde se lit plutôt dans le pilier du jour.",
+    "status": "draft",
+    "version": 1,
+    "origin": "pré-rédaction automatique"
+  },
+  "bazi.animals.horse": {
+    "title": "Année du Cheval",
+    "body": "L'année du Cheval est associée à l'enthousiasme, au besoin de liberté et au mouvement. Dans le BaZi, l'animal de l'année décrit surtout l'image sociale et l'héritage familial ; la personnalité profonde se lit plutôt dans le pilier du jour.",
+    "status": "draft",
+    "version": 1,
+    "origin": "pré-rédaction automatique"
+  },
+  "bazi.animals.goat": {
+    "title": "Année du Chèvre",
+    "body": "L'année de la Chèvre est associée à la sensibilité, à la créativité et à la bienveillance. Dans le BaZi, l'animal de l'année décrit surtout l'image sociale et l'héritage familial ; la personnalité profonde se lit plutôt dans le pilier du jour.",
+    "status": "draft",
+    "version": 1,
+    "origin": "pré-rédaction automatique"
+  },
+  "bazi.animals.monkey": {
+    "title": "Année du Singe",
+    "body": "L'année du Singe est associée à l'intelligence, à l'humour et à l'adaptabilité. Dans le BaZi, l'animal de l'année décrit surtout l'image sociale et l'héritage familial ; la personnalité profonde se lit plutôt dans le pilier du jour.",
+    "status": "draft",
+    "version": 1,
+    "origin": "pré-rédaction automatique"
+  },
+  "bazi.animals.rooster": {
+    "title": "Année du Coq",
+    "body": "L'année du Coq est associée à la rigueur, à la franchise et au sens du détail. Dans le BaZi, l'animal de l'année décrit surtout l'image sociale et l'héritage familial ; la personnalité profonde se lit plutôt dans le pilier du jour.",
+    "status": "draft",
+    "version": 1,
+    "origin": "pré-rédaction automatique"
+  },
+  "bazi.animals.dog": {
+    "title": "Année du Chien",
+    "body": "L'année du Chien est associée à la loyauté, au sens de la justice et à la protection des proches. Dans le BaZi, l'animal de l'année décrit surtout l'image sociale et l'héritage familial ; la personnalité profonde se lit plutôt dans le pilier du jour.",
+    "status": "draft",
+    "version": 1,
+    "origin": "pré-rédaction automatique"
+  },
+  "bazi.animals.pig": {
+    "title": "Année du Cochon",
+    "body": "L'année du Cochon est associée à la générosité, à la sincérité et au goût des plaisirs simples. Dans le BaZi, l'animal de l'année décrit surtout l'image sociale et l'héritage familial ; la personnalité profonde se lit plutôt dans le pilier du jour.",
+    "status": "draft",
+    "version": 1,
+    "origin": "pré-rédaction automatique"
+  },
+  "bazi.seasonal.prosperous": {
+    "title": "Maître du jour prospère",
+    "body": "Le maître du jour est né dans la saison de son propre élément : il est prospère. Son énergie est abondante et naturelle ; la lecture cherche alors surtout comment l'exprimer et la canaliser.",
+    "status": "draft",
+    "version": 1,
+    "origin": "pré-rédaction automatique"
+  },
+  "bazi.seasonal.strong": {
+    "title": "Maître du jour soutenu",
+    "body": "Le maître du jour est né dans une saison qui le nourrit : il est soutenu. Il dispose d'une bonne énergie de base et peut prendre en charge des projets exigeants.",
+    "status": "draft",
+    "version": 1,
+    "origin": "pré-rédaction automatique"
+  },
+  "bazi.seasonal.resting": {
+    "title": "Maître du jour au repos",
+    "body": "Le maître du jour est né dans une saison qu'il nourrit lui-même : il est au repos. Son énergie se dépense vers l'extérieur, ce qui demande de veiller à se ressourcer.",
+    "status": "draft",
+    "version": 1,
+    "origin": "pré-rédaction automatique"
+  },
+  "bazi.seasonal.trapped": {
+    "title": "Maître du jour entravé",
+    "body": "Le maître du jour est né dans une saison qu'il doit lui-même contrôler : il est entravé. Il avance par l'effort et gagne à s'appuyer sur ce qui le soutient (ressources, alliés).",
+    "status": "draft",
+    "version": 1,
+    "origin": "pré-rédaction automatique"
+  },
+  "bazi.seasonal.dead": {
+    "title": "Maître du jour affaibli",
+    "body": "Le maître du jour est né dans une saison qui le contrôle : il est affaibli. Ce n'est pas un mauvais signe en soi : la personne gagne souvent à s'entourer et à choisir des environnements qui la renforcent.",
+    "status": "draft",
+    "version": 1,
+    "origin": "pré-rédaction automatique"
+  },
+  "bazi.pillars.year": {
+    "title": "Pilier de l'année",
+    "body": "Le pilier de l'année décrit les racines : la famille d'origine, les ancêtres et l'image sociale. Il est associé à la petite enfance, en lecture traditionnelle jusqu'à 15 ans environ.",
+    "status": "draft",
+    "version": 1,
+    "origin": "pré-rédaction automatique"
+  },
+  "bazi.pillars.month": {
+    "title": "Pilier du mois",
+    "body": "Le pilier du mois décrit l'environnement de croissance, les parents et la carrière. C'est le pilier le plus important pour évaluer la force du maître du jour, car il donne la saison de naissance.",
+    "status": "draft",
+    "version": 1,
+    "origin": "pré-rédaction automatique"
+  },
+  "bazi.pillars.hour": {
+    "title": "Pilier de l'heure",
+    "body": "Le pilier de l'heure décrit les projets, les enfants et la seconde partie de la vie. Il dépend de l'heure de naissance : une heure imprécise peut le modifier.",
+    "status": "draft",
+    "version": 1,
+    "origin": "pré-rédaction automatique"
+  },
+  "bazi.elementBalance.wood.excess": {
+    "title": "Bois dominant",
+    "body": "L'élément Bois apparaît au moins trois fois parmi les huit caractères visibles. Ses qualités (la croissance, la créativité et la bienveillance) sont très présentes ; en excès, elles gagnent à être équilibrées par les éléments moins représentés.",
+    "status": "draft",
+    "version": 1,
+    "origin": "pré-rédaction automatique (composée)"
+  },
+  "bazi.elementBalance.wood.missing": {
+    "title": "Bois absent",
+    "body": "L'élément Bois n'apparaît dans aucun des huit caractères visibles. Les qualités qu'il porte (la croissance, la créativité et la bienveillance) demandent alors plus d'attention ; elles peuvent être cultivées consciemment, ou apportées par les cycles de vie et l'environnement.",
+    "status": "draft",
+    "version": 1,
+    "origin": "pré-rédaction automatique (composée)"
+  },
+  "bazi.elementBalance.fire.excess": {
+    "title": "Feu dominant",
+    "body": "L'élément Feu apparaît au moins trois fois parmi les huit caractères visibles. Ses qualités (l'enthousiasme, la communication et la joie) sont très présentes ; en excès, elles gagnent à être équilibrées par les éléments moins représentés.",
+    "status": "draft",
+    "version": 1,
+    "origin": "pré-rédaction automatique (composée)"
+  },
+  "bazi.elementBalance.fire.missing": {
+    "title": "Feu absent",
+    "body": "L'élément Feu n'apparaît dans aucun des huit caractères visibles. Les qualités qu'il porte (l'enthousiasme, la communication et la joie) demandent alors plus d'attention ; elles peuvent être cultivées consciemment, ou apportées par les cycles de vie et l'environnement.",
+    "status": "draft",
+    "version": 1,
+    "origin": "pré-rédaction automatique (composée)"
+  },
+  "bazi.elementBalance.earth.excess": {
+    "title": "Terre dominant",
+    "body": "L'élément Terre apparaît au moins trois fois parmi les huit caractères visibles. Ses qualités (la stabilité, la fiabilité et le sens pratique) sont très présentes ; en excès, elles gagnent à être équilibrées par les éléments moins représentés.",
+    "status": "draft",
+    "version": 1,
+    "origin": "pré-rédaction automatique (composée)"
+  },
+  "bazi.elementBalance.earth.missing": {
+    "title": "Terre absent",
+    "body": "L'élément Terre n'apparaît dans aucun des huit caractères visibles. Les qualités qu'il porte (la stabilité, la fiabilité et le sens pratique) demandent alors plus d'attention ; elles peuvent être cultivées consciemment, ou apportées par les cycles de vie et l'environnement.",
+    "status": "draft",
+    "version": 1,
+    "origin": "pré-rédaction automatique (composée)"
+  },
+  "bazi.elementBalance.metal.excess": {
+    "title": "Métal dominant",
+    "body": "L'élément Métal apparaît au moins trois fois parmi les huit caractères visibles. Ses qualités (la rigueur, la décision et le sens de la justice) sont très présentes ; en excès, elles gagnent à être équilibrées par les éléments moins représentés.",
+    "status": "draft",
+    "version": 1,
+    "origin": "pré-rédaction automatique (composée)"
+  },
+  "bazi.elementBalance.metal.missing": {
+    "title": "Métal absent",
+    "body": "L'élément Métal n'apparaît dans aucun des huit caractères visibles. Les qualités qu'il porte (la rigueur, la décision et le sens de la justice) demandent alors plus d'attention ; elles peuvent être cultivées consciemment, ou apportées par les cycles de vie et l'environnement.",
+    "status": "draft",
+    "version": 1,
+    "origin": "pré-rédaction automatique (composée)"
+  },
+  "bazi.elementBalance.water.excess": {
+    "title": "Eau dominant",
+    "body": "L'élément Eau apparaît au moins trois fois parmi les huit caractères visibles. Ses qualités (l'intelligence, l'adaptabilité et l'intuition) sont très présentes ; en excès, elles gagnent à être équilibrées par les éléments moins représentés.",
+    "status": "draft",
+    "version": 1,
+    "origin": "pré-rédaction automatique (composée)"
+  },
+  "bazi.elementBalance.water.missing": {
+    "title": "Eau absent",
+    "body": "L'élément Eau n'apparaît dans aucun des huit caractères visibles. Les qualités qu'il porte (l'intelligence, l'adaptabilité et l'intuition) demandent alors plus d'attention ; elles peuvent être cultivées consciemment, ou apportées par les cycles de vie et l'environnement.",
+    "status": "draft",
+    "version": 1,
+    "origin": "pré-rédaction automatique (composée)"
+  },
+  "bazi.tenGods.friend": {
+    "title": "Compagnon (Bi Jian)",
+    "body": "Le Compagnon (Bi Jian) est un tronc du même élément et de même polarité que le maître du jour. Il représente les pairs, les amis et la confiance en soi. Il donne de l'indépendance et de la ténacité, et parfois un certain entêtement.",
+    "status": "draft",
+    "version": 1,
+    "origin": "pré-rédaction automatique"
+  },
+  "bazi.tenGods.robWealth": {
+    "title": "Rival (Jie Cai)",
+    "body": "Le Rival (Jie Cai) est du même élément que le maître du jour mais de polarité opposée. Il représente la compétition, la camaraderie et l'audace. Il pousse à l'action et au risque, ce qui demande de surveiller ses dépenses et ses engagements.",
+    "status": "draft",
+    "version": 1,
+    "origin": "pré-rédaction automatique"
+  },
+  "bazi.tenGods.eatingGod": {
+    "title": "Dieu de la nourriture (Shi Shen)",
+    "body": "Le Dieu de la nourriture (Shi Shen) est l'élément produit par le maître du jour, de même polarité. Il représente l'expression créative, le plaisir et la générosité. Il donne du talent, une nature détendue et le goût de partager.",
+    "status": "draft",
+    "version": 1,
+    "origin": "pré-rédaction automatique"
+  },
+  "bazi.tenGods.hurtingOfficer": {
+    "title": "Officier blessé (Shang Guan)",
+    "body": "L'Officier blessé (Shang Guan) est l'élément produit par le maître du jour, de polarité opposée. Il représente l'expression brillante, l'originalité et l'esprit critique. Il donne du talent et de l'audace, parfois une difficulté avec l'autorité.",
+    "status": "draft",
+    "version": 1,
+    "origin": "pré-rédaction automatique"
+  },
+  "bazi.tenGods.indirectWealth": {
+    "title": "Richesse indirecte (Pian Cai)",
+    "body": "La Richesse indirecte (Pian Cai) est l'élément contrôlé par le maître du jour, de même polarité. Elle représente les opportunités, les gains inattendus et le sens des affaires. Elle donne de la générosité et un esprit entrepreneur.",
+    "status": "draft",
+    "version": 1,
+    "origin": "pré-rédaction automatique"
+  },
+  "bazi.tenGods.directWealth": {
+    "title": "Richesse directe (Zheng Cai)",
+    "body": "La Richesse directe (Zheng Cai) est l'élément contrôlé par le maître du jour, de polarité opposée. Elle représente le revenu stable, l'épargne et le sens des responsabilités matérielles. Elle donne de la prudence et de la fiabilité.",
+    "status": "draft",
+    "version": 1,
+    "origin": "pré-rédaction automatique"
+  },
+  "bazi.tenGods.sevenKillings": {
+    "title": "Sept tueurs (Qi Sha)",
+    "body": "Les Sept tueurs (Qi Sha) sont l'élément qui contrôle le maître du jour, de même polarité. Ils représentent la pression, les défis et le courage face à l'adversité. Bien canalisés, ils donnent une grande capacité de commandement.",
+    "status": "draft",
+    "version": 1,
+    "origin": "pré-rédaction automatique"
+  },
+  "bazi.tenGods.directOfficer": {
+    "title": "Officier direct (Zheng Guan)",
+    "body": "L'Officier direct (Zheng Guan) est l'élément qui contrôle le maître du jour, de polarité opposée. Il représente la discipline, la réputation et le respect des règles. Il donne de l'intégrité et le sens du devoir.",
+    "status": "draft",
+    "version": 1,
+    "origin": "pré-rédaction automatique"
+  },
+  "bazi.tenGods.indirectResource": {
+    "title": "Ressource indirecte (Pian Yin)",
+    "body": "La Ressource indirecte (Pian Yin) est l'élément qui produit le maître du jour, de même polarité. Elle représente l'intuition, les savoirs non conventionnels et la réflexion solitaire. Elle donne de l'originalité et de la profondeur.",
+    "status": "draft",
+    "version": 1,
+    "origin": "pré-rédaction automatique"
+  },
+  "bazi.tenGods.directResource": {
+    "title": "Ressource directe (Zheng Yin)",
+    "body": "La Ressource directe (Zheng Yin) est l'élément qui produit le maître du jour, de polarité opposée. Elle représente le soutien, l'apprentissage et la protection, notamment maternelle. Elle donne de la sagesse et de la bienveillance.",
+    "status": "draft",
+    "version": 1,
+    "origin": "pré-rédaction automatique"
+  },
+  "bazi.dayPillar.jia-zi": {
+    "title": "Pilier du jour Jia Zi (Rat)",
+    "body": "Le pilier du jour associe le maître du jour Jia (le grand arbre) à la branche du Rat, qui porte l'Eau et évoque l'eau vive du milieu de l'hiver. La branche du jour est traditionnellement appelée le « palais du conjoint » : elle décrit la vie intime et ce que la personne recherche dans le couple. La manière dont ces deux énergies se soutiennent ou se contrarient colore la personnalité profonde.",
+    "status": "draft",
+    "version": 1,
+    "origin": "pré-rédaction automatique (composée)"
+  },
+  "bazi.dayPillar.yi-chou": {
+    "title": "Pilier du jour Yi Chou (Buffle)",
+    "body": "Le pilier du jour associe le maître du jour Yi (la plante grimpante) à la branche du Buffle, qui porte la Terre et évoque la terre humide et gelée de la fin de l'hiver. La branche du jour est traditionnellement appelée le « palais du conjoint » : elle décrit la vie intime et ce que la personne recherche dans le couple. La manière dont ces deux énergies se soutiennent ou se contrarient colore la personnalité profonde.",
+    "status": "draft",
+    "version": 1,
+    "origin": "pré-rédaction automatique (composée)"
+  },
+  "bazi.dayPillar.bing-yin": {
+    "title": "Pilier du jour Bing Yin (Tigre)",
+    "body": "Le pilier du jour associe le maître du jour Bing (le soleil) à la branche du Tigre, qui porte le Bois et évoque le bois qui s'éveille au début du printemps. La branche du jour est traditionnellement appelée le « palais du conjoint » : elle décrit la vie intime et ce que la personne recherche dans le couple. La manière dont ces deux énergies se soutiennent ou se contrarient colore la personnalité profonde.",
+    "status": "draft",
+    "version": 1,
+    "origin": "pré-rédaction automatique (composée)"
+  },
+  "bazi.dayPillar.ding-mao": {
+    "title": "Pilier du jour Ding Mao (Lapin)",
+    "body": "Le pilier du jour associe le maître du jour Ding (la flamme de la bougie) à la branche du Lapin, qui porte le Bois et évoque les plantes en pleine croissance du printemps. La branche du jour est traditionnellement appelée le « palais du conjoint » : elle décrit la vie intime et ce que la personne recherche dans le couple. La manière dont ces deux énergies se soutiennent ou se contrarient colore la personnalité profonde.",
+    "status": "draft",
+    "version": 1,
+    "origin": "pré-rédaction automatique (composée)"
+  },
+  "bazi.dayPillar.wu-chen": {
+    "title": "Pilier du jour Wu Chen (Dragon)",
+    "body": "Le pilier du jour associe le maître du jour Wu (la montagne) à la branche du Dragon, qui porte la Terre et évoque la terre humide qui retient l'eau au printemps. La branche du jour est traditionnellement appelée le « palais du conjoint » : elle décrit la vie intime et ce que la personne recherche dans le couple. La manière dont ces deux énergies se soutiennent ou se contrarient colore la personnalité profonde.",
+    "status": "draft",
+    "version": 1,
+    "origin": "pré-rédaction automatique (composée)"
+  },
+  "bazi.dayPillar.ji-si": {
+    "title": "Pilier du jour Ji Si (Serpent)",
+    "body": "Le pilier du jour associe le maître du jour Ji (la terre fertile) à la branche du Serpent, qui porte le Feu et évoque le feu naissant du début de l'été. La branche du jour est traditionnellement appelée le « palais du conjoint » : elle décrit la vie intime et ce que la personne recherche dans le couple. La manière dont ces deux énergies se soutiennent ou se contrarient colore la personnalité profonde.",
+    "status": "draft",
+    "version": 1,
+    "origin": "pré-rédaction automatique (composée)"
+  },
+  "bazi.dayPillar.geng-wu": {
+    "title": "Pilier du jour Geng Wu (Cheval)",
+    "body": "Le pilier du jour associe le maître du jour Geng (le métal brut) à la branche du Cheval, qui porte le Feu et évoque le plein soleil de l'été. La branche du jour est traditionnellement appelée le « palais du conjoint » : elle décrit la vie intime et ce que la personne recherche dans le couple. La manière dont ces deux énergies se soutiennent ou se contrarient colore la personnalité profonde.",
+    "status": "draft",
+    "version": 1,
+    "origin": "pré-rédaction automatique (composée)"
+  },
+  "bazi.dayPillar.xin-wei": {
+    "title": "Pilier du jour Xin Wei (Chèvre)",
+    "body": "Le pilier du jour associe le maître du jour Xin (le bijou) à la branche de la Chèvre, qui porte la Terre et évoque la terre chaude et sèche de la fin de l'été. La branche du jour est traditionnellement appelée le « palais du conjoint » : elle décrit la vie intime et ce que la personne recherche dans le couple. La manière dont ces deux énergies se soutiennent ou se contrarient colore la personnalité profonde.",
+    "status": "draft",
+    "version": 1,
+    "origin": "pré-rédaction automatique (composée)"
+  },
+  "bazi.dayPillar.ren-shen": {
+    "title": "Pilier du jour Ren Shen (Singe)",
+    "body": "Le pilier du jour associe le maître du jour Ren (l'océan) à la branche du Singe, qui porte le Métal et évoque le métal tranchant du début de l'automne. La branche du jour est traditionnellement appelée le « palais du conjoint » : elle décrit la vie intime et ce que la personne recherche dans le couple. La manière dont ces deux énergies se soutiennent ou se contrarient colore la personnalité profonde.",
+    "status": "draft",
+    "version": 1,
+    "origin": "pré-rédaction automatique (composée)"
+  },
+  "bazi.dayPillar.gui-you": {
+    "title": "Pilier du jour Gui You (Coq)",
+    "body": "Le pilier du jour associe le maître du jour Gui (la pluie) à la branche du Coq, qui porte le Métal et évoque le métal affiné du cœur de l'automne. La branche du jour est traditionnellement appelée le « palais du conjoint » : elle décrit la vie intime et ce que la personne recherche dans le couple. La manière dont ces deux énergies se soutiennent ou se contrarient colore la personnalité profonde.",
+    "status": "draft",
+    "version": 1,
+    "origin": "pré-rédaction automatique (composée)"
+  },
+  "bazi.dayPillar.jia-xu": {
+    "title": "Pilier du jour Jia Xu (Chien)",
+    "body": "Le pilier du jour associe le maître du jour Jia (le grand arbre) à la branche du Chien, qui porte la Terre et évoque la terre sèche qui garde le feu à la fin de l'automne. La branche du jour est traditionnellement appelée le « palais du conjoint » : elle décrit la vie intime et ce que la personne recherche dans le couple. La manière dont ces deux énergies se soutiennent ou se contrarient colore la personnalité profonde.",
+    "status": "draft",
+    "version": 1,
+    "origin": "pré-rédaction automatique (composée)"
+  },
+  "bazi.dayPillar.yi-hai": {
+    "title": "Pilier du jour Yi Hai (Cochon)",
+    "body": "Le pilier du jour associe le maître du jour Yi (la plante grimpante) à la branche du Cochon, qui porte l'Eau et évoque les eaux profondes du début de l'hiver. La branche du jour est traditionnellement appelée le « palais du conjoint » : elle décrit la vie intime et ce que la personne recherche dans le couple. La manière dont ces deux énergies se soutiennent ou se contrarient colore la personnalité profonde.",
+    "status": "draft",
+    "version": 1,
+    "origin": "pré-rédaction automatique (composée)"
+  },
+  "bazi.dayPillar.bing-zi": {
+    "title": "Pilier du jour Bing Zi (Rat)",
+    "body": "Le pilier du jour associe le maître du jour Bing (le soleil) à la branche du Rat, qui porte l'Eau et évoque l'eau vive du milieu de l'hiver. La branche du jour est traditionnellement appelée le « palais du conjoint » : elle décrit la vie intime et ce que la personne recherche dans le couple. La manière dont ces deux énergies se soutiennent ou se contrarient colore la personnalité profonde.",
+    "status": "draft",
+    "version": 1,
+    "origin": "pré-rédaction automatique (composée)"
+  },
+  "bazi.dayPillar.ding-chou": {
+    "title": "Pilier du jour Ding Chou (Buffle)",
+    "body": "Le pilier du jour associe le maître du jour Ding (la flamme de la bougie) à la branche du Buffle, qui porte la Terre et évoque la terre humide et gelée de la fin de l'hiver. La branche du jour est traditionnellement appelée le « palais du conjoint » : elle décrit la vie intime et ce que la personne recherche dans le couple. La manière dont ces deux énergies se soutiennent ou se contrarient colore la personnalité profonde.",
+    "status": "draft",
+    "version": 1,
+    "origin": "pré-rédaction automatique (composée)"
+  },
+  "bazi.dayPillar.wu-yin": {
+    "title": "Pilier du jour Wu Yin (Tigre)",
+    "body": "Le pilier du jour associe le maître du jour Wu (la montagne) à la branche du Tigre, qui porte le Bois et évoque le bois qui s'éveille au début du printemps. La branche du jour est traditionnellement appelée le « palais du conjoint » : elle décrit la vie intime et ce que la personne recherche dans le couple. La manière dont ces deux énergies se soutiennent ou se contrarient colore la personnalité profonde.",
+    "status": "draft",
+    "version": 1,
+    "origin": "pré-rédaction automatique (composée)"
+  },
+  "bazi.dayPillar.ji-mao": {
+    "title": "Pilier du jour Ji Mao (Lapin)",
+    "body": "Le pilier du jour associe le maître du jour Ji (la terre fertile) à la branche du Lapin, qui porte le Bois et évoque les plantes en pleine croissance du printemps. La branche du jour est traditionnellement appelée le « palais du conjoint » : elle décrit la vie intime et ce que la personne recherche dans le couple. La manière dont ces deux énergies se soutiennent ou se contrarient colore la personnalité profonde.",
+    "status": "draft",
+    "version": 1,
+    "origin": "pré-rédaction automatique (composée)"
+  },
+  "bazi.dayPillar.geng-chen": {
+    "title": "Pilier du jour Geng Chen (Dragon)",
+    "body": "Le pilier du jour associe le maître du jour Geng (le métal brut) à la branche du Dragon, qui porte la Terre et évoque la terre humide qui retient l'eau au printemps. La branche du jour est traditionnellement appelée le « palais du conjoint » : elle décrit la vie intime et ce que la personne recherche dans le couple. La manière dont ces deux énergies se soutiennent ou se contrarient colore la personnalité profonde.",
+    "status": "draft",
+    "version": 1,
+    "origin": "pré-rédaction automatique (composée)"
+  },
+  "bazi.dayPillar.xin-si": {
+    "title": "Pilier du jour Xin Si (Serpent)",
+    "body": "Le pilier du jour associe le maître du jour Xin (le bijou) à la branche du Serpent, qui porte le Feu et évoque le feu naissant du début de l'été. La branche du jour est traditionnellement appelée le « palais du conjoint » : elle décrit la vie intime et ce que la personne recherche dans le couple. La manière dont ces deux énergies se soutiennent ou se contrarient colore la personnalité profonde.",
+    "status": "draft",
+    "version": 1,
+    "origin": "pré-rédaction automatique (composée)"
+  },
+  "bazi.dayPillar.ren-wu": {
+    "title": "Pilier du jour Ren Wu (Cheval)",
+    "body": "Le pilier du jour associe le maître du jour Ren (l'océan) à la branche du Cheval, qui porte le Feu et évoque le plein soleil de l'été. La branche du jour est traditionnellement appelée le « palais du conjoint » : elle décrit la vie intime et ce que la personne recherche dans le couple. La manière dont ces deux énergies se soutiennent ou se contrarient colore la personnalité profonde.",
+    "status": "draft",
+    "version": 1,
+    "origin": "pré-rédaction automatique (composée)"
+  },
+  "bazi.dayPillar.gui-wei": {
+    "title": "Pilier du jour Gui Wei (Chèvre)",
+    "body": "Le pilier du jour associe le maître du jour Gui (la pluie) à la branche de la Chèvre, qui porte la Terre et évoque la terre chaude et sèche de la fin de l'été. La branche du jour est traditionnellement appelée le « palais du conjoint » : elle décrit la vie intime et ce que la personne recherche dans le couple. La manière dont ces deux énergies se soutiennent ou se contrarient colore la personnalité profonde.",
+    "status": "draft",
+    "version": 1,
+    "origin": "pré-rédaction automatique (composée)"
+  },
+  "bazi.dayPillar.jia-shen": {
+    "title": "Pilier du jour Jia Shen (Singe)",
+    "body": "Le pilier du jour associe le maître du jour Jia (le grand arbre) à la branche du Singe, qui porte le Métal et évoque le métal tranchant du début de l'automne. La branche du jour est traditionnellement appelée le « palais du conjoint » : elle décrit la vie intime et ce que la personne recherche dans le couple. La manière dont ces deux énergies se soutiennent ou se contrarient colore la personnalité profonde.",
+    "status": "draft",
+    "version": 1,
+    "origin": "pré-rédaction automatique (composée)"
+  },
+  "bazi.dayPillar.yi-you": {
+    "title": "Pilier du jour Yi You (Coq)",
+    "body": "Le pilier du jour associe le maître du jour Yi (la plante grimpante) à la branche du Coq, qui porte le Métal et évoque le métal affiné du cœur de l'automne. La branche du jour est traditionnellement appelée le « palais du conjoint » : elle décrit la vie intime et ce que la personne recherche dans le couple. La manière dont ces deux énergies se soutiennent ou se contrarient colore la personnalité profonde.",
+    "status": "draft",
+    "version": 1,
+    "origin": "pré-rédaction automatique (composée)"
+  },
+  "bazi.dayPillar.bing-xu": {
+    "title": "Pilier du jour Bing Xu (Chien)",
+    "body": "Le pilier du jour associe le maître du jour Bing (le soleil) à la branche du Chien, qui porte la Terre et évoque la terre sèche qui garde le feu à la fin de l'automne. La branche du jour est traditionnellement appelée le « palais du conjoint » : elle décrit la vie intime et ce que la personne recherche dans le couple. La manière dont ces deux énergies se soutiennent ou se contrarient colore la personnalité profonde.",
+    "status": "draft",
+    "version": 1,
+    "origin": "pré-rédaction automatique (composée)"
+  },
+  "bazi.dayPillar.ding-hai": {
+    "title": "Pilier du jour Ding Hai (Cochon)",
+    "body": "Le pilier du jour associe le maître du jour Ding (la flamme de la bougie) à la branche du Cochon, qui porte l'Eau et évoque les eaux profondes du début de l'hiver. La branche du jour est traditionnellement appelée le « palais du conjoint » : elle décrit la vie intime et ce que la personne recherche dans le couple. La manière dont ces deux énergies se soutiennent ou se contrarient colore la personnalité profonde.",
+    "status": "draft",
+    "version": 1,
+    "origin": "pré-rédaction automatique (composée)"
+  },
+  "bazi.dayPillar.wu-zi": {
+    "title": "Pilier du jour Wu Zi (Rat)",
+    "body": "Le pilier du jour associe le maître du jour Wu (la montagne) à la branche du Rat, qui porte l'Eau et évoque l'eau vive du milieu de l'hiver. La branche du jour est traditionnellement appelée le « palais du conjoint » : elle décrit la vie intime et ce que la personne recherche dans le couple. La manière dont ces deux énergies se soutiennent ou se contrarient colore la personnalité profonde.",
+    "status": "draft",
+    "version": 1,
+    "origin": "pré-rédaction automatique (composée)"
+  },
+  "bazi.dayPillar.ji-chou": {
+    "title": "Pilier du jour Ji Chou (Buffle)",
+    "body": "Le pilier du jour associe le maître du jour Ji (la terre fertile) à la branche du Buffle, qui porte la Terre et évoque la terre humide et gelée de la fin de l'hiver. La branche du jour est traditionnellement appelée le « palais du conjoint » : elle décrit la vie intime et ce que la personne recherche dans le couple. La manière dont ces deux énergies se soutiennent ou se contrarient colore la personnalité profonde.",
+    "status": "draft",
+    "version": 1,
+    "origin": "pré-rédaction automatique (composée)"
+  },
+  "bazi.dayPillar.geng-yin": {
+    "title": "Pilier du jour Geng Yin (Tigre)",
+    "body": "Le pilier du jour associe le maître du jour Geng (le métal brut) à la branche du Tigre, qui porte le Bois et évoque le bois qui s'éveille au début du printemps. La branche du jour est traditionnellement appelée le « palais du conjoint » : elle décrit la vie intime et ce que la personne recherche dans le couple. La manière dont ces deux énergies se soutiennent ou se contrarient colore la personnalité profonde.",
+    "status": "draft",
+    "version": 1,
+    "origin": "pré-rédaction automatique (composée)"
+  },
+  "bazi.dayPillar.xin-mao": {
+    "title": "Pilier du jour Xin Mao (Lapin)",
+    "body": "Le pilier du jour associe le maître du jour Xin (le bijou) à la branche du Lapin, qui porte le Bois et évoque les plantes en pleine croissance du printemps. La branche du jour est traditionnellement appelée le « palais du conjoint » : elle décrit la vie intime et ce que la personne recherche dans le couple. La manière dont ces deux énergies se soutiennent ou se contrarient colore la personnalité profonde.",
+    "status": "draft",
+    "version": 1,
+    "origin": "pré-rédaction automatique (composée)"
+  },
+  "bazi.dayPillar.ren-chen": {
+    "title": "Pilier du jour Ren Chen (Dragon)",
+    "body": "Le pilier du jour associe le maître du jour Ren (l'océan) à la branche du Dragon, qui porte la Terre et évoque la terre humide qui retient l'eau au printemps. La branche du jour est traditionnellement appelée le « palais du conjoint » : elle décrit la vie intime et ce que la personne recherche dans le couple. La manière dont ces deux énergies se soutiennent ou se contrarient colore la personnalité profonde.",
+    "status": "draft",
+    "version": 1,
+    "origin": "pré-rédaction automatique (composée)"
+  },
+  "bazi.dayPillar.gui-si": {
+    "title": "Pilier du jour Gui Si (Serpent)",
+    "body": "Le pilier du jour associe le maître du jour Gui (la pluie) à la branche du Serpent, qui porte le Feu et évoque le feu naissant du début de l'été. La branche du jour est traditionnellement appelée le « palais du conjoint » : elle décrit la vie intime et ce que la personne recherche dans le couple. La manière dont ces deux énergies se soutiennent ou se contrarient colore la personnalité profonde.",
+    "status": "draft",
+    "version": 1,
+    "origin": "pré-rédaction automatique (composée)"
+  },
+  "bazi.dayPillar.jia-wu": {
+    "title": "Pilier du jour Jia Wu (Cheval)",
+    "body": "Le pilier du jour associe le maître du jour Jia (le grand arbre) à la branche du Cheval, qui porte le Feu et évoque le plein soleil de l'été. La branche du jour est traditionnellement appelée le « palais du conjoint » : elle décrit la vie intime et ce que la personne recherche dans le couple. La manière dont ces deux énergies se soutiennent ou se contrarient colore la personnalité profonde.",
+    "status": "draft",
+    "version": 1,
+    "origin": "pré-rédaction automatique (composée)"
+  },
+  "bazi.dayPillar.yi-wei": {
+    "title": "Pilier du jour Yi Wei (Chèvre)",
+    "body": "Le pilier du jour associe le maître du jour Yi (la plante grimpante) à la branche de la Chèvre, qui porte la Terre et évoque la terre chaude et sèche de la fin de l'été. La branche du jour est traditionnellement appelée le « palais du conjoint » : elle décrit la vie intime et ce que la personne recherche dans le couple. La manière dont ces deux énergies se soutiennent ou se contrarient colore la personnalité profonde.",
+    "status": "draft",
+    "version": 1,
+    "origin": "pré-rédaction automatique (composée)"
+  },
+  "bazi.dayPillar.bing-shen": {
+    "title": "Pilier du jour Bing Shen (Singe)",
+    "body": "Le pilier du jour associe le maître du jour Bing (le soleil) à la branche du Singe, qui porte le Métal et évoque le métal tranchant du début de l'automne. La branche du jour est traditionnellement appelée le « palais du conjoint » : elle décrit la vie intime et ce que la personne recherche dans le couple. La manière dont ces deux énergies se soutiennent ou se contrarient colore la personnalité profonde.",
+    "status": "draft",
+    "version": 1,
+    "origin": "pré-rédaction automatique (composée)"
+  },
+  "bazi.dayPillar.ding-you": {
+    "title": "Pilier du jour Ding You (Coq)",
+    "body": "Le pilier du jour associe le maître du jour Ding (la flamme de la bougie) à la branche du Coq, qui porte le Métal et évoque le métal affiné du cœur de l'automne. La branche du jour est traditionnellement appelée le « palais du conjoint » : elle décrit la vie intime et ce que la personne recherche dans le couple. La manière dont ces deux énergies se soutiennent ou se contrarient colore la personnalité profonde.",
+    "status": "draft",
+    "version": 1,
+    "origin": "pré-rédaction automatique (composée)"
+  },
+  "bazi.dayPillar.wu-xu": {
+    "title": "Pilier du jour Wu Xu (Chien)",
+    "body": "Le pilier du jour associe le maître du jour Wu (la montagne) à la branche du Chien, qui porte la Terre et évoque la terre sèche qui garde le feu à la fin de l'automne. La branche du jour est traditionnellement appelée le « palais du conjoint » : elle décrit la vie intime et ce que la personne recherche dans le couple. La manière dont ces deux énergies se soutiennent ou se contrarient colore la personnalité profonde.",
+    "status": "draft",
+    "version": 1,
+    "origin": "pré-rédaction automatique (composée)"
+  },
+  "bazi.dayPillar.ji-hai": {
+    "title": "Pilier du jour Ji Hai (Cochon)",
+    "body": "Le pilier du jour associe le maître du jour Ji (la terre fertile) à la branche du Cochon, qui porte l'Eau et évoque les eaux profondes du début de l'hiver. La branche du jour est traditionnellement appelée le « palais du conjoint » : elle décrit la vie intime et ce que la personne recherche dans le couple. La manière dont ces deux énergies se soutiennent ou se contrarient colore la personnalité profonde.",
+    "status": "draft",
+    "version": 1,
+    "origin": "pré-rédaction automatique (composée)"
+  },
+  "bazi.dayPillar.geng-zi": {
+    "title": "Pilier du jour Geng Zi (Rat)",
+    "body": "Le pilier du jour associe le maître du jour Geng (le métal brut) à la branche du Rat, qui porte l'Eau et évoque l'eau vive du milieu de l'hiver. La branche du jour est traditionnellement appelée le « palais du conjoint » : elle décrit la vie intime et ce que la personne recherche dans le couple. La manière dont ces deux énergies se soutiennent ou se contrarient colore la personnalité profonde.",
+    "status": "draft",
+    "version": 1,
+    "origin": "pré-rédaction automatique (composée)"
+  },
+  "bazi.dayPillar.xin-chou": {
+    "title": "Pilier du jour Xin Chou (Buffle)",
+    "body": "Le pilier du jour associe le maître du jour Xin (le bijou) à la branche du Buffle, qui porte la Terre et évoque la terre humide et gelée de la fin de l'hiver. La branche du jour est traditionnellement appelée le « palais du conjoint » : elle décrit la vie intime et ce que la personne recherche dans le couple. La manière dont ces deux énergies se soutiennent ou se contrarient colore la personnalité profonde.",
+    "status": "draft",
+    "version": 1,
+    "origin": "pré-rédaction automatique (composée)"
+  },
+  "bazi.dayPillar.ren-yin": {
+    "title": "Pilier du jour Ren Yin (Tigre)",
+    "body": "Le pilier du jour associe le maître du jour Ren (l'océan) à la branche du Tigre, qui porte le Bois et évoque le bois qui s'éveille au début du printemps. La branche du jour est traditionnellement appelée le « palais du conjoint » : elle décrit la vie intime et ce que la personne recherche dans le couple. La manière dont ces deux énergies se soutiennent ou se contrarient colore la personnalité profonde.",
+    "status": "draft",
+    "version": 1,
+    "origin": "pré-rédaction automatique (composée)"
+  },
+  "bazi.dayPillar.gui-mao": {
+    "title": "Pilier du jour Gui Mao (Lapin)",
+    "body": "Le pilier du jour associe le maître du jour Gui (la pluie) à la branche du Lapin, qui porte le Bois et évoque les plantes en pleine croissance du printemps. La branche du jour est traditionnellement appelée le « palais du conjoint » : elle décrit la vie intime et ce que la personne recherche dans le couple. La manière dont ces deux énergies se soutiennent ou se contrarient colore la personnalité profonde.",
+    "status": "draft",
+    "version": 1,
+    "origin": "pré-rédaction automatique (composée)"
+  },
+  "bazi.dayPillar.jia-chen": {
+    "title": "Pilier du jour Jia Chen (Dragon)",
+    "body": "Le pilier du jour associe le maître du jour Jia (le grand arbre) à la branche du Dragon, qui porte la Terre et évoque la terre humide qui retient l'eau au printemps. La branche du jour est traditionnellement appelée le « palais du conjoint » : elle décrit la vie intime et ce que la personne recherche dans le couple. La manière dont ces deux énergies se soutiennent ou se contrarient colore la personnalité profonde.",
+    "status": "draft",
+    "version": 1,
+    "origin": "pré-rédaction automatique (composée)"
+  },
+  "bazi.dayPillar.yi-si": {
+    "title": "Pilier du jour Yi Si (Serpent)",
+    "body": "Le pilier du jour associe le maître du jour Yi (la plante grimpante) à la branche du Serpent, qui porte le Feu et évoque le feu naissant du début de l'été. La branche du jour est traditionnellement appelée le « palais du conjoint » : elle décrit la vie intime et ce que la personne recherche dans le couple. La manière dont ces deux énergies se soutiennent ou se contrarient colore la personnalité profonde.",
+    "status": "draft",
+    "version": 1,
+    "origin": "pré-rédaction automatique (composée)"
+  },
+  "bazi.dayPillar.bing-wu": {
+    "title": "Pilier du jour Bing Wu (Cheval)",
+    "body": "Le pilier du jour associe le maître du jour Bing (le soleil) à la branche du Cheval, qui porte le Feu et évoque le plein soleil de l'été. La branche du jour est traditionnellement appelée le « palais du conjoint » : elle décrit la vie intime et ce que la personne recherche dans le couple. La manière dont ces deux énergies se soutiennent ou se contrarient colore la personnalité profonde.",
+    "status": "draft",
+    "version": 1,
+    "origin": "pré-rédaction automatique (composée)"
+  },
+  "bazi.dayPillar.ding-wei": {
+    "title": "Pilier du jour Ding Wei (Chèvre)",
+    "body": "Le pilier du jour associe le maître du jour Ding (la flamme de la bougie) à la branche de la Chèvre, qui porte la Terre et évoque la terre chaude et sèche de la fin de l'été. La branche du jour est traditionnellement appelée le « palais du conjoint » : elle décrit la vie intime et ce que la personne recherche dans le couple. La manière dont ces deux énergies se soutiennent ou se contrarient colore la personnalité profonde.",
+    "status": "draft",
+    "version": 1,
+    "origin": "pré-rédaction automatique (composée)"
+  },
+  "bazi.dayPillar.wu-shen": {
+    "title": "Pilier du jour Wu Shen (Singe)",
+    "body": "Le pilier du jour associe le maître du jour Wu (la montagne) à la branche du Singe, qui porte le Métal et évoque le métal tranchant du début de l'automne. La branche du jour est traditionnellement appelée le « palais du conjoint » : elle décrit la vie intime et ce que la personne recherche dans le couple. La manière dont ces deux énergies se soutiennent ou se contrarient colore la personnalité profonde.",
+    "status": "draft",
+    "version": 1,
+    "origin": "pré-rédaction automatique (composée)"
+  },
+  "bazi.dayPillar.ji-you": {
+    "title": "Pilier du jour Ji You (Coq)",
+    "body": "Le pilier du jour associe le maître du jour Ji (la terre fertile) à la branche du Coq, qui porte le Métal et évoque le métal affiné du cœur de l'automne. La branche du jour est traditionnellement appelée le « palais du conjoint » : elle décrit la vie intime et ce que la personne recherche dans le couple. La manière dont ces deux énergies se soutiennent ou se contrarient colore la personnalité profonde.",
+    "status": "draft",
+    "version": 1,
+    "origin": "pré-rédaction automatique (composée)"
+  },
+  "bazi.dayPillar.geng-xu": {
+    "title": "Pilier du jour Geng Xu (Chien)",
+    "body": "Le pilier du jour associe le maître du jour Geng (le métal brut) à la branche du Chien, qui porte la Terre et évoque la terre sèche qui garde le feu à la fin de l'automne. La branche du jour est traditionnellement appelée le « palais du conjoint » : elle décrit la vie intime et ce que la personne recherche dans le couple. La manière dont ces deux énergies se soutiennent ou se contrarient colore la personnalité profonde.",
+    "status": "draft",
+    "version": 1,
+    "origin": "pré-rédaction automatique (composée)"
+  },
+  "bazi.dayPillar.xin-hai": {
+    "title": "Pilier du jour Xin Hai (Cochon)",
+    "body": "Le pilier du jour associe le maître du jour Xin (le bijou) à la branche du Cochon, qui porte l'Eau et évoque les eaux profondes du début de l'hiver. La branche du jour est traditionnellement appelée le « palais du conjoint » : elle décrit la vie intime et ce que la personne recherche dans le couple. La manière dont ces deux énergies se soutiennent ou se contrarient colore la personnalité profonde.",
+    "status": "draft",
+    "version": 1,
+    "origin": "pré-rédaction automatique (composée)"
+  },
+  "bazi.dayPillar.ren-zi": {
+    "title": "Pilier du jour Ren Zi (Rat)",
+    "body": "Le pilier du jour associe le maître du jour Ren (l'océan) à la branche du Rat, qui porte l'Eau et évoque l'eau vive du milieu de l'hiver. La branche du jour est traditionnellement appelée le « palais du conjoint » : elle décrit la vie intime et ce que la personne recherche dans le couple. La manière dont ces deux énergies se soutiennent ou se contrarient colore la personnalité profonde.",
+    "status": "draft",
+    "version": 1,
+    "origin": "pré-rédaction automatique (composée)"
+  },
+  "bazi.dayPillar.gui-chou": {
+    "title": "Pilier du jour Gui Chou (Buffle)",
+    "body": "Le pilier du jour associe le maître du jour Gui (la pluie) à la branche du Buffle, qui porte la Terre et évoque la terre humide et gelée de la fin de l'hiver. La branche du jour est traditionnellement appelée le « palais du conjoint » : elle décrit la vie intime et ce que la personne recherche dans le couple. La manière dont ces deux énergies se soutiennent ou se contrarient colore la personnalité profonde.",
+    "status": "draft",
+    "version": 1,
+    "origin": "pré-rédaction automatique (composée)"
+  },
+  "bazi.dayPillar.jia-yin": {
+    "title": "Pilier du jour Jia Yin (Tigre)",
+    "body": "Le pilier du jour associe le maître du jour Jia (le grand arbre) à la branche du Tigre, qui porte le Bois et évoque le bois qui s'éveille au début du printemps. La branche du jour est traditionnellement appelée le « palais du conjoint » : elle décrit la vie intime et ce que la personne recherche dans le couple. La manière dont ces deux énergies se soutiennent ou se contrarient colore la personnalité profonde.",
+    "status": "draft",
+    "version": 1,
+    "origin": "pré-rédaction automatique (composée)"
+  },
+  "bazi.dayPillar.yi-mao": {
+    "title": "Pilier du jour Yi Mao (Lapin)",
+    "body": "Le pilier du jour associe le maître du jour Yi (la plante grimpante) à la branche du Lapin, qui porte le Bois et évoque les plantes en pleine croissance du printemps. La branche du jour est traditionnellement appelée le « palais du conjoint » : elle décrit la vie intime et ce que la personne recherche dans le couple. La manière dont ces deux énergies se soutiennent ou se contrarient colore la personnalité profonde.",
+    "status": "draft",
+    "version": 1,
+    "origin": "pré-rédaction automatique (composée)"
+  },
+  "bazi.dayPillar.bing-chen": {
+    "title": "Pilier du jour Bing Chen (Dragon)",
+    "body": "Le pilier du jour associe le maître du jour Bing (le soleil) à la branche du Dragon, qui porte la Terre et évoque la terre humide qui retient l'eau au printemps. La branche du jour est traditionnellement appelée le « palais du conjoint » : elle décrit la vie intime et ce que la personne recherche dans le couple. La manière dont ces deux énergies se soutiennent ou se contrarient colore la personnalité profonde.",
+    "status": "draft",
+    "version": 1,
+    "origin": "pré-rédaction automatique (composée)"
+  },
+  "bazi.dayPillar.ding-si": {
+    "title": "Pilier du jour Ding Si (Serpent)",
+    "body": "Le pilier du jour associe le maître du jour Ding (la flamme de la bougie) à la branche du Serpent, qui porte le Feu et évoque le feu naissant du début de l'été. La branche du jour est traditionnellement appelée le « palais du conjoint » : elle décrit la vie intime et ce que la personne recherche dans le couple. La manière dont ces deux énergies se soutiennent ou se contrarient colore la personnalité profonde.",
+    "status": "draft",
+    "version": 1,
+    "origin": "pré-rédaction automatique (composée)"
+  },
+  "bazi.dayPillar.wu-wu": {
+    "title": "Pilier du jour Wu Wu (Cheval)",
+    "body": "Le pilier du jour associe le maître du jour Wu (la montagne) à la branche du Cheval, qui porte le Feu et évoque le plein soleil de l'été. La branche du jour est traditionnellement appelée le « palais du conjoint » : elle décrit la vie intime et ce que la personne recherche dans le couple. La manière dont ces deux énergies se soutiennent ou se contrarient colore la personnalité profonde.",
+    "status": "draft",
+    "version": 1,
+    "origin": "pré-rédaction automatique (composée)"
+  },
+  "bazi.dayPillar.ji-wei": {
+    "title": "Pilier du jour Ji Wei (Chèvre)",
+    "body": "Le pilier du jour associe le maître du jour Ji (la terre fertile) à la branche de la Chèvre, qui porte la Terre et évoque la terre chaude et sèche de la fin de l'été. La branche du jour est traditionnellement appelée le « palais du conjoint » : elle décrit la vie intime et ce que la personne recherche dans le couple. La manière dont ces deux énergies se soutiennent ou se contrarient colore la personnalité profonde.",
+    "status": "draft",
+    "version": 1,
+    "origin": "pré-rédaction automatique (composée)"
+  },
+  "bazi.dayPillar.geng-shen": {
+    "title": "Pilier du jour Geng Shen (Singe)",
+    "body": "Le pilier du jour associe le maître du jour Geng (le métal brut) à la branche du Singe, qui porte le Métal et évoque le métal tranchant du début de l'automne. La branche du jour est traditionnellement appelée le « palais du conjoint » : elle décrit la vie intime et ce que la personne recherche dans le couple. La manière dont ces deux énergies se soutiennent ou se contrarient colore la personnalité profonde.",
+    "status": "draft",
+    "version": 1,
+    "origin": "pré-rédaction automatique (composée)"
+  },
+  "bazi.dayPillar.xin-you": {
+    "title": "Pilier du jour Xin You (Coq)",
+    "body": "Le pilier du jour associe le maître du jour Xin (le bijou) à la branche du Coq, qui porte le Métal et évoque le métal affiné du cœur de l'automne. La branche du jour est traditionnellement appelée le « palais du conjoint » : elle décrit la vie intime et ce que la personne recherche dans le couple. La manière dont ces deux énergies se soutiennent ou se contrarient colore la personnalité profonde.",
+    "status": "draft",
+    "version": 1,
+    "origin": "pré-rédaction automatique (composée)"
+  },
+  "bazi.dayPillar.ren-xu": {
+    "title": "Pilier du jour Ren Xu (Chien)",
+    "body": "Le pilier du jour associe le maître du jour Ren (l'océan) à la branche du Chien, qui porte la Terre et évoque la terre sèche qui garde le feu à la fin de l'automne. La branche du jour est traditionnellement appelée le « palais du conjoint » : elle décrit la vie intime et ce que la personne recherche dans le couple. La manière dont ces deux énergies se soutiennent ou se contrarient colore la personnalité profonde.",
+    "status": "draft",
+    "version": 1,
+    "origin": "pré-rédaction automatique (composée)"
+  },
+  "bazi.dayPillar.gui-hai": {
+    "title": "Pilier du jour Gui Hai (Cochon)",
+    "body": "Le pilier du jour associe le maître du jour Gui (la pluie) à la branche du Cochon, qui porte l'Eau et évoque les eaux profondes du début de l'hiver. La branche du jour est traditionnellement appelée le « palais du conjoint » : elle décrit la vie intime et ce que la personne recherche dans le couple. La manière dont ces deux énergies se soutiennent ou se contrarient colore la personnalité profonde.",
+    "status": "draft",
+    "version": 1,
+    "origin": "pré-rédaction automatique (composée)"
   }
 }
