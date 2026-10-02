@@ -41,7 +41,7 @@
 </style>
 </head>
 <body>
-<header><h1>ASTRA · banc de vérification des moteurs</h1><span>Phase 1 · outil interne · calculs déterministes, aucune IA</span></header>
+<header><h1>ASTRA · banc de vérification des moteurs</h1><span>Phases 1-2 · outil interne · calculs déterministes, aucune IA</span></header>
 <main>
   <section class="card">
     <label>Profil de référence</label>
@@ -63,13 +63,9 @@
       <label>Date de référence (cycles personnels)</label><input id="referenceDate" placeholder="AAAA-MM-JJ (défaut : aujourd’hui)">
       <label>Convention numérologique (JSON partiel)</label>
       <textarea id="numerology">{
-  "method": "pythagorean",
-  "masterNumbers": [11, 22, 33],
-  "preserveMasterNumbers": true,
-  "yAsVowel": "always",
-  "nameReduction": "perName",
-  "lifePathMethod": "components"
+  "preset": "astra-standard"
 }</textarea>
+      <p class="muted">Conventions : astra-standard, decoz, simple, chaldean. Tout champ ajouté (ex. "yAsVowel") surcharge la convention.</p>
     </details>
     <button id="go">Calculer le profil</button>
     <p class="muted" id="timing"></p>
@@ -146,12 +142,21 @@ const TABS = {
     })) + `<h3>Contenus pédagogiques</h3><p>${d.contentCoverage.withText} / ${d.contentCoverage.total} clés de contenu ont un texte (brouillon compris).</p><pre>${d.contentCoverage.keys.join('\n')}</pre>`;
   }],
   context: ['Contexte chatbot', (d) => `<p class="muted">Vue compacte destinée au futur chatbot (sélectionnable par section).</p><pre>${esc(JSON.stringify(d.context, null, 2))}</pre>`],
+  report: ['Bilan', () => `<p class="muted">Aperçu du bilan en mode relecture (emplacements des textes à rédiger visibles). <a href="#" id="openReport">Ouvrir dans un onglet</a> pour l’imprimer en PDF.</p><iframe id="reportFrame" style="width:100%;height:78vh;border:1px solid var(--line);border-radius:6px;background:#fff"></iframe>`],
   json: ['JSON complet', (d) => `<p class="muted">${JSON.stringify(d.profile).length.toLocaleString('fr')} octets · schemaVersion ${d.profile.schemaVersion}</p><pre>${esc(JSON.stringify(d.profile, null, 2))}</pre>`],
 };
 
 function render() {
   $('tabs').innerHTML = Object.entries(TABS).map(([k, [t]]) => `<button data-t="${k}" class="${k === tab ? 'on' : ''}">${t}</button>`).join('');
   if (data) $('out').innerHTML = TABS[tab][1](data);
+  if (data && tab === 'report') loadReport();
+}
+let lastRequest = null;
+async function loadReport() {
+  const res = await fetch('/api/report', { method: 'POST', headers: { 'content-type': 'application/json' }, body: JSON.stringify(lastRequest) });
+  const html = await res.text();
+  $('reportFrame').srcdoc = html;
+  $('openReport').onclick = (e) => { e.preventDefault(); const w = window.open(); w.document.write(html); w.document.close(); };
 }
 $('tabs').onclick = (e) => { if (e.target.dataset.t) { tab = e.target.dataset.t; render(); } };
 
@@ -164,6 +169,7 @@ async function run() {
   const options = { astrology: { houseSystem: $('houseSystem').value, nodeType: $('nodeType').value }, humanDesign: { nodeType: $('nodeType').value }, numerology };
   if ($('referenceDate').value) options.referenceDate = $('referenceDate').value;
   $('out').innerHTML = '<p class="muted">Calcul…</p>';
+  lastRequest = { input, options };
   const res = await fetch('/api/profile', { method: 'POST', headers: { 'content-type': 'application/json' }, body: JSON.stringify({ input, options }) });
   const body = await res.json();
   if (!res.ok) { data = null; $('out').innerHTML = `<div class="err"><b>${body.code}</b> · ${esc(body.message)}\n${esc(JSON.stringify(body.details ?? {}, null, 2))}</div>`; return; }

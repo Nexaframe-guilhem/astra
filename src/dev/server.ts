@@ -5,10 +5,11 @@
  */
 import { readFileSync } from 'node:fs';
 import { createServer, type IncomingMessage, type ServerResponse } from 'node:http';
-import { buildProfile, buildProfileContext } from '../index.js';
+import { buildProfile, buildProfileContext, buildReport, renderReportHtml } from '../index.js';
 import { collectContentKeys, resolveContent } from '../content/repository.js';
 import { AstraError } from '../core/shared/errors.js';
 import { REFERENCE_CASES } from '../../tests/fixtures/reference-inputs.js';
+import { PUBLISHED_CHARTS } from '../../tests/fixtures/published-charts.js';
 import { crossCheck } from './cross-check.js';
 
 const PORT = Number(process.env.PORT ?? 5173);
@@ -33,7 +34,7 @@ const server = createServer(async (req, res) => {
   try {
     const url = new URL(req.url ?? '/', 'http://localhost');
     if (req.method === 'GET' && url.pathname === '/') return send(res, 200, html(), 'text/html');
-    if (req.method === 'GET' && url.pathname === '/api/presets') return send(res, 200, REFERENCE_CASES);
+    if (req.method === 'GET' && url.pathname === '/api/presets') return send(res, 200, [...REFERENCE_CASES, ...PUBLISHED_CHARTS.map((c) => ({ id: c.id, note: `carte publiée : ${c.name}`, input: c.input }))]);
     if (req.method === 'GET' && url.pathname === '/api/labels') return send(res, 200, labels);
     if (req.method === 'POST' && url.pathname === '/api/profile') {
       const { input, options = {} } = await readJson(req);
@@ -50,6 +51,11 @@ const server = createServer(async (req, res) => {
         crossCheck: checks,
         timingMs: ms,
       });
+    }
+    if (req.method === 'POST' && url.pathname === '/api/report') {
+      const { input, options = {}, draftMode = true } = await readJson(req);
+      const html = renderReportHtml(buildReport(buildProfile(input, options), { draftMode }));
+      return send(res, 200, html, 'text/html');
     }
     send(res, 404, { error: 'not found' });
   } catch (e) {
