@@ -1,7 +1,7 @@
 ﻿key;domain;priority;title;status;body
 astrology.signs.aries;astrology;2;Bélier;missing;
 astrology.signs.taurus;astrology;2;Taureau;missing;
-astrology.signs.gemini;astrology;2;Gémeaux;draft;[À rédiger et valider par l'école]
+astrology.signs.gemini;astrology;2;Gémeaux;missing;
 astrology.signs.cancer;astrology;2;Cancer;missing;
 astrology.signs.leo;astrology;2;Lion;missing;
 astrology.signs.virgo;astrology;2;Vierge;missing;
@@ -44,30 +44,30 @@ astrology.aspects.sextile;astrology;2;Sextile;missing;
 astrology.aspects.square;astrology;2;Carré;missing;
 astrology.aspects.trine;astrology;2;Trigone;missing;
 astrology.aspects.opposition;astrology;2;Opposition;missing;
-astrology.bodyInSign.sun.aries;astrology;1;Soleil en Bélier;missing;
-astrology.bodyInSign.sun.taurus;astrology;1;Soleil en Taureau;missing;
-astrology.bodyInSign.sun.gemini;astrology;1;Soleil en Gémeaux;missing;
-astrology.bodyInSign.sun.cancer;astrology;1;Soleil en Cancer;missing;
-astrology.bodyInSign.sun.leo;astrology;1;Soleil en Lion;missing;
-astrology.bodyInSign.sun.virgo;astrology;1;Soleil en Vierge;missing;
-astrology.bodyInSign.sun.libra;astrology;1;Soleil en Balance;missing;
-astrology.bodyInSign.sun.scorpio;astrology;1;Soleil en Scorpion;missing;
-astrology.bodyInSign.sun.sagittarius;astrology;1;Soleil en Sagittaire;missing;
-astrology.bodyInSign.sun.capricorn;astrology;1;Soleil en Capricorne;missing;
-astrology.bodyInSign.sun.aquarius;astrology;1;Soleil en Verseau;missing;
-astrology.bodyInSign.sun.pisces;astrology;1;Soleil en Poissons;missing;
-astrology.bodyInSign.moon.aries;astrology;1;Lune en Bélier;missing;
-astrology.bodyInSign.moon.taurus;astrology;1;Lune en Taureau;missing;
-astrology.bodyInSign.moon.gemini;astrology;1;Lune en Gémeaux;missing;
-astrology.bodyInSign.moon.cancer;astrology;1;Lune en Cancer;missing;
-astrology.bodyInSign.moon.leo;astrology;1;Lune en Lion;missing;
-astrology.bodyInSign.moon.virgo;astrology;1;Lune en Vierge;missing;
-astrology.bodyInSign.moon.libra;astrology;1;Lune en Balance;missing;
-astrology.bodyInSign.moon.scorpio;astrology;1;Lune en Scorpion;missing;
-astrology.bodyInSign.moon.sagittarius;astrology;1;Lune en Sagittaire;missing;
-astrology.bodyInSign.moon.capricorn;astrology;1;Lune en Capricorne;missing;
-astrology.bodyInSign.moon.aquarius;astrology;1;Lune en Verseau;missing;
-astrology.bodyInSign.moon.pisces;astrology;1;Lune en Poissons;missing;
+astrology.bodyInSign.sun.aries;astrology;1;Soleil en Bélier;draft;"Le Soleil en Bélier met l'accent sur l'élan, l'initiative et le goût du commencement. L'identité se construit dans l'action : oser, ouvrir une voie, affirmer ce que l'on veut. Cette énergie peut se montrer directe, parfois impatiente, et gagne à apprendre la persévérance une fois l'enthousiasme du départ passé. Le défi consiste à affirmer sa volonté tout en tenant compte du rythme des autres."
+astrology.bodyInSign.sun.taurus;astrology;1;Soleil en Taureau;draft;"Le Soleil en Taureau oriente l'identité vers la stabilité, le concret et la construction dans la durée. La personne avance à son rythme, cherche la sécurité et apprécie ce qui est tangible : le corps, la nature, les sens, les ressources. Sa constance est une force ; elle peut aussi devenir résistance au changement. L'enjeu est d'apprendre à faire confiance au mouvement sans perdre son ancrage."
+astrology.bodyInSign.sun.gemini;astrology;1;Soleil en Gémeaux;draft;"Le Soleil en Gémeaux place la curiosité au cœur de l'identité. Échanger, apprendre, relier les idées et les personnes nourrit la vitalité. L'esprit est vif, adaptable, attiré par la nouveauté et la diversité des points de vue. Cette mobilité peut disperser l'attention ; l'enjeu est de transformer la richesse des intérêts en une parole et un savoir qui ont du fond."
+astrology.bodyInSign.sun.cancer;astrology;1;Soleil en Cancer;draft;"Le Soleil en Cancer relie l'identité au monde des émotions, de la mémoire et de l'appartenance. Prendre soin, protéger, créer un lieu où l'on se sent chez soi donne du sens. La sensibilité est fine, l'intuition souvent juste. Elle peut conduire à se replier lorsque l'on se sent exposé ; l'enjeu est d'offrir aussi à soi-même la sécurité que l'on sait donner aux autres."
+astrology.bodyInSign.sun.leo;astrology;1;Soleil en Lion;draft;"Le Soleil en Lion se trouve dans son signe de domicile : l'identité cherche à rayonner et à s'exprimer de façon créative et généreuse. Être reconnu pour ce que l'on est, donner de la chaleur, inspirer, sont des moteurs puissants. Le besoin de reconnaissance peut rendre sensible au regard d'autrui ; l'enjeu est de briller depuis l'intérieur, sans dépendre des applaudissements."
+astrology.bodyInSign.sun.virgo;astrology;1;Soleil en Vierge;draft;"Le Soleil en Vierge oriente l'identité vers l'utilité, le discernement et le travail bien fait. Analyser, améliorer, mettre de l'ordre et rendre service apportent satisfaction. L'attention aux détails est un talent précieux, qui peut se transformer en exigence excessive envers soi-même. L'enjeu est d'accepter l'imperfection comme partie du processus et de reconnaître la valeur de ce qui est déjà accompli."
+astrology.bodyInSign.sun.libra;astrology;1;Soleil en Balance;draft;"Le Soleil en Balance fait de la relation et de l'harmonie un axe central de l'identité. Le sens de l'équilibre, de l'esthétique et de la justice guide les choix. La personne sait percevoir le point de vue de l'autre et créer des accords. Cette ouverture peut rendre les décisions difficiles ; l'enjeu est de trouver sa propre position sans renoncer au dialogue."
+astrology.bodyInSign.sun.scorpio;astrology;1;Soleil en Scorpion;draft;"Le Soleil en Scorpion donne une identité intense, tournée vers la profondeur et la transformation. Comprendre ce qui est caché, traverser les crises et en ressortir renouvelé fait partie du chemin. L'engagement est entier, la loyauté forte. Cette intensité peut pousser au contrôle ou à la méfiance ; l'enjeu est de faire confiance au lâcher-prise comme source de puissance."
+astrology.bodyInSign.sun.sagittarius;astrology;1;Soleil en Sagittaire;draft;"Le Soleil en Sagittaire tourne l'identité vers l'horizon : chercher du sens, explorer, apprendre et transmettre. Les voyages, la philosophie, les idéaux et l'enseignement nourrissent la vitalité. L'optimisme et la franchise sont des atouts, qui peuvent parfois négliger les détails ou les limites. L'enjeu est d'ancrer la quête de sens dans l'expérience concrète."
+astrology.bodyInSign.sun.capricorn;astrology;1;Soleil en Capricorne;draft;"Le Soleil en Capricorne oriente l'identité vers la responsabilité, la structure et la réalisation dans le temps. La personne sait se fixer des objectifs, gravir les étapes et tenir ses engagements. Cette maturité peut s'accompagner d'une grande dureté envers soi. L'enjeu est d'intégrer la joie et le repos au chemin, et pas seulement à son sommet."
+astrology.bodyInSign.sun.aquarius;astrology;1;Soleil en Verseau;draft;"Le Soleil en Verseau donne une identité indépendante, tournée vers l'avenir et le collectif. Penser autrement, innover, défendre des idées de liberté et d'égalité donne du sens. La personne apporte un regard original sur les groupes qu'elle rejoint. Ce détachement peut mettre une distance avec les émotions ; l'enjeu est de relier la vision au lien humain."
+astrology.bodyInSign.sun.pisces;astrology;1;Soleil en Poissons;draft;"Le Soleil en Poissons relie l'identité à la sensibilité, à l'imaginaire et au sentiment d'unité. Empathie, intuition, créativité et ouverture spirituelle sont des ressources importantes. La perméabilité aux ambiances et aux émotions des autres peut brouiller les limites. L'enjeu est de protéger sa sensibilité pour pouvoir l'offrir sans s'y perdre."
+astrology.bodyInSign.moon.aries;astrology;1;Lune en Bélier;draft;"La Lune en Bélier traduit des réactions émotionnelles rapides et spontanées. Le besoin de liberté, d'action et d'autonomie est fort : la sécurité se trouve dans le fait de pouvoir agir. Les émotions s'expriment vite et retombent vite. L'enjeu est d'apprendre à accueillir ses ressentis avant d'y répondre, et à reconnaître aussi sa vulnérabilité."
+astrology.bodyInSign.moon.taurus;astrology;1;Lune en Taureau;draft;"La Lune en Taureau est considérée comme particulièrement stable. Le bien-être passe par la constance, le confort, le contact avec la nature et les plaisirs simples. Les émotions sont durables et la fidélité importante. Les changements brusques peuvent être déstabilisants ; l'enjeu est de trouver la sécurité en soi plutôt que dans ce que l'on possède."
+astrology.bodyInSign.moon.gemini;astrology;1;Lune en Gémeaux;draft;"La Lune en Gémeaux rend les émotions mobiles et liées à la pensée. Parler, comprendre, échanger aide à digérer ce qui est vécu. Le besoin de stimulation et de variété est réel. La tendance à analyser ses ressentis peut éloigner de leur vécu ; l'enjeu est de prendre le temps de ressentir avant d'expliquer."
+astrology.bodyInSign.moon.cancer;astrology;1;Lune en Cancer;draft;"La Lune en Cancer est dans son signe de domicile : la sensibilité est profonde et l'attachement au foyer, à la famille et aux souvenirs important. La personne perçoit finement les besoins des autres et aime prendre soin. Elle peut se protéger en se repliant lorsqu'elle se sent blessée. L'enjeu est d'exprimer ses besoins aussi clairement qu'elle devine ceux des autres."
+astrology.bodyInSign.moon.leo;astrology;1;Lune en Lion;draft;"La Lune en Lion associe le bien-être émotionnel à l'expression, à la générosité et à la reconnaissance. La personne a besoin de se sentir appréciée et aime faire plaisir. Ses émotions sont chaleureuses et visibles. Le manque d'attention peut être vécu durement ; l'enjeu est de nourrir sa propre estime sans attendre qu'elle vienne de l'extérieur."
+astrology.bodyInSign.moon.virgo;astrology;1;Lune en Vierge;draft;"La Lune en Vierge cherche la sécurité dans l'ordre, l'utilité et la maîtrise du quotidien. Rendre service, organiser et prendre soin de sa santé apaisent. Les émotions passent souvent par l'analyse et le souci du détail. L'inquiétude peut s'installer lorsque tout n'est pas sous contrôle ; l'enjeu est d'apprendre la bienveillance envers soi-même."
+astrology.bodyInSign.moon.libra;astrology;1;Lune en Balance;draft;"La Lune en Balance associe l'équilibre émotionnel à l'harmonie relationnelle et à la beauté de l'environnement. Les conflits sont vécus avec inconfort et la personne recherche naturellement l'accord. Cette sensibilité au lien est une qualité ; elle peut conduire à taire ses propres besoins. L'enjeu est d'oser exprimer un désaccord tout en restant dans la relation."
+astrology.bodyInSign.moon.scorpio;astrology;1;Lune en Scorpion;draft;"La Lune en Scorpion donne une vie émotionnelle intense, souvent vécue en profondeur et en privé. La personne a besoin de vérité et de relations authentiques, et perçoit ce qui n'est pas dit. Elle peut se protéger par la retenue ou le contrôle. L'enjeu est de faire confiance à la vulnérabilité partagée et de laisser les émotions se transformer."
+astrology.bodyInSign.moon.sagittarius;astrology;1;Lune en Sagittaire;draft;"La Lune en Sagittaire trouve son équilibre dans la liberté, l'espace et la perspective. Les émotions sont plutôt optimistes et la personne a besoin de projets, de découvertes et de sens. Le confinement ou la routine peuvent peser. L'enjeu est de ne pas fuir les émotions difficiles dans le mouvement, mais d'y chercher aussi un apprentissage."
+astrology.bodyInSign.moon.capricorn;astrology;1;Lune en Capricorne;draft;"La Lune en Capricorne exprime ses émotions avec retenue et cherche la sécurité dans la structure, la responsabilité et l'autonomie. La personne est fiable et se montre souvent solide pour les autres. Elle peut avoir du mal à demander de l'aide. L'enjeu est de s'autoriser la tendresse et le repos sans les mériter par l'effort."
+astrology.bodyInSign.moon.aquarius;astrology;1;Lune en Verseau;draft;"La Lune en Verseau associe le bien-être émotionnel à la liberté, à l'amitié et au sentiment d'être soi-même. La personne prend volontiers du recul sur ses émotions et apprécie les liens qui respectent son indépendance. Cette distance peut être perçue comme de la froideur. L'enjeu est de reconnaître ses besoins affectifs comme légitimes."
+astrology.bodyInSign.moon.pisces;astrology;1;Lune en Poissons;draft;"La Lune en Poissons donne une grande réceptivité émotionnelle : la personne ressent les ambiances, compatit facilement et dispose d'un imaginaire riche. Le calme, la créativité, la musique ou la spiritualité l'aident à se ressourcer. Elle peut absorber les émotions des autres. L'enjeu est de poser des limites protectrices pour préserver sa sensibilité."
 astrology.bodyInSign.mercury.aries;astrology;2;Mercure en Bélier;missing;
 astrology.bodyInSign.mercury.taurus;astrology;2;Mercure en Taureau;missing;
 astrology.bodyInSign.mercury.gemini;astrology;2;Mercure en Gémeaux;missing;
@@ -188,18 +188,18 @@ astrology.bodyInSign.southNode.sagittarius;astrology;2;Nœud Sud en Sagittaire;m
 astrology.bodyInSign.southNode.capricorn;astrology;2;Nœud Sud en Capricorne;missing;
 astrology.bodyInSign.southNode.aquarius;astrology;2;Nœud Sud en Verseau;missing;
 astrology.bodyInSign.southNode.pisces;astrology;2;Nœud Sud en Poissons;missing;
-astrology.angleInSign.ascendant.aries;astrology;1;Ascendant en Bélier;missing;
-astrology.angleInSign.ascendant.taurus;astrology;1;Ascendant en Taureau;missing;
-astrology.angleInSign.ascendant.gemini;astrology;1;Ascendant en Gémeaux;missing;
-astrology.angleInSign.ascendant.cancer;astrology;1;Ascendant en Cancer;missing;
-astrology.angleInSign.ascendant.leo;astrology;1;Ascendant en Lion;missing;
-astrology.angleInSign.ascendant.virgo;astrology;1;Ascendant en Vierge;missing;
-astrology.angleInSign.ascendant.libra;astrology;1;Ascendant en Balance;missing;
-astrology.angleInSign.ascendant.scorpio;astrology;1;Ascendant en Scorpion;missing;
-astrology.angleInSign.ascendant.sagittarius;astrology;1;Ascendant en Sagittaire;missing;
-astrology.angleInSign.ascendant.capricorn;astrology;1;Ascendant en Capricorne;missing;
-astrology.angleInSign.ascendant.aquarius;astrology;1;Ascendant en Verseau;missing;
-astrology.angleInSign.ascendant.pisces;astrology;1;Ascendant en Poissons;missing;
+astrology.angleInSign.ascendant.aries;astrology;1;Ascendant en Bélier;draft;"L'Ascendant Bélier donne une manière directe et dynamique d'aborder la vie. La personne se lance volontiers, réagit vite et dégage une impression d'énergie et de franchise. Elle apprend en agissant. Cette spontanéité peut paraître brusque ; l'enjeu est de canaliser l'élan initial pour l'inscrire dans la durée."
+astrology.angleInSign.ascendant.taurus;astrology;1;Ascendant en Taureau;draft;"L'Ascendant Taureau donne une approche calme, posée et concrète. La personne inspire confiance, prend le temps d'évaluer avant de s'engager et privilégie ce qui est durable. Elle dégage souvent une présence apaisante. L'enjeu est de rester ouverte aux changements nécessaires sans s'y opposer par principe."
+astrology.angleInSign.ascendant.gemini;astrology;1;Ascendant en Gémeaux;draft;"L'Ascendant Gémeaux donne une approche curieuse, communicative et adaptable. La personne entre en contact facilement, pose des questions et aime explorer plusieurs pistes. Elle apparaît vive et sociable. L'enjeu est de choisir et d'approfondir, pour que la diversité des intérêts devienne une véritable compétence."
+astrology.angleInSign.ascendant.cancer;astrology;1;Ascendant en Cancer;draft;"L'Ascendant Cancer donne une approche sensible et protectrice. La personne observe avant de s'ouvrir, perçoit l'ambiance et crée facilement un climat de confiance. Elle peut sembler réservée au premier abord. L'enjeu est de ne pas laisser la prudence l'empêcher d'aller vers ce qui la fait grandir."
+astrology.angleInSign.ascendant.leo;astrology;1;Ascendant en Lion;draft;"L'Ascendant Lion donne une présence chaleureuse et visible. La personne aborde la vie avec fierté, générosité et un certain sens de la mise en scène. Elle est souvent remarquée et aime encourager les autres. L'enjeu est que cette présence reste au service de l'authenticité plutôt que de l'image."
+astrology.angleInSign.ascendant.virgo;astrology;1;Ascendant en Vierge;draft;"L'Ascendant Vierge donne une approche attentive, réfléchie et méthodique. La personne observe les détails, cherche à comprendre comment les choses fonctionnent et à se rendre utile. Elle peut paraître discrète ou exigeante. L'enjeu est de faire confiance à sa valeur sans attendre d'avoir tout maîtrisé."
+astrology.angleInSign.ascendant.libra;astrology;1;Ascendant en Balance;draft;"L'Ascendant Balance donne une approche courtoise, diplomate et sensible à l'esthétique. La personne cherche spontanément l'accord, sait mettre à l'aise et apprécie la coopération. L'enjeu est de s'affirmer clairement lorsque l'harmonie demande de dire non."
+astrology.angleInSign.ascendant.scorpio;astrology;1;Ascendant en Scorpion;draft;"L'Ascendant Scorpion donne une présence intense et magnétique. La personne observe beaucoup, se dévoile peu au départ et perçoit rapidement les enjeux cachés d'une situation. Elle va droit à l'essentiel. L'enjeu est d'accorder sa confiance progressivement, sans rester en permanence sur la défensive."
+astrology.angleInSign.ascendant.sagittarius;astrology;1;Ascendant en Sagittaire;draft;"L'Ascendant Sagittaire donne une approche ouverte, optimiste et enthousiaste. La personne aime découvrir, bouger, partager ses idées et voit d'abord les possibilités. Elle inspire par son élan. L'enjeu est de tenir compte des contraintes concrètes sans perdre cette confiance dans la vie."
+astrology.angleInSign.ascendant.capricorn;astrology;1;Ascendant en Capricorne;draft;"L'Ascendant Capricorne donne une approche sérieuse, prudente et responsable. La personne paraît souvent mature, fiable et maîtresse d'elle-même ; elle avance avec méthode. Elle peut se montrer réservée au premier contact. L'enjeu est d'accueillir la légèreté et la spontanéité à côté de l'ambition."
+astrology.angleInSign.ascendant.aquarius;astrology;1;Ascendant en Verseau;draft;"L'Ascendant Verseau donne une approche originale, ouverte et indépendante. La personne aborde les situations avec un regard neuf et amical, et se sent à l'aise dans les groupes. Elle peut sembler détachée. L'enjeu est de laisser apparaître aussi sa part sensible derrière la liberté affichée."
+astrology.angleInSign.ascendant.pisces;astrology;1;Ascendant en Poissons;draft;"L'Ascendant Poissons donne une approche douce, intuitive et réceptive. La personne s'adapte aux ambiances, perçoit beaucoup sans le dire et dégage une impression de bienveillance. Elle peut avoir du mal à poser des limites. L'enjeu est de rester fidèle à son ressenti tout en gardant des repères clairs."
 astrology.angleInSign.midheaven.aries;astrology;3;Milieu du Ciel en Bélier;missing;
 astrology.angleInSign.midheaven.taurus;astrology;3;Milieu du Ciel en Taureau;missing;
 astrology.angleInSign.midheaven.gemini;astrology;3;Milieu du Ciel en Gémeaux;missing;
@@ -854,35 +854,35 @@ astrology.aspectPairs.ascendant.sextile.midheaven;astrology;3;Ascendant sextile 
 astrology.aspectPairs.ascendant.square.midheaven;astrology;3;Ascendant carré Milieu du Ciel;missing;
 astrology.aspectPairs.ascendant.trine.midheaven;astrology;3;Ascendant trigone Milieu du Ciel;missing;
 astrology.aspectPairs.ascendant.opposition.midheaven;astrology;3;Ascendant opposition Milieu du Ciel;missing;
-humanDesign.types.manifestor;humanDesign;1;Type Manifestor;missing;
-humanDesign.types.generator;humanDesign;1;Type Generator;draft;[À rédiger et valider par l'école]
-humanDesign.types.manifesting-generator;humanDesign;1;Type Manifesting Generator;missing;
-humanDesign.types.projector;humanDesign;1;Type Projector;missing;
-humanDesign.types.reflector;humanDesign;1;Type Reflector;missing;
-humanDesign.strategies.to-inform;humanDesign;1;Stratégie : Informer;missing;
-humanDesign.strategies.to-respond;humanDesign;1;Stratégie : Répondre;missing;
-humanDesign.strategies.wait-for-the-invitation;humanDesign;1;Stratégie : Attendre l'invitation;missing;
-humanDesign.strategies.wait-a-lunar-cycle;humanDesign;1;Stratégie : Attendre un cycle lunaire;missing;
-humanDesign.authorities.emotional;humanDesign;1;Autorité Émotionnelle (Plexus solaire);missing;
-humanDesign.authorities.sacral;humanDesign;1;Autorité Sacrale;missing;
-humanDesign.authorities.splenic;humanDesign;1;Autorité Splénique;missing;
-humanDesign.authorities.ego-manifested;humanDesign;1;Autorité Ego manifestée;missing;
-humanDesign.authorities.ego-projected;humanDesign;1;Autorité Ego projetée;missing;
-humanDesign.authorities.self-projected;humanDesign;1;Autorité Auto-projetée (G);missing;
-humanDesign.authorities.mental;humanDesign;1;Autorité Mentale / environnementale;missing;
-humanDesign.authorities.lunar;humanDesign;1;Autorité Lunaire;missing;
-humanDesign.profiles.1-3;humanDesign;1;Profil 1/3;missing;
-humanDesign.profiles.1-4;humanDesign;1;Profil 1/4;missing;
-humanDesign.profiles.2-4;humanDesign;1;Profil 2/4;missing;
-humanDesign.profiles.2-5;humanDesign;1;Profil 2/5;missing;
-humanDesign.profiles.3-5;humanDesign;1;Profil 3/5;missing;
-humanDesign.profiles.3-6;humanDesign;1;Profil 3/6;missing;
-humanDesign.profiles.4-6;humanDesign;1;Profil 4/6;missing;
-humanDesign.profiles.4-1;humanDesign;1;Profil 4/1;missing;
-humanDesign.profiles.5-1;humanDesign;1;Profil 5/1;missing;
-humanDesign.profiles.5-2;humanDesign;1;Profil 5/2;missing;
-humanDesign.profiles.6-2;humanDesign;1;Profil 6/2;missing;
-humanDesign.profiles.6-3;humanDesign;1;Profil 6/3;missing;
+humanDesign.types.manifestor;humanDesign;1;Type Manifestor;draft;"Le Manifestor dispose d'une énergie d'initiation : il peut mettre les choses en mouvement de façon autonome, sans attendre de signal extérieur. Son impact sur les autres est réel et peut surprendre. Il est souvent animé par un besoin profond de liberté et d'indépendance. Lorsqu'il agit sans prévenir, il rencontre facilement des résistances ; lorsqu'il tient informé son entourage, son élan trouve plus de fluidité. Le sentiment de paix est un repère indiquant qu'il est aligné."
+humanDesign.types.generator;humanDesign;1;Type Generator;draft;"Le Generator possède une énergie vitale durable, liée à son centre Sacral défini. Il est fait pour s'investir pleinement dans ce qui l'anime vraiment et pour y développer une maîtrise dans le temps. Son énergie fonctionne au mieux lorsqu'elle répond à ce qui se présente, plutôt qu'en forçant les initiatives. La satisfaction est son repère d'alignement ; la frustration signale souvent un engagement dans ce qui ne lui correspond pas."
+humanDesign.types.manifesting-generator;humanDesign;1;Type Manifesting Generator;draft;"Le Manifesting Generator associe l'énergie durable du Generator à une capacité d'action rapide. Il avance souvent sur plusieurs fronts, saute des étapes et trouve des raccourcis. Comme le Generator, il gagne à laisser sa réponse intérieure guider ses engagements, puis à informer son entourage avant d'agir. La satisfaction indique l'alignement ; la frustration ou l'impatience montrent qu'il s'est lancé sans écouter sa réponse."
+humanDesign.types.projector;humanDesign;1;Type Projector;draft;"Le Projector est doté d'une capacité particulière à percevoir les autres, à comprendre les systèmes et à guider. Il ne dispose pas d'une énergie de travail constante et gagne à gérer ses forces avec attention. Son influence est la plus juste lorsqu'elle est reconnue et sollicitée : l'invitation lui ouvre les bonnes portes, dans les relations comme dans le travail. Le succès est son repère d'alignement ; l'amertume signale un manque de reconnaissance."
+humanDesign.types.reflector;humanDesign;1;Type Reflector;draft;"Le Reflector, type le plus rare, n'a aucun centre défini. Très ouvert à son environnement, il en reflète l'état et peut évaluer avec justesse la santé d'un groupe ou d'un lieu. Son ressenti varie au fil des jours, au rythme des transits lunaires. Le choix de son entourage et de ses lieux de vie est essentiel. La surprise et l'émerveillement sont ses repères d'alignement ; la déception indique un environnement qui ne lui convient pas."
+humanDesign.strategies.to-inform;humanDesign;1;Stratégie : Informer;draft;"La stratégie consiste à informer les personnes concernées avant d'agir. Il ne s'agit pas de demander une permission, mais de prévenir de ce que l'on s'apprête à faire. Cette simple étape réduit les résistances, apaise les relations et permet à l'élan d'aboutir dans de meilleures conditions."
+humanDesign.strategies.to-respond;humanDesign;1;Stratégie : Répondre;draft;"La stratégie consiste à attendre que la vie présente quelque chose, puis à écouter sa réponse intérieure avant de s'engager. Cette réponse se manifeste souvent par une sensation immédiate dans le corps, un élan ou au contraire un retrait. Elle permet de consacrer son énergie à ce qui est vraiment juste plutôt qu'à ce que le mental décide."
+humanDesign.strategies.wait-for-the-invitation;humanDesign;1;Stratégie : Attendre l'invitation;draft;"La stratégie consiste à attendre d'être reconnu et invité avant de partager ses conseils ou de s'engager dans les grandes décisions de la vie : relations, travail, lieu de vie. Attendre ne veut pas dire rester passif : c'est le temps d'étudier, d'affiner son savoir et de prendre soin de soi, pour être prêt lorsque l'invitation arrive."
+humanDesign.strategies.wait-a-lunar-cycle;humanDesign;1;Stratégie : Attendre un cycle lunaire;draft;"La stratégie consiste à laisser passer un cycle lunaire, environ 28 jours, avant les décisions importantes. Pendant ce temps, en parler avec des personnes de confiance et observer comment son ressenti évolue permet de voir la décision sous tous ses angles et d'atteindre une clarté stable."
+humanDesign.authorities.emotional;humanDesign;1;Autorité Émotionnelle (Plexus solaire);draft;"Avec le Plexus solaire défini, la clarté ne vient pas dans l'instant : les émotions évoluent selon une vague, avec des hauts et des bas. Une décision importante gagne à attendre que cette vague se calme, en se laissant le temps de dormir dessus. Il n'existe pas de vérité dans l'instant ; la justesse apparaît avec le temps."
+humanDesign.authorities.sacral;humanDesign;1;Autorité Sacrale;draft;"L'autorité sacrale se manifeste par une réponse instinctive et immédiate du corps, souvent ressentie dans le ventre ou exprimée par des sons spontanés d'acquiescement ou de refus. Cette réponse précède le raisonnement. Poser des questions fermées, auxquelles on peut répondre par oui ou par non, aide à l'entendre clairement."
+humanDesign.authorities.splenic;humanDesign;1;Autorité Splénique;draft;"L'autorité splénique s'exprime par une intuition instantanée, discrète et souvent unique : un savoir ou une alerte qui ne se répète pas. Elle est liée à l'instinct de survie et au bien-être. Elle demande d'être attentif au moment présent, car le mental a tendance à couvrir cette voix subtile."
+humanDesign.authorities.ego-manifested;humanDesign;1;Autorité Ego manifestée;draft;"Avec le centre du Cœur relié à la Gorge, la décision juste s'exprime à travers ce que l'on dit spontanément vouloir. Écouter ses propres paroles, sans les filtrer, révèle sa volonté profonde : ce que l'on veut vraiment, et ce que l'on est prêt à engager pour l'obtenir."
+humanDesign.authorities.ego-projected;humanDesign;1;Autorité Ego projetée;draft;"Avec le centre du Cœur relié au centre G, la décision juste se reconnaît dans ce que l'on désire réellement pour soi. Se demander « qu'est-ce que je veux vraiment, et qu'est-ce que j'y gagne ? » aide à rester fidèle à sa volonté, à condition d'avoir été invité au préalable."
+humanDesign.authorities.self-projected;humanDesign;1;Autorité Auto-projetée (G);draft;"Avec le centre G relié à la Gorge, la clarté vient en s'entendant parler. Exprimer à voix haute sa situation à une personne de confiance, sans attendre de conseil, permet d'entendre dans sa propre voix ce qui correspond à son identité et à sa direction."
+humanDesign.authorities.mental;humanDesign;1;Autorité Mentale / environnementale;draft;"Sans autorité intérieure située sous la Gorge, la clarté se construit en dialoguant avec des personnes de confiance et en observant comment l'on se sent dans différents environnements. Il ne s'agit pas de demander des conseils, mais de s'entendre réfléchir pour reconnaître ce qui est juste."
+humanDesign.authorities.lunar;humanDesign;1;Autorité Lunaire;draft;"L'autorité lunaire est propre au Reflector. La décision mûrit au fil d'un cycle lunaire complet, période pendant laquelle les différents aspects de soi sont successivement activés. La patience et le dialogue avec des proches de confiance permettent d'atteindre une clarté stable."
+humanDesign.profiles.1-3;humanDesign;1;Profil 1/3;draft;"Le profil 1/3 associe un besoin de fondations solides à un apprentissage par l'expérience. La personne veut comprendre en profondeur avant d'agir, puis découvre par essais et erreurs ce qui fonctionne vraiment. Les échecs ne sont pas des fautes mais des sources de connaissance."
+humanDesign.profiles.1-4;humanDesign;1;Profil 1/4;draft;"Le profil 1/4 associe le besoin d'étudier et de bâtir des bases sûres à l'importance du réseau relationnel. La personne gagne à consolider son savoir, puis à le partager au sein de son cercle proche, où ses opportunités naissent le plus souvent."
+humanDesign.profiles.2-4;humanDesign;1;Profil 2/4;draft;"Le profil 2/4 associe un talent naturel qui s'exprime de lui-même à l'importance des relations. La personne a besoin de temps seule pour cultiver ses dons, et ce sont souvent ses proches qui les reconnaissent et l'appellent à les partager."
+humanDesign.profiles.2-5;humanDesign;1;Profil 2/5;draft;"Le profil 2/5 associe un talent naturel, souvent cultivé dans la discrétion, à une capacité à être perçu comme la personne qui peut apporter une solution. Cette projection des autres ouvre des opportunités mais demande de bien gérer sa réputation et ses limites."
+humanDesign.profiles.3-5;humanDesign;1;Profil 3/5;draft;"Le profil 3/5 apprend par l'expérimentation et apporte des solutions pratiques issues de son vécu. Les autres projettent volontiers sur lui des attentes ; l'expérience accumulée, y compris dans ce qui n'a pas fonctionné, devient sa ressource la plus précieuse."
+humanDesign.profiles.3-6;humanDesign;1;Profil 3/6;draft;"Le profil 3/6 traverse une première partie de vie riche en expériences, souvent mouvementée, avant de prendre progressivement du recul. Avec le temps, il devient un exemple et un modèle, nourri par ce qu'il a lui-même expérimenté."
+humanDesign.profiles.4-6;humanDesign;1;Profil 4/6;draft;"Le profil 4/6 accorde une grande importance aux relations et à la stabilité de son entourage. Sa vie évolue souvent en trois temps : expérimentation, prise de recul, puis rôle de modèle. Son influence passe par la confiance qu'il construit avec ses proches."
+humanDesign.profiles.4-1;humanDesign;1;Profil 4/1;draft;"Le profil 4/1 est rare et correspond à une trajectoire très personnelle et stable. La personne avance sur une voie qui lui est propre, appuyée sur des fondations solides et sur un réseau de relations fidèles. Elle gagne à rester fidèle à son chemin plutôt qu'à s'adapter aux attentes."
+humanDesign.profiles.5-1;humanDesign;1;Profil 5/1;draft;Le profil 5/1 attire les projections : les autres voient souvent en lui la personne capable de résoudre leurs problèmes. Ses solutions sont pertinentes lorsqu'elles reposent sur une étude solide. Gérer sa réputation et clarifier ce qu'il peut vraiment offrir est essentiel.
+humanDesign.profiles.5-2;humanDesign;1;Profil 5/2;draft;"Le profil 5/2 associe un fort pouvoir d'influence à un besoin de retrait. La personne est sollicitée pour apporter des solutions, tout en ayant besoin de temps seule pour cultiver ses talents naturels. L'équilibre entre ces deux pôles est sa clé."
+humanDesign.profiles.6-2;humanDesign;1;Profil 6/2;draft;"Le profil 6/2 suit souvent une vie en trois temps : expériences, puis prise de recul, puis rôle de modèle. Il possède des talents naturels qui demandent du temps pour eux-mêmes. Avec la maturité, il incarne une forme de sagesse vécue et inspire par l'exemple."
+humanDesign.profiles.6-3;humanDesign;1;Profil 6/3;draft;"Le profil 6/3 combine la perspective d'un modèle en devenir avec un apprentissage par l'expérience. Sa vie peut être marquée par des essais et des changements, qui nourrissent peu à peu une compréhension profonde et une sagesse pratique."
 humanDesign.definitions.none;humanDesign;2;Définition Aucune;missing;
 humanDesign.definitions.single;humanDesign;2;Définition Simple;missing;
 humanDesign.definitions.split;humanDesign;2;Définition Divisée;missing;
@@ -1619,30 +1619,30 @@ humanDesign.variables.perspective.color3;humanDesign;3;perspective couleur 3;mis
 humanDesign.variables.perspective.color4;humanDesign;3;perspective couleur 4;missing;
 humanDesign.variables.perspective.color5;humanDesign;3;perspective couleur 5;missing;
 humanDesign.variables.perspective.color6;humanDesign;3;perspective couleur 6;missing;
-numerology.lifePath.1;numerology;1;Chemin de vie 1;missing;
-numerology.lifePath.2;numerology;1;Chemin de vie 2;missing;
-numerology.lifePath.3;numerology;1;Chemin de vie 3;missing;
-numerology.lifePath.4;numerology;1;Chemin de vie 4;missing;
-numerology.lifePath.5;numerology;1;Chemin de vie 5;missing;
-numerology.lifePath.6;numerology;1;Chemin de vie 6;missing;
-numerology.lifePath.7;numerology;1;Chemin de vie 7;draft;[À rédiger et valider par l'école]
-numerology.lifePath.8;numerology;1;Chemin de vie 8;missing;
-numerology.lifePath.9;numerology;1;Chemin de vie 9;missing;
-numerology.lifePath.11;numerology;1;Chemin de vie 11;missing;
-numerology.lifePath.22;numerology;1;Chemin de vie 22;missing;
-numerology.lifePath.33;numerology;1;Chemin de vie 33;missing;
-numerology.expression.1;numerology;1;Expression 1;missing;
-numerology.expression.2;numerology;1;Expression 2;missing;
-numerology.expression.3;numerology;1;Expression 3;missing;
-numerology.expression.4;numerology;1;Expression 4;missing;
-numerology.expression.5;numerology;1;Expression 5;missing;
-numerology.expression.6;numerology;1;Expression 6;missing;
-numerology.expression.7;numerology;1;Expression 7;missing;
-numerology.expression.8;numerology;1;Expression 8;missing;
-numerology.expression.9;numerology;1;Expression 9;missing;
-numerology.expression.11;numerology;1;Expression 11;missing;
-numerology.expression.22;numerology;1;Expression 22;missing;
-numerology.expression.33;numerology;1;Expression 33;missing;
+numerology.lifePath.1;numerology;1;Chemin de vie 1;draft;"Le chemin de vie 1 est celui de l'autonomie et de l'initiative. Il invite à développer la confiance en soi, la capacité à décider et à ouvrir de nouvelles voies. Le défi est d'affirmer sa singularité sans s'isoler ni imposer."
+numerology.lifePath.2;numerology;1;Chemin de vie 2;draft;"Le chemin de vie 2 est celui de la coopération et de la sensibilité. Il invite à cultiver l'écoute, la diplomatie et l'art du partenariat. Le défi est de garder sa propre voix tout en recherchant l'harmonie."
+numerology.lifePath.3;numerology;1;Chemin de vie 3;draft;"Le chemin de vie 3 est celui de l'expression et de la créativité. Il invite à communiquer, à créer et à partager sa joie de vivre. Le défi est de canaliser ses talents pour les mener à leur plein potentiel."
+numerology.lifePath.4;numerology;1;Chemin de vie 4;draft;"Le chemin de vie 4 est celui de la construction et de la stabilité. Il invite à bâtir avec méthode, persévérance et sens des responsabilités. Le défi est d'accepter le changement sans perdre ses fondations."
+numerology.lifePath.5;numerology;1;Chemin de vie 5;draft;"Le chemin de vie 5 est celui de la liberté et du changement. Il invite à expérimenter, voyager, s'adapter et apprendre par la diversité. Le défi est de trouver un équilibre entre liberté et engagement."
+numerology.lifePath.6;numerology;1;Chemin de vie 6;draft;"Le chemin de vie 6 est celui de la responsabilité affective et du service. Il invite à prendre soin, à créer l'harmonie et à s'engager envers les autres. Le défi est de donner sans se sacrifier ni chercher à tout contrôler."
+numerology.lifePath.7;numerology;1;Chemin de vie 7;draft;"Le chemin de vie 7 est celui de la connaissance et de la vie intérieure. Il invite à chercher, analyser, méditer et approfondir. Le défi est de partager sa compréhension sans se couper des autres."
+numerology.lifePath.8;numerology;1;Chemin de vie 8;draft;"Le chemin de vie 8 est celui de la réalisation et de la maîtrise matérielle. Il invite à exercer son pouvoir avec justesse, à entreprendre et à gérer. Le défi est d'équilibrer ambition, éthique et vie personnelle."
+numerology.lifePath.9;numerology;1;Chemin de vie 9;draft;"Le chemin de vie 9 est celui de l'ouverture au monde et de l'altruisme. Il invite à servir une cause plus large, à comprendre et à transmettre. Le défi est d'apprendre à laisser partir et à accomplir sans attendre de retour."
+numerology.lifePath.11;numerology;1;Chemin de vie 11;draft;"Le chemin de vie 11 est un nombre maître qui porte la vibration du 2 à un niveau d'inspiration. Il invite à développer l'intuition, à éclairer et à inspirer les autres. Le défi est de canaliser une grande sensibilité sans se laisser submerger par la tension intérieure."
+numerology.lifePath.22;numerology;1;Chemin de vie 22;draft;Le chemin de vie 22 est un nombre maître qui porte la vibration du 4 à grande échelle. Il invite à concrétiser une vision ambitieuse au service du collectif. Le défi est de soutenir une forte exigence sans se laisser écraser par l'ampleur de la tâche.
+numerology.lifePath.33;numerology;1;Chemin de vie 33;draft;Le chemin de vie 33 est un nombre maître qui porte la vibration du 6 vers le service et la transmission. Il invite à guider et à prendre soin avec une grande générosité. Le défi est de rester ancré et de respecter ses propres limites.
+numerology.expression.1;numerology;1;Expression 1;draft;"L'expression 1 indique des talents de leader et d'initiateur : volonté, indépendance, capacité à prendre des décisions et à démarrer des projets. Ces atouts s'épanouissent dans les rôles qui laissent de l'autonomie."
+numerology.expression.2;numerology;1;Expression 2;draft;"L'expression 2 indique des talents de médiateur et de partenaire : écoute, tact, sens du détail et de la coopération. Ces atouts s'épanouissent dans le travail d'équipe et l'accompagnement."
+numerology.expression.3;numerology;1;Expression 3;draft;"L'expression 3 indique des talents de communication et de création : aisance verbale, imagination, enthousiasme. Ces atouts s'épanouissent dans les domaines de l'expression, de l'art et du contact."
+numerology.expression.4;numerology;1;Expression 4;draft;"L'expression 4 indique des talents d'organisation et de rigueur : méthode, fiabilité, endurance au travail. Ces atouts s'épanouissent dans la construction de projets concrets et durables."
+numerology.expression.5;numerology;1;Expression 5;draft;"L'expression 5 indique des talents d'adaptation et de mobilité : curiosité, polyvalence, goût du changement et de la communication. Ces atouts s'épanouissent dans les environnements variés."
+numerology.expression.6;numerology;1;Expression 6;draft;"L'expression 6 indique des talents relationnels et de soin : sens des responsabilités, conseil, harmonie esthétique. Ces atouts s'épanouissent dans l'accompagnement, l'enseignement ou la création d'un cadre bienveillant."
+numerology.expression.7;numerology;1;Expression 7;draft;"L'expression 7 indique des talents d'analyse et de recherche : réflexion, intuition, goût de l'étude et de la spécialisation. Ces atouts s'épanouissent dans les domaines qui demandent profondeur et expertise."
+numerology.expression.8;numerology;1;Expression 8;draft;"L'expression 8 indique des talents de gestion et de réalisation : sens des affaires, autorité, capacité à mobiliser les ressources. Ces atouts s'épanouissent dans l'entrepreneuriat et les responsabilités."
+numerology.expression.9;numerology;1;Expression 9;draft;"L'expression 9 indique des talents humanistes et créatifs : compassion, ouverture, vision large. Ces atouts s'épanouissent dans les activités tournées vers les autres ou vers une cause."
+numerology.expression.11;numerology;1;Expression 11;draft;"L'expression 11, nombre maître, indique des talents d'inspiration et d'intuition : capacité à percevoir au-delà des apparences et à transmettre une vision. Ces atouts demandent un cadre qui protège la sensibilité."
+numerology.expression.22;numerology;1;Expression 22;draft;"L'expression 22, nombre maître, indique des talents de bâtisseur à grande échelle : vision et sens pratique réunis. Ces atouts s'épanouissent dans les projets d'envergure utiles au collectif."
+numerology.expression.33;numerology;1;Expression 33;draft;"L'expression 33, nombre maître, indique des talents de transmission et de guidance : bienveillance, sens du service, capacité à élever les autres. Ces atouts s'épanouissent dans l'enseignement et l'accompagnement."
 numerology.soulUrge.1;numerology;2;Élan spirituel (âme) 1;missing;
 numerology.soulUrge.2;numerology;2;Élan spirituel (âme) 2;missing;
 numerology.soulUrge.3;numerology;2;Élan spirituel (âme) 3;missing;
