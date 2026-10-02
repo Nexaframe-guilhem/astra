@@ -43,7 +43,7 @@ export interface NoticeBlock {
 export type ReportBlock = ContentBlock | FactsBlock | TableBlock | FigureBlock | NoticeBlock;
 
 export interface ReportSection {
-  id: 'identity' | 'astrology' | 'humanDesign' | 'numerology' | 'destinyMatrix' | 'jyotish' | 'methodology';
+  id: 'identity' | 'astrology' | 'humanDesign' | 'numerology' | 'destinyMatrix' | 'jyotish' | 'karmic' | 'methodology';
   title: string;
   subsections: Array<{ id: string; title: string; blocks: ReportBlock[] }>;
 }

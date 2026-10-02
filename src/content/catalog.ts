@@ -7,11 +7,12 @@ import { SIGNS } from '../core/shared/zodiac.js';
 import { ACTIVATION_POINTS, CENTERS, CHANNELS } from '../core/human-design/data.js';
 import { label } from './repository.js';
 import { GRAHAS, NAKSHATRAS } from '../core/jyotish/data.js';
+import { HOUSE12_BODIES, RETROGRADE_PLANETS } from '../core/karmic/index.js';
 import { MATRIX_POSITIONS, POSITIONS_WITH_ARCANA_TEXT } from '../core/destiny-matrix/types.js';
 
 export interface CatalogEntry {
   key: string;
-  domain: 'astrology' | 'humanDesign' | 'numerology' | 'destinyMatrix' | 'jyotish';
+  domain: 'astrology' | 'humanDesign' | 'numerology' | 'destinyMatrix' | 'jyotish' | 'karmic';
   title: string;
   /** 1 = utilisé en tête de bilan ; 2 = détail affiché ; 3 = approfondissement. */
   priority: 1 | 2 | 3;
@@ -91,6 +92,14 @@ export function buildContentCatalog(locale = 'fr'): CatalogEntry[] {
   for (const g of GRAHAS) add('jyotish', `jyotish.dashas.${g}`, `Mahadasha de ${L(g)}`, 1);
   for (const g of GRAHAS) for (const s of SIGNS) add('jyotish', `jyotish.grahaInRashi.${g}.${s}`, `${L(g)} en ${L(s)}`, 2);
   for (const g of GRAHAS) for (let h = 1; h <= 12; h++) add('jyotish', `jyotish.grahaInBhava.${g}.${h}`, `${L(g)} en maison ${h}`, 3);
+
+  // Astrologie karmique
+  add('karmic', 'karmic.intro', 'L’astrologie karmique', 1);
+  const KARMIC_POINTS = [['nodes', 'Nœud Nord'], ['saturn', 'Saturne'], ['chiron', 'Chiron'], ['lilith', 'Lilith']] as const;
+  for (const [k, name] of KARMIC_POINTS) for (const s of SIGNS) add('karmic', `karmic.${k}.${s}`, `${name} en ${L(s)} (lecture karmique)`, 1);
+  for (const [k, name] of KARMIC_POINTS) for (let h = 1; h <= 12; h++) add('karmic', `karmic.${k}House.${h}`, `${name} en maison ${h} (lecture karmique)`, 2);
+  for (const p of RETROGRADE_PLANETS) add('karmic', `karmic.retrograde.${p}`, `${L(p)} rétrograde`, 2);
+  for (const b of HOUSE12_BODIES) add('karmic', `karmic.house12.${b}`, `${L(b)} en maison 12`, 3);
 
   return out;
 }

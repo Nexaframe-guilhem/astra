@@ -13810,5 +13810,707 @@
   "domain": "jyotish",
   "title": "Ketu en maison 12",
   "priority": 3
+ },
+ {
+  "key": "karmic.intro",
+  "domain": "karmic",
+  "title": "L’astrologie karmique",
+  "priority": 1
+ },
+ {
+  "key": "karmic.nodes.aries",
+  "domain": "karmic",
+  "title": "Nœud Nord en Bélier (lecture karmique)",
+  "priority": 1
+ },
+ {
+  "key": "karmic.nodes.taurus",
+  "domain": "karmic",
+  "title": "Nœud Nord en Taureau (lecture karmique)",
+  "priority": 1
+ },
+ {
+  "key": "karmic.nodes.gemini",
+  "domain": "karmic",
+  "title": "Nœud Nord en Gémeaux (lecture karmique)",
+  "priority": 1
+ },
+ {
+  "key": "karmic.nodes.cancer",
+  "domain": "karmic",
+  "title": "Nœud Nord en Cancer (lecture karmique)",
+  "priority": 1
+ },
+ {
+  "key": "karmic.nodes.leo",
+  "domain": "karmic",
+  "title": "Nœud Nord en Lion (lecture karmique)",
+  "priority": 1
+ },
+ {
+  "key": "karmic.nodes.virgo",
+  "domain": "karmic",
+  "title": "Nœud Nord en Vierge (lecture karmique)",
+  "priority": 1
+ },
+ {
+  "key": "karmic.nodes.libra",
+  "domain": "karmic",
+  "title": "Nœud Nord en Balance (lecture karmique)",
+  "priority": 1
+ },
+ {
+  "key": "karmic.nodes.scorpio",
+  "domain": "karmic",
+  "title": "Nœud Nord en Scorpion (lecture karmique)",
+  "priority": 1
+ },
+ {
+  "key": "karmic.nodes.sagittarius",
+  "domain": "karmic",
+  "title": "Nœud Nord en Sagittaire (lecture karmique)",
+  "priority": 1
+ },
+ {
+  "key": "karmic.nodes.capricorn",
+  "domain": "karmic",
+  "title": "Nœud Nord en Capricorne (lecture karmique)",
+  "priority": 1
+ },
+ {
+  "key": "karmic.nodes.aquarius",
+  "domain": "karmic",
+  "title": "Nœud Nord en Verseau (lecture karmique)",
+  "priority": 1
+ },
+ {
+  "key": "karmic.nodes.pisces",
+  "domain": "karmic",
+  "title": "Nœud Nord en Poissons (lecture karmique)",
+  "priority": 1
+ },
+ {
+  "key": "karmic.saturn.aries",
+  "domain": "karmic",
+  "title": "Saturne en Bélier (lecture karmique)",
+  "priority": 1
+ },
+ {
+  "key": "karmic.saturn.taurus",
+  "domain": "karmic",
+  "title": "Saturne en Taureau (lecture karmique)",
+  "priority": 1
+ },
+ {
+  "key": "karmic.saturn.gemini",
+  "domain": "karmic",
+  "title": "Saturne en Gémeaux (lecture karmique)",
+  "priority": 1
+ },
+ {
+  "key": "karmic.saturn.cancer",
+  "domain": "karmic",
+  "title": "Saturne en Cancer (lecture karmique)",
+  "priority": 1
+ },
+ {
+  "key": "karmic.saturn.leo",
+  "domain": "karmic",
+  "title": "Saturne en Lion (lecture karmique)",
+  "priority": 1
+ },
+ {
+  "key": "karmic.saturn.virgo",
+  "domain": "karmic",
+  "title": "Saturne en Vierge (lecture karmique)",
+  "priority": 1
+ },
+ {
+  "key": "karmic.saturn.libra",
+  "domain": "karmic",
+  "title": "Saturne en Balance (lecture karmique)",
+  "priority": 1
+ },
+ {
+  "key": "karmic.saturn.scorpio",
+  "domain": "karmic",
+  "title": "Saturne en Scorpion (lecture karmique)",
+  "priority": 1
+ },
+ {
+  "key": "karmic.saturn.sagittarius",
+  "domain": "karmic",
+  "title": "Saturne en Sagittaire (lecture karmique)",
+  "priority": 1
+ },
+ {
+  "key": "karmic.saturn.capricorn",
+  "domain": "karmic",
+  "title": "Saturne en Capricorne (lecture karmique)",
+  "priority": 1
+ },
+ {
+  "key": "karmic.saturn.aquarius",
+  "domain": "karmic",
+  "title": "Saturne en Verseau (lecture karmique)",
+  "priority": 1
+ },
+ {
+  "key": "karmic.saturn.pisces",
+  "domain": "karmic",
+  "title": "Saturne en Poissons (lecture karmique)",
+  "priority": 1
+ },
+ {
+  "key": "karmic.chiron.aries",
+  "domain": "karmic",
+  "title": "Chiron en Bélier (lecture karmique)",
+  "priority": 1
+ },
+ {
+  "key": "karmic.chiron.taurus",
+  "domain": "karmic",
+  "title": "Chiron en Taureau (lecture karmique)",
+  "priority": 1
+ },
+ {
+  "key": "karmic.chiron.gemini",
+  "domain": "karmic",
+  "title": "Chiron en Gémeaux (lecture karmique)",
+  "priority": 1
+ },
+ {
+  "key": "karmic.chiron.cancer",
+  "domain": "karmic",
+  "title": "Chiron en Cancer (lecture karmique)",
+  "priority": 1
+ },
+ {
+  "key": "karmic.chiron.leo",
+  "domain": "karmic",
+  "title": "Chiron en Lion (lecture karmique)",
+  "priority": 1
+ },
+ {
+  "key": "karmic.chiron.virgo",
+  "domain": "karmic",
+  "title": "Chiron en Vierge (lecture karmique)",
+  "priority": 1
+ },
+ {
+  "key": "karmic.chiron.libra",
+  "domain": "karmic",
+  "title": "Chiron en Balance (lecture karmique)",
+  "priority": 1
+ },
+ {
+  "key": "karmic.chiron.scorpio",
+  "domain": "karmic",
+  "title": "Chiron en Scorpion (lecture karmique)",
+  "priority": 1
+ },
+ {
+  "key": "karmic.chiron.sagittarius",
+  "domain": "karmic",
+  "title": "Chiron en Sagittaire (lecture karmique)",
+  "priority": 1
+ },
+ {
+  "key": "karmic.chiron.capricorn",
+  "domain": "karmic",
+  "title": "Chiron en Capricorne (lecture karmique)",
+  "priority": 1
+ },
+ {
+  "key": "karmic.chiron.aquarius",
+  "domain": "karmic",
+  "title": "Chiron en Verseau (lecture karmique)",
+  "priority": 1
+ },
+ {
+  "key": "karmic.chiron.pisces",
+  "domain": "karmic",
+  "title": "Chiron en Poissons (lecture karmique)",
+  "priority": 1
+ },
+ {
+  "key": "karmic.lilith.aries",
+  "domain": "karmic",
+  "title": "Lilith en Bélier (lecture karmique)",
+  "priority": 1
+ },
+ {
+  "key": "karmic.lilith.taurus",
+  "domain": "karmic",
+  "title": "Lilith en Taureau (lecture karmique)",
+  "priority": 1
+ },
+ {
+  "key": "karmic.lilith.gemini",
+  "domain": "karmic",
+  "title": "Lilith en Gémeaux (lecture karmique)",
+  "priority": 1
+ },
+ {
+  "key": "karmic.lilith.cancer",
+  "domain": "karmic",
+  "title": "Lilith en Cancer (lecture karmique)",
+  "priority": 1
+ },
+ {
+  "key": "karmic.lilith.leo",
+  "domain": "karmic",
+  "title": "Lilith en Lion (lecture karmique)",
+  "priority": 1
+ },
+ {
+  "key": "karmic.lilith.virgo",
+  "domain": "karmic",
+  "title": "Lilith en Vierge (lecture karmique)",
+  "priority": 1
+ },
+ {
+  "key": "karmic.lilith.libra",
+  "domain": "karmic",
+  "title": "Lilith en Balance (lecture karmique)",
+  "priority": 1
+ },
+ {
+  "key": "karmic.lilith.scorpio",
+  "domain": "karmic",
+  "title": "Lilith en Scorpion (lecture karmique)",
+  "priority": 1
+ },
+ {
+  "key": "karmic.lilith.sagittarius",
+  "domain": "karmic",
+  "title": "Lilith en Sagittaire (lecture karmique)",
+  "priority": 1
+ },
+ {
+  "key": "karmic.lilith.capricorn",
+  "domain": "karmic",
+  "title": "Lilith en Capricorne (lecture karmique)",
+  "priority": 1
+ },
+ {
+  "key": "karmic.lilith.aquarius",
+  "domain": "karmic",
+  "title": "Lilith en Verseau (lecture karmique)",
+  "priority": 1
+ },
+ {
+  "key": "karmic.lilith.pisces",
+  "domain": "karmic",
+  "title": "Lilith en Poissons (lecture karmique)",
+  "priority": 1
+ },
+ {
+  "key": "karmic.nodesHouse.1",
+  "domain": "karmic",
+  "title": "Nœud Nord en maison 1 (lecture karmique)",
+  "priority": 2
+ },
+ {
+  "key": "karmic.nodesHouse.2",
+  "domain": "karmic",
+  "title": "Nœud Nord en maison 2 (lecture karmique)",
+  "priority": 2
+ },
+ {
+  "key": "karmic.nodesHouse.3",
+  "domain": "karmic",
+  "title": "Nœud Nord en maison 3 (lecture karmique)",
+  "priority": 2
+ },
+ {
+  "key": "karmic.nodesHouse.4",
+  "domain": "karmic",
+  "title": "Nœud Nord en maison 4 (lecture karmique)",
+  "priority": 2
+ },
+ {
+  "key": "karmic.nodesHouse.5",
+  "domain": "karmic",
+  "title": "Nœud Nord en maison 5 (lecture karmique)",
+  "priority": 2
+ },
+ {
+  "key": "karmic.nodesHouse.6",
+  "domain": "karmic",
+  "title": "Nœud Nord en maison 6 (lecture karmique)",
+  "priority": 2
+ },
+ {
+  "key": "karmic.nodesHouse.7",
+  "domain": "karmic",
+  "title": "Nœud Nord en maison 7 (lecture karmique)",
+  "priority": 2
+ },
+ {
+  "key": "karmic.nodesHouse.8",
+  "domain": "karmic",
+  "title": "Nœud Nord en maison 8 (lecture karmique)",
+  "priority": 2
+ },
+ {
+  "key": "karmic.nodesHouse.9",
+  "domain": "karmic",
+  "title": "Nœud Nord en maison 9 (lecture karmique)",
+  "priority": 2
+ },
+ {
+  "key": "karmic.nodesHouse.10",
+  "domain": "karmic",
+  "title": "Nœud Nord en maison 10 (lecture karmique)",
+  "priority": 2
+ },
+ {
+  "key": "karmic.nodesHouse.11",
+  "domain": "karmic",
+  "title": "Nœud Nord en maison 11 (lecture karmique)",
+  "priority": 2
+ },
+ {
+  "key": "karmic.nodesHouse.12",
+  "domain": "karmic",
+  "title": "Nœud Nord en maison 12 (lecture karmique)",
+  "priority": 2
+ },
+ {
+  "key": "karmic.saturnHouse.1",
+  "domain": "karmic",
+  "title": "Saturne en maison 1 (lecture karmique)",
+  "priority": 2
+ },
+ {
+  "key": "karmic.saturnHouse.2",
+  "domain": "karmic",
+  "title": "Saturne en maison 2 (lecture karmique)",
+  "priority": 2
+ },
+ {
+  "key": "karmic.saturnHouse.3",
+  "domain": "karmic",
+  "title": "Saturne en maison 3 (lecture karmique)",
+  "priority": 2
+ },
+ {
+  "key": "karmic.saturnHouse.4",
+  "domain": "karmic",
+  "title": "Saturne en maison 4 (lecture karmique)",
+  "priority": 2
+ },
+ {
+  "key": "karmic.saturnHouse.5",
+  "domain": "karmic",
+  "title": "Saturne en maison 5 (lecture karmique)",
+  "priority": 2
+ },
+ {
+  "key": "karmic.saturnHouse.6",
+  "domain": "karmic",
+  "title": "Saturne en maison 6 (lecture karmique)",
+  "priority": 2
+ },
+ {
+  "key": "karmic.saturnHouse.7",
+  "domain": "karmic",
+  "title": "Saturne en maison 7 (lecture karmique)",
+  "priority": 2
+ },
+ {
+  "key": "karmic.saturnHouse.8",
+  "domain": "karmic",
+  "title": "Saturne en maison 8 (lecture karmique)",
+  "priority": 2
+ },
+ {
+  "key": "karmic.saturnHouse.9",
+  "domain": "karmic",
+  "title": "Saturne en maison 9 (lecture karmique)",
+  "priority": 2
+ },
+ {
+  "key": "karmic.saturnHouse.10",
+  "domain": "karmic",
+  "title": "Saturne en maison 10 (lecture karmique)",
+  "priority": 2
+ },
+ {
+  "key": "karmic.saturnHouse.11",
+  "domain": "karmic",
+  "title": "Saturne en maison 11 (lecture karmique)",
+  "priority": 2
+ },
+ {
+  "key": "karmic.saturnHouse.12",
+  "domain": "karmic",
+  "title": "Saturne en maison 12 (lecture karmique)",
+  "priority": 2
+ },
+ {
+  "key": "karmic.chironHouse.1",
+  "domain": "karmic",
+  "title": "Chiron en maison 1 (lecture karmique)",
+  "priority": 2
+ },
+ {
+  "key": "karmic.chironHouse.2",
+  "domain": "karmic",
+  "title": "Chiron en maison 2 (lecture karmique)",
+  "priority": 2
+ },
+ {
+  "key": "karmic.chironHouse.3",
+  "domain": "karmic",
+  "title": "Chiron en maison 3 (lecture karmique)",
+  "priority": 2
+ },
+ {
+  "key": "karmic.chironHouse.4",
+  "domain": "karmic",
+  "title": "Chiron en maison 4 (lecture karmique)",
+  "priority": 2
+ },
+ {
+  "key": "karmic.chironHouse.5",
+  "domain": "karmic",
+  "title": "Chiron en maison 5 (lecture karmique)",
+  "priority": 2
+ },
+ {
+  "key": "karmic.chironHouse.6",
+  "domain": "karmic",
+  "title": "Chiron en maison 6 (lecture karmique)",
+  "priority": 2
+ },
+ {
+  "key": "karmic.chironHouse.7",
+  "domain": "karmic",
+  "title": "Chiron en maison 7 (lecture karmique)",
+  "priority": 2
+ },
+ {
+  "key": "karmic.chironHouse.8",
+  "domain": "karmic",
+  "title": "Chiron en maison 8 (lecture karmique)",
+  "priority": 2
+ },
+ {
+  "key": "karmic.chironHouse.9",
+  "domain": "karmic",
+  "title": "Chiron en maison 9 (lecture karmique)",
+  "priority": 2
+ },
+ {
+  "key": "karmic.chironHouse.10",
+  "domain": "karmic",
+  "title": "Chiron en maison 10 (lecture karmique)",
+  "priority": 2
+ },
+ {
+  "key": "karmic.chironHouse.11",
+  "domain": "karmic",
+  "title": "Chiron en maison 11 (lecture karmique)",
+  "priority": 2
+ },
+ {
+  "key": "karmic.chironHouse.12",
+  "domain": "karmic",
+  "title": "Chiron en maison 12 (lecture karmique)",
+  "priority": 2
+ },
+ {
+  "key": "karmic.lilithHouse.1",
+  "domain": "karmic",
+  "title": "Lilith en maison 1 (lecture karmique)",
+  "priority": 2
+ },
+ {
+  "key": "karmic.lilithHouse.2",
+  "domain": "karmic",
+  "title": "Lilith en maison 2 (lecture karmique)",
+  "priority": 2
+ },
+ {
+  "key": "karmic.lilithHouse.3",
+  "domain": "karmic",
+  "title": "Lilith en maison 3 (lecture karmique)",
+  "priority": 2
+ },
+ {
+  "key": "karmic.lilithHouse.4",
+  "domain": "karmic",
+  "title": "Lilith en maison 4 (lecture karmique)",
+  "priority": 2
+ },
+ {
+  "key": "karmic.lilithHouse.5",
+  "domain": "karmic",
+  "title": "Lilith en maison 5 (lecture karmique)",
+  "priority": 2
+ },
+ {
+  "key": "karmic.lilithHouse.6",
+  "domain": "karmic",
+  "title": "Lilith en maison 6 (lecture karmique)",
+  "priority": 2
+ },
+ {
+  "key": "karmic.lilithHouse.7",
+  "domain": "karmic",
+  "title": "Lilith en maison 7 (lecture karmique)",
+  "priority": 2
+ },
+ {
+  "key": "karmic.lilithHouse.8",
+  "domain": "karmic",
+  "title": "Lilith en maison 8 (lecture karmique)",
+  "priority": 2
+ },
+ {
+  "key": "karmic.lilithHouse.9",
+  "domain": "karmic",
+  "title": "Lilith en maison 9 (lecture karmique)",
+  "priority": 2
+ },
+ {
+  "key": "karmic.lilithHouse.10",
+  "domain": "karmic",
+  "title": "Lilith en maison 10 (lecture karmique)",
+  "priority": 2
+ },
+ {
+  "key": "karmic.lilithHouse.11",
+  "domain": "karmic",
+  "title": "Lilith en maison 11 (lecture karmique)",
+  "priority": 2
+ },
+ {
+  "key": "karmic.lilithHouse.12",
+  "domain": "karmic",
+  "title": "Lilith en maison 12 (lecture karmique)",
+  "priority": 2
+ },
+ {
+  "key": "karmic.retrograde.mercury",
+  "domain": "karmic",
+  "title": "Mercure rétrograde",
+  "priority": 2
+ },
+ {
+  "key": "karmic.retrograde.venus",
+  "domain": "karmic",
+  "title": "Vénus rétrograde",
+  "priority": 2
+ },
+ {
+  "key": "karmic.retrograde.mars",
+  "domain": "karmic",
+  "title": "Mars rétrograde",
+  "priority": 2
+ },
+ {
+  "key": "karmic.retrograde.jupiter",
+  "domain": "karmic",
+  "title": "Jupiter rétrograde",
+  "priority": 2
+ },
+ {
+  "key": "karmic.retrograde.saturn",
+  "domain": "karmic",
+  "title": "Saturne rétrograde",
+  "priority": 2
+ },
+ {
+  "key": "karmic.retrograde.uranus",
+  "domain": "karmic",
+  "title": "Uranus rétrograde",
+  "priority": 2
+ },
+ {
+  "key": "karmic.retrograde.neptune",
+  "domain": "karmic",
+  "title": "Neptune rétrograde",
+  "priority": 2
+ },
+ {
+  "key": "karmic.retrograde.pluto",
+  "domain": "karmic",
+  "title": "Pluton rétrograde",
+  "priority": 2
+ },
+ {
+  "key": "karmic.house12.sun",
+  "domain": "karmic",
+  "title": "Soleil en maison 12",
+  "priority": 3
+ },
+ {
+  "key": "karmic.house12.moon",
+  "domain": "karmic",
+  "title": "Lune en maison 12",
+  "priority": 3
+ },
+ {
+  "key": "karmic.house12.mercury",
+  "domain": "karmic",
+  "title": "Mercure en maison 12",
+  "priority": 3
+ },
+ {
+  "key": "karmic.house12.venus",
+  "domain": "karmic",
+  "title": "Vénus en maison 12",
+  "priority": 3
+ },
+ {
+  "key": "karmic.house12.mars",
+  "domain": "karmic",
+  "title": "Mars en maison 12",
+  "priority": 3
+ },
+ {
+  "key": "karmic.house12.jupiter",
+  "domain": "karmic",
+  "title": "Jupiter en maison 12",
+  "priority": 3
+ },
+ {
+  "key": "karmic.house12.saturn",
+  "domain": "karmic",
+  "title": "Saturne en maison 12",
+  "priority": 3
+ },
+ {
+  "key": "karmic.house12.uranus",
+  "domain": "karmic",
+  "title": "Uranus en maison 12",
+  "priority": 3
+ },
+ {
+  "key": "karmic.house12.neptune",
+  "domain": "karmic",
+  "title": "Neptune en maison 12",
+  "priority": 3
+ },
+ {
+  "key": "karmic.house12.pluto",
+  "domain": "karmic",
+  "title": "Pluton en maison 12",
+  "priority": 3
+ },
+ {
+  "key": "karmic.house12.chiron",
+  "domain": "karmic",
+  "title": "Chiron en maison 12",
+  "priority": 3
+ },
+ {
+  "key": "karmic.house12.lilith",
+  "domain": "karmic",
+  "title": "Lilith (Lune noire) en maison 12",
+  "priority": 3
  }
 ]

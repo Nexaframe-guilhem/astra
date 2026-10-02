@@ -3296,8 +3296,113 @@
     },
     "warnings": []
   },
+  "karmic": {
+    "meta": {
+      "engine": "astra-karmic",
+      "engineVersion": "0.1.0",
+      "schemaVersion": "1.1",
+      "calculatedAt": "2026-10-02T00:00:00.000Z",
+      "dependencies": {
+        "astronomy-engine": "2.1.19",
+        "chiron": "table intégrée 1900-2100 (scripts/build-chiron-table.ts)"
+      },
+      "settings": {
+        "lilith": "mean",
+        "nodeType": "true",
+        "houseSystem": "placidus"
+      },
+      "inputHash": "0aab54bd63af83b0abc9234dd7a470113fb36bd8fdfc5b38659a60bdc656d1e3"
+    },
+    "contentKey": "karmic.intro",
+    "nodes": {
+      "north": {
+        "longitude": 197.768473,
+        "sign": "libra",
+        "signIndex": 6,
+        "degreeInSign": 17.768473,
+        "dms": {
+          "degrees": 17,
+          "minutes": 46,
+          "seconds": 7
+        },
+        "house": 11,
+        "retrograde": true,
+        "contentKeys": {
+          "sign": "karmic.nodes.libra",
+          "house": "karmic.nodesHouse.11"
+        }
+      },
+      "south": {
+        "longitude": 17.768473,
+        "sign": "aries",
+        "signIndex": 0,
+        "degreeInSign": 17.768473,
+        "dms": {
+          "degrees": 17,
+          "minutes": 46,
+          "seconds": 7
+        },
+        "house": 5,
+        "retrograde": true
+      }
+    },
+    "saturn": {
+      "longitude": 355.443433,
+      "sign": "pisces",
+      "signIndex": 11,
+      "degreeInSign": 25.443433,
+      "dms": {
+        "degrees": 25,
+        "minutes": 26,
+        "seconds": 36
+      },
+      "house": 4,
+      "retrograde": false,
+      "contentKeys": {
+        "sign": "karmic.saturn.pisces",
+        "house": "karmic.saturnHouse.4"
+      }
+    },
+    "chiron": {
+      "longitude": 193.348086,
+      "sign": "libra",
+      "signIndex": 6,
+      "degreeInSign": 13.348086,
+      "dms": {
+        "degrees": 13,
+        "minutes": 20,
+        "seconds": 53
+      },
+      "house": 11,
+      "retrograde": true,
+      "contentKeys": {
+        "sign": "karmic.chiron.libra",
+        "house": "karmic.chironHouse.11"
+      }
+    },
+    "lilith": {
+      "longitude": 107.258329,
+      "sign": "cancer",
+      "signIndex": 3,
+      "degreeInSign": 17.258329,
+      "dms": {
+        "degrees": 17,
+        "minutes": 15,
+        "seconds": 30
+      },
+      "house": 8,
+      "retrograde": false,
+      "contentKeys": {
+        "sign": "karmic.lilith.cancer",
+        "house": "karmic.lilithHouse.8"
+      }
+    },
+    "retrogrades": [],
+    "house12": [],
+    "warnings": []
+  },
   "meta": {
     "builtAt": "2026-10-02T00:00:00.000Z",
-    "inputHash": "697659c99fc66c9927b1367fa211c071725ed57a65cbad0f608a6c17ee618bf7"
+    "inputHash": "e67832027cc04330d7380bac15a36e25b673fa56896057cf354cfaebc4c777f7"
   }
 }

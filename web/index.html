@@ -230,6 +230,7 @@ function run(isExample) {
     ['Type HD', L[h.type.id]], ['Autorité', L[h.authority.id] ?? h.authority.id], ['Profil', h.profile.id],
     ['Chemin de vie', n.lifePath.value], ['Expression', n.expression?.value ?? '—'],
     ['Matrice · centre', profile.destinyMatrix.points.find((p) => p.id === 'E').value],
+    ['Nœud Nord', L[profile.karmic.nodes.north.sign]], ['Chiron', profile.karmic.chiron ? L[profile.karmic.chiron.sign] : '—'],
     ['Lagna védique', L[profile.jyotish.lagna.sign]], ['Nakshatra lunaire', ASTRA.label('nakshatra.' + profile.jyotish.grahas.find((g) => g.id === 'moon').nakshatra.id, 'fr')],
   ];
   $('summary').innerHTML = tiles.map(([k, v]) => `<div class="tile"><div class="k">${k}</div><div class="v">${esc(v)}</div></div>`).join('');

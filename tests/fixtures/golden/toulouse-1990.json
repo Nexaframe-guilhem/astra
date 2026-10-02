@@ -3230,8 +3230,130 @@
     },
     "warnings": []
   },
+  "karmic": {
+    "meta": {
+      "engine": "astra-karmic",
+      "engineVersion": "0.1.0",
+      "schemaVersion": "1.1",
+      "calculatedAt": "2026-10-02T00:00:00.000Z",
+      "dependencies": {
+        "astronomy-engine": "2.1.19",
+        "chiron": "table intégrée 1900-2100 (scripts/build-chiron-table.ts)"
+      },
+      "settings": {
+        "lilith": "mean",
+        "nodeType": "true",
+        "houseSystem": "placidus"
+      },
+      "inputHash": "1da73667556ae5c141f93688fcb16aa3255406e5470775042e786a93532e9cef"
+    },
+    "contentKey": "karmic.intro",
+    "nodes": {
+      "north": {
+        "longitude": 308.121805,
+        "sign": "aquarius",
+        "signIndex": 10,
+        "degreeInSign": 8.121805,
+        "dms": {
+          "degrees": 8,
+          "minutes": 7,
+          "seconds": 18
+        },
+        "house": 5,
+        "retrograde": false,
+        "contentKeys": {
+          "sign": "karmic.nodes.aquarius",
+          "house": "karmic.nodesHouse.5"
+        }
+      },
+      "south": {
+        "longitude": 128.121805,
+        "sign": "leo",
+        "signIndex": 4,
+        "degreeInSign": 8.121805,
+        "dms": {
+          "degrees": 8,
+          "minutes": 7,
+          "seconds": 18
+        },
+        "house": 11,
+        "retrograde": false
+      }
+    },
+    "saturn": {
+      "longitude": 294.030648,
+      "sign": "capricorn",
+      "signIndex": 9,
+      "degreeInSign": 24.030648,
+      "dms": {
+        "degrees": 24,
+        "minutes": 1,
+        "seconds": 50
+      },
+      "house": 4,
+      "retrograde": true,
+      "contentKeys": {
+        "sign": "karmic.saturn.capricorn",
+        "house": "karmic.saturnHouse.4"
+      }
+    },
+    "chiron": {
+      "longitude": 106.067659,
+      "sign": "cancer",
+      "signIndex": 3,
+      "degreeInSign": 16.067659,
+      "dms": {
+        "degrees": 16,
+        "minutes": 4,
+        "seconds": 4
+      },
+      "house": 10,
+      "retrograde": false,
+      "contentKeys": {
+        "sign": "karmic.chiron.cancer",
+        "house": "karmic.chironHouse.10"
+      }
+    },
+    "lilith": {
+      "longitude": 234.891457,
+      "sign": "scorpio",
+      "signIndex": 7,
+      "degreeInSign": 24.891457,
+      "dms": {
+        "degrees": 24,
+        "minutes": 53,
+        "seconds": 29
+      },
+      "house": 2,
+      "retrograde": false,
+      "contentKeys": {
+        "sign": "karmic.lilith.scorpio",
+        "house": "karmic.lilithHouse.2"
+      }
+    },
+    "retrogrades": [
+      {
+        "id": "saturn",
+        "contentKey": "karmic.retrograde.saturn"
+      },
+      {
+        "id": "uranus",
+        "contentKey": "karmic.retrograde.uranus"
+      },
+      {
+        "id": "neptune",
+        "contentKey": "karmic.retrograde.neptune"
+      },
+      {
+        "id": "pluto",
+        "contentKey": "karmic.retrograde.pluto"
+      }
+    ],
+    "house12": [],
+    "warnings": []
+  },
   "meta": {
     "builtAt": "2026-10-02T00:00:00.000Z",
-    "inputHash": "b04733e4b71d034d0e705e91df20549859ec16c79ff38f3ba9686e7a1aa440ec"
+    "inputHash": "819b4bda3f40966e28a8e39d253f0102769dd666819eeab22d97120a90a9e9bb"
   }
 }
