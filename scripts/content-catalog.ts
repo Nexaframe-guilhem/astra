@@ -5,10 +5,10 @@ import { resolveContent } from '../src/content/repository.js';
 
 const rows = buildContentCatalog('fr');
 const csvCell = (s: string) => (/[",;\n]/.test(s) ? `"${s.replace(/"/g, '""')}"` : s);
-const header = ['key', 'domain', 'priority', 'title', 'status', 'body'];
+const header = ['key', 'domain', 'priority', 'title', 'status', 'origin', 'body'];
 const lines = rows.map((r) => {
   const c = resolveContent(r.key, { includeDrafts: true });
-  return [r.key, r.domain, String(r.priority), r.title, c?.status ?? 'missing', c?.body ?? ''].map(csvCell).join(';');
+  return [r.key, r.domain, String(r.priority), r.title, c?.status ?? 'missing', c?.origin ?? '', c?.body ?? ''].map(csvCell).join(';');
 });
 mkdirSync('content-catalog', { recursive: true });
 writeFileSync('content-catalog/fr.csv', `﻿${header.join(';')}\n${lines.join('\n')}\n`);
