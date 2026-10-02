@@ -1,0 +1,2475 @@
+{
+  "$id": "https://astra.local/schema/profile.v1.0.json",
+  "title": "ASTRA Profile 1.0",
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "type": "object",
+  "properties": {
+    "schemaVersion": {
+      "type": "string",
+      "const": "1.0"
+    },
+    "identity": {
+      "type": "object",
+      "properties": {
+        "firstName": {
+          "type": "string"
+        },
+        "middleNames": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "lastName": {
+          "type": "string"
+        },
+        "birthLastName": {
+          "type": [
+            "string",
+            "null"
+          ]
+        }
+      },
+      "required": [
+        "firstName",
+        "middleNames",
+        "lastName",
+        "birthLastName"
+      ],
+      "additionalProperties": false
+    },
+    "birth": {
+      "type": "object",
+      "properties": {
+        "date": {
+          "type": "string"
+        },
+        "time": {
+          "type": "string"
+        },
+        "place": {
+          "type": "string"
+        },
+        "country": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "latitude": {
+          "type": "number"
+        },
+        "longitude": {
+          "type": "number"
+        },
+        "timezone": {
+          "type": "string"
+        },
+        "timezoneSource": {
+          "type": "string",
+          "enum": [
+            "input",
+            "coordinates"
+          ]
+        },
+        "utcOffsetMinutes": {
+          "type": "number"
+        },
+        "utc": {
+          "type": "string"
+        },
+        "julianDayUT": {
+          "type": "number"
+        },
+        "timezonesAtCoordinates": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "warnings": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        }
+      },
+      "required": [
+        "date",
+        "time",
+        "place",
+        "country",
+        "latitude",
+        "longitude",
+        "timezone",
+        "timezoneSource",
+        "utcOffsetMinutes",
+        "utc",
+        "julianDayUT",
+        "timezonesAtCoordinates",
+        "warnings"
+      ],
+      "additionalProperties": false
+    },
+    "astrology": {
+      "type": "object",
+      "properties": {
+        "meta": {
+          "type": "object",
+          "properties": {
+            "engine": {
+              "type": "string"
+            },
+            "engineVersion": {
+              "type": "string"
+            },
+            "schemaVersion": {
+              "type": "string"
+            },
+            "calculatedAt": {
+              "type": "string",
+              "format": "date-time",
+              "pattern": "^(?:(?:\\d\\d[2468][048]|\\d\\d[13579][26]|\\d\\d0[48]|[02468][048]00|[13579][26]00)-02-29|\\d{4}-(?:(?:0[13578]|1[02])-(?:0[1-9]|[12]\\d|3[01])|(?:0[469]|11)-(?:0[1-9]|[12]\\d|30)|(?:02)-(?:0[1-9]|1\\d|2[0-8])))T(?:(?:[01]\\d|2[0-3]):[0-5]\\d:[0-5]\\d(?:\\.\\d+)?(?:Z))$"
+            },
+            "dependencies": {
+              "type": "object",
+              "propertyNames": {
+                "type": "string"
+              },
+              "additionalProperties": {
+                "type": "string"
+              }
+            },
+            "settings": {
+              "type": "object",
+              "propertyNames": {
+                "type": "string"
+              },
+              "additionalProperties": {}
+            },
+            "inputHash": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "engine",
+            "engineVersion",
+            "schemaVersion",
+            "calculatedAt",
+            "dependencies",
+            "settings",
+            "inputHash"
+          ],
+          "additionalProperties": false
+        },
+        "zodiac": {
+          "type": "string",
+          "const": "tropical"
+        },
+        "houseSystem": {
+          "type": "string",
+          "enum": [
+            "placidus",
+            "whole-sign",
+            "equal",
+            "porphyry"
+          ]
+        },
+        "bodies": {
+          "type": "object",
+          "propertyNames": {
+            "type": "string"
+          },
+          "additionalProperties": {
+            "type": "object",
+            "properties": {
+              "longitude": {
+                "type": "number",
+                "minimum": 0,
+                "exclusiveMaximum": 360
+              },
+              "sign": {
+                "type": "string",
+                "enum": [
+                  "aries",
+                  "taurus",
+                  "gemini",
+                  "cancer",
+                  "leo",
+                  "virgo",
+                  "libra",
+                  "scorpio",
+                  "sagittarius",
+                  "capricorn",
+                  "aquarius",
+                  "pisces"
+                ]
+              },
+              "signIndex": {
+                "type": "integer",
+                "minimum": 0,
+                "maximum": 11
+              },
+              "degreeInSign": {
+                "type": "number"
+              },
+              "dms": {
+                "type": "object",
+                "properties": {
+                  "degrees": {
+                    "type": "integer",
+                    "minimum": -9007199254740991,
+                    "maximum": 9007199254740991
+                  },
+                  "minutes": {
+                    "type": "integer",
+                    "minimum": -9007199254740991,
+                    "maximum": 9007199254740991
+                  },
+                  "seconds": {
+                    "type": "integer",
+                    "minimum": -9007199254740991,
+                    "maximum": 9007199254740991
+                  }
+                },
+                "required": [
+                  "degrees",
+                  "minutes",
+                  "seconds"
+                ],
+                "additionalProperties": false
+              },
+              "id": {
+                "type": "string"
+              },
+              "latitude": {
+                "type": [
+                  "number",
+                  "null"
+                ]
+              },
+              "speed": {
+                "type": "number"
+              },
+              "retrograde": {
+                "type": "boolean"
+              },
+              "house": {
+                "type": "integer",
+                "minimum": 1,
+                "maximum": 12
+              },
+              "contentKeys": {
+                "type": "object",
+                "propertyNames": {
+                  "type": "string"
+                },
+                "additionalProperties": {
+                  "type": "string"
+                }
+              }
+            },
+            "required": [
+              "longitude",
+              "sign",
+              "signIndex",
+              "degreeInSign",
+              "dms",
+              "id",
+              "latitude",
+              "speed",
+              "retrograde",
+              "house",
+              "contentKeys"
+            ],
+            "additionalProperties": false
+          }
+        },
+        "angles": {
+          "type": "object",
+          "properties": {
+            "ascendant": {
+              "type": "object",
+              "properties": {
+                "longitude": {
+                  "type": "number",
+                  "minimum": 0,
+                  "exclusiveMaximum": 360
+                },
+                "sign": {
+                  "type": "string",
+                  "enum": [
+                    "aries",
+                    "taurus",
+                    "gemini",
+                    "cancer",
+                    "leo",
+                    "virgo",
+                    "libra",
+                    "scorpio",
+                    "sagittarius",
+                    "capricorn",
+                    "aquarius",
+                    "pisces"
+                  ]
+                },
+                "signIndex": {
+                  "type": "integer",
+                  "minimum": 0,
+                  "maximum": 11
+                },
+                "degreeInSign": {
+                  "type": "number"
+                },
+                "dms": {
+                  "type": "object",
+                  "properties": {
+                    "degrees": {
+                      "type": "integer",
+                      "minimum": -9007199254740991,
+                      "maximum": 9007199254740991
+                    },
+                    "minutes": {
+                      "type": "integer",
+                      "minimum": -9007199254740991,
+                      "maximum": 9007199254740991
+                    },
+                    "seconds": {
+                      "type": "integer",
+                      "minimum": -9007199254740991,
+                      "maximum": 9007199254740991
+                    }
+                  },
+                  "required": [
+                    "degrees",
+                    "minutes",
+                    "seconds"
+                  ],
+                  "additionalProperties": false
+                },
+                "id": {
+                  "type": "string"
+                },
+                "contentKeys": {
+                  "type": "object",
+                  "propertyNames": {
+                    "type": "string"
+                  },
+                  "additionalProperties": {
+                    "type": "string"
+                  }
+                }
+              },
+              "required": [
+                "longitude",
+                "sign",
+                "signIndex",
+                "degreeInSign",
+                "dms",
+                "id",
+                "contentKeys"
+              ],
+              "additionalProperties": false
+            },
+            "midheaven": {
+              "type": "object",
+              "properties": {
+                "longitude": {
+                  "type": "number",
+                  "minimum": 0,
+                  "exclusiveMaximum": 360
+                },
+                "sign": {
+                  "type": "string",
+                  "enum": [
+                    "aries",
+                    "taurus",
+                    "gemini",
+                    "cancer",
+                    "leo",
+                    "virgo",
+                    "libra",
+                    "scorpio",
+                    "sagittarius",
+                    "capricorn",
+                    "aquarius",
+                    "pisces"
+                  ]
+                },
+                "signIndex": {
+                  "type": "integer",
+                  "minimum": 0,
+                  "maximum": 11
+                },
+                "degreeInSign": {
+                  "type": "number"
+                },
+                "dms": {
+                  "type": "object",
+                  "properties": {
+                    "degrees": {
+                      "type": "integer",
+                      "minimum": -9007199254740991,
+                      "maximum": 9007199254740991
+                    },
+                    "minutes": {
+                      "type": "integer",
+                      "minimum": -9007199254740991,
+                      "maximum": 9007199254740991
+                    },
+                    "seconds": {
+                      "type": "integer",
+                      "minimum": -9007199254740991,
+                      "maximum": 9007199254740991
+                    }
+                  },
+                  "required": [
+                    "degrees",
+                    "minutes",
+                    "seconds"
+                  ],
+                  "additionalProperties": false
+                },
+                "id": {
+                  "type": "string"
+                },
+                "contentKeys": {
+                  "type": "object",
+                  "propertyNames": {
+                    "type": "string"
+                  },
+                  "additionalProperties": {
+                    "type": "string"
+                  }
+                }
+              },
+              "required": [
+                "longitude",
+                "sign",
+                "signIndex",
+                "degreeInSign",
+                "dms",
+                "id",
+                "contentKeys"
+              ],
+              "additionalProperties": false
+            },
+            "descendant": {
+              "type": "object",
+              "properties": {
+                "longitude": {
+                  "type": "number",
+                  "minimum": 0,
+                  "exclusiveMaximum": 360
+                },
+                "sign": {
+                  "type": "string",
+                  "enum": [
+                    "aries",
+                    "taurus",
+                    "gemini",
+                    "cancer",
+                    "leo",
+                    "virgo",
+                    "libra",
+                    "scorpio",
+                    "sagittarius",
+                    "capricorn",
+                    "aquarius",
+                    "pisces"
+                  ]
+                },
+                "signIndex": {
+                  "type": "integer",
+                  "minimum": 0,
+                  "maximum": 11
+                },
+                "degreeInSign": {
+                  "type": "number"
+                },
+                "dms": {
+                  "type": "object",
+                  "properties": {
+                    "degrees": {
+                      "type": "integer",
+                      "minimum": -9007199254740991,
+                      "maximum": 9007199254740991
+                    },
+                    "minutes": {
+                      "type": "integer",
+                      "minimum": -9007199254740991,
+                      "maximum": 9007199254740991
+                    },
+                    "seconds": {
+                      "type": "integer",
+                      "minimum": -9007199254740991,
+                      "maximum": 9007199254740991
+                    }
+                  },
+                  "required": [
+                    "degrees",
+                    "minutes",
+                    "seconds"
+                  ],
+                  "additionalProperties": false
+                },
+                "id": {
+                  "type": "string"
+                },
+                "contentKeys": {
+                  "type": "object",
+                  "propertyNames": {
+                    "type": "string"
+                  },
+                  "additionalProperties": {
+                    "type": "string"
+                  }
+                }
+              },
+              "required": [
+                "longitude",
+                "sign",
+                "signIndex",
+                "degreeInSign",
+                "dms",
+                "id",
+                "contentKeys"
+              ],
+              "additionalProperties": false
+            },
+            "imumCoeli": {
+              "type": "object",
+              "properties": {
+                "longitude": {
+                  "type": "number",
+                  "minimum": 0,
+                  "exclusiveMaximum": 360
+                },
+                "sign": {
+                  "type": "string",
+                  "enum": [
+                    "aries",
+                    "taurus",
+                    "gemini",
+                    "cancer",
+                    "leo",
+                    "virgo",
+                    "libra",
+                    "scorpio",
+                    "sagittarius",
+                    "capricorn",
+                    "aquarius",
+                    "pisces"
+                  ]
+                },
+                "signIndex": {
+                  "type": "integer",
+                  "minimum": 0,
+                  "maximum": 11
+                },
+                "degreeInSign": {
+                  "type": "number"
+                },
+                "dms": {
+                  "type": "object",
+                  "properties": {
+                    "degrees": {
+                      "type": "integer",
+                      "minimum": -9007199254740991,
+                      "maximum": 9007199254740991
+                    },
+                    "minutes": {
+                      "type": "integer",
+                      "minimum": -9007199254740991,
+                      "maximum": 9007199254740991
+                    },
+                    "seconds": {
+                      "type": "integer",
+                      "minimum": -9007199254740991,
+                      "maximum": 9007199254740991
+                    }
+                  },
+                  "required": [
+                    "degrees",
+                    "minutes",
+                    "seconds"
+                  ],
+                  "additionalProperties": false
+                },
+                "id": {
+                  "type": "string"
+                },
+                "contentKeys": {
+                  "type": "object",
+                  "propertyNames": {
+                    "type": "string"
+                  },
+                  "additionalProperties": {
+                    "type": "string"
+                  }
+                }
+              },
+              "required": [
+                "longitude",
+                "sign",
+                "signIndex",
+                "degreeInSign",
+                "dms",
+                "id",
+                "contentKeys"
+              ],
+              "additionalProperties": false
+            }
+          },
+          "required": [
+            "ascendant",
+            "midheaven",
+            "descendant",
+            "imumCoeli"
+          ],
+          "additionalProperties": false
+        },
+        "houses": {
+          "minItems": 12,
+          "maxItems": 12,
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "longitude": {
+                "type": "number",
+                "minimum": 0,
+                "exclusiveMaximum": 360
+              },
+              "sign": {
+                "type": "string",
+                "enum": [
+                  "aries",
+                  "taurus",
+                  "gemini",
+                  "cancer",
+                  "leo",
+                  "virgo",
+                  "libra",
+                  "scorpio",
+                  "sagittarius",
+                  "capricorn",
+                  "aquarius",
+                  "pisces"
+                ]
+              },
+              "signIndex": {
+                "type": "integer",
+                "minimum": 0,
+                "maximum": 11
+              },
+              "degreeInSign": {
+                "type": "number"
+              },
+              "dms": {
+                "type": "object",
+                "properties": {
+                  "degrees": {
+                    "type": "integer",
+                    "minimum": -9007199254740991,
+                    "maximum": 9007199254740991
+                  },
+                  "minutes": {
+                    "type": "integer",
+                    "minimum": -9007199254740991,
+                    "maximum": 9007199254740991
+                  },
+                  "seconds": {
+                    "type": "integer",
+                    "minimum": -9007199254740991,
+                    "maximum": 9007199254740991
+                  }
+                },
+                "required": [
+                  "degrees",
+                  "minutes",
+                  "seconds"
+                ],
+                "additionalProperties": false
+              },
+              "house": {
+                "type": "integer",
+                "minimum": 1,
+                "maximum": 12
+              },
+              "contentKeys": {
+                "type": "object",
+                "propertyNames": {
+                  "type": "string"
+                },
+                "additionalProperties": {
+                  "type": "string"
+                }
+              }
+            },
+            "required": [
+              "longitude",
+              "sign",
+              "signIndex",
+              "degreeInSign",
+              "dms",
+              "house",
+              "contentKeys"
+            ],
+            "additionalProperties": false
+          }
+        },
+        "aspects": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "a": {
+                "type": "string"
+              },
+              "b": {
+                "type": "string"
+              },
+              "type": {
+                "type": "string",
+                "enum": [
+                  "conjunction",
+                  "sextile",
+                  "square",
+                  "trine",
+                  "opposition"
+                ]
+              },
+              "exactAngle": {
+                "type": "number"
+              },
+              "angle": {
+                "type": "number"
+              },
+              "orb": {
+                "type": "number"
+              },
+              "applying": {
+                "type": [
+                  "boolean",
+                  "null"
+                ]
+              },
+              "contentKeys": {
+                "type": "object",
+                "propertyNames": {
+                  "type": "string"
+                },
+                "additionalProperties": {
+                  "type": "string"
+                }
+              }
+            },
+            "required": [
+              "a",
+              "b",
+              "type",
+              "exactAngle",
+              "angle",
+              "orb",
+              "applying",
+              "contentKeys"
+            ],
+            "additionalProperties": false
+          }
+        },
+        "distribution": {
+          "type": "object",
+          "properties": {
+            "elements": {
+              "type": "object",
+              "propertyNames": {
+                "type": "string"
+              },
+              "additionalProperties": {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                }
+              }
+            },
+            "modalities": {
+              "type": "object",
+              "propertyNames": {
+                "type": "string"
+              },
+              "additionalProperties": {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                }
+              }
+            }
+          },
+          "required": [
+            "elements",
+            "modalities"
+          ],
+          "additionalProperties": false
+        },
+        "warnings": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        }
+      },
+      "required": [
+        "meta",
+        "zodiac",
+        "houseSystem",
+        "bodies",
+        "angles",
+        "houses",
+        "aspects",
+        "distribution",
+        "warnings"
+      ],
+      "additionalProperties": false
+    },
+    "humanDesign": {
+      "type": "object",
+      "properties": {
+        "meta": {
+          "type": "object",
+          "properties": {
+            "engine": {
+              "type": "string"
+            },
+            "engineVersion": {
+              "type": "string"
+            },
+            "schemaVersion": {
+              "type": "string"
+            },
+            "calculatedAt": {
+              "type": "string",
+              "format": "date-time",
+              "pattern": "^(?:(?:\\d\\d[2468][048]|\\d\\d[13579][26]|\\d\\d0[48]|[02468][048]00|[13579][26]00)-02-29|\\d{4}-(?:(?:0[13578]|1[02])-(?:0[1-9]|[12]\\d|3[01])|(?:0[469]|11)-(?:0[1-9]|[12]\\d|30)|(?:02)-(?:0[1-9]|1\\d|2[0-8])))T(?:(?:[01]\\d|2[0-3]):[0-5]\\d:[0-5]\\d(?:\\.\\d+)?(?:Z))$"
+            },
+            "dependencies": {
+              "type": "object",
+              "propertyNames": {
+                "type": "string"
+              },
+              "additionalProperties": {
+                "type": "string"
+              }
+            },
+            "settings": {
+              "type": "object",
+              "propertyNames": {
+                "type": "string"
+              },
+              "additionalProperties": {}
+            },
+            "inputHash": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "engine",
+            "engineVersion",
+            "schemaVersion",
+            "calculatedAt",
+            "dependencies",
+            "settings",
+            "inputHash"
+          ],
+          "additionalProperties": false
+        },
+        "type": {
+          "type": "object",
+          "properties": {
+            "id": {
+              "type": "string",
+              "enum": [
+                "manifestor",
+                "generator",
+                "manifesting-generator",
+                "projector",
+                "reflector"
+              ]
+            },
+            "contentKey": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "id",
+            "contentKey"
+          ],
+          "additionalProperties": false
+        },
+        "strategy": {
+          "type": "object",
+          "properties": {
+            "id": {
+              "type": "string",
+              "enum": [
+                "to-inform",
+                "to-respond",
+                "wait-for-the-invitation",
+                "wait-a-lunar-cycle"
+              ]
+            },
+            "contentKey": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "id",
+            "contentKey"
+          ],
+          "additionalProperties": false
+        },
+        "authority": {
+          "type": "object",
+          "properties": {
+            "id": {
+              "type": "string",
+              "enum": [
+                "emotional",
+                "sacral",
+                "splenic",
+                "ego-manifested",
+                "ego-projected",
+                "self-projected",
+                "mental",
+                "lunar"
+              ]
+            },
+            "contentKey": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "id",
+            "contentKey"
+          ],
+          "additionalProperties": false
+        },
+        "profile": {
+          "type": "object",
+          "properties": {
+            "id": {
+              "type": "string"
+            },
+            "personalityLine": {
+              "type": "integer",
+              "minimum": -9007199254740991,
+              "maximum": 9007199254740991
+            },
+            "designLine": {
+              "type": "integer",
+              "minimum": -9007199254740991,
+              "maximum": 9007199254740991
+            },
+            "contentKey": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "id",
+            "personalityLine",
+            "designLine",
+            "contentKey"
+          ],
+          "additionalProperties": false
+        },
+        "definition": {
+          "type": "object",
+          "properties": {
+            "id": {
+              "type": "string",
+              "enum": [
+                "none",
+                "single",
+                "split",
+                "triple-split",
+                "quadruple-split"
+              ]
+            },
+            "contentKey": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "id",
+            "contentKey"
+          ],
+          "additionalProperties": false
+        },
+        "centers": {
+          "type": "object",
+          "propertyNames": {
+            "type": "string",
+            "enum": [
+              "head",
+              "ajna",
+              "throat",
+              "g",
+              "heart",
+              "spleen",
+              "solarPlexus",
+              "sacral",
+              "root"
+            ]
+          },
+          "additionalProperties": {
+            "type": "object",
+            "properties": {
+              "defined": {
+                "type": "boolean"
+              },
+              "activeGates": {
+                "type": "array",
+                "items": {
+                  "type": "integer",
+                  "minimum": -9007199254740991,
+                  "maximum": 9007199254740991
+                }
+              },
+              "contentKey": {
+                "type": "string"
+              }
+            },
+            "required": [
+              "defined",
+              "activeGates",
+              "contentKey"
+            ],
+            "additionalProperties": false
+          },
+          "required": [
+            "head",
+            "ajna",
+            "throat",
+            "g",
+            "heart",
+            "spleen",
+            "solarPlexus",
+            "sacral",
+            "root"
+          ]
+        },
+        "channels": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "id": {
+                "type": "string"
+              },
+              "gates": {
+                "type": "array",
+                "prefixItems": [
+                  {
+                    "type": "integer",
+                    "minimum": -9007199254740991,
+                    "maximum": 9007199254740991
+                  },
+                  {
+                    "type": "integer",
+                    "minimum": -9007199254740991,
+                    "maximum": 9007199254740991
+                  }
+                ],
+                "items": false,
+                "minItems": 2,
+                "maxItems": 2
+              },
+              "centers": {
+                "type": "array",
+                "prefixItems": [
+                  {
+                    "type": "string",
+                    "enum": [
+                      "head",
+                      "ajna",
+                      "throat",
+                      "g",
+                      "heart",
+                      "spleen",
+                      "solarPlexus",
+                      "sacral",
+                      "root"
+                    ]
+                  },
+                  {
+                    "type": "string",
+                    "enum": [
+                      "head",
+                      "ajna",
+                      "throat",
+                      "g",
+                      "heart",
+                      "spleen",
+                      "solarPlexus",
+                      "sacral",
+                      "root"
+                    ]
+                  }
+                ],
+                "items": false,
+                "minItems": 2,
+                "maxItems": 2
+              },
+              "contentKey": {
+                "type": "string"
+              }
+            },
+            "required": [
+              "id",
+              "gates",
+              "centers",
+              "contentKey"
+            ],
+            "additionalProperties": false
+          }
+        },
+        "gates": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "gate": {
+                "type": "integer",
+                "minimum": -9007199254740991,
+                "maximum": 9007199254740991
+              },
+              "center": {
+                "type": "string",
+                "enum": [
+                  "head",
+                  "ajna",
+                  "throat",
+                  "g",
+                  "heart",
+                  "spleen",
+                  "solarPlexus",
+                  "sacral",
+                  "root"
+                ]
+              },
+              "activatedBy": {
+                "type": "array",
+                "items": {
+                  "type": "object",
+                  "properties": {
+                    "side": {
+                      "type": "string",
+                      "enum": [
+                        "personality",
+                        "design"
+                      ]
+                    },
+                    "point": {
+                      "type": "string",
+                      "enum": [
+                        "sun",
+                        "earth",
+                        "northNode",
+                        "southNode",
+                        "moon",
+                        "mercury",
+                        "venus",
+                        "mars",
+                        "jupiter",
+                        "saturn",
+                        "uranus",
+                        "neptune",
+                        "pluto"
+                      ]
+                    },
+                    "line": {
+                      "type": "integer",
+                      "minimum": -9007199254740991,
+                      "maximum": 9007199254740991
+                    }
+                  },
+                  "required": [
+                    "side",
+                    "point",
+                    "line"
+                  ],
+                  "additionalProperties": false
+                }
+              },
+              "inChannel": {
+                "type": "boolean"
+              },
+              "contentKey": {
+                "type": "string"
+              }
+            },
+            "required": [
+              "gate",
+              "center",
+              "activatedBy",
+              "inChannel",
+              "contentKey"
+            ],
+            "additionalProperties": false
+          }
+        },
+        "personality": {
+          "type": "object",
+          "properties": {
+            "utc": {
+              "type": "string"
+            },
+            "activations": {
+              "minItems": 13,
+              "maxItems": 13,
+              "type": "array",
+              "items": {
+                "type": "object",
+                "properties": {
+                  "point": {
+                    "type": "string",
+                    "enum": [
+                      "sun",
+                      "earth",
+                      "northNode",
+                      "southNode",
+                      "moon",
+                      "mercury",
+                      "venus",
+                      "mars",
+                      "jupiter",
+                      "saturn",
+                      "uranus",
+                      "neptune",
+                      "pluto"
+                    ]
+                  },
+                  "longitude": {
+                    "type": "number"
+                  },
+                  "gate": {
+                    "type": "integer",
+                    "minimum": 1,
+                    "maximum": 64
+                  },
+                  "line": {
+                    "type": "integer",
+                    "minimum": 1,
+                    "maximum": 6
+                  },
+                  "color": {
+                    "type": "integer",
+                    "minimum": 1,
+                    "maximum": 6
+                  },
+                  "tone": {
+                    "type": "integer",
+                    "minimum": 1,
+                    "maximum": 6
+                  },
+                  "base": {
+                    "type": "integer",
+                    "minimum": 1,
+                    "maximum": 5
+                  },
+                  "gateBoundaryDistance": {
+                    "type": "number"
+                  },
+                  "lineBoundaryDistance": {
+                    "type": "number"
+                  },
+                  "contentKeys": {
+                    "type": "object",
+                    "propertyNames": {
+                      "type": "string"
+                    },
+                    "additionalProperties": {
+                      "type": "string"
+                    }
+                  }
+                },
+                "required": [
+                  "point",
+                  "longitude",
+                  "gate",
+                  "line",
+                  "color",
+                  "tone",
+                  "base",
+                  "gateBoundaryDistance",
+                  "lineBoundaryDistance",
+                  "contentKeys"
+                ],
+                "additionalProperties": false
+              }
+            }
+          },
+          "required": [
+            "utc",
+            "activations"
+          ],
+          "additionalProperties": false
+        },
+        "design": {
+          "type": "object",
+          "properties": {
+            "utc": {
+              "type": "string"
+            },
+            "activations": {
+              "minItems": 13,
+              "maxItems": 13,
+              "type": "array",
+              "items": {
+                "type": "object",
+                "properties": {
+                  "point": {
+                    "type": "string",
+                    "enum": [
+                      "sun",
+                      "earth",
+                      "northNode",
+                      "southNode",
+                      "moon",
+                      "mercury",
+                      "venus",
+                      "mars",
+                      "jupiter",
+                      "saturn",
+                      "uranus",
+                      "neptune",
+                      "pluto"
+                    ]
+                  },
+                  "longitude": {
+                    "type": "number"
+                  },
+                  "gate": {
+                    "type": "integer",
+                    "minimum": 1,
+                    "maximum": 64
+                  },
+                  "line": {
+                    "type": "integer",
+                    "minimum": 1,
+                    "maximum": 6
+                  },
+                  "color": {
+                    "type": "integer",
+                    "minimum": 1,
+                    "maximum": 6
+                  },
+                  "tone": {
+                    "type": "integer",
+                    "minimum": 1,
+                    "maximum": 6
+                  },
+                  "base": {
+                    "type": "integer",
+                    "minimum": 1,
+                    "maximum": 5
+                  },
+                  "gateBoundaryDistance": {
+                    "type": "number"
+                  },
+                  "lineBoundaryDistance": {
+                    "type": "number"
+                  },
+                  "contentKeys": {
+                    "type": "object",
+                    "propertyNames": {
+                      "type": "string"
+                    },
+                    "additionalProperties": {
+                      "type": "string"
+                    }
+                  }
+                },
+                "required": [
+                  "point",
+                  "longitude",
+                  "gate",
+                  "line",
+                  "color",
+                  "tone",
+                  "base",
+                  "gateBoundaryDistance",
+                  "lineBoundaryDistance",
+                  "contentKeys"
+                ],
+                "additionalProperties": false
+              }
+            },
+            "solarArcDegrees": {
+              "type": "number"
+            }
+          },
+          "required": [
+            "utc",
+            "activations",
+            "solarArcDegrees"
+          ],
+          "additionalProperties": false
+        },
+        "incarnationCross": {
+          "type": "object",
+          "properties": {
+            "angle": {
+              "type": "string",
+              "enum": [
+                "right",
+                "juxtaposition",
+                "left"
+              ]
+            },
+            "gates": {
+              "type": "object",
+              "properties": {
+                "personalitySun": {
+                  "type": "integer",
+                  "minimum": -9007199254740991,
+                  "maximum": 9007199254740991
+                },
+                "personalityEarth": {
+                  "type": "integer",
+                  "minimum": -9007199254740991,
+                  "maximum": 9007199254740991
+                },
+                "designSun": {
+                  "type": "integer",
+                  "minimum": -9007199254740991,
+                  "maximum": 9007199254740991
+                },
+                "designEarth": {
+                  "type": "integer",
+                  "minimum": -9007199254740991,
+                  "maximum": 9007199254740991
+                }
+              },
+              "required": [
+                "personalitySun",
+                "personalityEarth",
+                "designSun",
+                "designEarth"
+              ],
+              "additionalProperties": false
+            },
+            "id": {
+              "type": "string"
+            },
+            "contentKey": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "angle",
+            "gates",
+            "id",
+            "contentKey"
+          ],
+          "additionalProperties": false
+        },
+        "variables": {
+          "type": "object",
+          "properties": {
+            "notation": {
+              "type": "string"
+            },
+            "determination": {
+              "type": "object",
+              "properties": {
+                "arrow": {
+                  "type": "string",
+                  "enum": [
+                    "left",
+                    "right"
+                  ]
+                },
+                "color": {
+                  "type": "integer",
+                  "minimum": -9007199254740991,
+                  "maximum": 9007199254740991
+                },
+                "tone": {
+                  "type": "integer",
+                  "minimum": -9007199254740991,
+                  "maximum": 9007199254740991
+                },
+                "contentKey": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                "arrow",
+                "color",
+                "tone",
+                "contentKey"
+              ],
+              "additionalProperties": false
+            },
+            "environment": {
+              "type": "object",
+              "properties": {
+                "arrow": {
+                  "type": "string",
+                  "enum": [
+                    "left",
+                    "right"
+                  ]
+                },
+                "color": {
+                  "type": "integer",
+                  "minimum": -9007199254740991,
+                  "maximum": 9007199254740991
+                },
+                "tone": {
+                  "type": "integer",
+                  "minimum": -9007199254740991,
+                  "maximum": 9007199254740991
+                },
+                "contentKey": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                "arrow",
+                "color",
+                "tone",
+                "contentKey"
+              ],
+              "additionalProperties": false
+            },
+            "motivation": {
+              "type": "object",
+              "properties": {
+                "arrow": {
+                  "type": "string",
+                  "enum": [
+                    "left",
+                    "right"
+                  ]
+                },
+                "color": {
+                  "type": "integer",
+                  "minimum": -9007199254740991,
+                  "maximum": 9007199254740991
+                },
+                "tone": {
+                  "type": "integer",
+                  "minimum": -9007199254740991,
+                  "maximum": 9007199254740991
+                },
+                "contentKey": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                "arrow",
+                "color",
+                "tone",
+                "contentKey"
+              ],
+              "additionalProperties": false
+            },
+            "perspective": {
+              "type": "object",
+              "properties": {
+                "arrow": {
+                  "type": "string",
+                  "enum": [
+                    "left",
+                    "right"
+                  ]
+                },
+                "color": {
+                  "type": "integer",
+                  "minimum": -9007199254740991,
+                  "maximum": 9007199254740991
+                },
+                "tone": {
+                  "type": "integer",
+                  "minimum": -9007199254740991,
+                  "maximum": 9007199254740991
+                },
+                "contentKey": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                "arrow",
+                "color",
+                "tone",
+                "contentKey"
+              ],
+              "additionalProperties": false
+            }
+          },
+          "required": [
+            "notation",
+            "determination",
+            "environment",
+            "motivation",
+            "perspective"
+          ],
+          "additionalProperties": false
+        },
+        "warnings": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        }
+      },
+      "required": [
+        "meta",
+        "type",
+        "strategy",
+        "authority",
+        "profile",
+        "definition",
+        "centers",
+        "channels",
+        "gates",
+        "personality",
+        "design",
+        "incarnationCross",
+        "variables",
+        "warnings"
+      ],
+      "additionalProperties": false
+    },
+    "numerology": {
+      "type": "object",
+      "properties": {
+        "meta": {
+          "type": "object",
+          "properties": {
+            "engine": {
+              "type": "string"
+            },
+            "engineVersion": {
+              "type": "string"
+            },
+            "schemaVersion": {
+              "type": "string"
+            },
+            "calculatedAt": {
+              "type": "string",
+              "format": "date-time",
+              "pattern": "^(?:(?:\\d\\d[2468][048]|\\d\\d[13579][26]|\\d\\d0[48]|[02468][048]00|[13579][26]00)-02-29|\\d{4}-(?:(?:0[13578]|1[02])-(?:0[1-9]|[12]\\d|3[01])|(?:0[469]|11)-(?:0[1-9]|[12]\\d|30)|(?:02)-(?:0[1-9]|1\\d|2[0-8])))T(?:(?:[01]\\d|2[0-3]):[0-5]\\d:[0-5]\\d(?:\\.\\d+)?(?:Z))$"
+            },
+            "dependencies": {
+              "type": "object",
+              "propertyNames": {
+                "type": "string"
+              },
+              "additionalProperties": {
+                "type": "string"
+              }
+            },
+            "settings": {
+              "type": "object",
+              "propertyNames": {
+                "type": "string"
+              },
+              "additionalProperties": {}
+            },
+            "inputHash": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "engine",
+            "engineVersion",
+            "schemaVersion",
+            "calculatedAt",
+            "dependencies",
+            "settings",
+            "inputHash"
+          ],
+          "additionalProperties": false
+        },
+        "method": {
+          "type": "string",
+          "enum": [
+            "pythagorean",
+            "chaldean"
+          ]
+        },
+        "normalizedName": {
+          "type": "object",
+          "properties": {
+            "parts": {
+              "type": "array",
+              "items": {
+                "type": "string"
+              }
+            },
+            "letters": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "parts",
+            "letters"
+          ],
+          "additionalProperties": false
+        },
+        "lifePath": {
+          "type": "object",
+          "properties": {
+            "value": {
+              "type": "integer",
+              "minimum": -9007199254740991,
+              "maximum": 9007199254740991
+            },
+            "compound": {
+              "type": "integer",
+              "minimum": -9007199254740991,
+              "maximum": 9007199254740991
+            },
+            "chain": {
+              "type": "array",
+              "items": {
+                "type": "integer",
+                "minimum": -9007199254740991,
+                "maximum": 9007199254740991
+              }
+            },
+            "isMaster": {
+              "type": "boolean"
+            },
+            "karmicDebt": {
+              "anyOf": [
+                {
+                  "type": "integer",
+                  "minimum": -9007199254740991,
+                  "maximum": 9007199254740991
+                },
+                {
+                  "type": "null"
+                }
+              ]
+            },
+            "contentKey": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "value",
+            "compound",
+            "chain",
+            "isMaster",
+            "karmicDebt",
+            "contentKey"
+          ],
+          "additionalProperties": false
+        },
+        "expression": {
+          "type": "object",
+          "properties": {
+            "value": {
+              "type": "integer",
+              "minimum": -9007199254740991,
+              "maximum": 9007199254740991
+            },
+            "compound": {
+              "type": "integer",
+              "minimum": -9007199254740991,
+              "maximum": 9007199254740991
+            },
+            "chain": {
+              "type": "array",
+              "items": {
+                "type": "integer",
+                "minimum": -9007199254740991,
+                "maximum": 9007199254740991
+              }
+            },
+            "isMaster": {
+              "type": "boolean"
+            },
+            "karmicDebt": {
+              "anyOf": [
+                {
+                  "type": "integer",
+                  "minimum": -9007199254740991,
+                  "maximum": 9007199254740991
+                },
+                {
+                  "type": "null"
+                }
+              ]
+            },
+            "contentKey": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "value",
+            "compound",
+            "chain",
+            "isMaster",
+            "karmicDebt",
+            "contentKey"
+          ],
+          "additionalProperties": false
+        },
+        "soulUrge": {
+          "type": "object",
+          "properties": {
+            "value": {
+              "type": "integer",
+              "minimum": -9007199254740991,
+              "maximum": 9007199254740991
+            },
+            "compound": {
+              "type": "integer",
+              "minimum": -9007199254740991,
+              "maximum": 9007199254740991
+            },
+            "chain": {
+              "type": "array",
+              "items": {
+                "type": "integer",
+                "minimum": -9007199254740991,
+                "maximum": 9007199254740991
+              }
+            },
+            "isMaster": {
+              "type": "boolean"
+            },
+            "karmicDebt": {
+              "anyOf": [
+                {
+                  "type": "integer",
+                  "minimum": -9007199254740991,
+                  "maximum": 9007199254740991
+                },
+                {
+                  "type": "null"
+                }
+              ]
+            },
+            "contentKey": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "value",
+            "compound",
+            "chain",
+            "isMaster",
+            "karmicDebt",
+            "contentKey"
+          ],
+          "additionalProperties": false
+        },
+        "personality": {
+          "type": "object",
+          "properties": {
+            "value": {
+              "type": "integer",
+              "minimum": -9007199254740991,
+              "maximum": 9007199254740991
+            },
+            "compound": {
+              "type": "integer",
+              "minimum": -9007199254740991,
+              "maximum": 9007199254740991
+            },
+            "chain": {
+              "type": "array",
+              "items": {
+                "type": "integer",
+                "minimum": -9007199254740991,
+                "maximum": 9007199254740991
+              }
+            },
+            "isMaster": {
+              "type": "boolean"
+            },
+            "karmicDebt": {
+              "anyOf": [
+                {
+                  "type": "integer",
+                  "minimum": -9007199254740991,
+                  "maximum": 9007199254740991
+                },
+                {
+                  "type": "null"
+                }
+              ]
+            },
+            "contentKey": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "value",
+            "compound",
+            "chain",
+            "isMaster",
+            "karmicDebt",
+            "contentKey"
+          ],
+          "additionalProperties": false
+        },
+        "maturity": {
+          "type": "object",
+          "properties": {
+            "value": {
+              "type": "integer",
+              "minimum": -9007199254740991,
+              "maximum": 9007199254740991
+            },
+            "compound": {
+              "type": "integer",
+              "minimum": -9007199254740991,
+              "maximum": 9007199254740991
+            },
+            "chain": {
+              "type": "array",
+              "items": {
+                "type": "integer",
+                "minimum": -9007199254740991,
+                "maximum": 9007199254740991
+              }
+            },
+            "isMaster": {
+              "type": "boolean"
+            },
+            "karmicDebt": {
+              "anyOf": [
+                {
+                  "type": "integer",
+                  "minimum": -9007199254740991,
+                  "maximum": 9007199254740991
+                },
+                {
+                  "type": "null"
+                }
+              ]
+            },
+            "contentKey": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "value",
+            "compound",
+            "chain",
+            "isMaster",
+            "karmicDebt",
+            "contentKey"
+          ],
+          "additionalProperties": false
+        },
+        "birthday": {
+          "type": "object",
+          "properties": {
+            "value": {
+              "type": "integer",
+              "minimum": -9007199254740991,
+              "maximum": 9007199254740991
+            },
+            "compound": {
+              "type": "integer",
+              "minimum": -9007199254740991,
+              "maximum": 9007199254740991
+            },
+            "chain": {
+              "type": "array",
+              "items": {
+                "type": "integer",
+                "minimum": -9007199254740991,
+                "maximum": 9007199254740991
+              }
+            },
+            "isMaster": {
+              "type": "boolean"
+            },
+            "karmicDebt": {
+              "anyOf": [
+                {
+                  "type": "integer",
+                  "minimum": -9007199254740991,
+                  "maximum": 9007199254740991
+                },
+                {
+                  "type": "null"
+                }
+              ]
+            },
+            "contentKey": {
+              "type": "string"
+            },
+            "day": {
+              "type": "integer",
+              "minimum": -9007199254740991,
+              "maximum": 9007199254740991
+            }
+          },
+          "required": [
+            "value",
+            "compound",
+            "chain",
+            "isMaster",
+            "karmicDebt",
+            "contentKey",
+            "day"
+          ],
+          "additionalProperties": false
+        },
+        "personalCycles": {
+          "type": "object",
+          "properties": {
+            "referenceDate": {
+              "type": "string"
+            },
+            "personalYear": {
+              "type": "object",
+              "properties": {
+                "value": {
+                  "type": "integer",
+                  "minimum": -9007199254740991,
+                  "maximum": 9007199254740991
+                },
+                "compound": {
+                  "type": "integer",
+                  "minimum": -9007199254740991,
+                  "maximum": 9007199254740991
+                },
+                "chain": {
+                  "type": "array",
+                  "items": {
+                    "type": "integer",
+                    "minimum": -9007199254740991,
+                    "maximum": 9007199254740991
+                  }
+                },
+                "isMaster": {
+                  "type": "boolean"
+                },
+                "karmicDebt": {
+                  "anyOf": [
+                    {
+                      "type": "integer",
+                      "minimum": -9007199254740991,
+                      "maximum": 9007199254740991
+                    },
+                    {
+                      "type": "null"
+                    }
+                  ]
+                },
+                "contentKey": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                "value",
+                "compound",
+                "chain",
+                "isMaster",
+                "karmicDebt",
+                "contentKey"
+              ],
+              "additionalProperties": false
+            },
+            "personalMonth": {
+              "type": "object",
+              "properties": {
+                "value": {
+                  "type": "integer",
+                  "minimum": -9007199254740991,
+                  "maximum": 9007199254740991
+                },
+                "compound": {
+                  "type": "integer",
+                  "minimum": -9007199254740991,
+                  "maximum": 9007199254740991
+                },
+                "chain": {
+                  "type": "array",
+                  "items": {
+                    "type": "integer",
+                    "minimum": -9007199254740991,
+                    "maximum": 9007199254740991
+                  }
+                },
+                "isMaster": {
+                  "type": "boolean"
+                },
+                "karmicDebt": {
+                  "anyOf": [
+                    {
+                      "type": "integer",
+                      "minimum": -9007199254740991,
+                      "maximum": 9007199254740991
+                    },
+                    {
+                      "type": "null"
+                    }
+                  ]
+                },
+                "contentKey": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                "value",
+                "compound",
+                "chain",
+                "isMaster",
+                "karmicDebt",
+                "contentKey"
+              ],
+              "additionalProperties": false
+            },
+            "personalDay": {
+              "type": "object",
+              "properties": {
+                "value": {
+                  "type": "integer",
+                  "minimum": -9007199254740991,
+                  "maximum": 9007199254740991
+                },
+                "compound": {
+                  "type": "integer",
+                  "minimum": -9007199254740991,
+                  "maximum": 9007199254740991
+                },
+                "chain": {
+                  "type": "array",
+                  "items": {
+                    "type": "integer",
+                    "minimum": -9007199254740991,
+                    "maximum": 9007199254740991
+                  }
+                },
+                "isMaster": {
+                  "type": "boolean"
+                },
+                "karmicDebt": {
+                  "anyOf": [
+                    {
+                      "type": "integer",
+                      "minimum": -9007199254740991,
+                      "maximum": 9007199254740991
+                    },
+                    {
+                      "type": "null"
+                    }
+                  ]
+                },
+                "contentKey": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                "value",
+                "compound",
+                "chain",
+                "isMaster",
+                "karmicDebt",
+                "contentKey"
+              ],
+              "additionalProperties": false
+            }
+          },
+          "required": [
+            "referenceDate",
+            "personalYear",
+            "personalMonth",
+            "personalDay"
+          ],
+          "additionalProperties": false
+        },
+        "masterNumbers": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "number": {
+                "type": "integer",
+                "minimum": -9007199254740991,
+                "maximum": 9007199254740991
+              },
+              "source": {
+                "type": "string"
+              }
+            },
+            "required": [
+              "number",
+              "source"
+            ],
+            "additionalProperties": false
+          }
+        },
+        "karmicDebt": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "number": {
+                "type": "integer",
+                "minimum": -9007199254740991,
+                "maximum": 9007199254740991
+              },
+              "source": {
+                "type": "string"
+              },
+              "contentKey": {
+                "type": "string"
+              }
+            },
+            "required": [
+              "number",
+              "source",
+              "contentKey"
+            ],
+            "additionalProperties": false
+          }
+        },
+        "karmicLessons": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "number": {
+                "type": "integer",
+                "minimum": -9007199254740991,
+                "maximum": 9007199254740991
+              },
+              "contentKey": {
+                "type": "string"
+              }
+            },
+            "required": [
+              "number",
+              "contentKey"
+            ],
+            "additionalProperties": false
+          }
+        },
+        "inclusionGrid": {
+          "type": "object",
+          "propertyNames": {
+            "type": "string"
+          },
+          "additionalProperties": {
+            "type": "integer",
+            "minimum": -9007199254740991,
+            "maximum": 9007199254740991
+          }
+        },
+        "cycles": {
+          "type": "object",
+          "properties": {
+            "lifeCycles": {
+              "type": "array",
+              "items": {
+                "type": "object",
+                "properties": {
+                  "index": {
+                    "type": "integer",
+                    "minimum": -9007199254740991,
+                    "maximum": 9007199254740991
+                  },
+                  "value": {
+                    "type": "integer",
+                    "minimum": -9007199254740991,
+                    "maximum": 9007199254740991
+                  },
+                  "fromAge": {
+                    "type": "integer",
+                    "minimum": -9007199254740991,
+                    "maximum": 9007199254740991
+                  },
+                  "toAge": {
+                    "anyOf": [
+                      {
+                        "type": "integer",
+                        "minimum": -9007199254740991,
+                        "maximum": 9007199254740991
+                      },
+                      {
+                        "type": "null"
+                      }
+                    ]
+                  },
+                  "contentKey": {
+                    "type": "string"
+                  }
+                },
+                "required": [
+                  "index",
+                  "value",
+                  "fromAge",
+                  "toAge",
+                  "contentKey"
+                ],
+                "additionalProperties": false
+              }
+            },
+            "pinnacles": {
+              "type": "array",
+              "items": {
+                "type": "object",
+                "properties": {
+                  "index": {
+                    "type": "integer",
+                    "minimum": -9007199254740991,
+                    "maximum": 9007199254740991
+                  },
+                  "value": {
+                    "type": "integer",
+                    "minimum": -9007199254740991,
+                    "maximum": 9007199254740991
+                  },
+                  "fromAge": {
+                    "type": "integer",
+                    "minimum": -9007199254740991,
+                    "maximum": 9007199254740991
+                  },
+                  "toAge": {
+                    "anyOf": [
+                      {
+                        "type": "integer",
+                        "minimum": -9007199254740991,
+                        "maximum": 9007199254740991
+                      },
+                      {
+                        "type": "null"
+                      }
+                    ]
+                  },
+                  "contentKey": {
+                    "type": "string"
+                  }
+                },
+                "required": [
+                  "index",
+                  "value",
+                  "fromAge",
+                  "toAge",
+                  "contentKey"
+                ],
+                "additionalProperties": false
+              }
+            },
+            "challenges": {
+              "type": "array",
+              "items": {
+                "type": "object",
+                "properties": {
+                  "index": {
+                    "type": "integer",
+                    "minimum": -9007199254740991,
+                    "maximum": 9007199254740991
+                  },
+                  "value": {
+                    "type": "integer",
+                    "minimum": -9007199254740991,
+                    "maximum": 9007199254740991
+                  },
+                  "fromAge": {
+                    "type": "integer",
+                    "minimum": -9007199254740991,
+                    "maximum": 9007199254740991
+                  },
+                  "toAge": {
+                    "anyOf": [
+                      {
+                        "type": "integer",
+                        "minimum": -9007199254740991,
+                        "maximum": 9007199254740991
+                      },
+                      {
+                        "type": "null"
+                      }
+                    ]
+                  },
+                  "contentKey": {
+                    "type": "string"
+                  }
+                },
+                "required": [
+                  "index",
+                  "value",
+                  "fromAge",
+                  "toAge",
+                  "contentKey"
+                ],
+                "additionalProperties": false
+              }
+            }
+          },
+          "required": [
+            "lifeCycles",
+            "pinnacles",
+            "challenges"
+          ],
+          "additionalProperties": false
+        },
+        "warnings": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        }
+      },
+      "required": [
+        "meta",
+        "method",
+        "normalizedName",
+        "lifePath",
+        "expression",
+        "soulUrge",
+        "personality",
+        "maturity",
+        "birthday",
+        "personalCycles",
+        "masterNumbers",
+        "karmicDebt",
+        "karmicLessons",
+        "inclusionGrid",
+        "cycles",
+        "warnings"
+      ],
+      "additionalProperties": false
+    },
+    "meta": {
+      "type": "object",
+      "properties": {
+        "builtAt": {
+          "type": "string"
+        },
+        "inputHash": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "builtAt",
+        "inputHash"
+      ],
+      "additionalProperties": false
+    }
+  },
+  "required": [
+    "schemaVersion",
+    "identity",
+    "birth",
+    "astrology",
+    "humanDesign",
+    "numerology",
+    "meta"
+  ],
+  "additionalProperties": false
+}

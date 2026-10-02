@@ -1,0 +1,34 @@
+{
+  "name": "astra-engines",
+  "version": "0.1.0",
+  "private": true,
+  "description": "ASTRA — moteurs déterministes Astrologie / Human Design / Numérologie (Phase 1)",
+  "type": "module",
+  "engines": {
+    "node": ">=22"
+  },
+  "scripts": {
+    "dev": "TZ=UTC tsx src/dev/server.ts",
+    "test": "TZ=UTC vitest run",
+    "test:watch": "TZ=UTC vitest",
+    "typecheck": "tsc --noEmit",
+    "schema:export": "tsx scripts/export-schema.ts",
+    "fixtures:update": "TZ=UTC tsx scripts/update-fixtures.ts",
+    "profile": "TZ=UTC tsx scripts/profile-cli.ts"
+  },
+  "dependencies": {
+    "astronomy-engine": "2.1.19",
+    "geo-tz": "8.1.9",
+    "playwright-core": "1.56",
+    "zod": "4.6.5"
+  },
+  "devDependencies": {
+    "@types/node": "22.20.5",
+    "circular-natal-horoscope-js": "1.1.0",
+    "free-human-design": "1.0.1",
+    "natalengine": "1.6.0",
+    "tsx": "4.23.15",
+    "typescript": "7.0.2",
+    "vitest": "5.0.3"
+  }
+}

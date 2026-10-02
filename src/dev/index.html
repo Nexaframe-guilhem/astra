@@ -1,0 +1,187 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>ASTRA · banc de vérification</title>
+<style>
+  :root { --bg:#f7f7f5; --card:#fff; --ink:#1d1d1b; --muted:#6b6b66; --line:#e3e2dd; --accent:#3b4cca; --ok:#1f7a3a; --ko:#b42318; --warn:#9a6700; }
+  * { box-sizing: border-box; }
+  body { margin:0; font:14px/1.45 system-ui, -apple-system, Segoe UI, sans-serif; background:var(--bg); color:var(--ink); }
+  header { padding:14px 20px; border-bottom:1px solid var(--line); background:var(--card); display:flex; gap:12px; align-items:baseline; flex-wrap:wrap; }
+  header h1 { font-size:16px; margin:0; }
+  header span { color:var(--muted); }
+  main { display:grid; grid-template-columns: 340px 1fr; gap:16px; padding:16px; }
+  @media (max-width: 900px) { main { grid-template-columns: 1fr; } }
+  .card { background:var(--card); border:1px solid var(--line); border-radius:8px; padding:14px; }
+  label { display:block; font-size:12px; color:var(--muted); margin:8px 0 2px; }
+  input, select, textarea { width:100%; padding:6px 8px; border:1px solid var(--line); border-radius:6px; font:inherit; background:#fff; }
+  textarea { font-family: ui-monospace, Menlo, monospace; font-size:12px; min-height:120px; }
+  .row { display:grid; grid-template-columns:1fr 1fr; gap:8px; }
+  button { margin-top:12px; width:100%; padding:9px; border:0; border-radius:6px; background:var(--accent); color:#fff; font-weight:600; cursor:pointer; }
+  details { margin-top:10px; } summary { cursor:pointer; color:var(--muted); font-size:12px; }
+  nav { display:flex; gap:4px; flex-wrap:wrap; margin-bottom:12px; }
+  nav button { width:auto; margin:0; padding:6px 10px; background:transparent; color:var(--ink); border:1px solid var(--line); font-weight:500; }
+  nav button.on { background:var(--ink); color:#fff; border-color:var(--ink); }
+  table { width:100%; border-collapse:collapse; font-variant-numeric: tabular-nums; margin-bottom:14px; }
+  th, td { text-align:left; padding:5px 8px; border-bottom:1px solid var(--line); vertical-align:top; }
+  th { font-size:12px; color:var(--muted); font-weight:600; }
+  h3 { margin:16px 0 6px; font-size:14px; }
+  h3:first-child { margin-top:0; }
+  pre { margin:0; font-size:12px; overflow:auto; max-height:75vh; background:#fbfbfa; padding:10px; border-radius:6px; border:1px solid var(--line); }
+  .ok { color:var(--ok); font-weight:600; } .ko { color:var(--ko); font-weight:600; } .warn { color:var(--warn); }
+  .muted { color:var(--muted); font-size:12px; }
+  .pill { display:inline-block; padding:1px 7px; border-radius:10px; background:#eef0fb; color:var(--accent); font-size:12px; margin:1px; }
+  .grid { display:grid; grid-template-columns: repeat(auto-fill, minmax(180px, 1fr)); gap:8px; margin-bottom:12px; }
+  .kv { border:1px solid var(--line); border-radius:6px; padding:8px; }
+  .kv b { display:block; font-size:16px; }
+  .kv span { color:var(--muted); font-size:12px; }
+  .err { background:#fef3f2; border:1px solid #fecdca; color:var(--ko); padding:10px; border-radius:6px; white-space:pre-wrap; }
+  .warnbox { background:#fffaeb; border:1px solid #fedf89; padding:8px 10px; border-radius:6px; margin-bottom:10px; font-size:12px; }
+</style>
+</head>
+<body>
+<header><h1>ASTRA · banc de vérification des moteurs</h1><span>Phase 1 · outil interne · calculs déterministes, aucune IA</span></header>
+<main>
+  <section class="card">
+    <label>Profil de référence</label>
+    <select id="preset"><option value="">— saisie libre —</option></select>
+    <div class="row"><div><label>Prénom</label><input id="firstName"></div><div><label>Nom</label><input id="lastName"></div></div>
+    <div class="row"><div><label>Autres prénoms</label><input id="middleNames"></div><div><label>Nom de naissance</label><input id="birthLastName"></div></div>
+    <div class="row"><div><label>Date (AAAA-MM-JJ)</label><input id="birthDate"></div><div><label>Heure (HH:MM)</label><input id="birthTime"></div></div>
+    <div class="row"><div><label>Lieu</label><input id="birthPlace"></div><div><label>Pays</label><input id="country"></div></div>
+    <div class="row"><div><label>Latitude</label><input id="latitude" type="number" step="any"></div><div><label>Longitude</label><input id="longitude" type="number" step="any"></div></div>
+    <label>Fuseau IANA (vide = déduit des coordonnées)</label><input id="timezone" placeholder="Europe/Paris">
+    <label>Heure ambiguë (retour à l’heure d’hiver)</label>
+    <select id="dstAmbiguity"><option value="">— refuser —</option><option value="earlier">première occurrence</option><option value="later">seconde occurrence</option></select>
+    <details>
+      <summary>Paramètres des moteurs</summary>
+      <div class="row">
+        <div><label>Maisons</label><select id="houseSystem"><option>placidus</option><option>whole-sign</option><option>equal</option><option>porphyry</option></select></div>
+        <div><label>Nœud lunaire</label><select id="nodeType"><option>true</option><option>mean</option></select></div>
+      </div>
+      <label>Date de référence (cycles personnels)</label><input id="referenceDate" placeholder="AAAA-MM-JJ (défaut : aujourd’hui)">
+      <label>Convention numérologique (JSON partiel)</label>
+      <textarea id="numerology">{
+  "method": "pythagorean",
+  "masterNumbers": [11, 22, 33],
+  "preserveMasterNumbers": true,
+  "yAsVowel": "always",
+  "nameReduction": "perName",
+  "lifePathMethod": "components"
+}</textarea>
+    </details>
+    <button id="go">Calculer le profil</button>
+    <p class="muted" id="timing"></p>
+  </section>
+  <section class="card">
+    <nav id="tabs"></nav>
+    <div id="out"><p class="muted">Choisissez un profil de référence ou saisissez des données, puis calculez.</p></div>
+  </section>
+</main>
+<script>
+const $ = (id) => document.getElementById(id);
+const FIELDS = ['firstName','lastName','middleNames','birthLastName','birthDate','birthTime','birthPlace','country','latitude','longitude','timezone'];
+let L = {}; let data = null; let tab = 'synthese';
+const lab = (id) => L[id] ?? id;
+const deg = (p) => `${p.dms.degrees}°${String(p.dms.minutes).padStart(2,'0')}′${String(p.dms.seconds).padStart(2,'0')}″ ${lab(p.sign)}`;
+const esc = (s) => String(s).replace(/[&<>]/g, (c) => ({ '&':'&amp;', '<':'&lt;', '>':'&gt;' }[c]));
+const table = (head, rows) => `<table><tr>${head.map((h) => `<th>${h}</th>`).join('')}</tr>${rows.map((r) => `<tr>${r.map((c) => `<td>${c ?? ''}</td>`).join('')}</tr>`).join('')}</table>`;
+const kv = (pairs) => `<div class="grid">${pairs.map(([k, v]) => `<div class="kv"><span>${k}</span><b>${v}</b></div>`).join('')}</div>`;
+const warnings = (list) => list && list.length ? `<div class="warnbox">${list.map(esc).join('<br>')}</div>` : '';
+
+const TABS = {
+  synthese: ['Synthèse', (d) => {
+    const p = d.profile, a = p.astrology, h = p.humanDesign, n = p.numerology;
+    return `<h3>Naissance</h3>${kv([
+      ['Instant UTC', p.birth.utc.replace('.000Z','Z')], ['Fuseau', `${p.birth.timezone} (${p.birth.timezoneSource})`],
+      ['Décalage', `${p.birth.utcOffsetMinutes >= 0 ? '+' : ''}${p.birth.utcOffsetMinutes} min`], ['Jour julien UT', p.birth.julianDayUT],
+    ])}${warnings([...p.birth.warnings, ...a.warnings, ...h.warnings, ...n.warnings])}
+    <h3>Astrologie</h3>${kv([['Soleil', deg(a.bodies.sun)], ['Lune', deg(a.bodies.moon)], ['Ascendant', deg(a.angles.ascendant)], ['Milieu du Ciel', deg(a.angles.midheaven)]])}
+    <h3>Human Design</h3>${kv([['Type', lab(h.type.id)], ['Stratégie', lab(h.strategy.id)], ['Autorité', lab(h.authority.id)], ['Profil', h.profile.id], ['Définition', lab(h.definition.id)], ['Croix', `${lab(h.incarnationCross.angle)} ${h.incarnationCross.id.split(':')[1]}`]])}
+    <h3>Numérologie</h3>${kv([['Chemin de vie', n.lifePath.value], ['Expression', n.expression.value], ['Élan spirituel', n.soulUrge.value], ['Personnalité', n.personality.value], ['Maturité', n.maturity.value], ['Année personnelle', n.personalCycles.personalYear.value]])}`;
+  }],
+  astro: ['Astrologie', (d) => {
+    const a = d.profile.astrology;
+    return `${warnings(a.warnings)}<h3>Planètes et nœuds</h3>${table(['Corps','Longitude','Position','Maison','Vitesse °/j','Rétro'],
+      Object.values(a.bodies).map((b) => [lab(b.id), b.longitude.toFixed(4), deg(b), b.house, b.speed.toFixed(4), b.retrograde ? 'R' : '']))}
+    <h3>Angles</h3>${table(['Point','Longitude','Position'], Object.values(a.angles).map((p) => [lab(p.id), p.longitude.toFixed(4), deg(p)]))}
+    <h3>Maisons (${lab(a.houseSystem)})</h3>${table(['Maison','Cuspide','Position'], a.houses.map((c) => [c.house, c.longitude.toFixed(4), deg(c)]))}
+    <h3>Aspects</h3>${table(['A','Aspect','B','Orbe','Phase'], a.aspects.map((x) => [lab(x.a), lab(x.type), lab(x.b), x.orb.toFixed(2) + '°', x.applying === null ? '—' : x.applying ? 'appliquant' : 'séparant']))}
+    <h3>Répartition</h3>${table(['', 'Corps'], [...Object.entries(a.distribution.elements), ...Object.entries(a.distribution.modalities)].map(([k, v]) => [lab(k === 'earth' ? 'earth_element' : k), v.map(lab).join(', ')]))}`;
+  }],
+  hd: ['Human Design', (d) => {
+    const h = d.profile.humanDesign;
+    const act = (side) => table(['Point','Porte.Ligne','Couleur','Ton','Base','Longitude','Dist. limite'], h[side].activations.map((x) =>
+      [lab(x.point), `<b>${x.gate}.${x.line}</b>`, x.color, x.tone, x.base, x.longitude.toFixed(4), `<span class="${x.gateBoundaryDistance < 0.05 ? 'warn' : ''}">${x.gateBoundaryDistance.toFixed(3)}°</span>`]));
+    return `${warnings(h.warnings)}${kv([['Type', lab(h.type.id)], ['Stratégie', lab(h.strategy.id)], ['Autorité', lab(h.authority.id)], ['Profil', h.profile.id], ['Définition', lab(h.definition.id)], ['Variables', h.variables.notation]])}
+    <h3>Centres</h3>${table(['Centre','État','Portes actives'], Object.entries(h.centers).map(([k, c]) => [lab(k), c.defined ? '<b>défini</b>' : 'ouvert', c.activeGates.join(', ')]))}
+    <h3>Canaux</h3>${h.channels.length ? h.channels.map((c) => `<span class="pill">${c.id} · ${lab(c.centers[0])} – ${lab(c.centers[1])}</span>`).join(' ') : '<p class="muted">Aucun</p>'}
+    <h3>Croix d’incarnation</h3><p>${lab(h.incarnationCross.angle)} · portes ${Object.values(h.incarnationCross.gates).join(' / ')} <span class="muted">(${h.incarnationCross.contentKey})</span></p>
+    <h3>Personnalité (conscient) · ${h.personality.utc}</h3>${act('personality')}
+    <h3>Design (inconscient) · ${h.design.utc} · arc solaire ${h.design.solarArcDegrees}°</h3>${act('design')}
+    <h3>Variables</h3>${table(['Variable','Flèche','Couleur','Ton'], ['determination','environment','motivation','perspective'].map((k) => [k, h.variables[k].arrow, h.variables[k].color, h.variables[k].tone]))}`;
+  }],
+  num: ['Numérologie', (d) => {
+    const n = d.profile.numerology;
+    const r = (k, x) => [lab(k), `<b>${x.value}</b>`, x.chain.join(' → '), x.isMaster ? 'maître' : '', x.karmicDebt ?? ''];
+    return `<p class="muted">Méthode ${lab(n.method)} · nom utilisé : <b>${n.normalizedName.parts.join(' ')}</b></p>${warnings(n.warnings)}
+    ${table(['Nombre','Valeur','Réduction','Maître','Dette karmique'], [r('lifePath', n.lifePath), r('expression', n.expression), r('soulUrge', n.soulUrge), r('personality', n.personality), r('maturity', n.maturity), r('birthday', n.birthday),
+      r('personalYear', n.personalCycles.personalYear), r('personalMonth', n.personalCycles.personalMonth), r('personalDay', n.personalCycles.personalDay)])}
+    <p class="muted">Cycles personnels au ${n.personalCycles.referenceDate}</p>
+    <h3>Grille d’inclusion</h3>${table(Object.keys(n.inclusionGrid), [Object.values(n.inclusionGrid)])}
+    <p>Leçons karmiques : ${n.karmicLessons.map((k) => k.number).join(', ') || 'aucune'}</p>
+    <h3>Cycles</h3>${table(['Cycle','#','Valeur','Âges'], [...n.cycles.lifeCycles.map((c) => ['Cycle de vie', c.index, c.value, `${c.fromAge}–${c.toAge ?? '…'}`]), ...n.cycles.pinnacles.map((c) => ['Réalisation', c.index, c.value, `${c.fromAge}–${c.toAge ?? '…'}`]), ...n.cycles.challenges.map((c) => ['Défi', c.index, c.value, `${c.fromAge}–${c.toAge ?? '…'}`])])}`;
+  }],
+  check: ['Contrôle croisé', (d) => {
+    const rows = d.crossCheck;
+    const ko = rows.filter((r) => !r.ok).length;
+    return `<p>${ko === 0 ? '<span class="ok">Tout concorde</span>' : `<span class="ko">${ko} écart(s)</span>`} avec les bibliothèques de référence (devDependencies).</p>
+    ${table(['Section','Référence','Champ','Nous','Référence','Écart','',''], rows.map((r) => [r.section, r.reference, r.field, typeof r.ours === 'number' ? r.ours.toFixed(4) : esc(r.ours), typeof r.theirs === 'number' ? r.theirs.toFixed(4) : esc(r.theirs), r.delta !== undefined ? r.delta.toFixed(4) + '°' : '', r.ok ? '<span class="ok">✓</span>' : '<span class="ko">✗</span>', `<span class="muted">${r.note ?? ''}</span>`]))}`;
+  }],
+  meta: ['Versions', (d) => {
+    const p = d.profile;
+    return table(['Section','Moteur','Version','Schéma','Calculé le','Dépendances','Paramètres','Hash'], ['astrology','humanDesign','numerology'].map((k) => {
+      const m = p[k].meta; return [k, m.engine, m.engineVersion, m.schemaVersion, m.calculatedAt, `<pre>${esc(JSON.stringify(m.dependencies, null, 1))}</pre>`, `<pre>${esc(JSON.stringify(m.settings, null, 1))}</pre>`, `<code>${m.inputHash.slice(0, 12)}…</code>`];
+    })) + `<h3>Contenus pédagogiques</h3><p>${d.contentCoverage.withText} / ${d.contentCoverage.total} clés de contenu ont un texte (brouillon compris).</p><pre>${d.contentCoverage.keys.join('\n')}</pre>`;
+  }],
+  context: ['Contexte chatbot', (d) => `<p class="muted">Vue compacte destinée au futur chatbot (sélectionnable par section).</p><pre>${esc(JSON.stringify(d.context, null, 2))}</pre>`],
+  json: ['JSON complet', (d) => `<p class="muted">${JSON.stringify(d.profile).length.toLocaleString('fr')} octets · schemaVersion ${d.profile.schemaVersion}</p><pre>${esc(JSON.stringify(d.profile, null, 2))}</pre>`],
+};
+
+function render() {
+  $('tabs').innerHTML = Object.entries(TABS).map(([k, [t]]) => `<button data-t="${k}" class="${k === tab ? 'on' : ''}">${t}</button>`).join('');
+  if (data) $('out').innerHTML = TABS[tab][1](data);
+}
+$('tabs').onclick = (e) => { if (e.target.dataset.t) { tab = e.target.dataset.t; render(); } };
+
+async function run() {
+  const input = {};
+  for (const f of FIELDS) { const v = $(f).value.trim(); if (v) input[f] = ['latitude','longitude'].includes(f) ? Number(v) : v; }
+  if ($('dstAmbiguity').value) input.dstAmbiguity = $('dstAmbiguity').value;
+  let numerology = {};
+  try { numerology = JSON.parse($('numerology').value || '{}'); } catch { $('out').innerHTML = '<div class="err">Convention numérologique : JSON invalide</div>'; return; }
+  const options = { astrology: { houseSystem: $('houseSystem').value, nodeType: $('nodeType').value }, humanDesign: { nodeType: $('nodeType').value }, numerology };
+  if ($('referenceDate').value) options.referenceDate = $('referenceDate').value;
+  $('out').innerHTML = '<p class="muted">Calcul…</p>';
+  const res = await fetch('/api/profile', { method: 'POST', headers: { 'content-type': 'application/json' }, body: JSON.stringify({ input, options }) });
+  const body = await res.json();
+  if (!res.ok) { data = null; $('out').innerHTML = `<div class="err"><b>${body.code}</b> · ${esc(body.message)}\n${esc(JSON.stringify(body.details ?? {}, null, 2))}</div>`; return; }
+  data = body; $('timing').textContent = `Calculé en ${body.timingMs} ms (hors contrôle croisé)`; render();
+}
+$('go').onclick = run;
+
+(async () => {
+  L = await (await fetch('/api/labels')).json();
+  const presets = await (await fetch('/api/presets')).json();
+  $('preset').innerHTML += presets.map((p, i) => `<option value="${i}">${p.id} — ${p.note}</option>`).join('');
+  $('preset').onchange = () => {
+    const p = presets[$('preset').value]; if (!p) return;
+    for (const f of FIELDS) $(f).value = p.input[f] ?? '';
+    run();
+  };
+  render();
+})();
+</script>
+</body>
+</html>

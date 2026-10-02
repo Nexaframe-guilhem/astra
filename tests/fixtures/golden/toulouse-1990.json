@@ -1,0 +1,2047 @@
+{
+  "schemaVersion": "1.0",
+  "identity": {
+    "firstName": "Jean",
+    "middleNames": null,
+    "lastName": "Dupont",
+    "birthLastName": null
+  },
+  "birth": {
+    "date": "1990-06-15",
+    "time": "14:30",
+    "place": "Toulouse",
+    "country": "France",
+    "latitude": 43.6047,
+    "longitude": 1.4442,
+    "timezone": "Europe/Paris",
+    "timezoneSource": "input",
+    "utcOffsetMinutes": 120,
+    "utc": "1990-06-15T12:30:00.000Z",
+    "julianDayUT": 2448058.02083333,
+    "timezonesAtCoordinates": [
+      "Europe/Paris"
+    ],
+    "warnings": []
+  },
+  "astrology": {
+    "meta": {
+      "engine": "astra-astrology",
+      "engineVersion": "0.1.0",
+      "schemaVersion": "1.0",
+      "calculatedAt": "2026-10-02T00:00:00.000Z",
+      "dependencies": {
+        "astronomy-engine": "2.1.19",
+        "deltaT": "Espenak-Meeus 2006 (astronomy-engine default)"
+      },
+      "settings": {
+        "houseSystem": "placidus",
+        "polarFallback": "whole-sign",
+        "nodeType": "true",
+        "orbs": {
+          "conjunction": 8,
+          "opposition": 8,
+          "trine": 7,
+          "square": 7,
+          "sextile": 5
+        },
+        "aspectPoints": [
+          "sun",
+          "moon",
+          "mercury",
+          "venus",
+          "mars",
+          "jupiter",
+          "saturn",
+          "uranus",
+          "neptune",
+          "pluto",
+          "ascendant",
+          "midheaven"
+        ],
+        "effectiveHouseSystem": "placidus"
+      },
+      "inputHash": "db628eeb9c73222b306a373127ecaf0bf487e584177ec8b1fd971cd71a2171ab"
+    },
+    "zodiac": "tropical",
+    "houseSystem": "placidus",
+    "bodies": {
+      "sun": {
+        "id": "sun",
+        "longitude": 84.149288,
+        "sign": "gemini",
+        "signIndex": 2,
+        "degreeInSign": 24.149288,
+        "dms": {
+          "degrees": 24,
+          "minutes": 8,
+          "seconds": 57
+        },
+        "latitude": -0.000018,
+        "speed": 0.955134,
+        "retrograde": false,
+        "house": 9,
+        "contentKeys": {
+          "body": "astrology.bodies.sun",
+          "sign": "astrology.signs.gemini",
+          "placement": "astrology.bodyInSign.sun.gemini",
+          "house": "astrology.bodyInHouse.sun.9"
+        }
+      },
+      "moon": {
+        "id": "moon",
+        "longitude": 345.636724,
+        "sign": "pisces",
+        "signIndex": 11,
+        "degreeInSign": 15.636724,
+        "dms": {
+          "degrees": 15,
+          "minutes": 38,
+          "seconds": 12
+        },
+        "latitude": 3.150109,
+        "speed": 13.36926,
+        "retrograde": false,
+        "house": 6,
+        "contentKeys": {
+          "body": "astrology.bodies.moon",
+          "sign": "astrology.signs.pisces",
+          "placement": "astrology.bodyInSign.moon.pisces",
+          "house": "astrology.bodyInHouse.moon.6"
+        }
+      },
+      "mercury": {
+        "id": "mercury",
+        "longitude": 65.726541,
+        "sign": "gemini",
+        "signIndex": 2,
+        "degreeInSign": 5.726541,
+        "dms": {
+          "degrees": 5,
+          "minutes": 43,
+          "seconds": 36
+        },
+        "latitude": -1.65913,
+        "speed": 1.717028,
+        "retrograde": false,
+        "house": 9,
+        "contentKeys": {
+          "body": "astrology.bodies.mercury",
+          "sign": "astrology.signs.gemini",
+          "placement": "astrology.bodyInSign.mercury.gemini",
+          "house": "astrology.bodyInHouse.mercury.9"
+        }
+      },
+      "venus": {
+        "id": "venus",
+        "longitude": 48.801873,
+        "sign": "taurus",
+        "signIndex": 1,
+        "degreeInSign": 18.801873,
+        "dms": {
+          "degrees": 18,
+          "minutes": 48,
+          "seconds": 7
+        },
+        "latitude": -1.945478,
+        "speed": 1.176024,
+        "retrograde": false,
+        "house": 8,
+        "contentKeys": {
+          "body": "astrology.bodies.venus",
+          "sign": "astrology.signs.taurus",
+          "placement": "astrology.bodyInSign.venus.taurus",
+          "house": "astrology.bodyInHouse.venus.8"
+        }
+      },
+      "mars": {
+        "id": "mars",
+        "longitude": 11.056043,
+        "sign": "aries",
+        "signIndex": 0,
+        "degreeInSign": 11.056043,
+        "dms": {
+          "degrees": 11,
+          "minutes": 3,
+          "seconds": 22
+        },
+        "latitude": -1.985442,
+        "speed": 0.71892,
+        "retrograde": false,
+        "house": 7,
+        "contentKeys": {
+          "body": "astrology.bodies.mars",
+          "sign": "astrology.signs.aries",
+          "placement": "astrology.bodyInSign.mars.aries",
+          "house": "astrology.bodyInHouse.mars.7"
+        }
+      },
+      "jupiter": {
+        "id": "jupiter",
+        "longitude": 105.894001,
+        "sign": "cancer",
+        "signIndex": 3,
+        "degreeInSign": 15.894001,
+        "dms": {
+          "degrees": 15,
+          "minutes": 53,
+          "seconds": 38
+        },
+        "latitude": 0.186822,
+        "speed": 0.216655,
+        "retrograde": false,
+        "house": 10,
+        "contentKeys": {
+          "body": "astrology.bodies.jupiter",
+          "sign": "astrology.signs.cancer",
+          "placement": "astrology.bodyInSign.jupiter.cancer",
+          "house": "astrology.bodyInHouse.jupiter.10"
+        }
+      },
+      "saturn": {
+        "id": "saturn",
+        "longitude": 294.030648,
+        "sign": "capricorn",
+        "signIndex": 9,
+        "degreeInSign": 24.030648,
+        "dms": {
+          "degrees": 24,
+          "minutes": 1,
+          "seconds": 50
+        },
+        "latitude": 0.1172,
+        "speed": -0.058659,
+        "retrograde": true,
+        "house": 4,
+        "contentKeys": {
+          "body": "astrology.bodies.saturn",
+          "sign": "astrology.signs.capricorn",
+          "placement": "astrology.bodyInSign.saturn.capricorn",
+          "house": "astrology.bodyInHouse.saturn.4"
+        }
+      },
+      "uranus": {
+        "id": "uranus",
+        "longitude": 278.163129,
+        "sign": "capricorn",
+        "signIndex": 9,
+        "degreeInSign": 8.163129,
+        "dms": {
+          "degrees": 8,
+          "minutes": 9,
+          "seconds": 47
+        },
+        "latitude": -0.325565,
+        "speed": -0.038932,
+        "retrograde": true,
+        "house": 4,
+        "contentKeys": {
+          "body": "astrology.bodies.uranus",
+          "sign": "astrology.signs.capricorn",
+          "placement": "astrology.bodyInSign.uranus.capricorn",
+          "house": "astrology.bodyInHouse.uranus.4"
+        }
+      },
+      "neptune": {
+        "id": "neptune",
+        "longitude": 283.71633,
+        "sign": "capricorn",
+        "signIndex": 9,
+        "degreeInSign": 13.71633,
+        "dms": {
+          "degrees": 13,
+          "minutes": 42,
+          "seconds": 59
+        },
+        "latitude": 0.877048,
+        "speed": -0.025028,
+        "retrograde": true,
+        "house": 4,
+        "contentKeys": {
+          "body": "astrology.bodies.neptune",
+          "sign": "astrology.signs.capricorn",
+          "placement": "astrology.bodyInSign.neptune.capricorn",
+          "house": "astrology.bodyInHouse.neptune.4"
+        }
+      },
+      "pluto": {
+        "id": "pluto",
+        "longitude": 225.401762,
+        "sign": "scorpio",
+        "signIndex": 7,
+        "degreeInSign": 15.401762,
+        "dms": {
+          "degrees": 15,
+          "minutes": 24,
+          "seconds": 6
+        },
+        "latitude": 15.853586,
+        "speed": -0.02017,
+        "retrograde": true,
+        "house": 2,
+        "contentKeys": {
+          "body": "astrology.bodies.pluto",
+          "sign": "astrology.signs.scorpio",
+          "placement": "astrology.bodyInSign.pluto.scorpio",
+          "house": "astrology.bodyInHouse.pluto.2"
+        }
+      },
+      "northNode": {
+        "id": "northNode",
+        "longitude": 308.121805,
+        "sign": "aquarius",
+        "signIndex": 10,
+        "degreeInSign": 8.121805,
+        "dms": {
+          "degrees": 8,
+          "minutes": 7,
+          "seconds": 18
+        },
+        "latitude": 0,
+        "speed": 0.013368,
+        "retrograde": false,
+        "house": 5,
+        "contentKeys": {
+          "body": "astrology.bodies.northNode",
+          "sign": "astrology.signs.aquarius",
+          "placement": "astrology.bodyInSign.northNode.aquarius",
+          "house": "astrology.bodyInHouse.northNode.5"
+        }
+      },
+      "southNode": {
+        "id": "southNode",
+        "longitude": 128.121805,
+        "sign": "leo",
+        "signIndex": 4,
+        "degreeInSign": 8.121805,
+        "dms": {
+          "degrees": 8,
+          "minutes": 7,
+          "seconds": 18
+        },
+        "latitude": 0,
+        "speed": 0.013368,
+        "retrograde": false,
+        "house": 11,
+        "contentKeys": {
+          "body": "astrology.bodies.southNode",
+          "sign": "astrology.signs.leo",
+          "placement": "astrology.bodyInSign.southNode.leo",
+          "house": "astrology.bodyInHouse.southNode.11"
+        }
+      }
+    },
+    "angles": {
+      "ascendant": {
+        "id": "ascendant",
+        "longitude": 181.910129,
+        "sign": "libra",
+        "signIndex": 6,
+        "degreeInSign": 1.910129,
+        "dms": {
+          "degrees": 1,
+          "minutes": 54,
+          "seconds": 36
+        },
+        "contentKeys": {
+          "point": "astrology.angles.ascendant",
+          "sign": "astrology.signs.libra",
+          "placement": "astrology.angleInSign.ascendant.libra"
+        }
+      },
+      "midheaven": {
+        "id": "midheaven",
+        "longitude": 92.272116,
+        "sign": "cancer",
+        "signIndex": 3,
+        "degreeInSign": 2.272116,
+        "dms": {
+          "degrees": 2,
+          "minutes": 16,
+          "seconds": 20
+        },
+        "contentKeys": {
+          "point": "astrology.angles.midheaven",
+          "sign": "astrology.signs.cancer",
+          "placement": "astrology.angleInSign.midheaven.cancer"
+        }
+      },
+      "descendant": {
+        "id": "descendant",
+        "longitude": 1.910129,
+        "sign": "aries",
+        "signIndex": 0,
+        "degreeInSign": 1.910129,
+        "dms": {
+          "degrees": 1,
+          "minutes": 54,
+          "seconds": 36
+        },
+        "contentKeys": {
+          "point": "astrology.angles.descendant",
+          "sign": "astrology.signs.aries",
+          "placement": "astrology.angleInSign.descendant.aries"
+        }
+      },
+      "imumCoeli": {
+        "id": "imumCoeli",
+        "longitude": 272.272116,
+        "sign": "capricorn",
+        "signIndex": 9,
+        "degreeInSign": 2.272116,
+        "dms": {
+          "degrees": 2,
+          "minutes": 16,
+          "seconds": 20
+        },
+        "contentKeys": {
+          "point": "astrology.angles.imumCoeli",
+          "sign": "astrology.signs.capricorn",
+          "placement": "astrology.angleInSign.imumCoeli.capricorn"
+        }
+      }
+    },
+    "houses": [
+      {
+        "house": 1,
+        "longitude": 181.910129,
+        "sign": "libra",
+        "signIndex": 6,
+        "degreeInSign": 1.910129,
+        "dms": {
+          "degrees": 1,
+          "minutes": 54,
+          "seconds": 36
+        },
+        "contentKeys": {
+          "house": "astrology.houses.1",
+          "sign": "astrology.houseInSign.1.libra"
+        }
+      },
+      {
+        "house": 2,
+        "longitude": 207.594258,
+        "sign": "libra",
+        "signIndex": 6,
+        "degreeInSign": 27.594258,
+        "dms": {
+          "degrees": 27,
+          "minutes": 35,
+          "seconds": 39
+        },
+        "contentKeys": {
+          "house": "astrology.houses.2",
+          "sign": "astrology.houseInSign.2.libra"
+        }
+      },
+      {
+        "house": 3,
+        "longitude": 238.072807,
+        "sign": "scorpio",
+        "signIndex": 7,
+        "degreeInSign": 28.072807,
+        "dms": {
+          "degrees": 28,
+          "minutes": 4,
+          "seconds": 22
+        },
+        "contentKeys": {
+          "house": "astrology.houses.3",
+          "sign": "astrology.houseInSign.3.scorpio"
+        }
+      },
+      {
+        "house": 4,
+        "longitude": 272.272116,
+        "sign": "capricorn",
+        "signIndex": 9,
+        "degreeInSign": 2.272116,
+        "dms": {
+          "degrees": 2,
+          "minutes": 16,
+          "seconds": 20
+        },
+        "contentKeys": {
+          "house": "astrology.houses.4",
+          "sign": "astrology.houseInSign.4.capricorn"
+        }
+      },
+      {
+        "house": 5,
+        "longitude": 306.356155,
+        "sign": "aquarius",
+        "signIndex": 10,
+        "degreeInSign": 6.356155,
+        "dms": {
+          "degrees": 6,
+          "minutes": 21,
+          "seconds": 22
+        },
+        "contentKeys": {
+          "house": "astrology.houses.5",
+          "sign": "astrology.houseInSign.5.aquarius"
+        }
+      },
+      {
+        "house": 6,
+        "longitude": 336.578244,
+        "sign": "pisces",
+        "signIndex": 11,
+        "degreeInSign": 6.578244,
+        "dms": {
+          "degrees": 6,
+          "minutes": 34,
+          "seconds": 42
+        },
+        "contentKeys": {
+          "house": "astrology.houses.6",
+          "sign": "astrology.houseInSign.6.pisces"
+        }
+      },
+      {
+        "house": 7,
+        "longitude": 1.910129,
+        "sign": "aries",
+        "signIndex": 0,
+        "degreeInSign": 1.910129,
+        "dms": {
+          "degrees": 1,
+          "minutes": 54,
+          "seconds": 36
+        },
+        "contentKeys": {
+          "house": "astrology.houses.7",
+          "sign": "astrology.houseInSign.7.aries"
+        }
+      },
+      {
+        "house": 8,
+        "longitude": 27.594258,
+        "sign": "aries",
+        "signIndex": 0,
+        "degreeInSign": 27.594258,
+        "dms": {
+          "degrees": 27,
+          "minutes": 35,
+          "seconds": 39
+        },
+        "contentKeys": {
+          "house": "astrology.houses.8",
+          "sign": "astrology.houseInSign.8.aries"
+        }
+      },
+      {
+        "house": 9,
+        "longitude": 58.072807,
+        "sign": "taurus",
+        "signIndex": 1,
+        "degreeInSign": 28.072807,
+        "dms": {
+          "degrees": 28,
+          "minutes": 4,
+          "seconds": 22
+        },
+        "contentKeys": {
+          "house": "astrology.houses.9",
+          "sign": "astrology.houseInSign.9.taurus"
+        }
+      },
+      {
+        "house": 10,
+        "longitude": 92.272116,
+        "sign": "cancer",
+        "signIndex": 3,
+        "degreeInSign": 2.272116,
+        "dms": {
+          "degrees": 2,
+          "minutes": 16,
+          "seconds": 20
+        },
+        "contentKeys": {
+          "house": "astrology.houses.10",
+          "sign": "astrology.houseInSign.10.cancer"
+        }
+      },
+      {
+        "house": 11,
+        "longitude": 126.356155,
+        "sign": "leo",
+        "signIndex": 4,
+        "degreeInSign": 6.356155,
+        "dms": {
+          "degrees": 6,
+          "minutes": 21,
+          "seconds": 22
+        },
+        "contentKeys": {
+          "house": "astrology.houses.11",
+          "sign": "astrology.houseInSign.11.leo"
+        }
+      },
+      {
+        "house": 12,
+        "longitude": 156.578244,
+        "sign": "virgo",
+        "signIndex": 5,
+        "degreeInSign": 6.578244,
+        "dms": {
+          "degrees": 6,
+          "minutes": 34,
+          "seconds": 42
+        },
+        "contentKeys": {
+          "house": "astrology.houses.12",
+          "sign": "astrology.houseInSign.12.virgo"
+        }
+      }
+    ],
+    "aspects": [
+      {
+        "a": "moon",
+        "b": "venus",
+        "type": "sextile",
+        "exactAngle": 60,
+        "angle": 63.1651,
+        "orb": 3.1651,
+        "applying": true,
+        "contentKeys": {
+          "aspect": "astrology.aspects.sextile",
+          "pair": "astrology.aspectPairs.moon.sextile.venus"
+        }
+      },
+      {
+        "a": "moon",
+        "b": "jupiter",
+        "type": "trine",
+        "exactAngle": 120,
+        "angle": 120.2573,
+        "orb": 0.2573,
+        "applying": true,
+        "contentKeys": {
+          "aspect": "astrology.aspects.trine",
+          "pair": "astrology.aspectPairs.moon.trine.jupiter"
+        }
+      },
+      {
+        "a": "moon",
+        "b": "neptune",
+        "type": "sextile",
+        "exactAngle": 60,
+        "angle": 61.9204,
+        "orb": 1.9204,
+        "applying": false,
+        "contentKeys": {
+          "aspect": "astrology.aspects.sextile",
+          "pair": "astrology.aspectPairs.moon.sextile.neptune"
+        }
+      },
+      {
+        "a": "moon",
+        "b": "pluto",
+        "type": "trine",
+        "exactAngle": 120,
+        "angle": 120.235,
+        "orb": 0.235,
+        "applying": false,
+        "contentKeys": {
+          "aspect": "astrology.aspects.trine",
+          "pair": "astrology.aspectPairs.moon.trine.pluto"
+        }
+      },
+      {
+        "a": "mercury",
+        "b": "ascendant",
+        "type": "trine",
+        "exactAngle": 120,
+        "angle": 116.1836,
+        "orb": 3.8164,
+        "applying": null,
+        "contentKeys": {
+          "aspect": "astrology.aspects.trine",
+          "pair": "astrology.aspectPairs.mercury.trine.ascendant"
+        }
+      },
+      {
+        "a": "venus",
+        "b": "jupiter",
+        "type": "sextile",
+        "exactAngle": 60,
+        "angle": 57.0921,
+        "orb": 2.9079,
+        "applying": false,
+        "contentKeys": {
+          "aspect": "astrology.aspects.sextile",
+          "pair": "astrology.aspectPairs.venus.sextile.jupiter"
+        }
+      },
+      {
+        "a": "venus",
+        "b": "saturn",
+        "type": "trine",
+        "exactAngle": 120,
+        "angle": 114.7712,
+        "orb": 5.2288,
+        "applying": true,
+        "contentKeys": {
+          "aspect": "astrology.aspects.trine",
+          "pair": "astrology.aspectPairs.venus.trine.saturn"
+        }
+      },
+      {
+        "a": "venus",
+        "b": "neptune",
+        "type": "trine",
+        "exactAngle": 120,
+        "angle": 125.0855,
+        "orb": 5.0855,
+        "applying": false,
+        "contentKeys": {
+          "aspect": "astrology.aspects.trine",
+          "pair": "astrology.aspectPairs.venus.trine.neptune"
+        }
+      },
+      {
+        "a": "venus",
+        "b": "pluto",
+        "type": "opposition",
+        "exactAngle": 180,
+        "angle": 176.5999,
+        "orb": 3.4001,
+        "applying": false,
+        "contentKeys": {
+          "aspect": "astrology.aspects.opposition",
+          "pair": "astrology.aspectPairs.venus.opposition.pluto"
+        }
+      },
+      {
+        "a": "mars",
+        "b": "jupiter",
+        "type": "square",
+        "exactAngle": 90,
+        "angle": 94.838,
+        "orb": 4.838,
+        "applying": true,
+        "contentKeys": {
+          "aspect": "astrology.aspects.square",
+          "pair": "astrology.aspectPairs.mars.square.jupiter"
+        }
+      },
+      {
+        "a": "mars",
+        "b": "uranus",
+        "type": "square",
+        "exactAngle": 90,
+        "angle": 92.8929,
+        "orb": 2.8929,
+        "applying": false,
+        "contentKeys": {
+          "aspect": "astrology.aspects.square",
+          "pair": "astrology.aspectPairs.mars.square.uranus"
+        }
+      },
+      {
+        "a": "mars",
+        "b": "neptune",
+        "type": "square",
+        "exactAngle": 90,
+        "angle": 87.3397,
+        "orb": 2.6603,
+        "applying": true,
+        "contentKeys": {
+          "aspect": "astrology.aspects.square",
+          "pair": "astrology.aspectPairs.mars.square.neptune"
+        }
+      },
+      {
+        "a": "jupiter",
+        "b": "uranus",
+        "type": "opposition",
+        "exactAngle": 180,
+        "angle": 172.2691,
+        "orb": 7.7309,
+        "applying": false,
+        "contentKeys": {
+          "aspect": "astrology.aspects.opposition",
+          "pair": "astrology.aspectPairs.jupiter.opposition.uranus"
+        }
+      },
+      {
+        "a": "jupiter",
+        "b": "neptune",
+        "type": "opposition",
+        "exactAngle": 180,
+        "angle": 177.8223,
+        "orb": 2.1777,
+        "applying": false,
+        "contentKeys": {
+          "aspect": "astrology.aspects.opposition",
+          "pair": "astrology.aspectPairs.jupiter.opposition.neptune"
+        }
+      },
+      {
+        "a": "jupiter",
+        "b": "pluto",
+        "type": "trine",
+        "exactAngle": 120,
+        "angle": 119.5078,
+        "orb": 0.4922,
+        "applying": false,
+        "contentKeys": {
+          "aspect": "astrology.aspects.trine",
+          "pair": "astrology.aspectPairs.jupiter.trine.pluto"
+        }
+      },
+      {
+        "a": "uranus",
+        "b": "neptune",
+        "type": "conjunction",
+        "exactAngle": 0,
+        "angle": 5.5532,
+        "orb": 5.5532,
+        "applying": false,
+        "contentKeys": {
+          "aspect": "astrology.aspects.conjunction",
+          "pair": "astrology.aspectPairs.uranus.conjunction.neptune"
+        }
+      },
+      {
+        "a": "uranus",
+        "b": "ascendant",
+        "type": "square",
+        "exactAngle": 90,
+        "angle": 96.253,
+        "orb": 6.253,
+        "applying": null,
+        "contentKeys": {
+          "aspect": "astrology.aspects.square",
+          "pair": "astrology.aspectPairs.uranus.square.ascendant"
+        }
+      },
+      {
+        "a": "uranus",
+        "b": "midheaven",
+        "type": "opposition",
+        "exactAngle": 180,
+        "angle": 174.109,
+        "orb": 5.891,
+        "applying": null,
+        "contentKeys": {
+          "aspect": "astrology.aspects.opposition",
+          "pair": "astrology.aspectPairs.uranus.opposition.midheaven"
+        }
+      },
+      {
+        "a": "neptune",
+        "b": "pluto",
+        "type": "sextile",
+        "exactAngle": 60,
+        "angle": 58.3146,
+        "orb": 1.6854,
+        "applying": false,
+        "contentKeys": {
+          "aspect": "astrology.aspects.sextile",
+          "pair": "astrology.aspectPairs.neptune.sextile.pluto"
+        }
+      }
+    ],
+    "distribution": {
+      "elements": {
+        "fire": [
+          "mars"
+        ],
+        "earth": [
+          "venus",
+          "saturn",
+          "uranus",
+          "neptune"
+        ],
+        "air": [
+          "sun",
+          "mercury"
+        ],
+        "water": [
+          "moon",
+          "jupiter",
+          "pluto"
+        ]
+      },
+      "modalities": {
+        "cardinal": [
+          "mars",
+          "jupiter",
+          "saturn",
+          "uranus",
+          "neptune"
+        ],
+        "fixed": [
+          "venus",
+          "pluto"
+        ],
+        "mutable": [
+          "sun",
+          "moon",
+          "mercury"
+        ]
+      }
+    },
+    "warnings": []
+  },
+  "humanDesign": {
+    "meta": {
+      "engine": "astra-human-design",
+      "engineVersion": "0.1.0",
+      "schemaVersion": "1.0",
+      "calculatedAt": "2026-10-02T00:00:00.000Z",
+      "dependencies": {
+        "astronomy-engine": "2.1.19",
+        "deltaT": "Espenak-Meeus 2006 (astronomy-engine default)"
+      },
+      "settings": {
+        "nodeType": "true",
+        "designSolarArc": 88
+      },
+      "inputHash": "ff617a5aad4bb0fcfb29a64fc73443f4e6ffa54fd3c08705af40bd1f59610c89"
+    },
+    "type": {
+      "id": "manifesting-generator",
+      "contentKey": "humanDesign.types.manifesting-generator"
+    },
+    "strategy": {
+      "id": "to-respond",
+      "contentKey": "humanDesign.strategies.to-respond"
+    },
+    "authority": {
+      "id": "sacral",
+      "contentKey": "humanDesign.authorities.sacral"
+    },
+    "profile": {
+      "id": "2/4",
+      "personalityLine": 2,
+      "designLine": 4,
+      "contentKey": "humanDesign.profiles.2-4"
+    },
+    "definition": {
+      "id": "single",
+      "contentKey": "humanDesign.definitions.single"
+    },
+    "centers": {
+      "head": {
+        "defined": false,
+        "activeGates": [
+          61,
+          63
+        ],
+        "contentKey": "humanDesign.centers.head.open"
+      },
+      "ajna": {
+        "defined": false,
+        "activeGates": [
+          11
+        ],
+        "contentKey": "humanDesign.centers.ajna.open"
+      },
+      "throat": {
+        "defined": true,
+        "activeGates": [
+          12,
+          20,
+          33
+        ],
+        "contentKey": "humanDesign.centers.throat.defined"
+      },
+      "g": {
+        "defined": true,
+        "activeGates": [
+          1,
+          2,
+          7,
+          13,
+          15
+        ],
+        "contentKey": "humanDesign.centers.g.defined"
+      },
+      "heart": {
+        "defined": false,
+        "activeGates": [
+          21
+        ],
+        "contentKey": "humanDesign.centers.heart.open"
+      },
+      "spleen": {
+        "defined": false,
+        "activeGates": [],
+        "contentKey": "humanDesign.centers.spleen.open"
+      },
+      "solarPlexus": {
+        "defined": false,
+        "activeGates": [
+          6,
+          36
+        ],
+        "contentKey": "humanDesign.centers.solarPlexus.open"
+      },
+      "sacral": {
+        "defined": true,
+        "activeGates": [
+          14
+        ],
+        "contentKey": "humanDesign.centers.sacral.defined"
+      },
+      "root": {
+        "defined": false,
+        "activeGates": [
+          19,
+          38,
+          41,
+          53,
+          58
+        ],
+        "contentKey": "humanDesign.centers.root.open"
+      }
+    },
+    "channels": [
+      {
+        "id": "2-14",
+        "gates": [
+          2,
+          14
+        ],
+        "centers": [
+          "g",
+          "sacral"
+        ],
+        "contentKey": "humanDesign.channels.2-14"
+      },
+      {
+        "id": "13-33",
+        "gates": [
+          13,
+          33
+        ],
+        "centers": [
+          "g",
+          "throat"
+        ],
+        "contentKey": "humanDesign.channels.13-33"
+      }
+    ],
+    "gates": [
+      {
+        "gate": 1,
+        "center": "g",
+        "activatedBy": [
+          {
+            "side": "personality",
+            "point": "pluto",
+            "line": 3
+          },
+          {
+            "side": "design",
+            "point": "pluto",
+            "line": 5
+          }
+        ],
+        "inChannel": false,
+        "contentKey": "humanDesign.gates.1"
+      },
+      {
+        "gate": 2,
+        "center": "g",
+        "activatedBy": [
+          {
+            "side": "personality",
+            "point": "venus",
+            "line": 6
+          }
+        ],
+        "inChannel": true,
+        "contentKey": "humanDesign.gates.2"
+      },
+      {
+        "gate": 6,
+        "center": "solarPlexus",
+        "activatedBy": [
+          {
+            "side": "design",
+            "point": "earth",
+            "line": 4
+          }
+        ],
+        "inChannel": false,
+        "contentKey": "humanDesign.gates.6"
+      },
+      {
+        "gate": 7,
+        "center": "g",
+        "activatedBy": [
+          {
+            "side": "design",
+            "point": "southNode",
+            "line": 3
+          }
+        ],
+        "inChannel": false,
+        "contentKey": "humanDesign.gates.7"
+      },
+      {
+        "gate": 11,
+        "center": "ajna",
+        "activatedBy": [
+          {
+            "side": "personality",
+            "point": "earth",
+            "line": 2
+          }
+        ],
+        "inChannel": false,
+        "contentKey": "humanDesign.gates.11"
+      },
+      {
+        "gate": 12,
+        "center": "throat",
+        "activatedBy": [
+          {
+            "side": "personality",
+            "point": "sun",
+            "line": 2
+          }
+        ],
+        "inChannel": false,
+        "contentKey": "humanDesign.gates.12"
+      },
+      {
+        "gate": 13,
+        "center": "g",
+        "activatedBy": [
+          {
+            "side": "design",
+            "point": "northNode",
+            "line": 3
+          }
+        ],
+        "inChannel": true,
+        "contentKey": "humanDesign.gates.13"
+      },
+      {
+        "gate": 14,
+        "center": "sacral",
+        "activatedBy": [
+          {
+            "side": "design",
+            "point": "moon",
+            "line": 4
+          }
+        ],
+        "inChannel": true,
+        "contentKey": "humanDesign.gates.14"
+      },
+      {
+        "gate": 15,
+        "center": "g",
+        "activatedBy": [
+          {
+            "side": "design",
+            "point": "jupiter",
+            "line": 4
+          }
+        ],
+        "inChannel": false,
+        "contentKey": "humanDesign.gates.15"
+      },
+      {
+        "gate": 19,
+        "center": "root",
+        "activatedBy": [
+          {
+            "side": "personality",
+            "point": "northNode",
+            "line": 1
+          },
+          {
+            "side": "design",
+            "point": "venus",
+            "line": 4
+          }
+        ],
+        "inChannel": false,
+        "contentKey": "humanDesign.gates.19"
+      },
+      {
+        "gate": 20,
+        "center": "throat",
+        "activatedBy": [
+          {
+            "side": "personality",
+            "point": "mercury",
+            "line": 6
+          }
+        ],
+        "inChannel": false,
+        "contentKey": "humanDesign.gates.20"
+      },
+      {
+        "gate": 21,
+        "center": "heart",
+        "activatedBy": [
+          {
+            "side": "personality",
+            "point": "mars",
+            "line": 2
+          }
+        ],
+        "inChannel": false,
+        "contentKey": "humanDesign.gates.21"
+      },
+      {
+        "gate": 33,
+        "center": "throat",
+        "activatedBy": [
+          {
+            "side": "personality",
+            "point": "southNode",
+            "line": 1
+          }
+        ],
+        "inChannel": true,
+        "contentKey": "humanDesign.gates.33"
+      },
+      {
+        "gate": 36,
+        "center": "solarPlexus",
+        "activatedBy": [
+          {
+            "side": "design",
+            "point": "sun",
+            "line": 4
+          },
+          {
+            "side": "design",
+            "point": "mercury",
+            "line": 2
+          }
+        ],
+        "inChannel": false,
+        "contentKey": "humanDesign.gates.36"
+      },
+      {
+        "gate": 38,
+        "center": "root",
+        "activatedBy": [
+          {
+            "side": "personality",
+            "point": "neptune",
+            "line": 5
+          },
+          {
+            "side": "design",
+            "point": "neptune",
+            "line": 6
+          }
+        ],
+        "inChannel": false,
+        "contentKey": "humanDesign.gates.38"
+      },
+      {
+        "gate": 41,
+        "center": "root",
+        "activatedBy": [
+          {
+            "side": "design",
+            "point": "mars",
+            "line": 3
+          }
+        ],
+        "inChannel": false,
+        "contentKey": "humanDesign.gates.41"
+      },
+      {
+        "gate": 53,
+        "center": "root",
+        "activatedBy": [
+          {
+            "side": "personality",
+            "point": "jupiter",
+            "line": 1
+          }
+        ],
+        "inChannel": false,
+        "contentKey": "humanDesign.gates.53"
+      },
+      {
+        "gate": 58,
+        "center": "root",
+        "activatedBy": [
+          {
+            "side": "personality",
+            "point": "uranus",
+            "line": 5
+          },
+          {
+            "side": "design",
+            "point": "uranus",
+            "line": 6
+          }
+        ],
+        "inChannel": false,
+        "contentKey": "humanDesign.gates.58"
+      },
+      {
+        "gate": 61,
+        "center": "head",
+        "activatedBy": [
+          {
+            "side": "personality",
+            "point": "saturn",
+            "line": 4
+          },
+          {
+            "side": "design",
+            "point": "saturn",
+            "line": 3
+          }
+        ],
+        "inChannel": false,
+        "contentKey": "humanDesign.gates.61"
+      },
+      {
+        "gate": 63,
+        "center": "head",
+        "activatedBy": [
+          {
+            "side": "personality",
+            "point": "moon",
+            "line": 5
+          }
+        ],
+        "inChannel": false,
+        "contentKey": "humanDesign.gates.63"
+      }
+    ],
+    "personality": {
+      "utc": "1990-06-15T12:30:00.000Z",
+      "activations": [
+        {
+          "point": "sun",
+          "longitude": 84.149288,
+          "gate": 12,
+          "line": 2,
+          "color": 4,
+          "tone": 5,
+          "base": 3,
+          "gateBoundaryDistance": 1.5243,
+          "lineBoundaryDistance": 0.3507,
+          "contentKeys": {
+            "gate": "humanDesign.gates.12",
+            "line": "humanDesign.gateLines.12.2",
+            "point": "humanDesign.activationPoints.sun"
+          }
+        },
+        {
+          "point": "earth",
+          "longitude": 264.149288,
+          "gate": 11,
+          "line": 2,
+          "color": 4,
+          "tone": 5,
+          "base": 3,
+          "gateBoundaryDistance": 1.5243,
+          "lineBoundaryDistance": 0.3507,
+          "contentKeys": {
+            "gate": "humanDesign.gates.11",
+            "line": "humanDesign.gateLines.11.2",
+            "point": "humanDesign.activationPoints.earth"
+          }
+        },
+        {
+          "point": "northNode",
+          "longitude": 308.121805,
+          "gate": 19,
+          "line": 1,
+          "color": 4,
+          "tone": 2,
+          "base": 1,
+          "gateBoundaryDistance": 0.4968,
+          "lineBoundaryDistance": 0.4407,
+          "contentKeys": {
+            "gate": "humanDesign.gates.19",
+            "line": "humanDesign.gateLines.19.1",
+            "point": "humanDesign.activationPoints.northNode"
+          }
+        },
+        {
+          "point": "southNode",
+          "longitude": 128.121805,
+          "gate": 33,
+          "line": 1,
+          "color": 4,
+          "tone": 2,
+          "base": 1,
+          "gateBoundaryDistance": 0.4968,
+          "lineBoundaryDistance": 0.4407,
+          "contentKeys": {
+            "gate": "humanDesign.gates.33",
+            "line": "humanDesign.gateLines.33.1",
+            "point": "humanDesign.activationPoints.southNode"
+          }
+        },
+        {
+          "point": "moon",
+          "longitude": 345.636724,
+          "gate": 63,
+          "line": 5,
+          "color": 4,
+          "tone": 2,
+          "base": 4,
+          "gateBoundaryDistance": 1.3633,
+          "lineBoundaryDistance": 0.4258,
+          "contentKeys": {
+            "gate": "humanDesign.gates.63",
+            "line": "humanDesign.gateLines.63.5",
+            "point": "humanDesign.activationPoints.moon"
+          }
+        },
+        {
+          "point": "mercury",
+          "longitude": 65.726541,
+          "gate": 20,
+          "line": 6,
+          "color": 6,
+          "tone": 6,
+          "base": 1,
+          "gateBoundaryDistance": 0.0235,
+          "lineBoundaryDistance": 0.0235,
+          "contentKeys": {
+            "gate": "humanDesign.gates.20",
+            "line": "humanDesign.gateLines.20.6",
+            "point": "humanDesign.activationPoints.mercury"
+          }
+        },
+        {
+          "point": "venus",
+          "longitude": 48.801873,
+          "gate": 2,
+          "line": 6,
+          "color": 6,
+          "tone": 4,
+          "base": 1,
+          "gateBoundaryDistance": 0.0731,
+          "lineBoundaryDistance": 0.0731,
+          "contentKeys": {
+            "gate": "humanDesign.gates.2",
+            "line": "humanDesign.gateLines.2.6",
+            "point": "humanDesign.activationPoints.venus"
+          }
+        },
+        {
+          "point": "mars",
+          "longitude": 11.056043,
+          "gate": 21,
+          "line": 2,
+          "color": 4,
+          "tone": 6,
+          "base": 4,
+          "gateBoundaryDistance": 1.556,
+          "lineBoundaryDistance": 0.319,
+          "contentKeys": {
+            "gate": "humanDesign.gates.21",
+            "line": "humanDesign.gateLines.21.2",
+            "point": "humanDesign.activationPoints.mars"
+          }
+        },
+        {
+          "point": "jupiter",
+          "longitude": 105.894001,
+          "gate": 53,
+          "line": 1,
+          "color": 5,
+          "tone": 6,
+          "base": 3,
+          "gateBoundaryDistance": 0.769,
+          "lineBoundaryDistance": 0.1685,
+          "contentKeys": {
+            "gate": "humanDesign.gates.53",
+            "line": "humanDesign.gateLines.53.1",
+            "point": "humanDesign.activationPoints.jupiter"
+          }
+        },
+        {
+          "point": "saturn",
+          "longitude": 294.030648,
+          "gate": 61,
+          "line": 4,
+          "color": 3,
+          "tone": 6,
+          "base": 5,
+          "gateBoundaryDistance": 2.3444,
+          "lineBoundaryDistance": 0.4681,
+          "contentKeys": {
+            "gate": "humanDesign.gates.61",
+            "line": "humanDesign.gateLines.61.4",
+            "point": "humanDesign.activationPoints.saturn"
+          }
+        },
+        {
+          "point": "uranus",
+          "longitude": 278.163129,
+          "gate": 58,
+          "line": 5,
+          "color": 4,
+          "tone": 3,
+          "base": 4,
+          "gateBoundaryDistance": 1.3369,
+          "lineBoundaryDistance": 0.3994,
+          "contentKeys": {
+            "gate": "humanDesign.gates.58",
+            "line": "humanDesign.gateLines.58.5",
+            "point": "humanDesign.activationPoints.uranus"
+          }
+        },
+        {
+          "point": "neptune",
+          "longitude": 283.71633,
+          "gate": 38,
+          "line": 5,
+          "color": 3,
+          "tone": 6,
+          "base": 5,
+          "gateBoundaryDistance": 1.4087,
+          "lineBoundaryDistance": 0.4663,
+          "contentKeys": {
+            "gate": "humanDesign.gates.38",
+            "line": "humanDesign.gateLines.38.5",
+            "point": "humanDesign.activationPoints.neptune"
+          }
+        },
+        {
+          "point": "pluto",
+          "longitude": 225.401762,
+          "gate": 1,
+          "line": 3,
+          "color": 2,
+          "tone": 5,
+          "base": 4,
+          "gateBoundaryDistance": 2.1518,
+          "lineBoundaryDistance": 0.2768,
+          "contentKeys": {
+            "gate": "humanDesign.gates.1",
+            "line": "humanDesign.gateLines.1.3",
+            "point": "humanDesign.activationPoints.pluto"
+          }
+        }
+      ]
+    },
+    "design": {
+      "utc": "1990-03-17T00:22:56.988Z",
+      "solarArcDegrees": 88,
+      "activations": [
+        {
+          "point": "sun",
+          "longitude": 356.149288,
+          "gate": 36,
+          "line": 4,
+          "color": 5,
+          "tone": 4,
+          "base": 2,
+          "gateBoundaryDistance": 2.1007,
+          "lineBoundaryDistance": 0.2257,
+          "contentKeys": {
+            "gate": "humanDesign.gates.36",
+            "line": "humanDesign.gateLines.36.4",
+            "point": "humanDesign.activationPoints.sun"
+          }
+        },
+        {
+          "point": "earth",
+          "longitude": 176.149288,
+          "gate": 6,
+          "line": 4,
+          "color": 5,
+          "tone": 4,
+          "base": 2,
+          "gateBoundaryDistance": 2.1007,
+          "lineBoundaryDistance": 0.2257,
+          "contentKeys": {
+            "gate": "humanDesign.gates.6",
+            "line": "humanDesign.gateLines.6.4",
+            "point": "humanDesign.activationPoints.earth"
+          }
+        },
+        {
+          "point": "northNode",
+          "longitude": 315.613528,
+          "gate": 13,
+          "line": 3,
+          "color": 4,
+          "tone": 1,
+          "base": 4,
+          "gateBoundaryDistance": 2.3635,
+          "lineBoundaryDistance": 0.449,
+          "contentKeys": {
+            "gate": "humanDesign.gates.13",
+            "line": "humanDesign.gateLines.13.3",
+            "point": "humanDesign.activationPoints.northNode"
+          }
+        },
+        {
+          "point": "southNode",
+          "longitude": 135.613528,
+          "gate": 7,
+          "line": 3,
+          "color": 4,
+          "tone": 1,
+          "base": 4,
+          "gateBoundaryDistance": 2.3635,
+          "lineBoundaryDistance": 0.449,
+          "contentKeys": {
+            "gate": "humanDesign.gates.7",
+            "line": "humanDesign.gateLines.7.3",
+            "point": "humanDesign.activationPoints.southNode"
+          }
+        },
+        {
+          "point": "moon",
+          "longitude": 237.750175,
+          "gate": 14,
+          "line": 4,
+          "color": 3,
+          "tone": 5,
+          "base": 5,
+          "gateBoundaryDistance": 2.3748,
+          "lineBoundaryDistance": 0.4377,
+          "contentKeys": {
+            "gate": "humanDesign.gates.14",
+            "line": "humanDesign.gateLines.14.4",
+            "point": "humanDesign.activationPoints.moon"
+          }
+        },
+        {
+          "point": "mercury",
+          "longitude": 354.136991,
+          "gate": 36,
+          "line": 2,
+          "color": 4,
+          "tone": 5,
+          "base": 1,
+          "gateBoundaryDistance": 1.512,
+          "lineBoundaryDistance": 0.363,
+          "contentKeys": {
+            "gate": "humanDesign.gates.36",
+            "line": "humanDesign.gateLines.36.2",
+            "point": "humanDesign.activationPoints.mercury"
+          }
+        },
+        {
+          "point": "venus",
+          "longitude": 310.450711,
+          "gate": 19,
+          "line": 4,
+          "color": 1,
+          "tone": 1,
+          "base": 3,
+          "gateBoundaryDistance": 2.7993,
+          "lineBoundaryDistance": 0.0132,
+          "contentKeys": {
+            "gate": "humanDesign.gates.19",
+            "line": "humanDesign.gateLines.19.4",
+            "point": "humanDesign.activationPoints.venus"
+          }
+        },
+        {
+          "point": "mars",
+          "longitude": 303.965907,
+          "gate": 41,
+          "line": 3,
+          "color": 1,
+          "tone": 4,
+          "base": 3,
+          "gateBoundaryDistance": 1.9659,
+          "lineBoundaryDistance": 0.0909,
+          "contentKeys": {
+            "gate": "humanDesign.gates.41",
+            "line": "humanDesign.gateLines.41.3",
+            "point": "humanDesign.activationPoints.mars"
+          }
+        },
+        {
+          "point": "jupiter",
+          "longitude": 91.473676,
+          "gate": 15,
+          "line": 4,
+          "color": 3,
+          "tone": 4,
+          "base": 4,
+          "gateBoundaryDistance": 2.4013,
+          "lineBoundaryDistance": 0.4112,
+          "contentKeys": {
+            "gate": "humanDesign.gates.15",
+            "line": "humanDesign.gateLines.15.4",
+            "point": "humanDesign.activationPoints.jupiter"
+          }
+        },
+        {
+          "point": "saturn",
+          "longitude": 293.449118,
+          "gate": 61,
+          "line": 3,
+          "color": 6,
+          "tone": 2,
+          "base": 4,
+          "gateBoundaryDistance": 2.6991,
+          "lineBoundaryDistance": 0.1134,
+          "contentKeys": {
+            "gate": "humanDesign.gates.61",
+            "line": "humanDesign.gateLines.61.3",
+            "point": "humanDesign.activationPoints.saturn"
+          }
+        },
+        {
+          "point": "uranus",
+          "longitude": 279.255242,
+          "gate": 58,
+          "line": 6,
+          "color": 5,
+          "tone": 3,
+          "base": 4,
+          "gateBoundaryDistance": 0.2448,
+          "lineBoundaryDistance": 0.2448,
+          "contentKeys": {
+            "gate": "humanDesign.gates.58",
+            "line": "humanDesign.gateLines.58.6",
+            "point": "humanDesign.activationPoints.uranus"
+          }
+        },
+        {
+          "point": "neptune",
+          "longitude": 284.318674,
+          "gate": 38,
+          "line": 6,
+          "color": 1,
+          "tone": 6,
+          "base": 1,
+          "gateBoundaryDistance": 0.8063,
+          "lineBoundaryDistance": 0.1312,
+          "contentKeys": {
+            "gate": "humanDesign.gates.38",
+            "line": "humanDesign.gateLines.38.6",
+            "point": "humanDesign.activationPoints.neptune"
+          }
+        },
+        {
+          "point": "pluto",
+          "longitude": 227.596905,
+          "gate": 1,
+          "line": 5,
+          "color": 4,
+          "tone": 5,
+          "base": 5,
+          "gateBoundaryDistance": 1.2781,
+          "lineBoundaryDistance": 0.3406,
+          "contentKeys": {
+            "gate": "humanDesign.gates.1",
+            "line": "humanDesign.gateLines.1.5",
+            "point": "humanDesign.activationPoints.pluto"
+          }
+        }
+      ]
+    },
+    "incarnationCross": {
+      "angle": "right",
+      "gates": {
+        "personalitySun": 12,
+        "personalityEarth": 11,
+        "designSun": 36,
+        "designEarth": 6
+      },
+      "id": "right:12/11|36/6",
+      "contentKey": "humanDesign.incarnationCrosses.right.12"
+    },
+    "variables": {
+      "notation": "RL RL",
+      "determination": {
+        "arrow": "right",
+        "color": 5,
+        "tone": 4,
+        "contentKey": "humanDesign.variables.determination.color5"
+      },
+      "environment": {
+        "arrow": "left",
+        "color": 4,
+        "tone": 1,
+        "contentKey": "humanDesign.variables.environment.color4"
+      },
+      "motivation": {
+        "arrow": "right",
+        "color": 4,
+        "tone": 5,
+        "contentKey": "humanDesign.variables.motivation.color4"
+      },
+      "perspective": {
+        "arrow": "left",
+        "color": 4,
+        "tone": 2,
+        "contentKey": "humanDesign.variables.perspective.color4"
+      }
+    },
+    "warnings": [
+      "GATE_BOUNDARY: personality.mercury porte 20 à 0.0235° d'une limite de porte (sensible à l'heure exacte et à la convention de roue)."
+    ]
+  },
+  "numerology": {
+    "meta": {
+      "engine": "astra-numerology",
+      "engineVersion": "0.1.0",
+      "schemaVersion": "1.0",
+      "calculatedAt": "2026-10-02T00:00:00.000Z",
+      "dependencies": {},
+      "settings": {
+        "method": "pythagorean",
+        "masterNumbers": [
+          11,
+          22,
+          33
+        ],
+        "preserveMasterNumbers": true,
+        "karmicDebtNumbers": [
+          13,
+          14,
+          16,
+          19
+        ],
+        "normalizeAccents": true,
+        "ignoreHyphens": true,
+        "includeMiddleNames": true,
+        "useBirthLastName": true,
+        "yAsVowel": "always",
+        "nameReduction": "perName",
+        "lifePathMethod": "components"
+      },
+      "inputHash": "668ec1d17dd20fcae9fb47e35d3a3a7eac24960b47b8712f893538c6cac76636"
+    },
+    "method": "pythagorean",
+    "normalizedName": {
+      "parts": [
+        "JEAN",
+        "DUPONT"
+      ],
+      "letters": "JEANDUPONT"
+    },
+    "lifePath": {
+      "value": 4,
+      "compound": 13,
+      "chain": [
+        13,
+        4
+      ],
+      "isMaster": false,
+      "karmicDebt": 13,
+      "contentKey": "numerology.lifePath.4"
+    },
+    "expression": {
+      "value": 3,
+      "compound": 12,
+      "chain": [
+        12,
+        3
+      ],
+      "isMaster": false,
+      "karmicDebt": null,
+      "contentKey": "numerology.expression.3"
+    },
+    "soulUrge": {
+      "value": 6,
+      "compound": 15,
+      "chain": [
+        15,
+        6
+      ],
+      "isMaster": false,
+      "karmicDebt": null,
+      "contentKey": "numerology.soulUrge.6"
+    },
+    "personality": {
+      "value": 6,
+      "compound": 15,
+      "chain": [
+        15,
+        6
+      ],
+      "isMaster": false,
+      "karmicDebt": null,
+      "contentKey": "numerology.personality.6"
+    },
+    "maturity": {
+      "value": 7,
+      "compound": 7,
+      "chain": [
+        7
+      ],
+      "isMaster": false,
+      "karmicDebt": null,
+      "contentKey": "numerology.maturity.7"
+    },
+    "birthday": {
+      "value": 6,
+      "compound": 15,
+      "chain": [
+        15,
+        6
+      ],
+      "isMaster": false,
+      "karmicDebt": null,
+      "day": 15,
+      "contentKey": "numerology.birthday.6"
+    },
+    "personalCycles": {
+      "referenceDate": "2026-10-02",
+      "personalYear": {
+        "value": 4,
+        "compound": 13,
+        "chain": [
+          13,
+          4
+        ],
+        "isMaster": false,
+        "karmicDebt": 13,
+        "contentKey": "numerology.personalYear.4"
+      },
+      "personalMonth": {
+        "value": 5,
+        "compound": 5,
+        "chain": [
+          5
+        ],
+        "isMaster": false,
+        "karmicDebt": null,
+        "contentKey": "numerology.personalMonth.5"
+      },
+      "personalDay": {
+        "value": 7,
+        "compound": 7,
+        "chain": [
+          7
+        ],
+        "isMaster": false,
+        "karmicDebt": null,
+        "contentKey": "numerology.personalDay.7"
+      }
+    },
+    "masterNumbers": [],
+    "karmicDebt": [
+      {
+        "number": 13,
+        "source": "lifePath",
+        "contentKey": "numerology.karmicDebt.13"
+      }
+    ],
+    "karmicLessons": [
+      {
+        "number": 8,
+        "contentKey": "numerology.karmicLessons.8"
+      },
+      {
+        "number": 9,
+        "contentKey": "numerology.karmicLessons.9"
+      }
+    ],
+    "inclusionGrid": {
+      "1": 2,
+      "2": 1,
+      "3": 1,
+      "4": 1,
+      "5": 3,
+      "6": 1,
+      "7": 1,
+      "8": 0,
+      "9": 0
+    },
+    "cycles": {
+      "lifeCycles": [
+        {
+          "index": 1,
+          "value": 6,
+          "fromAge": 0,
+          "toAge": 32,
+          "contentKey": "numerology.lifeCycles.6"
+        },
+        {
+          "index": 2,
+          "value": 6,
+          "fromAge": 33,
+          "toAge": 59,
+          "contentKey": "numerology.lifeCycles.6"
+        },
+        {
+          "index": 3,
+          "value": 1,
+          "fromAge": 60,
+          "toAge": null,
+          "contentKey": "numerology.lifeCycles.1"
+        }
+      ],
+      "pinnacles": [
+        {
+          "index": 1,
+          "value": 3,
+          "fromAge": 0,
+          "toAge": 32,
+          "contentKey": "numerology.pinnacles.3"
+        },
+        {
+          "index": 2,
+          "value": 7,
+          "fromAge": 33,
+          "toAge": 41,
+          "contentKey": "numerology.pinnacles.7"
+        },
+        {
+          "index": 3,
+          "value": 1,
+          "fromAge": 42,
+          "toAge": 50,
+          "contentKey": "numerology.pinnacles.1"
+        },
+        {
+          "index": 4,
+          "value": 7,
+          "fromAge": 51,
+          "toAge": null,
+          "contentKey": "numerology.pinnacles.7"
+        }
+      ],
+      "challenges": [
+        {
+          "index": 1,
+          "value": 0,
+          "fromAge": 0,
+          "toAge": 32,
+          "contentKey": "numerology.challenges.0"
+        },
+        {
+          "index": 2,
+          "value": 5,
+          "fromAge": 33,
+          "toAge": 41,
+          "contentKey": "numerology.challenges.5"
+        },
+        {
+          "index": 3,
+          "value": 5,
+          "fromAge": 42,
+          "toAge": 50,
+          "contentKey": "numerology.challenges.5"
+        },
+        {
+          "index": 4,
+          "value": 5,
+          "fromAge": 51,
+          "toAge": null,
+          "contentKey": "numerology.challenges.5"
+        }
+      ]
+    },
+    "warnings": []
+  },
+  "meta": {
+    "builtAt": "2026-10-02T00:00:00.000Z",
+    "inputHash": "c195a49420451a27425db01939a02a4f175aac61be5ca7395d0858c851d51ade"
+  }
+}
