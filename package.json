@@ -16,7 +16,8 @@
     "fixtures:update": "TZ=UTC tsx scripts/update-fixtures.ts",
     "profile": "TZ=UTC tsx scripts/profile-cli.ts",
     "report": "TZ=UTC tsx scripts/report.ts",
-    "content:catalog": "tsx scripts/content-catalog.ts"
+    "content:catalog": "tsx scripts/content-catalog.ts",
+    "web:build": "esbuild web/entry.ts --bundle --format=iife --global-name=ASTRA --platform=browser --minify --legal-comments=none --alias:geo-tz/all=./web/geo-stub.ts --alias:node:crypto=./web/crypto-shim.ts --banner:js='globalThis.process??={versions:{}};' --outfile=web/astra.js"
   },
   "dependencies": {
     "astronomy-engine": "2.1.19",
@@ -26,6 +27,7 @@
   "devDependencies": {
     "@types/node": "22.20.5",
     "circular-natal-horoscope-js": "1.1.0",
+    "esbuild": "0.28.2",
     "free-human-design": "1.0.1",
     "natalengine": "1.6.0",
     "playwright-core": "1.63.0",

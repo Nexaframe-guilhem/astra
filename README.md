@@ -40,3 +40,7 @@ Les moteurs sont aussi utilisables séparément : `calculateAstrology()`, `calcu
 ## Attributions
 
 Les données de fuseaux par coordonnées (geo-tz / timezone-boundary-builder) proviennent d'OpenStreetMap, © contributeurs OpenStreetMap, sous licence ODbL.
+
+## Banc d'essai dans le navigateur
+
+`npm run web:build` produit `web/astra.js`, un bundle des trois moteurs et du bilan qui tourne entièrement dans le navigateur. `web/index.html` l'utilise : saisie, calcul, bilan en mode relecture et profil JSON. Deux adaptations par rapport à Node : le fuseau vient d'une liste de villes ou d'une saisie (geo-tz n'est pas embarqué), et le SHA-256 est une implémentation JS qui donne la même empreinte que `node:crypto`.
