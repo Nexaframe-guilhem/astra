@@ -8,7 +8,13 @@ export const NUMEROLOGY_ENGINE_VERSION = '0.1.0';
 const withKey = (r: Reduction, name: string) => ({ ...r, contentKey: `numerology.${name}.${r.value}` });
 const cycles = (list: Cycle[], name: string) => list.map((c) => ({ ...c, contentKey: `numerology.${name}.${c.value}` }));
 
-export function normalizeNumerology(raw: RawNumerology, input: NumerologyInput, s: NumerologySettings, now?: Date): NumerologyResult {
+export function normalizeNumerology(
+  raw: RawNumerology,
+  input: NumerologyInput,
+  s: NumerologySettings,
+  now?: Date,
+  convention: { preset: string; customized: boolean } = { preset: 'custom', customized: true },
+): NumerologyResult {
   const core: Array<[string, Reduction]> = [
     ['lifePath', raw.lifePath], ['expression', raw.expression], ['soulUrge', raw.soulUrge],
     ['personality', raw.personality], ['maturity', raw.maturity], ['birthday', raw.birthday],
@@ -18,7 +24,7 @@ export function normalizeNumerology(raw: RawNumerology, input: NumerologyInput, 
       engine: NUMEROLOGY_ENGINE,
       engineVersion: NUMEROLOGY_ENGINE_VERSION,
       dependencies: {},
-      settings: { ...s },
+      settings: { convention: convention.preset, customized: convention.customized, ...s },
       hashedInput: input,
       now,
     }),

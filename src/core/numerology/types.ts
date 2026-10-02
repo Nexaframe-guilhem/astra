@@ -24,19 +24,7 @@ export interface NumerologySettings {
   lifePathMethod: 'components' | 'allDigits';
 }
 
-export const DEFAULT_NUMEROLOGY_SETTINGS: NumerologySettings = {
-  method: 'pythagorean',
-  masterNumbers: [11, 22, 33],
-  preserveMasterNumbers: true,
-  karmicDebtNumbers: [13, 14, 16, 19],
-  normalizeAccents: true,
-  ignoreHyphens: true,
-  includeMiddleNames: true,
-  useBirthLastName: true,
-  yAsVowel: 'always',
-  nameReduction: 'perName',
-  lifePathMethod: 'components',
-};
+export const DEFAULT_NUMEROLOGY_PRESET = 'astra-standard';
 
 export interface NumerologyInput {
   firstName: string;

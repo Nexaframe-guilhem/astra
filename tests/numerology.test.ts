@@ -2,7 +2,10 @@
 import { describe, expect, it } from 'vitest';
 import { calculateNumerology } from '../src/core/numerology/index.js';
 import { normalizeNameParts, reduce } from '../src/core/numerology/engine.js';
-import { DEFAULT_NUMEROLOGY_SETTINGS as S } from '../src/core/numerology/types.js';
+import { NUMEROLOGY_PRESETS } from '../src/core/numerology/presets.js';
+import type { NumerologySettings } from '../src/core/numerology/types.js';
+
+const S: NumerologySettings = { ...NUMEROLOGY_PRESETS['astra-standard'], masterNumbers: [11, 22, 33], karmicDebtNumbers: [13, 14, 16, 19] };
 
 const jean = { firstName: 'Jean', lastName: 'Dupont', birthDate: '1990-06-15', referenceDate: '2026-10-02' };
 
@@ -96,5 +99,20 @@ describe('conventions configurables', () => {
     expect(r.normalizedName.parts).toEqual(['JEAN', 'MARIE', 'MARTIN']);
     const r2 = calculateNumerology({ ...jean, middleNames: 'Marie', birthLastName: 'Martin' }, { includeMiddleNames: false, useBirthLastName: false });
     expect(r2.normalizedName.parts).toEqual(['JEAN', 'DUPONT']);
+  });
+});
+
+describe('conventions nommées', () => {
+  it('la convention est tracée dans la méta', () => {
+    expect(calculateNumerology(jean).meta.settings).toMatchObject({ convention: 'astra-standard', customized: false });
+    expect(calculateNumerology(jean, { preset: 'decoz' }).meta.settings).toMatchObject({ convention: 'decoz', yAsVowel: 'contextual' });
+    expect(calculateNumerology(jean, { preset: 'decoz', masterNumbers: [11, 22] }).meta.settings).toMatchObject({ customized: true });
+  });
+  it('« simple » : somme de tous les chiffres et Y consonne', () => {
+    const r = calculateNumerology({ ...jean, birthDate: '1987-11-29' }, { preset: 'simple' });
+    expect(r.lifePath).toMatchObject({ compound: 38, value: 11 });
+  });
+  it('convention inconnue refusée', () => {
+    expect(() => calculateNumerology(jean, { preset: 'inconnue' as never })).toThrowError(/inconnue/);
   });
 });
