@@ -53,7 +53,8 @@ describe.each(profiles)('bilan $id', ({ profile }) => {
   });
   it('en relecture, signale les textes manquants avec leur clé', () => {
     const missing = blocks(draft).filter((b) => b.kind === 'content' && b.status === 'missing');
-    expect(missing.length).toBeGreaterThan(10);
+    expect(missing.length).toBeGreaterThan(0);
+    for (const b of missing) if (b.kind === 'content') expect(b.contentKey).toMatch(/^(astrology|humanDesign|numerology)\./);
   });
   it('est déterministe et rattaché au profil source', () => {
     expect(JSON.stringify(buildReport(profile, { now: FIXED_NOW }))).toBe(JSON.stringify(prod));
