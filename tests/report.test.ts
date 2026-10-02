@@ -4,7 +4,7 @@ import { renderAstroWheel } from '../src/components/astrology/wheel.js';
 import { renderBodyGraph } from '../src/components/human-design/bodygraph.js';
 import { GATE_ANCHORS } from '../src/components/human-design/layout.js';
 import { buildContentCatalog } from '../src/content/catalog.js';
-import { collectContentKeys } from '../src/content/repository.js';
+import { collectContentKeys, resolveContent } from '../src/content/repository.js';
 import { buildProfile } from '../src/core/profile/build-profile.js';
 import { buildReport, renderReportHtml } from '../src/reports/index.js';
 import { PUBLISHED_CHARTS } from './fixtures/published-charts.js';
@@ -51,10 +51,10 @@ describe.each(profiles)('bilan $id', ({ profile }) => {
   it('en production, n’affiche que des textes validés (aucun emplacement vide)', () => {
     expect(blocks(prod).filter((b) => b.kind === 'content' && b.status !== 'validated')).toEqual([]);
   });
-  it('en relecture, signale les textes manquants avec leur clé', () => {
-    const missing = blocks(draft).filter((b) => b.kind === 'content' && b.status === 'missing');
-    expect(missing.length).toBeGreaterThan(0);
-    for (const b of missing) if (b.kind === 'content') expect(b.contentKey).toMatch(/^(astrology|humanDesign|numerology)\./);
+  it('en relecture, tous les textes sont présents (au moins en brouillon) et rattachés à leur clé', () => {
+    const content = blocks(draft).filter((b) => b.kind === 'content');
+    expect(content.filter((b) => b.status === 'missing')).toEqual([]);
+    for (const b of content) if (b.kind === 'content') expect(b.contentKey).toMatch(/^(astrology|humanDesign|numerology)\./);
   });
   it('est déterministe et rattaché au profil source', () => {
     expect(JSON.stringify(buildReport(profile, { now: FIXED_NOW }))).toBe(JSON.stringify(prod));
@@ -73,4 +73,11 @@ it('le texte saisi par l’utilisateur est échappé dans le HTML', () => {
   const html = renderReportHtml(buildReport(p, { now: FIXED_NOW }));
   expect(html).not.toContain('<img src=x');
   expect(html).toContain('&lt;img');
+});
+
+describe('contenus pédagogiques', () => {
+  it('chaque clé du catalogue a un texte (au moins en brouillon)', () => {
+    const missing = buildContentCatalog('fr').filter((e) => !resolveContent(e.key, { includeDrafts: true }));
+    expect(missing.map((e) => e.key)).toEqual([]);
+  });
 });
