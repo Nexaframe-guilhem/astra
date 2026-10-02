@@ -74,6 +74,12 @@ export function nodeLongitude(type: NodeType, utcMs: number): number {
   return type === 'true' ? trueNodeLongitude(utcMs) : meanNodeLongitude(utcMs);
 }
 
+/** Nutation en longitude Δψ (degrés, IAU 2000B) et siècles juliens TT depuis J2000. */
+export function nutationAndCenturies(utcMs: number): { dpsi: number; T: number } {
+  const time = Astronomy.MakeTime(new Date(utcMs));
+  return { dpsi: Astronomy.e_tilt(time).dpsi / 3600, T: time.tt / 36525 };
+}
+
 /** Obliquité vraie de l'écliptique (degrés) et temps sidéral apparent de Greenwich (degrés). */
 export function earthOrientation(utcMs: number): { trueObliquity: number; gast: number } {
   const time = Astronomy.MakeTime(new Date(utcMs));

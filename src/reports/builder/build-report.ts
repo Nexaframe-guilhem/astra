@@ -5,6 +5,7 @@
 import { renderAstroWheel } from '../../components/astrology/wheel.js';
 import { renderBodyGraph } from '../../components/human-design/bodygraph.js';
 import { renderDestinyMatrix } from '../../components/destiny-matrix/matrix.js';
+import { renderJyotishChart } from '../../components/jyotish/chart.js';
 import { label, resolveContent } from '../../content/repository.js';
 import type { Profile } from '../../core/profile/schema.js';
 import {
@@ -51,7 +52,7 @@ export function buildReport(profile: Profile, options: BuildReportOptions = {}):
         })),
     );
 
-  const { identity: id, birth: b, astrology: a, humanDesign: h, numerology: n, destinyMatrix: dm } = profile;
+  const { identity: id, birth: b, astrology: a, humanDesign: h, numerology: n, destinyMatrix: dm, jyotish: jy } = profile;
   const fullName = [id.firstName, id.middleNames, id.lastName].filter(Boolean).join(' ');
 
   const sections: ReportSection[] = [];
@@ -341,6 +342,74 @@ export function buildReport(profile: Profile, options: BuildReportOptions = {}):
     ],
   });
 
+  // ---------- Jyotish ----------
+  const nakName = (x: { id: string; pada: number }) => `${L(`nakshatra.${x.id}`)} (pada ${x.pada})`;
+  const frDate = (iso: string) => new Date(`${iso}T00:00:00Z`).toLocaleDateString(locale, { day: 'numeric', month: 'long', year: 'numeric', timeZone: 'UTC' });
+  const moonJ = jy.grahas.find((g) => g.id === 'moon')!;
+  const currentMd = jy.dashas.mahadashas.find((m) => m.lord === jy.dashas.current.mahadasha && m.start <= jy.dashas.current.referenceDate && jy.dashas.current.referenceDate < m.end);
+  sections.push({
+    id: 'jyotish',
+    title: 'Astrologie védique (Jyotish)',
+    subsections: [
+      {
+        id: 'chart',
+        title: 'Carte natale sidérale',
+        blocks: [
+          { kind: 'figure', figure: 'jyotish-chart', caption: `Zodiaque sidéral (ayanamsa Lahiri ${jy.ayanamsa.value.toFixed(2).replace('.', ',')}°), maisons en signes entiers, style nord-indien. Les nombres indiquent les signes (1 = Bélier).`, svg: renderJyotishChart(jy, { width: 400 }) },
+          {
+            kind: 'facts',
+            items: [
+              { label: 'Lagna (ascendant)', value: dms(jy.lagna, locale), contentKey: jy.lagna.contentKey },
+              { label: 'Lune', value: `${dms(moonJ, locale)}, ${nakName(moonJ.nakshatra)}`, contentKey: moonJ.contentKeys.nakshatra },
+              { label: 'Nakshatra du lagna', value: nakName(jy.lagna.nakshatra) },
+              { label: 'Dasha en cours', value: jy.dashas.current.mahadasha ? `${L(jy.dashas.current.mahadasha)}${jy.dashas.current.antardasha ? ` / ${L(jy.dashas.current.antardasha)}` : ''}` : '—' },
+            ],
+          },
+          ...notices(jy.warnings),
+          ...content(jy.lagna.contentKey, `Lagna en ${L(jy.lagna.sign)}`),
+          ...content(moonJ.contentKeys.nakshatra, `Lune en ${L(`nakshatra.${moonJ.nakshatra.id}`)}`),
+        ],
+      },
+      {
+        id: 'grahas',
+        title: 'Grahas, signes et maisons',
+        blocks: [
+          {
+            kind: 'table',
+            columns: ['Graha', 'Position sidérale', 'Maison', 'Nakshatra', 'Navamsa', 'État'],
+            rows: jy.grahas.map((g) => [
+              L(g.id), dms(g, locale), String(g.house), nakName(g.nakshatra), L(g.navamsaSign),
+              [g.dignity === 'neutral' ? '' : L(g.dignity), g.retrograde && g.id !== 'rahu' && g.id !== 'ketu' ? 'rétrograde' : ''].filter(Boolean).join(', '),
+            ]),
+          },
+          ...jy.grahas.flatMap((g) => [
+            ...content(g.contentKeys.sign, `${L(g.id)} en ${L(g.sign)}`),
+            ...content(g.contentKeys.house, `${L(g.id)} en maison ${g.house}`),
+          ]),
+        ],
+      },
+      {
+        id: 'dashas',
+        title: 'Périodes de vie (Vimshottari dasha)',
+        blocks: [
+          {
+            kind: 'table',
+            columns: ['Période (mahadasha)', 'Début', 'Fin', 'Durée'],
+            rows: jy.dashas.mahadashas.map((m) => [L(m.lord), frDate(m.start), frDate(m.end), `${m.years.toFixed(1).replace('.', ',')} ans`]),
+          },
+          ...(currentMd ? [
+            ...content(currentMd.contentKey, `Période de ${L(currentMd.lord)}`),
+            {
+              kind: 'table' as const,
+              columns: [`Sous-périodes de ${L(currentMd.lord)} (antardashas)`, 'Début', 'Fin'],
+              rows: currentMd.antardashas.map((a) => [L(a.lord), frDate(a.start), frDate(a.end)]),
+            },
+          ] : []),
+        ],
+      },
+    ],
+  });
+
   // ---------- Méthodologie ----------
   sections.push({
     id: 'methodology',
@@ -356,6 +425,7 @@ export function buildReport(profile: Profile, options: BuildReportOptions = {}):
             ['Astrologie', `${a.meta.engine} ${a.meta.engineVersion}`, `zodiaque tropical, maisons ${L(a.houseSystem)}, nœud ${a.meta.settings.nodeType === 'true' ? 'vrai' : 'moyen'}`],
             ['Human Design', `${h.meta.engine} ${h.meta.engineVersion}`, `Design à ${h.design.solarArcDegrees}° d’arc solaire, nœud ${h.meta.settings.nodeType === 'true' ? 'vrai' : 'moyen'}`],
             ['Numérologie', `${n.meta.engine} ${n.meta.engineVersion}`, `convention ${String(n.meta.settings.convention)}${n.meta.settings.customized ? ' (personnalisée)' : ''}, méthode ${L(n.method)}`],
+            ['Jyotish', `${jy.meta.engine} ${jy.meta.engineVersion}`, `zodiaque sidéral, ayanamsa Lahiri, maisons en signes entiers, Rahu/Ketu nœud ${jy.meta.settings.nodeType === 'true' ? 'vrai' : 'moyen'}, Vimshottari (année de ${String(jy.meta.settings.dashaYearDays).replace('.', ',')} jours)`],
             ['Matrice du destin', `${dm.meta.engine} ${dm.meta.engineVersion}`, `convention ${String(dm.meta.settings.convention)}, 22 arcanes, réduction par somme des chiffres`],
           ],
         },

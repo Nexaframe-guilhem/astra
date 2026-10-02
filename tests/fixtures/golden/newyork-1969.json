@@ -2525,8 +2525,787 @@
       }
     ]
   },
+  "jyotish": {
+    "meta": {
+      "engine": "astra-jyotish",
+      "engineVersion": "0.1.0",
+      "schemaVersion": "1.1",
+      "calculatedAt": "2026-10-02T00:00:00.000Z",
+      "dependencies": {
+        "astronomy-engine": "2.1.19"
+      },
+      "settings": {
+        "ayanamsa": "lahiri",
+        "nodeType": "mean",
+        "dashaYearDays": 365.25,
+        "houseSystem": "whole-sign",
+        "zodiac": "sidereal"
+      },
+      "inputHash": "bb9e7bbe9032e45be5280fe0b7ca565632bd2f3a7ee0c76868c5568714b3f69e"
+    },
+    "ayanamsa": {
+      "id": "lahiri",
+      "value": 23.432511
+    },
+    "lagna": {
+      "longitude": 334.304923,
+      "sign": "pisces",
+      "signIndex": 11,
+      "degreeInSign": 4.304923,
+      "dms": {
+        "degrees": 4,
+        "minutes": 18,
+        "seconds": 18
+      },
+      "nakshatra": {
+        "id": "uttara-bhadrapada",
+        "index": 25,
+        "pada": 1,
+        "lord": "saturn"
+      },
+      "navamsaSign": "leo",
+      "contentKey": "jyotish.lagna.pisces"
+    },
+    "grahas": [
+      {
+        "id": "sun",
+        "longitude": 94.742698,
+        "tropicalLongitude": 118.17521,
+        "sign": "cancer",
+        "signIndex": 3,
+        "degreeInSign": 4.742698,
+        "dms": {
+          "degrees": 4,
+          "minutes": 44,
+          "seconds": 34
+        },
+        "house": 5,
+        "retrograde": false,
+        "nakshatra": {
+          "id": "pushya",
+          "index": 7,
+          "pada": 1,
+          "lord": "saturn"
+        },
+        "navamsaSign": "leo",
+        "dignity": "neutral",
+        "contentKeys": {
+          "graha": "jyotish.grahas.sun",
+          "sign": "jyotish.grahaInRashi.sun.cancer",
+          "house": "jyotish.grahaInBhava.sun.5",
+          "nakshatra": "jyotish.nakshatras.pushya"
+        }
+      },
+      {
+        "id": "moon",
+        "longitude": 167.980121,
+        "tropicalLongitude": 191.412632,
+        "sign": "virgo",
+        "signIndex": 5,
+        "degreeInSign": 17.980121,
+        "dms": {
+          "degrees": 17,
+          "minutes": 58,
+          "seconds": 48
+        },
+        "house": 7,
+        "retrograde": false,
+        "nakshatra": {
+          "id": "hasta",
+          "index": 12,
+          "pada": 3,
+          "lord": "moon"
+        },
+        "navamsaSign": "gemini",
+        "dignity": "neutral",
+        "contentKeys": {
+          "graha": "jyotish.grahas.moon",
+          "sign": "jyotish.grahaInRashi.moon.virgo",
+          "house": "jyotish.grahaInBhava.moon.7",
+          "nakshatra": "jyotish.nakshatras.hasta"
+        }
+      },
+      {
+        "id": "mars",
+        "longitude": 219.388668,
+        "tropicalLongitude": 242.82118,
+        "sign": "scorpio",
+        "signIndex": 7,
+        "degreeInSign": 9.388668,
+        "dms": {
+          "degrees": 9,
+          "minutes": 23,
+          "seconds": 19
+        },
+        "house": 9,
+        "retrograde": false,
+        "nakshatra": {
+          "id": "anuradha",
+          "index": 16,
+          "pada": 2,
+          "lord": "saturn"
+        },
+        "navamsaSign": "virgo",
+        "dignity": "own",
+        "contentKeys": {
+          "graha": "jyotish.grahas.mars",
+          "sign": "jyotish.grahaInRashi.mars.scorpio",
+          "house": "jyotish.grahaInBhava.mars.9",
+          "nakshatra": "jyotish.nakshatras.anuradha"
+        }
+      },
+      {
+        "id": "mercury",
+        "longitude": 93.000977,
+        "tropicalLongitude": 116.433488,
+        "sign": "cancer",
+        "signIndex": 3,
+        "degreeInSign": 3.000977,
+        "dms": {
+          "degrees": 3,
+          "minutes": 0,
+          "seconds": 4
+        },
+        "house": 5,
+        "retrograde": false,
+        "nakshatra": {
+          "id": "punarvasu",
+          "index": 6,
+          "pada": 4,
+          "lord": "jupiter"
+        },
+        "navamsaSign": "cancer",
+        "dignity": "neutral",
+        "contentKeys": {
+          "graha": "jyotish.grahas.mercury",
+          "sign": "jyotish.grahaInRashi.mercury.cancer",
+          "house": "jyotish.grahaInBhava.mercury.5",
+          "nakshatra": "jyotish.nakshatras.punarvasu"
+        }
+      },
+      {
+        "id": "jupiter",
+        "longitude": 157.354901,
+        "tropicalLongitude": 180.787413,
+        "sign": "virgo",
+        "signIndex": 5,
+        "degreeInSign": 7.354901,
+        "dms": {
+          "degrees": 7,
+          "minutes": 21,
+          "seconds": 18
+        },
+        "house": 7,
+        "retrograde": false,
+        "nakshatra": {
+          "id": "uttara-phalguni",
+          "index": 11,
+          "pada": 4,
+          "lord": "sun"
+        },
+        "navamsaSign": "pisces",
+        "dignity": "neutral",
+        "contentKeys": {
+          "graha": "jyotish.grahas.jupiter",
+          "sign": "jyotish.grahaInRashi.jupiter.virgo",
+          "house": "jyotish.grahaInBhava.jupiter.7",
+          "nakshatra": "jyotish.nakshatras.uttara-phalguni"
+        }
+      },
+      {
+        "id": "venus",
+        "longitude": 51.910747,
+        "tropicalLongitude": 75.343258,
+        "sign": "taurus",
+        "signIndex": 1,
+        "degreeInSign": 21.910747,
+        "dms": {
+          "degrees": 21,
+          "minutes": 54,
+          "seconds": 39
+        },
+        "house": 3,
+        "retrograde": false,
+        "nakshatra": {
+          "id": "rohini",
+          "index": 3,
+          "pada": 4,
+          "lord": "moon"
+        },
+        "navamsaSign": "cancer",
+        "dignity": "own",
+        "contentKeys": {
+          "graha": "jyotish.grahas.venus",
+          "sign": "jyotish.grahaInRashi.venus.taurus",
+          "house": "jyotish.grahaInBhava.venus.3",
+          "nakshatra": "jyotish.nakshatras.rohini"
+        }
+      },
+      {
+        "id": "saturn",
+        "longitude": 14.679614,
+        "tropicalLongitude": 38.112126,
+        "sign": "aries",
+        "signIndex": 0,
+        "degreeInSign": 14.679614,
+        "dms": {
+          "degrees": 14,
+          "minutes": 40,
+          "seconds": 47
+        },
+        "house": 2,
+        "retrograde": false,
+        "nakshatra": {
+          "id": "bharani",
+          "index": 1,
+          "pada": 1,
+          "lord": "venus"
+        },
+        "navamsaSign": "leo",
+        "dignity": "debilitated",
+        "contentKeys": {
+          "graha": "jyotish.grahas.saturn",
+          "sign": "jyotish.grahaInRashi.saturn.aries",
+          "house": "jyotish.grahaInBhava.saturn.2",
+          "nakshatra": "jyotish.nakshatras.bharani"
+        }
+      },
+      {
+        "id": "rahu",
+        "longitude": 330.531037,
+        "tropicalLongitude": 353.963548,
+        "sign": "pisces",
+        "signIndex": 11,
+        "degreeInSign": 0.531037,
+        "dms": {
+          "degrees": 0,
+          "minutes": 31,
+          "seconds": 52
+        },
+        "house": 1,
+        "retrograde": true,
+        "nakshatra": {
+          "id": "purva-bhadrapada",
+          "index": 24,
+          "pada": 4,
+          "lord": "jupiter"
+        },
+        "navamsaSign": "cancer",
+        "dignity": "neutral",
+        "contentKeys": {
+          "graha": "jyotish.grahas.rahu",
+          "sign": "jyotish.grahaInRashi.rahu.pisces",
+          "house": "jyotish.grahaInBhava.rahu.1",
+          "nakshatra": "jyotish.nakshatras.purva-bhadrapada"
+        }
+      },
+      {
+        "id": "ketu",
+        "longitude": 150.531037,
+        "tropicalLongitude": 173.963548,
+        "sign": "virgo",
+        "signIndex": 5,
+        "degreeInSign": 0.531037,
+        "dms": {
+          "degrees": 0,
+          "minutes": 31,
+          "seconds": 52
+        },
+        "house": 7,
+        "retrograde": true,
+        "nakshatra": {
+          "id": "uttara-phalguni",
+          "index": 11,
+          "pada": 2,
+          "lord": "sun"
+        },
+        "navamsaSign": "capricorn",
+        "dignity": "neutral",
+        "contentKeys": {
+          "graha": "jyotish.grahas.ketu",
+          "sign": "jyotish.grahaInRashi.ketu.virgo",
+          "house": "jyotish.grahaInBhava.ketu.7",
+          "nakshatra": "jyotish.nakshatras.uttara-phalguni"
+        }
+      }
+    ],
+    "dashas": {
+      "system": "vimshottari",
+      "yearDays": 365.25,
+      "balanceYears": 4.0149,
+      "mahadashas": [
+        {
+          "lord": "moon",
+          "years": 4.0149,
+          "start": "1969-07-21",
+          "end": "1973-07-26",
+          "antardashas": [
+            {
+              "lord": "mercury",
+              "start": "1969-07-21",
+              "end": "1970-10-26"
+            },
+            {
+              "lord": "ketu",
+              "start": "1970-10-26",
+              "end": "1971-05-27"
+            },
+            {
+              "lord": "venus",
+              "start": "1971-05-27",
+              "end": "1973-01-24"
+            },
+            {
+              "lord": "sun",
+              "start": "1973-01-24",
+              "end": "1973-07-26"
+            }
+          ],
+          "contentKey": "jyotish.dashas.moon"
+        },
+        {
+          "lord": "mars",
+          "years": 7,
+          "start": "1973-07-26",
+          "end": "1980-07-26",
+          "antardashas": [
+            {
+              "lord": "mars",
+              "start": "1973-07-26",
+              "end": "1973-12-22"
+            },
+            {
+              "lord": "rahu",
+              "start": "1973-12-22",
+              "end": "1975-01-10"
+            },
+            {
+              "lord": "jupiter",
+              "start": "1975-01-10",
+              "end": "1975-12-17"
+            },
+            {
+              "lord": "saturn",
+              "start": "1975-12-17",
+              "end": "1977-01-24"
+            },
+            {
+              "lord": "mercury",
+              "start": "1977-01-24",
+              "end": "1978-01-22"
+            },
+            {
+              "lord": "ketu",
+              "start": "1978-01-22",
+              "end": "1978-06-20"
+            },
+            {
+              "lord": "venus",
+              "start": "1978-06-20",
+              "end": "1979-08-20"
+            },
+            {
+              "lord": "sun",
+              "start": "1979-08-20",
+              "end": "1979-12-26"
+            },
+            {
+              "lord": "moon",
+              "start": "1979-12-26",
+              "end": "1980-07-26"
+            }
+          ],
+          "contentKey": "jyotish.dashas.mars"
+        },
+        {
+          "lord": "rahu",
+          "years": 18,
+          "start": "1980-07-26",
+          "end": "1998-07-26",
+          "antardashas": [
+            {
+              "lord": "rahu",
+              "start": "1980-07-26",
+              "end": "1983-04-08"
+            },
+            {
+              "lord": "jupiter",
+              "start": "1983-04-08",
+              "end": "1985-09-01"
+            },
+            {
+              "lord": "saturn",
+              "start": "1985-09-01",
+              "end": "1988-07-08"
+            },
+            {
+              "lord": "mercury",
+              "start": "1988-07-08",
+              "end": "1991-01-25"
+            },
+            {
+              "lord": "ketu",
+              "start": "1991-01-25",
+              "end": "1992-02-12"
+            },
+            {
+              "lord": "venus",
+              "start": "1992-02-12",
+              "end": "1995-02-12"
+            },
+            {
+              "lord": "sun",
+              "start": "1995-02-12",
+              "end": "1996-01-07"
+            },
+            {
+              "lord": "moon",
+              "start": "1996-01-07",
+              "end": "1997-07-08"
+            },
+            {
+              "lord": "mars",
+              "start": "1997-07-08",
+              "end": "1998-07-26"
+            }
+          ],
+          "contentKey": "jyotish.dashas.rahu"
+        },
+        {
+          "lord": "jupiter",
+          "years": 16,
+          "start": "1998-07-26",
+          "end": "2014-07-26",
+          "antardashas": [
+            {
+              "lord": "jupiter",
+              "start": "1998-07-26",
+              "end": "2000-09-13"
+            },
+            {
+              "lord": "saturn",
+              "start": "2000-09-13",
+              "end": "2003-03-27"
+            },
+            {
+              "lord": "mercury",
+              "start": "2003-03-27",
+              "end": "2005-07-02"
+            },
+            {
+              "lord": "ketu",
+              "start": "2005-07-02",
+              "end": "2006-06-08"
+            },
+            {
+              "lord": "venus",
+              "start": "2006-06-08",
+              "end": "2009-02-06"
+            },
+            {
+              "lord": "sun",
+              "start": "2009-02-06",
+              "end": "2009-11-25"
+            },
+            {
+              "lord": "moon",
+              "start": "2009-11-25",
+              "end": "2011-03-27"
+            },
+            {
+              "lord": "mars",
+              "start": "2011-03-27",
+              "end": "2012-03-02"
+            },
+            {
+              "lord": "rahu",
+              "start": "2012-03-02",
+              "end": "2014-07-26"
+            }
+          ],
+          "contentKey": "jyotish.dashas.jupiter"
+        },
+        {
+          "lord": "saturn",
+          "years": 19,
+          "start": "2014-07-26",
+          "end": "2033-07-26",
+          "antardashas": [
+            {
+              "lord": "saturn",
+              "start": "2014-07-26",
+              "end": "2017-07-29"
+            },
+            {
+              "lord": "mercury",
+              "start": "2017-07-29",
+              "end": "2020-04-07"
+            },
+            {
+              "lord": "ketu",
+              "start": "2020-04-07",
+              "end": "2021-05-17"
+            },
+            {
+              "lord": "venus",
+              "start": "2021-05-17",
+              "end": "2024-07-17"
+            },
+            {
+              "lord": "sun",
+              "start": "2024-07-17",
+              "end": "2025-06-29"
+            },
+            {
+              "lord": "moon",
+              "start": "2025-06-29",
+              "end": "2027-01-28"
+            },
+            {
+              "lord": "mars",
+              "start": "2027-01-28",
+              "end": "2028-03-08"
+            },
+            {
+              "lord": "rahu",
+              "start": "2028-03-08",
+              "end": "2031-01-13"
+            },
+            {
+              "lord": "jupiter",
+              "start": "2031-01-13",
+              "end": "2033-07-26"
+            }
+          ],
+          "contentKey": "jyotish.dashas.saturn"
+        },
+        {
+          "lord": "mercury",
+          "years": 17,
+          "start": "2033-07-26",
+          "end": "2050-07-26",
+          "antardashas": [
+            {
+              "lord": "mercury",
+              "start": "2033-07-26",
+              "end": "2035-12-23"
+            },
+            {
+              "lord": "ketu",
+              "start": "2035-12-23",
+              "end": "2036-12-19"
+            },
+            {
+              "lord": "venus",
+              "start": "2036-12-19",
+              "end": "2039-10-20"
+            },
+            {
+              "lord": "sun",
+              "start": "2039-10-20",
+              "end": "2040-08-25"
+            },
+            {
+              "lord": "moon",
+              "start": "2040-08-25",
+              "end": "2042-01-25"
+            },
+            {
+              "lord": "mars",
+              "start": "2042-01-25",
+              "end": "2043-01-22"
+            },
+            {
+              "lord": "rahu",
+              "start": "2043-01-22",
+              "end": "2045-08-10"
+            },
+            {
+              "lord": "jupiter",
+              "start": "2045-08-10",
+              "end": "2047-11-16"
+            },
+            {
+              "lord": "saturn",
+              "start": "2047-11-16",
+              "end": "2050-07-26"
+            }
+          ],
+          "contentKey": "jyotish.dashas.mercury"
+        },
+        {
+          "lord": "ketu",
+          "years": 7,
+          "start": "2050-07-26",
+          "end": "2057-07-26",
+          "antardashas": [
+            {
+              "lord": "ketu",
+              "start": "2050-07-26",
+              "end": "2050-12-22"
+            },
+            {
+              "lord": "venus",
+              "start": "2050-12-22",
+              "end": "2052-02-22"
+            },
+            {
+              "lord": "sun",
+              "start": "2052-02-22",
+              "end": "2052-06-28"
+            },
+            {
+              "lord": "moon",
+              "start": "2052-06-28",
+              "end": "2053-01-27"
+            },
+            {
+              "lord": "mars",
+              "start": "2053-01-27",
+              "end": "2053-06-26"
+            },
+            {
+              "lord": "rahu",
+              "start": "2053-06-26",
+              "end": "2054-07-14"
+            },
+            {
+              "lord": "jupiter",
+              "start": "2054-07-14",
+              "end": "2055-06-20"
+            },
+            {
+              "lord": "saturn",
+              "start": "2055-06-20",
+              "end": "2056-07-29"
+            },
+            {
+              "lord": "mercury",
+              "start": "2056-07-29",
+              "end": "2057-07-26"
+            }
+          ],
+          "contentKey": "jyotish.dashas.ketu"
+        },
+        {
+          "lord": "venus",
+          "years": 20,
+          "start": "2057-07-26",
+          "end": "2077-07-26",
+          "antardashas": [
+            {
+              "lord": "venus",
+              "start": "2057-07-26",
+              "end": "2060-11-25"
+            },
+            {
+              "lord": "sun",
+              "start": "2060-11-25",
+              "end": "2061-11-25"
+            },
+            {
+              "lord": "moon",
+              "start": "2061-11-25",
+              "end": "2063-07-27"
+            },
+            {
+              "lord": "mars",
+              "start": "2063-07-27",
+              "end": "2064-09-25"
+            },
+            {
+              "lord": "rahu",
+              "start": "2064-09-25",
+              "end": "2067-09-25"
+            },
+            {
+              "lord": "jupiter",
+              "start": "2067-09-25",
+              "end": "2070-05-26"
+            },
+            {
+              "lord": "saturn",
+              "start": "2070-05-26",
+              "end": "2073-07-26"
+            },
+            {
+              "lord": "mercury",
+              "start": "2073-07-26",
+              "end": "2076-05-26"
+            },
+            {
+              "lord": "ketu",
+              "start": "2076-05-26",
+              "end": "2077-07-26"
+            }
+          ],
+          "contentKey": "jyotish.dashas.venus"
+        },
+        {
+          "lord": "sun",
+          "years": 6,
+          "start": "2077-07-26",
+          "end": "2083-07-27",
+          "antardashas": [
+            {
+              "lord": "sun",
+              "start": "2077-07-26",
+              "end": "2077-11-13"
+            },
+            {
+              "lord": "moon",
+              "start": "2077-11-13",
+              "end": "2078-05-14"
+            },
+            {
+              "lord": "mars",
+              "start": "2078-05-14",
+              "end": "2078-09-19"
+            },
+            {
+              "lord": "rahu",
+              "start": "2078-09-19",
+              "end": "2079-08-14"
+            },
+            {
+              "lord": "jupiter",
+              "start": "2079-08-14",
+              "end": "2080-06-01"
+            },
+            {
+              "lord": "saturn",
+              "start": "2080-06-01",
+              "end": "2081-05-14"
+            },
+            {
+              "lord": "mercury",
+              "start": "2081-05-14",
+              "end": "2082-03-20"
+            },
+            {
+              "lord": "ketu",
+              "start": "2082-03-20",
+              "end": "2082-07-26"
+            },
+            {
+              "lord": "venus",
+              "start": "2082-07-26",
+              "end": "2083-07-27"
+            }
+          ],
+          "contentKey": "jyotish.dashas.sun"
+        }
+      ],
+      "current": {
+        "referenceDate": "2026-10-02",
+        "mahadasha": "saturn",
+        "antardasha": "moon"
+      }
+    },
+    "warnings": []
+  },
   "meta": {
     "builtAt": "2026-10-02T00:00:00.000Z",
-    "inputHash": "c5a68077be5553731d80339f863788a870658abaffb961f49a367a358fc7c2db"
+    "inputHash": "e7b29faffef987e177f0619436895587350a41a1753d7f77a1cd5185466c73fa"
   }
 }

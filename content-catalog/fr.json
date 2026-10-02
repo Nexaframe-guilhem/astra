@@ -12172,5 +12172,1643 @@
   "domain": "destinyMatrix",
   "title": "Destination spirituelle : arcane 22",
   "priority": 3
+ },
+ {
+  "key": "jyotish.lagna.aries",
+  "domain": "jyotish",
+  "title": "Lagna en Bélier",
+  "priority": 1
+ },
+ {
+  "key": "jyotish.lagna.taurus",
+  "domain": "jyotish",
+  "title": "Lagna en Taureau",
+  "priority": 1
+ },
+ {
+  "key": "jyotish.lagna.gemini",
+  "domain": "jyotish",
+  "title": "Lagna en Gémeaux",
+  "priority": 1
+ },
+ {
+  "key": "jyotish.lagna.cancer",
+  "domain": "jyotish",
+  "title": "Lagna en Cancer",
+  "priority": 1
+ },
+ {
+  "key": "jyotish.lagna.leo",
+  "domain": "jyotish",
+  "title": "Lagna en Lion",
+  "priority": 1
+ },
+ {
+  "key": "jyotish.lagna.virgo",
+  "domain": "jyotish",
+  "title": "Lagna en Vierge",
+  "priority": 1
+ },
+ {
+  "key": "jyotish.lagna.libra",
+  "domain": "jyotish",
+  "title": "Lagna en Balance",
+  "priority": 1
+ },
+ {
+  "key": "jyotish.lagna.scorpio",
+  "domain": "jyotish",
+  "title": "Lagna en Scorpion",
+  "priority": 1
+ },
+ {
+  "key": "jyotish.lagna.sagittarius",
+  "domain": "jyotish",
+  "title": "Lagna en Sagittaire",
+  "priority": 1
+ },
+ {
+  "key": "jyotish.lagna.capricorn",
+  "domain": "jyotish",
+  "title": "Lagna en Capricorne",
+  "priority": 1
+ },
+ {
+  "key": "jyotish.lagna.aquarius",
+  "domain": "jyotish",
+  "title": "Lagna en Verseau",
+  "priority": 1
+ },
+ {
+  "key": "jyotish.lagna.pisces",
+  "domain": "jyotish",
+  "title": "Lagna en Poissons",
+  "priority": 1
+ },
+ {
+  "key": "jyotish.grahas.sun",
+  "domain": "jyotish",
+  "title": "Soleil",
+  "priority": 1
+ },
+ {
+  "key": "jyotish.grahas.moon",
+  "domain": "jyotish",
+  "title": "Lune",
+  "priority": 1
+ },
+ {
+  "key": "jyotish.grahas.mars",
+  "domain": "jyotish",
+  "title": "Mars",
+  "priority": 1
+ },
+ {
+  "key": "jyotish.grahas.mercury",
+  "domain": "jyotish",
+  "title": "Mercure",
+  "priority": 1
+ },
+ {
+  "key": "jyotish.grahas.jupiter",
+  "domain": "jyotish",
+  "title": "Jupiter",
+  "priority": 1
+ },
+ {
+  "key": "jyotish.grahas.venus",
+  "domain": "jyotish",
+  "title": "Vénus",
+  "priority": 1
+ },
+ {
+  "key": "jyotish.grahas.saturn",
+  "domain": "jyotish",
+  "title": "Saturne",
+  "priority": 1
+ },
+ {
+  "key": "jyotish.grahas.rahu",
+  "domain": "jyotish",
+  "title": "Rahu",
+  "priority": 1
+ },
+ {
+  "key": "jyotish.grahas.ketu",
+  "domain": "jyotish",
+  "title": "Ketu",
+  "priority": 1
+ },
+ {
+  "key": "jyotish.nakshatras.ashwini",
+  "domain": "jyotish",
+  "title": "Nakshatra Ashwini",
+  "priority": 1
+ },
+ {
+  "key": "jyotish.nakshatras.bharani",
+  "domain": "jyotish",
+  "title": "Nakshatra Bharani",
+  "priority": 1
+ },
+ {
+  "key": "jyotish.nakshatras.krittika",
+  "domain": "jyotish",
+  "title": "Nakshatra Krittika",
+  "priority": 1
+ },
+ {
+  "key": "jyotish.nakshatras.rohini",
+  "domain": "jyotish",
+  "title": "Nakshatra Rohini",
+  "priority": 1
+ },
+ {
+  "key": "jyotish.nakshatras.mrigashira",
+  "domain": "jyotish",
+  "title": "Nakshatra Mrigashira",
+  "priority": 1
+ },
+ {
+  "key": "jyotish.nakshatras.ardra",
+  "domain": "jyotish",
+  "title": "Nakshatra Ardra",
+  "priority": 1
+ },
+ {
+  "key": "jyotish.nakshatras.punarvasu",
+  "domain": "jyotish",
+  "title": "Nakshatra Punarvasu",
+  "priority": 1
+ },
+ {
+  "key": "jyotish.nakshatras.pushya",
+  "domain": "jyotish",
+  "title": "Nakshatra Pushya",
+  "priority": 1
+ },
+ {
+  "key": "jyotish.nakshatras.ashlesha",
+  "domain": "jyotish",
+  "title": "Nakshatra Ashlesha",
+  "priority": 1
+ },
+ {
+  "key": "jyotish.nakshatras.magha",
+  "domain": "jyotish",
+  "title": "Nakshatra Magha",
+  "priority": 1
+ },
+ {
+  "key": "jyotish.nakshatras.purva-phalguni",
+  "domain": "jyotish",
+  "title": "Nakshatra Purva Phalguni",
+  "priority": 1
+ },
+ {
+  "key": "jyotish.nakshatras.uttara-phalguni",
+  "domain": "jyotish",
+  "title": "Nakshatra Uttara Phalguni",
+  "priority": 1
+ },
+ {
+  "key": "jyotish.nakshatras.hasta",
+  "domain": "jyotish",
+  "title": "Nakshatra Hasta",
+  "priority": 1
+ },
+ {
+  "key": "jyotish.nakshatras.chitra",
+  "domain": "jyotish",
+  "title": "Nakshatra Chitra",
+  "priority": 1
+ },
+ {
+  "key": "jyotish.nakshatras.swati",
+  "domain": "jyotish",
+  "title": "Nakshatra Swati",
+  "priority": 1
+ },
+ {
+  "key": "jyotish.nakshatras.vishakha",
+  "domain": "jyotish",
+  "title": "Nakshatra Vishakha",
+  "priority": 1
+ },
+ {
+  "key": "jyotish.nakshatras.anuradha",
+  "domain": "jyotish",
+  "title": "Nakshatra Anuradha",
+  "priority": 1
+ },
+ {
+  "key": "jyotish.nakshatras.jyeshtha",
+  "domain": "jyotish",
+  "title": "Nakshatra Jyeshtha",
+  "priority": 1
+ },
+ {
+  "key": "jyotish.nakshatras.mula",
+  "domain": "jyotish",
+  "title": "Nakshatra Mula",
+  "priority": 1
+ },
+ {
+  "key": "jyotish.nakshatras.purva-ashadha",
+  "domain": "jyotish",
+  "title": "Nakshatra Purva Ashadha",
+  "priority": 1
+ },
+ {
+  "key": "jyotish.nakshatras.uttara-ashadha",
+  "domain": "jyotish",
+  "title": "Nakshatra Uttara Ashadha",
+  "priority": 1
+ },
+ {
+  "key": "jyotish.nakshatras.shravana",
+  "domain": "jyotish",
+  "title": "Nakshatra Shravana",
+  "priority": 1
+ },
+ {
+  "key": "jyotish.nakshatras.dhanishta",
+  "domain": "jyotish",
+  "title": "Nakshatra Dhanishta",
+  "priority": 1
+ },
+ {
+  "key": "jyotish.nakshatras.shatabhisha",
+  "domain": "jyotish",
+  "title": "Nakshatra Shatabhisha",
+  "priority": 1
+ },
+ {
+  "key": "jyotish.nakshatras.purva-bhadrapada",
+  "domain": "jyotish",
+  "title": "Nakshatra Purva Bhadrapada",
+  "priority": 1
+ },
+ {
+  "key": "jyotish.nakshatras.uttara-bhadrapada",
+  "domain": "jyotish",
+  "title": "Nakshatra Uttara Bhadrapada",
+  "priority": 1
+ },
+ {
+  "key": "jyotish.nakshatras.revati",
+  "domain": "jyotish",
+  "title": "Nakshatra Revati",
+  "priority": 1
+ },
+ {
+  "key": "jyotish.dashas.sun",
+  "domain": "jyotish",
+  "title": "Mahadasha de Soleil",
+  "priority": 1
+ },
+ {
+  "key": "jyotish.dashas.moon",
+  "domain": "jyotish",
+  "title": "Mahadasha de Lune",
+  "priority": 1
+ },
+ {
+  "key": "jyotish.dashas.mars",
+  "domain": "jyotish",
+  "title": "Mahadasha de Mars",
+  "priority": 1
+ },
+ {
+  "key": "jyotish.dashas.mercury",
+  "domain": "jyotish",
+  "title": "Mahadasha de Mercure",
+  "priority": 1
+ },
+ {
+  "key": "jyotish.dashas.jupiter",
+  "domain": "jyotish",
+  "title": "Mahadasha de Jupiter",
+  "priority": 1
+ },
+ {
+  "key": "jyotish.dashas.venus",
+  "domain": "jyotish",
+  "title": "Mahadasha de Vénus",
+  "priority": 1
+ },
+ {
+  "key": "jyotish.dashas.saturn",
+  "domain": "jyotish",
+  "title": "Mahadasha de Saturne",
+  "priority": 1
+ },
+ {
+  "key": "jyotish.dashas.rahu",
+  "domain": "jyotish",
+  "title": "Mahadasha de Rahu",
+  "priority": 1
+ },
+ {
+  "key": "jyotish.dashas.ketu",
+  "domain": "jyotish",
+  "title": "Mahadasha de Ketu",
+  "priority": 1
+ },
+ {
+  "key": "jyotish.grahaInRashi.sun.aries",
+  "domain": "jyotish",
+  "title": "Soleil en Bélier",
+  "priority": 2
+ },
+ {
+  "key": "jyotish.grahaInRashi.sun.taurus",
+  "domain": "jyotish",
+  "title": "Soleil en Taureau",
+  "priority": 2
+ },
+ {
+  "key": "jyotish.grahaInRashi.sun.gemini",
+  "domain": "jyotish",
+  "title": "Soleil en Gémeaux",
+  "priority": 2
+ },
+ {
+  "key": "jyotish.grahaInRashi.sun.cancer",
+  "domain": "jyotish",
+  "title": "Soleil en Cancer",
+  "priority": 2
+ },
+ {
+  "key": "jyotish.grahaInRashi.sun.leo",
+  "domain": "jyotish",
+  "title": "Soleil en Lion",
+  "priority": 2
+ },
+ {
+  "key": "jyotish.grahaInRashi.sun.virgo",
+  "domain": "jyotish",
+  "title": "Soleil en Vierge",
+  "priority": 2
+ },
+ {
+  "key": "jyotish.grahaInRashi.sun.libra",
+  "domain": "jyotish",
+  "title": "Soleil en Balance",
+  "priority": 2
+ },
+ {
+  "key": "jyotish.grahaInRashi.sun.scorpio",
+  "domain": "jyotish",
+  "title": "Soleil en Scorpion",
+  "priority": 2
+ },
+ {
+  "key": "jyotish.grahaInRashi.sun.sagittarius",
+  "domain": "jyotish",
+  "title": "Soleil en Sagittaire",
+  "priority": 2
+ },
+ {
+  "key": "jyotish.grahaInRashi.sun.capricorn",
+  "domain": "jyotish",
+  "title": "Soleil en Capricorne",
+  "priority": 2
+ },
+ {
+  "key": "jyotish.grahaInRashi.sun.aquarius",
+  "domain": "jyotish",
+  "title": "Soleil en Verseau",
+  "priority": 2
+ },
+ {
+  "key": "jyotish.grahaInRashi.sun.pisces",
+  "domain": "jyotish",
+  "title": "Soleil en Poissons",
+  "priority": 2
+ },
+ {
+  "key": "jyotish.grahaInRashi.moon.aries",
+  "domain": "jyotish",
+  "title": "Lune en Bélier",
+  "priority": 2
+ },
+ {
+  "key": "jyotish.grahaInRashi.moon.taurus",
+  "domain": "jyotish",
+  "title": "Lune en Taureau",
+  "priority": 2
+ },
+ {
+  "key": "jyotish.grahaInRashi.moon.gemini",
+  "domain": "jyotish",
+  "title": "Lune en Gémeaux",
+  "priority": 2
+ },
+ {
+  "key": "jyotish.grahaInRashi.moon.cancer",
+  "domain": "jyotish",
+  "title": "Lune en Cancer",
+  "priority": 2
+ },
+ {
+  "key": "jyotish.grahaInRashi.moon.leo",
+  "domain": "jyotish",
+  "title": "Lune en Lion",
+  "priority": 2
+ },
+ {
+  "key": "jyotish.grahaInRashi.moon.virgo",
+  "domain": "jyotish",
+  "title": "Lune en Vierge",
+  "priority": 2
+ },
+ {
+  "key": "jyotish.grahaInRashi.moon.libra",
+  "domain": "jyotish",
+  "title": "Lune en Balance",
+  "priority": 2
+ },
+ {
+  "key": "jyotish.grahaInRashi.moon.scorpio",
+  "domain": "jyotish",
+  "title": "Lune en Scorpion",
+  "priority": 2
+ },
+ {
+  "key": "jyotish.grahaInRashi.moon.sagittarius",
+  "domain": "jyotish",
+  "title": "Lune en Sagittaire",
+  "priority": 2
+ },
+ {
+  "key": "jyotish.grahaInRashi.moon.capricorn",
+  "domain": "jyotish",
+  "title": "Lune en Capricorne",
+  "priority": 2
+ },
+ {
+  "key": "jyotish.grahaInRashi.moon.aquarius",
+  "domain": "jyotish",
+  "title": "Lune en Verseau",
+  "priority": 2
+ },
+ {
+  "key": "jyotish.grahaInRashi.moon.pisces",
+  "domain": "jyotish",
+  "title": "Lune en Poissons",
+  "priority": 2
+ },
+ {
+  "key": "jyotish.grahaInRashi.mars.aries",
+  "domain": "jyotish",
+  "title": "Mars en Bélier",
+  "priority": 2
+ },
+ {
+  "key": "jyotish.grahaInRashi.mars.taurus",
+  "domain": "jyotish",
+  "title": "Mars en Taureau",
+  "priority": 2
+ },
+ {
+  "key": "jyotish.grahaInRashi.mars.gemini",
+  "domain": "jyotish",
+  "title": "Mars en Gémeaux",
+  "priority": 2
+ },
+ {
+  "key": "jyotish.grahaInRashi.mars.cancer",
+  "domain": "jyotish",
+  "title": "Mars en Cancer",
+  "priority": 2
+ },
+ {
+  "key": "jyotish.grahaInRashi.mars.leo",
+  "domain": "jyotish",
+  "title": "Mars en Lion",
+  "priority": 2
+ },
+ {
+  "key": "jyotish.grahaInRashi.mars.virgo",
+  "domain": "jyotish",
+  "title": "Mars en Vierge",
+  "priority": 2
+ },
+ {
+  "key": "jyotish.grahaInRashi.mars.libra",
+  "domain": "jyotish",
+  "title": "Mars en Balance",
+  "priority": 2
+ },
+ {
+  "key": "jyotish.grahaInRashi.mars.scorpio",
+  "domain": "jyotish",
+  "title": "Mars en Scorpion",
+  "priority": 2
+ },
+ {
+  "key": "jyotish.grahaInRashi.mars.sagittarius",
+  "domain": "jyotish",
+  "title": "Mars en Sagittaire",
+  "priority": 2
+ },
+ {
+  "key": "jyotish.grahaInRashi.mars.capricorn",
+  "domain": "jyotish",
+  "title": "Mars en Capricorne",
+  "priority": 2
+ },
+ {
+  "key": "jyotish.grahaInRashi.mars.aquarius",
+  "domain": "jyotish",
+  "title": "Mars en Verseau",
+  "priority": 2
+ },
+ {
+  "key": "jyotish.grahaInRashi.mars.pisces",
+  "domain": "jyotish",
+  "title": "Mars en Poissons",
+  "priority": 2
+ },
+ {
+  "key": "jyotish.grahaInRashi.mercury.aries",
+  "domain": "jyotish",
+  "title": "Mercure en Bélier",
+  "priority": 2
+ },
+ {
+  "key": "jyotish.grahaInRashi.mercury.taurus",
+  "domain": "jyotish",
+  "title": "Mercure en Taureau",
+  "priority": 2
+ },
+ {
+  "key": "jyotish.grahaInRashi.mercury.gemini",
+  "domain": "jyotish",
+  "title": "Mercure en Gémeaux",
+  "priority": 2
+ },
+ {
+  "key": "jyotish.grahaInRashi.mercury.cancer",
+  "domain": "jyotish",
+  "title": "Mercure en Cancer",
+  "priority": 2
+ },
+ {
+  "key": "jyotish.grahaInRashi.mercury.leo",
+  "domain": "jyotish",
+  "title": "Mercure en Lion",
+  "priority": 2
+ },
+ {
+  "key": "jyotish.grahaInRashi.mercury.virgo",
+  "domain": "jyotish",
+  "title": "Mercure en Vierge",
+  "priority": 2
+ },
+ {
+  "key": "jyotish.grahaInRashi.mercury.libra",
+  "domain": "jyotish",
+  "title": "Mercure en Balance",
+  "priority": 2
+ },
+ {
+  "key": "jyotish.grahaInRashi.mercury.scorpio",
+  "domain": "jyotish",
+  "title": "Mercure en Scorpion",
+  "priority": 2
+ },
+ {
+  "key": "jyotish.grahaInRashi.mercury.sagittarius",
+  "domain": "jyotish",
+  "title": "Mercure en Sagittaire",
+  "priority": 2
+ },
+ {
+  "key": "jyotish.grahaInRashi.mercury.capricorn",
+  "domain": "jyotish",
+  "title": "Mercure en Capricorne",
+  "priority": 2
+ },
+ {
+  "key": "jyotish.grahaInRashi.mercury.aquarius",
+  "domain": "jyotish",
+  "title": "Mercure en Verseau",
+  "priority": 2
+ },
+ {
+  "key": "jyotish.grahaInRashi.mercury.pisces",
+  "domain": "jyotish",
+  "title": "Mercure en Poissons",
+  "priority": 2
+ },
+ {
+  "key": "jyotish.grahaInRashi.jupiter.aries",
+  "domain": "jyotish",
+  "title": "Jupiter en Bélier",
+  "priority": 2
+ },
+ {
+  "key": "jyotish.grahaInRashi.jupiter.taurus",
+  "domain": "jyotish",
+  "title": "Jupiter en Taureau",
+  "priority": 2
+ },
+ {
+  "key": "jyotish.grahaInRashi.jupiter.gemini",
+  "domain": "jyotish",
+  "title": "Jupiter en Gémeaux",
+  "priority": 2
+ },
+ {
+  "key": "jyotish.grahaInRashi.jupiter.cancer",
+  "domain": "jyotish",
+  "title": "Jupiter en Cancer",
+  "priority": 2
+ },
+ {
+  "key": "jyotish.grahaInRashi.jupiter.leo",
+  "domain": "jyotish",
+  "title": "Jupiter en Lion",
+  "priority": 2
+ },
+ {
+  "key": "jyotish.grahaInRashi.jupiter.virgo",
+  "domain": "jyotish",
+  "title": "Jupiter en Vierge",
+  "priority": 2
+ },
+ {
+  "key": "jyotish.grahaInRashi.jupiter.libra",
+  "domain": "jyotish",
+  "title": "Jupiter en Balance",
+  "priority": 2
+ },
+ {
+  "key": "jyotish.grahaInRashi.jupiter.scorpio",
+  "domain": "jyotish",
+  "title": "Jupiter en Scorpion",
+  "priority": 2
+ },
+ {
+  "key": "jyotish.grahaInRashi.jupiter.sagittarius",
+  "domain": "jyotish",
+  "title": "Jupiter en Sagittaire",
+  "priority": 2
+ },
+ {
+  "key": "jyotish.grahaInRashi.jupiter.capricorn",
+  "domain": "jyotish",
+  "title": "Jupiter en Capricorne",
+  "priority": 2
+ },
+ {
+  "key": "jyotish.grahaInRashi.jupiter.aquarius",
+  "domain": "jyotish",
+  "title": "Jupiter en Verseau",
+  "priority": 2
+ },
+ {
+  "key": "jyotish.grahaInRashi.jupiter.pisces",
+  "domain": "jyotish",
+  "title": "Jupiter en Poissons",
+  "priority": 2
+ },
+ {
+  "key": "jyotish.grahaInRashi.venus.aries",
+  "domain": "jyotish",
+  "title": "Vénus en Bélier",
+  "priority": 2
+ },
+ {
+  "key": "jyotish.grahaInRashi.venus.taurus",
+  "domain": "jyotish",
+  "title": "Vénus en Taureau",
+  "priority": 2
+ },
+ {
+  "key": "jyotish.grahaInRashi.venus.gemini",
+  "domain": "jyotish",
+  "title": "Vénus en Gémeaux",
+  "priority": 2
+ },
+ {
+  "key": "jyotish.grahaInRashi.venus.cancer",
+  "domain": "jyotish",
+  "title": "Vénus en Cancer",
+  "priority": 2
+ },
+ {
+  "key": "jyotish.grahaInRashi.venus.leo",
+  "domain": "jyotish",
+  "title": "Vénus en Lion",
+  "priority": 2
+ },
+ {
+  "key": "jyotish.grahaInRashi.venus.virgo",
+  "domain": "jyotish",
+  "title": "Vénus en Vierge",
+  "priority": 2
+ },
+ {
+  "key": "jyotish.grahaInRashi.venus.libra",
+  "domain": "jyotish",
+  "title": "Vénus en Balance",
+  "priority": 2
+ },
+ {
+  "key": "jyotish.grahaInRashi.venus.scorpio",
+  "domain": "jyotish",
+  "title": "Vénus en Scorpion",
+  "priority": 2
+ },
+ {
+  "key": "jyotish.grahaInRashi.venus.sagittarius",
+  "domain": "jyotish",
+  "title": "Vénus en Sagittaire",
+  "priority": 2
+ },
+ {
+  "key": "jyotish.grahaInRashi.venus.capricorn",
+  "domain": "jyotish",
+  "title": "Vénus en Capricorne",
+  "priority": 2
+ },
+ {
+  "key": "jyotish.grahaInRashi.venus.aquarius",
+  "domain": "jyotish",
+  "title": "Vénus en Verseau",
+  "priority": 2
+ },
+ {
+  "key": "jyotish.grahaInRashi.venus.pisces",
+  "domain": "jyotish",
+  "title": "Vénus en Poissons",
+  "priority": 2
+ },
+ {
+  "key": "jyotish.grahaInRashi.saturn.aries",
+  "domain": "jyotish",
+  "title": "Saturne en Bélier",
+  "priority": 2
+ },
+ {
+  "key": "jyotish.grahaInRashi.saturn.taurus",
+  "domain": "jyotish",
+  "title": "Saturne en Taureau",
+  "priority": 2
+ },
+ {
+  "key": "jyotish.grahaInRashi.saturn.gemini",
+  "domain": "jyotish",
+  "title": "Saturne en Gémeaux",
+  "priority": 2
+ },
+ {
+  "key": "jyotish.grahaInRashi.saturn.cancer",
+  "domain": "jyotish",
+  "title": "Saturne en Cancer",
+  "priority": 2
+ },
+ {
+  "key": "jyotish.grahaInRashi.saturn.leo",
+  "domain": "jyotish",
+  "title": "Saturne en Lion",
+  "priority": 2
+ },
+ {
+  "key": "jyotish.grahaInRashi.saturn.virgo",
+  "domain": "jyotish",
+  "title": "Saturne en Vierge",
+  "priority": 2
+ },
+ {
+  "key": "jyotish.grahaInRashi.saturn.libra",
+  "domain": "jyotish",
+  "title": "Saturne en Balance",
+  "priority": 2
+ },
+ {
+  "key": "jyotish.grahaInRashi.saturn.scorpio",
+  "domain": "jyotish",
+  "title": "Saturne en Scorpion",
+  "priority": 2
+ },
+ {
+  "key": "jyotish.grahaInRashi.saturn.sagittarius",
+  "domain": "jyotish",
+  "title": "Saturne en Sagittaire",
+  "priority": 2
+ },
+ {
+  "key": "jyotish.grahaInRashi.saturn.capricorn",
+  "domain": "jyotish",
+  "title": "Saturne en Capricorne",
+  "priority": 2
+ },
+ {
+  "key": "jyotish.grahaInRashi.saturn.aquarius",
+  "domain": "jyotish",
+  "title": "Saturne en Verseau",
+  "priority": 2
+ },
+ {
+  "key": "jyotish.grahaInRashi.saturn.pisces",
+  "domain": "jyotish",
+  "title": "Saturne en Poissons",
+  "priority": 2
+ },
+ {
+  "key": "jyotish.grahaInRashi.rahu.aries",
+  "domain": "jyotish",
+  "title": "Rahu en Bélier",
+  "priority": 2
+ },
+ {
+  "key": "jyotish.grahaInRashi.rahu.taurus",
+  "domain": "jyotish",
+  "title": "Rahu en Taureau",
+  "priority": 2
+ },
+ {
+  "key": "jyotish.grahaInRashi.rahu.gemini",
+  "domain": "jyotish",
+  "title": "Rahu en Gémeaux",
+  "priority": 2
+ },
+ {
+  "key": "jyotish.grahaInRashi.rahu.cancer",
+  "domain": "jyotish",
+  "title": "Rahu en Cancer",
+  "priority": 2
+ },
+ {
+  "key": "jyotish.grahaInRashi.rahu.leo",
+  "domain": "jyotish",
+  "title": "Rahu en Lion",
+  "priority": 2
+ },
+ {
+  "key": "jyotish.grahaInRashi.rahu.virgo",
+  "domain": "jyotish",
+  "title": "Rahu en Vierge",
+  "priority": 2
+ },
+ {
+  "key": "jyotish.grahaInRashi.rahu.libra",
+  "domain": "jyotish",
+  "title": "Rahu en Balance",
+  "priority": 2
+ },
+ {
+  "key": "jyotish.grahaInRashi.rahu.scorpio",
+  "domain": "jyotish",
+  "title": "Rahu en Scorpion",
+  "priority": 2
+ },
+ {
+  "key": "jyotish.grahaInRashi.rahu.sagittarius",
+  "domain": "jyotish",
+  "title": "Rahu en Sagittaire",
+  "priority": 2
+ },
+ {
+  "key": "jyotish.grahaInRashi.rahu.capricorn",
+  "domain": "jyotish",
+  "title": "Rahu en Capricorne",
+  "priority": 2
+ },
+ {
+  "key": "jyotish.grahaInRashi.rahu.aquarius",
+  "domain": "jyotish",
+  "title": "Rahu en Verseau",
+  "priority": 2
+ },
+ {
+  "key": "jyotish.grahaInRashi.rahu.pisces",
+  "domain": "jyotish",
+  "title": "Rahu en Poissons",
+  "priority": 2
+ },
+ {
+  "key": "jyotish.grahaInRashi.ketu.aries",
+  "domain": "jyotish",
+  "title": "Ketu en Bélier",
+  "priority": 2
+ },
+ {
+  "key": "jyotish.grahaInRashi.ketu.taurus",
+  "domain": "jyotish",
+  "title": "Ketu en Taureau",
+  "priority": 2
+ },
+ {
+  "key": "jyotish.grahaInRashi.ketu.gemini",
+  "domain": "jyotish",
+  "title": "Ketu en Gémeaux",
+  "priority": 2
+ },
+ {
+  "key": "jyotish.grahaInRashi.ketu.cancer",
+  "domain": "jyotish",
+  "title": "Ketu en Cancer",
+  "priority": 2
+ },
+ {
+  "key": "jyotish.grahaInRashi.ketu.leo",
+  "domain": "jyotish",
+  "title": "Ketu en Lion",
+  "priority": 2
+ },
+ {
+  "key": "jyotish.grahaInRashi.ketu.virgo",
+  "domain": "jyotish",
+  "title": "Ketu en Vierge",
+  "priority": 2
+ },
+ {
+  "key": "jyotish.grahaInRashi.ketu.libra",
+  "domain": "jyotish",
+  "title": "Ketu en Balance",
+  "priority": 2
+ },
+ {
+  "key": "jyotish.grahaInRashi.ketu.scorpio",
+  "domain": "jyotish",
+  "title": "Ketu en Scorpion",
+  "priority": 2
+ },
+ {
+  "key": "jyotish.grahaInRashi.ketu.sagittarius",
+  "domain": "jyotish",
+  "title": "Ketu en Sagittaire",
+  "priority": 2
+ },
+ {
+  "key": "jyotish.grahaInRashi.ketu.capricorn",
+  "domain": "jyotish",
+  "title": "Ketu en Capricorne",
+  "priority": 2
+ },
+ {
+  "key": "jyotish.grahaInRashi.ketu.aquarius",
+  "domain": "jyotish",
+  "title": "Ketu en Verseau",
+  "priority": 2
+ },
+ {
+  "key": "jyotish.grahaInRashi.ketu.pisces",
+  "domain": "jyotish",
+  "title": "Ketu en Poissons",
+  "priority": 2
+ },
+ {
+  "key": "jyotish.grahaInBhava.sun.1",
+  "domain": "jyotish",
+  "title": "Soleil en maison 1",
+  "priority": 3
+ },
+ {
+  "key": "jyotish.grahaInBhava.sun.2",
+  "domain": "jyotish",
+  "title": "Soleil en maison 2",
+  "priority": 3
+ },
+ {
+  "key": "jyotish.grahaInBhava.sun.3",
+  "domain": "jyotish",
+  "title": "Soleil en maison 3",
+  "priority": 3
+ },
+ {
+  "key": "jyotish.grahaInBhava.sun.4",
+  "domain": "jyotish",
+  "title": "Soleil en maison 4",
+  "priority": 3
+ },
+ {
+  "key": "jyotish.grahaInBhava.sun.5",
+  "domain": "jyotish",
+  "title": "Soleil en maison 5",
+  "priority": 3
+ },
+ {
+  "key": "jyotish.grahaInBhava.sun.6",
+  "domain": "jyotish",
+  "title": "Soleil en maison 6",
+  "priority": 3
+ },
+ {
+  "key": "jyotish.grahaInBhava.sun.7",
+  "domain": "jyotish",
+  "title": "Soleil en maison 7",
+  "priority": 3
+ },
+ {
+  "key": "jyotish.grahaInBhava.sun.8",
+  "domain": "jyotish",
+  "title": "Soleil en maison 8",
+  "priority": 3
+ },
+ {
+  "key": "jyotish.grahaInBhava.sun.9",
+  "domain": "jyotish",
+  "title": "Soleil en maison 9",
+  "priority": 3
+ },
+ {
+  "key": "jyotish.grahaInBhava.sun.10",
+  "domain": "jyotish",
+  "title": "Soleil en maison 10",
+  "priority": 3
+ },
+ {
+  "key": "jyotish.grahaInBhava.sun.11",
+  "domain": "jyotish",
+  "title": "Soleil en maison 11",
+  "priority": 3
+ },
+ {
+  "key": "jyotish.grahaInBhava.sun.12",
+  "domain": "jyotish",
+  "title": "Soleil en maison 12",
+  "priority": 3
+ },
+ {
+  "key": "jyotish.grahaInBhava.moon.1",
+  "domain": "jyotish",
+  "title": "Lune en maison 1",
+  "priority": 3
+ },
+ {
+  "key": "jyotish.grahaInBhava.moon.2",
+  "domain": "jyotish",
+  "title": "Lune en maison 2",
+  "priority": 3
+ },
+ {
+  "key": "jyotish.grahaInBhava.moon.3",
+  "domain": "jyotish",
+  "title": "Lune en maison 3",
+  "priority": 3
+ },
+ {
+  "key": "jyotish.grahaInBhava.moon.4",
+  "domain": "jyotish",
+  "title": "Lune en maison 4",
+  "priority": 3
+ },
+ {
+  "key": "jyotish.grahaInBhava.moon.5",
+  "domain": "jyotish",
+  "title": "Lune en maison 5",
+  "priority": 3
+ },
+ {
+  "key": "jyotish.grahaInBhava.moon.6",
+  "domain": "jyotish",
+  "title": "Lune en maison 6",
+  "priority": 3
+ },
+ {
+  "key": "jyotish.grahaInBhava.moon.7",
+  "domain": "jyotish",
+  "title": "Lune en maison 7",
+  "priority": 3
+ },
+ {
+  "key": "jyotish.grahaInBhava.moon.8",
+  "domain": "jyotish",
+  "title": "Lune en maison 8",
+  "priority": 3
+ },
+ {
+  "key": "jyotish.grahaInBhava.moon.9",
+  "domain": "jyotish",
+  "title": "Lune en maison 9",
+  "priority": 3
+ },
+ {
+  "key": "jyotish.grahaInBhava.moon.10",
+  "domain": "jyotish",
+  "title": "Lune en maison 10",
+  "priority": 3
+ },
+ {
+  "key": "jyotish.grahaInBhava.moon.11",
+  "domain": "jyotish",
+  "title": "Lune en maison 11",
+  "priority": 3
+ },
+ {
+  "key": "jyotish.grahaInBhava.moon.12",
+  "domain": "jyotish",
+  "title": "Lune en maison 12",
+  "priority": 3
+ },
+ {
+  "key": "jyotish.grahaInBhava.mars.1",
+  "domain": "jyotish",
+  "title": "Mars en maison 1",
+  "priority": 3
+ },
+ {
+  "key": "jyotish.grahaInBhava.mars.2",
+  "domain": "jyotish",
+  "title": "Mars en maison 2",
+  "priority": 3
+ },
+ {
+  "key": "jyotish.grahaInBhava.mars.3",
+  "domain": "jyotish",
+  "title": "Mars en maison 3",
+  "priority": 3
+ },
+ {
+  "key": "jyotish.grahaInBhava.mars.4",
+  "domain": "jyotish",
+  "title": "Mars en maison 4",
+  "priority": 3
+ },
+ {
+  "key": "jyotish.grahaInBhava.mars.5",
+  "domain": "jyotish",
+  "title": "Mars en maison 5",
+  "priority": 3
+ },
+ {
+  "key": "jyotish.grahaInBhava.mars.6",
+  "domain": "jyotish",
+  "title": "Mars en maison 6",
+  "priority": 3
+ },
+ {
+  "key": "jyotish.grahaInBhava.mars.7",
+  "domain": "jyotish",
+  "title": "Mars en maison 7",
+  "priority": 3
+ },
+ {
+  "key": "jyotish.grahaInBhava.mars.8",
+  "domain": "jyotish",
+  "title": "Mars en maison 8",
+  "priority": 3
+ },
+ {
+  "key": "jyotish.grahaInBhava.mars.9",
+  "domain": "jyotish",
+  "title": "Mars en maison 9",
+  "priority": 3
+ },
+ {
+  "key": "jyotish.grahaInBhava.mars.10",
+  "domain": "jyotish",
+  "title": "Mars en maison 10",
+  "priority": 3
+ },
+ {
+  "key": "jyotish.grahaInBhava.mars.11",
+  "domain": "jyotish",
+  "title": "Mars en maison 11",
+  "priority": 3
+ },
+ {
+  "key": "jyotish.grahaInBhava.mars.12",
+  "domain": "jyotish",
+  "title": "Mars en maison 12",
+  "priority": 3
+ },
+ {
+  "key": "jyotish.grahaInBhava.mercury.1",
+  "domain": "jyotish",
+  "title": "Mercure en maison 1",
+  "priority": 3
+ },
+ {
+  "key": "jyotish.grahaInBhava.mercury.2",
+  "domain": "jyotish",
+  "title": "Mercure en maison 2",
+  "priority": 3
+ },
+ {
+  "key": "jyotish.grahaInBhava.mercury.3",
+  "domain": "jyotish",
+  "title": "Mercure en maison 3",
+  "priority": 3
+ },
+ {
+  "key": "jyotish.grahaInBhava.mercury.4",
+  "domain": "jyotish",
+  "title": "Mercure en maison 4",
+  "priority": 3
+ },
+ {
+  "key": "jyotish.grahaInBhava.mercury.5",
+  "domain": "jyotish",
+  "title": "Mercure en maison 5",
+  "priority": 3
+ },
+ {
+  "key": "jyotish.grahaInBhava.mercury.6",
+  "domain": "jyotish",
+  "title": "Mercure en maison 6",
+  "priority": 3
+ },
+ {
+  "key": "jyotish.grahaInBhava.mercury.7",
+  "domain": "jyotish",
+  "title": "Mercure en maison 7",
+  "priority": 3
+ },
+ {
+  "key": "jyotish.grahaInBhava.mercury.8",
+  "domain": "jyotish",
+  "title": "Mercure en maison 8",
+  "priority": 3
+ },
+ {
+  "key": "jyotish.grahaInBhava.mercury.9",
+  "domain": "jyotish",
+  "title": "Mercure en maison 9",
+  "priority": 3
+ },
+ {
+  "key": "jyotish.grahaInBhava.mercury.10",
+  "domain": "jyotish",
+  "title": "Mercure en maison 10",
+  "priority": 3
+ },
+ {
+  "key": "jyotish.grahaInBhava.mercury.11",
+  "domain": "jyotish",
+  "title": "Mercure en maison 11",
+  "priority": 3
+ },
+ {
+  "key": "jyotish.grahaInBhava.mercury.12",
+  "domain": "jyotish",
+  "title": "Mercure en maison 12",
+  "priority": 3
+ },
+ {
+  "key": "jyotish.grahaInBhava.jupiter.1",
+  "domain": "jyotish",
+  "title": "Jupiter en maison 1",
+  "priority": 3
+ },
+ {
+  "key": "jyotish.grahaInBhava.jupiter.2",
+  "domain": "jyotish",
+  "title": "Jupiter en maison 2",
+  "priority": 3
+ },
+ {
+  "key": "jyotish.grahaInBhava.jupiter.3",
+  "domain": "jyotish",
+  "title": "Jupiter en maison 3",
+  "priority": 3
+ },
+ {
+  "key": "jyotish.grahaInBhava.jupiter.4",
+  "domain": "jyotish",
+  "title": "Jupiter en maison 4",
+  "priority": 3
+ },
+ {
+  "key": "jyotish.grahaInBhava.jupiter.5",
+  "domain": "jyotish",
+  "title": "Jupiter en maison 5",
+  "priority": 3
+ },
+ {
+  "key": "jyotish.grahaInBhava.jupiter.6",
+  "domain": "jyotish",
+  "title": "Jupiter en maison 6",
+  "priority": 3
+ },
+ {
+  "key": "jyotish.grahaInBhava.jupiter.7",
+  "domain": "jyotish",
+  "title": "Jupiter en maison 7",
+  "priority": 3
+ },
+ {
+  "key": "jyotish.grahaInBhava.jupiter.8",
+  "domain": "jyotish",
+  "title": "Jupiter en maison 8",
+  "priority": 3
+ },
+ {
+  "key": "jyotish.grahaInBhava.jupiter.9",
+  "domain": "jyotish",
+  "title": "Jupiter en maison 9",
+  "priority": 3
+ },
+ {
+  "key": "jyotish.grahaInBhava.jupiter.10",
+  "domain": "jyotish",
+  "title": "Jupiter en maison 10",
+  "priority": 3
+ },
+ {
+  "key": "jyotish.grahaInBhava.jupiter.11",
+  "domain": "jyotish",
+  "title": "Jupiter en maison 11",
+  "priority": 3
+ },
+ {
+  "key": "jyotish.grahaInBhava.jupiter.12",
+  "domain": "jyotish",
+  "title": "Jupiter en maison 12",
+  "priority": 3
+ },
+ {
+  "key": "jyotish.grahaInBhava.venus.1",
+  "domain": "jyotish",
+  "title": "Vénus en maison 1",
+  "priority": 3
+ },
+ {
+  "key": "jyotish.grahaInBhava.venus.2",
+  "domain": "jyotish",
+  "title": "Vénus en maison 2",
+  "priority": 3
+ },
+ {
+  "key": "jyotish.grahaInBhava.venus.3",
+  "domain": "jyotish",
+  "title": "Vénus en maison 3",
+  "priority": 3
+ },
+ {
+  "key": "jyotish.grahaInBhava.venus.4",
+  "domain": "jyotish",
+  "title": "Vénus en maison 4",
+  "priority": 3
+ },
+ {
+  "key": "jyotish.grahaInBhava.venus.5",
+  "domain": "jyotish",
+  "title": "Vénus en maison 5",
+  "priority": 3
+ },
+ {
+  "key": "jyotish.grahaInBhava.venus.6",
+  "domain": "jyotish",
+  "title": "Vénus en maison 6",
+  "priority": 3
+ },
+ {
+  "key": "jyotish.grahaInBhava.venus.7",
+  "domain": "jyotish",
+  "title": "Vénus en maison 7",
+  "priority": 3
+ },
+ {
+  "key": "jyotish.grahaInBhava.venus.8",
+  "domain": "jyotish",
+  "title": "Vénus en maison 8",
+  "priority": 3
+ },
+ {
+  "key": "jyotish.grahaInBhava.venus.9",
+  "domain": "jyotish",
+  "title": "Vénus en maison 9",
+  "priority": 3
+ },
+ {
+  "key": "jyotish.grahaInBhava.venus.10",
+  "domain": "jyotish",
+  "title": "Vénus en maison 10",
+  "priority": 3
+ },
+ {
+  "key": "jyotish.grahaInBhava.venus.11",
+  "domain": "jyotish",
+  "title": "Vénus en maison 11",
+  "priority": 3
+ },
+ {
+  "key": "jyotish.grahaInBhava.venus.12",
+  "domain": "jyotish",
+  "title": "Vénus en maison 12",
+  "priority": 3
+ },
+ {
+  "key": "jyotish.grahaInBhava.saturn.1",
+  "domain": "jyotish",
+  "title": "Saturne en maison 1",
+  "priority": 3
+ },
+ {
+  "key": "jyotish.grahaInBhava.saturn.2",
+  "domain": "jyotish",
+  "title": "Saturne en maison 2",
+  "priority": 3
+ },
+ {
+  "key": "jyotish.grahaInBhava.saturn.3",
+  "domain": "jyotish",
+  "title": "Saturne en maison 3",
+  "priority": 3
+ },
+ {
+  "key": "jyotish.grahaInBhava.saturn.4",
+  "domain": "jyotish",
+  "title": "Saturne en maison 4",
+  "priority": 3
+ },
+ {
+  "key": "jyotish.grahaInBhava.saturn.5",
+  "domain": "jyotish",
+  "title": "Saturne en maison 5",
+  "priority": 3
+ },
+ {
+  "key": "jyotish.grahaInBhava.saturn.6",
+  "domain": "jyotish",
+  "title": "Saturne en maison 6",
+  "priority": 3
+ },
+ {
+  "key": "jyotish.grahaInBhava.saturn.7",
+  "domain": "jyotish",
+  "title": "Saturne en maison 7",
+  "priority": 3
+ },
+ {
+  "key": "jyotish.grahaInBhava.saturn.8",
+  "domain": "jyotish",
+  "title": "Saturne en maison 8",
+  "priority": 3
+ },
+ {
+  "key": "jyotish.grahaInBhava.saturn.9",
+  "domain": "jyotish",
+  "title": "Saturne en maison 9",
+  "priority": 3
+ },
+ {
+  "key": "jyotish.grahaInBhava.saturn.10",
+  "domain": "jyotish",
+  "title": "Saturne en maison 10",
+  "priority": 3
+ },
+ {
+  "key": "jyotish.grahaInBhava.saturn.11",
+  "domain": "jyotish",
+  "title": "Saturne en maison 11",
+  "priority": 3
+ },
+ {
+  "key": "jyotish.grahaInBhava.saturn.12",
+  "domain": "jyotish",
+  "title": "Saturne en maison 12",
+  "priority": 3
+ },
+ {
+  "key": "jyotish.grahaInBhava.rahu.1",
+  "domain": "jyotish",
+  "title": "Rahu en maison 1",
+  "priority": 3
+ },
+ {
+  "key": "jyotish.grahaInBhava.rahu.2",
+  "domain": "jyotish",
+  "title": "Rahu en maison 2",
+  "priority": 3
+ },
+ {
+  "key": "jyotish.grahaInBhava.rahu.3",
+  "domain": "jyotish",
+  "title": "Rahu en maison 3",
+  "priority": 3
+ },
+ {
+  "key": "jyotish.grahaInBhava.rahu.4",
+  "domain": "jyotish",
+  "title": "Rahu en maison 4",
+  "priority": 3
+ },
+ {
+  "key": "jyotish.grahaInBhava.rahu.5",
+  "domain": "jyotish",
+  "title": "Rahu en maison 5",
+  "priority": 3
+ },
+ {
+  "key": "jyotish.grahaInBhava.rahu.6",
+  "domain": "jyotish",
+  "title": "Rahu en maison 6",
+  "priority": 3
+ },
+ {
+  "key": "jyotish.grahaInBhava.rahu.7",
+  "domain": "jyotish",
+  "title": "Rahu en maison 7",
+  "priority": 3
+ },
+ {
+  "key": "jyotish.grahaInBhava.rahu.8",
+  "domain": "jyotish",
+  "title": "Rahu en maison 8",
+  "priority": 3
+ },
+ {
+  "key": "jyotish.grahaInBhava.rahu.9",
+  "domain": "jyotish",
+  "title": "Rahu en maison 9",
+  "priority": 3
+ },
+ {
+  "key": "jyotish.grahaInBhava.rahu.10",
+  "domain": "jyotish",
+  "title": "Rahu en maison 10",
+  "priority": 3
+ },
+ {
+  "key": "jyotish.grahaInBhava.rahu.11",
+  "domain": "jyotish",
+  "title": "Rahu en maison 11",
+  "priority": 3
+ },
+ {
+  "key": "jyotish.grahaInBhava.rahu.12",
+  "domain": "jyotish",
+  "title": "Rahu en maison 12",
+  "priority": 3
+ },
+ {
+  "key": "jyotish.grahaInBhava.ketu.1",
+  "domain": "jyotish",
+  "title": "Ketu en maison 1",
+  "priority": 3
+ },
+ {
+  "key": "jyotish.grahaInBhava.ketu.2",
+  "domain": "jyotish",
+  "title": "Ketu en maison 2",
+  "priority": 3
+ },
+ {
+  "key": "jyotish.grahaInBhava.ketu.3",
+  "domain": "jyotish",
+  "title": "Ketu en maison 3",
+  "priority": 3
+ },
+ {
+  "key": "jyotish.grahaInBhava.ketu.4",
+  "domain": "jyotish",
+  "title": "Ketu en maison 4",
+  "priority": 3
+ },
+ {
+  "key": "jyotish.grahaInBhava.ketu.5",
+  "domain": "jyotish",
+  "title": "Ketu en maison 5",
+  "priority": 3
+ },
+ {
+  "key": "jyotish.grahaInBhava.ketu.6",
+  "domain": "jyotish",
+  "title": "Ketu en maison 6",
+  "priority": 3
+ },
+ {
+  "key": "jyotish.grahaInBhava.ketu.7",
+  "domain": "jyotish",
+  "title": "Ketu en maison 7",
+  "priority": 3
+ },
+ {
+  "key": "jyotish.grahaInBhava.ketu.8",
+  "domain": "jyotish",
+  "title": "Ketu en maison 8",
+  "priority": 3
+ },
+ {
+  "key": "jyotish.grahaInBhava.ketu.9",
+  "domain": "jyotish",
+  "title": "Ketu en maison 9",
+  "priority": 3
+ },
+ {
+  "key": "jyotish.grahaInBhava.ketu.10",
+  "domain": "jyotish",
+  "title": "Ketu en maison 10",
+  "priority": 3
+ },
+ {
+  "key": "jyotish.grahaInBhava.ketu.11",
+  "domain": "jyotish",
+  "title": "Ketu en maison 11",
+  "priority": 3
+ },
+ {
+  "key": "jyotish.grahaInBhava.ketu.12",
+  "domain": "jyotish",
+  "title": "Ketu en maison 12",
+  "priority": 3
  }
 ]

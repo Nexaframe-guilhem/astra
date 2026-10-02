@@ -5,6 +5,7 @@ export { buildProfileContext, type ProfileContext, type ContextSection } from '.
 export { calculateAstrology, type AstrologyResult, type AstrologySettings } from './core/astrology/index.js';
 export { calculateHumanDesign, type HumanDesignResult, type HumanDesignSettings } from './core/human-design/index.js';
 export { calculateNumerology, type NumerologyResult, type NumerologySettings } from './core/numerology/index.js';
+export { calculateJyotish, type JyotishResult } from './core/jyotish/index.js';
 export { calculateDestinyMatrix, type DestinyMatrixResult } from './core/destiny-matrix/index.js';
 export { normalizeBirthData } from './core/birth-data/normalize.js';
 export { type BirthInput, type BirthData } from './core/birth-data/types.js';
