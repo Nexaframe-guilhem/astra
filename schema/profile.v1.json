@@ -1,12 +1,12 @@
 {
-  "$id": "https://astra.local/schema/profile.v1.0.json",
-  "title": "ASTRA Profile 1.0",
+  "$id": "https://astra.local/schema/profile.v1.1.json",
+  "title": "ASTRA Profile 1.1",
   "$schema": "https://json-schema.org/draft/2020-12/schema",
   "type": "object",
   "properties": {
     "schemaVersion": {
       "type": "string",
-      "const": "1.0"
+      "const": "1.1"
     },
     "identity": {
       "type": "object",
@@ -2445,6 +2445,242 @@
       ],
       "additionalProperties": false
     },
+    "destinyMatrix": {
+      "type": "object",
+      "properties": {
+        "meta": {
+          "type": "object",
+          "properties": {
+            "engine": {
+              "type": "string"
+            },
+            "engineVersion": {
+              "type": "string"
+            },
+            "schemaVersion": {
+              "type": "string"
+            },
+            "calculatedAt": {
+              "type": "string",
+              "format": "date-time",
+              "pattern": "^(?:(?:\\d\\d[2468][048]|\\d\\d[13579][26]|\\d\\d0[48]|[02468][048]00|[13579][26]00)-02-29|\\d{4}-(?:(?:0[13578]|1[02])-(?:0[1-9]|[12]\\d|3[01])|(?:0[469]|11)-(?:0[1-9]|[12]\\d|30)|(?:02)-(?:0[1-9]|1\\d|2[0-8])))T(?:(?:[01]\\d|2[0-3]):[0-5]\\d:[0-5]\\d(?:\\.\\d+)?(?:Z))$"
+            },
+            "dependencies": {
+              "type": "object",
+              "propertyNames": {
+                "type": "string"
+              },
+              "additionalProperties": {
+                "type": "string"
+              }
+            },
+            "settings": {
+              "type": "object",
+              "propertyNames": {
+                "type": "string"
+              },
+              "additionalProperties": {}
+            },
+            "inputHash": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "engine",
+            "engineVersion",
+            "schemaVersion",
+            "calculatedAt",
+            "dependencies",
+            "settings",
+            "inputHash"
+          ],
+          "additionalProperties": false
+        },
+        "birthDate": {
+          "type": "string"
+        },
+        "points": {
+          "minItems": 32,
+          "maxItems": 32,
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "id": {
+                "type": "string",
+                "enum": [
+                  "A",
+                  "B",
+                  "C",
+                  "D",
+                  "E",
+                  "F",
+                  "G",
+                  "H",
+                  "I",
+                  "J",
+                  "K",
+                  "L",
+                  "M",
+                  "N",
+                  "O",
+                  "P",
+                  "Q",
+                  "R",
+                  "S",
+                  "T",
+                  "U",
+                  "V",
+                  "W",
+                  "X",
+                  "F1",
+                  "F2",
+                  "G1",
+                  "G2",
+                  "H1",
+                  "H2",
+                  "I1",
+                  "I2"
+                ]
+              },
+              "value": {
+                "type": "integer",
+                "minimum": 1,
+                "maximum": 22
+              },
+              "formula": {
+                "type": "string"
+              },
+              "contentKey": {
+                "type": "string"
+              }
+            },
+            "required": [
+              "id",
+              "value",
+              "formula",
+              "contentKey"
+            ],
+            "additionalProperties": false
+          }
+        },
+        "purposes": {
+          "type": "object",
+          "properties": {
+            "sky": {
+              "type": "integer",
+              "minimum": 1,
+              "maximum": 22
+            },
+            "earth": {
+              "type": "integer",
+              "minimum": 1,
+              "maximum": 22
+            },
+            "personal": {
+              "type": "integer",
+              "minimum": 1,
+              "maximum": 22
+            },
+            "male": {
+              "type": "integer",
+              "minimum": 1,
+              "maximum": 22
+            },
+            "female": {
+              "type": "integer",
+              "minimum": 1,
+              "maximum": 22
+            },
+            "social": {
+              "type": "integer",
+              "minimum": 1,
+              "maximum": 22
+            },
+            "spiritual": {
+              "type": "integer",
+              "minimum": 1,
+              "maximum": 22
+            }
+          },
+          "required": [
+            "sky",
+            "earth",
+            "personal",
+            "male",
+            "female",
+            "social",
+            "spiritual"
+          ],
+          "additionalProperties": false
+        },
+        "positions": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "id": {
+                "type": "string",
+                "enum": [
+                  "personality",
+                  "talents",
+                  "material",
+                  "karmicTask",
+                  "center",
+                  "karmicTail",
+                  "love",
+                  "money",
+                  "paternalLine",
+                  "maternalLine",
+                  "personalPurpose",
+                  "socialPurpose",
+                  "spiritualPurpose"
+                ]
+              },
+              "points": {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                }
+              },
+              "values": {
+                "type": "array",
+                "items": {
+                  "type": "integer",
+                  "minimum": 1,
+                  "maximum": 22
+                }
+              },
+              "contentKey": {
+                "type": "string"
+              },
+              "arcanaContentKey": {
+                "type": [
+                  "string",
+                  "null"
+                ]
+              }
+            },
+            "required": [
+              "id",
+              "points",
+              "values",
+              "contentKey",
+              "arcanaContentKey"
+            ],
+            "additionalProperties": false
+          }
+        }
+      },
+      "required": [
+        "meta",
+        "birthDate",
+        "points",
+        "purposes",
+        "positions"
+      ],
+      "additionalProperties": false
+    },
     "meta": {
       "type": "object",
       "properties": {
@@ -2469,6 +2705,7 @@
     "astrology",
     "humanDesign",
     "numerology",
+    "destinyMatrix",
     "meta"
   ],
   "additionalProperties": false

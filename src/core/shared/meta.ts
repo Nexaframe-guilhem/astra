@@ -3,7 +3,7 @@ import { EPHEMERIS_VERSION } from '../ephemeris/index.js';
 import { z } from 'zod';
 
 /** Version du schéma JSON normalisé. Majeure = rupture, mineure = ajout rétro-compatible. */
-export const SCHEMA_VERSION = '1.0' as const;
+export const SCHEMA_VERSION = '1.1' as const;
 
 export const engineMetaSchema = z.object({
   engine: z.string(),

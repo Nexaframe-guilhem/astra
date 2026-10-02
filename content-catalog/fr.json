@@ -10642,5 +10642,1535 @@
   "domain": "numerology",
   "title": "Défi 8",
   "priority": 3
+ },
+ {
+  "key": "destinyMatrix.arcana.1",
+  "domain": "destinyMatrix",
+  "title": "Arcane 1 : Le Bateleur",
+  "priority": 1
+ },
+ {
+  "key": "destinyMatrix.arcana.2",
+  "domain": "destinyMatrix",
+  "title": "Arcane 2 : La Papesse",
+  "priority": 1
+ },
+ {
+  "key": "destinyMatrix.arcana.3",
+  "domain": "destinyMatrix",
+  "title": "Arcane 3 : L'Impératrice",
+  "priority": 1
+ },
+ {
+  "key": "destinyMatrix.arcana.4",
+  "domain": "destinyMatrix",
+  "title": "Arcane 4 : L'Empereur",
+  "priority": 1
+ },
+ {
+  "key": "destinyMatrix.arcana.5",
+  "domain": "destinyMatrix",
+  "title": "Arcane 5 : Le Pape",
+  "priority": 1
+ },
+ {
+  "key": "destinyMatrix.arcana.6",
+  "domain": "destinyMatrix",
+  "title": "Arcane 6 : L'Amoureux",
+  "priority": 1
+ },
+ {
+  "key": "destinyMatrix.arcana.7",
+  "domain": "destinyMatrix",
+  "title": "Arcane 7 : Le Chariot",
+  "priority": 1
+ },
+ {
+  "key": "destinyMatrix.arcana.8",
+  "domain": "destinyMatrix",
+  "title": "Arcane 8 : La Justice",
+  "priority": 1
+ },
+ {
+  "key": "destinyMatrix.arcana.9",
+  "domain": "destinyMatrix",
+  "title": "Arcane 9 : L'Ermite",
+  "priority": 1
+ },
+ {
+  "key": "destinyMatrix.arcana.10",
+  "domain": "destinyMatrix",
+  "title": "Arcane 10 : La Roue de Fortune",
+  "priority": 1
+ },
+ {
+  "key": "destinyMatrix.arcana.11",
+  "domain": "destinyMatrix",
+  "title": "Arcane 11 : La Force",
+  "priority": 1
+ },
+ {
+  "key": "destinyMatrix.arcana.12",
+  "domain": "destinyMatrix",
+  "title": "Arcane 12 : Le Pendu",
+  "priority": 1
+ },
+ {
+  "key": "destinyMatrix.arcana.13",
+  "domain": "destinyMatrix",
+  "title": "Arcane 13 : L'Arcane sans nom",
+  "priority": 1
+ },
+ {
+  "key": "destinyMatrix.arcana.14",
+  "domain": "destinyMatrix",
+  "title": "Arcane 14 : Tempérance",
+  "priority": 1
+ },
+ {
+  "key": "destinyMatrix.arcana.15",
+  "domain": "destinyMatrix",
+  "title": "Arcane 15 : Le Diable",
+  "priority": 1
+ },
+ {
+  "key": "destinyMatrix.arcana.16",
+  "domain": "destinyMatrix",
+  "title": "Arcane 16 : La Maison Dieu",
+  "priority": 1
+ },
+ {
+  "key": "destinyMatrix.arcana.17",
+  "domain": "destinyMatrix",
+  "title": "Arcane 17 : L'Étoile",
+  "priority": 1
+ },
+ {
+  "key": "destinyMatrix.arcana.18",
+  "domain": "destinyMatrix",
+  "title": "Arcane 18 : La Lune",
+  "priority": 1
+ },
+ {
+  "key": "destinyMatrix.arcana.19",
+  "domain": "destinyMatrix",
+  "title": "Arcane 19 : Le Soleil",
+  "priority": 1
+ },
+ {
+  "key": "destinyMatrix.arcana.20",
+  "domain": "destinyMatrix",
+  "title": "Arcane 20 : Le Jugement",
+  "priority": 1
+ },
+ {
+  "key": "destinyMatrix.arcana.21",
+  "domain": "destinyMatrix",
+  "title": "Arcane 21 : Le Monde",
+  "priority": 1
+ },
+ {
+  "key": "destinyMatrix.arcana.22",
+  "domain": "destinyMatrix",
+  "title": "Arcane 22 : Le Mat",
+  "priority": 1
+ },
+ {
+  "key": "destinyMatrix.positions.personality",
+  "domain": "destinyMatrix",
+  "title": "Personnalité (portrait)",
+  "priority": 2
+ },
+ {
+  "key": "destinyMatrix.positions.talents",
+  "domain": "destinyMatrix",
+  "title": "Talents",
+  "priority": 2
+ },
+ {
+  "key": "destinyMatrix.positions.material",
+  "domain": "destinyMatrix",
+  "title": "Ressources matérielles",
+  "priority": 2
+ },
+ {
+  "key": "destinyMatrix.positions.karmicTask",
+  "domain": "destinyMatrix",
+  "title": "Tâche karmique",
+  "priority": 2
+ },
+ {
+  "key": "destinyMatrix.positions.center",
+  "domain": "destinyMatrix",
+  "title": "Zone de confort (centre)",
+  "priority": 2
+ },
+ {
+  "key": "destinyMatrix.positions.karmicTail",
+  "domain": "destinyMatrix",
+  "title": "Queue karmique",
+  "priority": 2
+ },
+ {
+  "key": "destinyMatrix.positions.love",
+  "domain": "destinyMatrix",
+  "title": "Relations",
+  "priority": 2
+ },
+ {
+  "key": "destinyMatrix.positions.money",
+  "domain": "destinyMatrix",
+  "title": "Argent",
+  "priority": 2
+ },
+ {
+  "key": "destinyMatrix.positions.paternalLine",
+  "domain": "destinyMatrix",
+  "title": "Lignée paternelle",
+  "priority": 2
+ },
+ {
+  "key": "destinyMatrix.positions.maternalLine",
+  "domain": "destinyMatrix",
+  "title": "Lignée maternelle",
+  "priority": 2
+ },
+ {
+  "key": "destinyMatrix.positions.personalPurpose",
+  "domain": "destinyMatrix",
+  "title": "Destination personnelle",
+  "priority": 2
+ },
+ {
+  "key": "destinyMatrix.positions.socialPurpose",
+  "domain": "destinyMatrix",
+  "title": "Destination sociale",
+  "priority": 2
+ },
+ {
+  "key": "destinyMatrix.positions.spiritualPurpose",
+  "domain": "destinyMatrix",
+  "title": "Destination spirituelle",
+  "priority": 2
+ },
+ {
+  "key": "destinyMatrix.positionArcana.personality.1",
+  "domain": "destinyMatrix",
+  "title": "Personnalité (portrait) : arcane 1",
+  "priority": 3
+ },
+ {
+  "key": "destinyMatrix.positionArcana.personality.2",
+  "domain": "destinyMatrix",
+  "title": "Personnalité (portrait) : arcane 2",
+  "priority": 3
+ },
+ {
+  "key": "destinyMatrix.positionArcana.personality.3",
+  "domain": "destinyMatrix",
+  "title": "Personnalité (portrait) : arcane 3",
+  "priority": 3
+ },
+ {
+  "key": "destinyMatrix.positionArcana.personality.4",
+  "domain": "destinyMatrix",
+  "title": "Personnalité (portrait) : arcane 4",
+  "priority": 3
+ },
+ {
+  "key": "destinyMatrix.positionArcana.personality.5",
+  "domain": "destinyMatrix",
+  "title": "Personnalité (portrait) : arcane 5",
+  "priority": 3
+ },
+ {
+  "key": "destinyMatrix.positionArcana.personality.6",
+  "domain": "destinyMatrix",
+  "title": "Personnalité (portrait) : arcane 6",
+  "priority": 3
+ },
+ {
+  "key": "destinyMatrix.positionArcana.personality.7",
+  "domain": "destinyMatrix",
+  "title": "Personnalité (portrait) : arcane 7",
+  "priority": 3
+ },
+ {
+  "key": "destinyMatrix.positionArcana.personality.8",
+  "domain": "destinyMatrix",
+  "title": "Personnalité (portrait) : arcane 8",
+  "priority": 3
+ },
+ {
+  "key": "destinyMatrix.positionArcana.personality.9",
+  "domain": "destinyMatrix",
+  "title": "Personnalité (portrait) : arcane 9",
+  "priority": 3
+ },
+ {
+  "key": "destinyMatrix.positionArcana.personality.10",
+  "domain": "destinyMatrix",
+  "title": "Personnalité (portrait) : arcane 10",
+  "priority": 3
+ },
+ {
+  "key": "destinyMatrix.positionArcana.personality.11",
+  "domain": "destinyMatrix",
+  "title": "Personnalité (portrait) : arcane 11",
+  "priority": 3
+ },
+ {
+  "key": "destinyMatrix.positionArcana.personality.12",
+  "domain": "destinyMatrix",
+  "title": "Personnalité (portrait) : arcane 12",
+  "priority": 3
+ },
+ {
+  "key": "destinyMatrix.positionArcana.personality.13",
+  "domain": "destinyMatrix",
+  "title": "Personnalité (portrait) : arcane 13",
+  "priority": 3
+ },
+ {
+  "key": "destinyMatrix.positionArcana.personality.14",
+  "domain": "destinyMatrix",
+  "title": "Personnalité (portrait) : arcane 14",
+  "priority": 3
+ },
+ {
+  "key": "destinyMatrix.positionArcana.personality.15",
+  "domain": "destinyMatrix",
+  "title": "Personnalité (portrait) : arcane 15",
+  "priority": 3
+ },
+ {
+  "key": "destinyMatrix.positionArcana.personality.16",
+  "domain": "destinyMatrix",
+  "title": "Personnalité (portrait) : arcane 16",
+  "priority": 3
+ },
+ {
+  "key": "destinyMatrix.positionArcana.personality.17",
+  "domain": "destinyMatrix",
+  "title": "Personnalité (portrait) : arcane 17",
+  "priority": 3
+ },
+ {
+  "key": "destinyMatrix.positionArcana.personality.18",
+  "domain": "destinyMatrix",
+  "title": "Personnalité (portrait) : arcane 18",
+  "priority": 3
+ },
+ {
+  "key": "destinyMatrix.positionArcana.personality.19",
+  "domain": "destinyMatrix",
+  "title": "Personnalité (portrait) : arcane 19",
+  "priority": 3
+ },
+ {
+  "key": "destinyMatrix.positionArcana.personality.20",
+  "domain": "destinyMatrix",
+  "title": "Personnalité (portrait) : arcane 20",
+  "priority": 3
+ },
+ {
+  "key": "destinyMatrix.positionArcana.personality.21",
+  "domain": "destinyMatrix",
+  "title": "Personnalité (portrait) : arcane 21",
+  "priority": 3
+ },
+ {
+  "key": "destinyMatrix.positionArcana.personality.22",
+  "domain": "destinyMatrix",
+  "title": "Personnalité (portrait) : arcane 22",
+  "priority": 3
+ },
+ {
+  "key": "destinyMatrix.positionArcana.talents.1",
+  "domain": "destinyMatrix",
+  "title": "Talents : arcane 1",
+  "priority": 3
+ },
+ {
+  "key": "destinyMatrix.positionArcana.talents.2",
+  "domain": "destinyMatrix",
+  "title": "Talents : arcane 2",
+  "priority": 3
+ },
+ {
+  "key": "destinyMatrix.positionArcana.talents.3",
+  "domain": "destinyMatrix",
+  "title": "Talents : arcane 3",
+  "priority": 3
+ },
+ {
+  "key": "destinyMatrix.positionArcana.talents.4",
+  "domain": "destinyMatrix",
+  "title": "Talents : arcane 4",
+  "priority": 3
+ },
+ {
+  "key": "destinyMatrix.positionArcana.talents.5",
+  "domain": "destinyMatrix",
+  "title": "Talents : arcane 5",
+  "priority": 3
+ },
+ {
+  "key": "destinyMatrix.positionArcana.talents.6",
+  "domain": "destinyMatrix",
+  "title": "Talents : arcane 6",
+  "priority": 3
+ },
+ {
+  "key": "destinyMatrix.positionArcana.talents.7",
+  "domain": "destinyMatrix",
+  "title": "Talents : arcane 7",
+  "priority": 3
+ },
+ {
+  "key": "destinyMatrix.positionArcana.talents.8",
+  "domain": "destinyMatrix",
+  "title": "Talents : arcane 8",
+  "priority": 3
+ },
+ {
+  "key": "destinyMatrix.positionArcana.talents.9",
+  "domain": "destinyMatrix",
+  "title": "Talents : arcane 9",
+  "priority": 3
+ },
+ {
+  "key": "destinyMatrix.positionArcana.talents.10",
+  "domain": "destinyMatrix",
+  "title": "Talents : arcane 10",
+  "priority": 3
+ },
+ {
+  "key": "destinyMatrix.positionArcana.talents.11",
+  "domain": "destinyMatrix",
+  "title": "Talents : arcane 11",
+  "priority": 3
+ },
+ {
+  "key": "destinyMatrix.positionArcana.talents.12",
+  "domain": "destinyMatrix",
+  "title": "Talents : arcane 12",
+  "priority": 3
+ },
+ {
+  "key": "destinyMatrix.positionArcana.talents.13",
+  "domain": "destinyMatrix",
+  "title": "Talents : arcane 13",
+  "priority": 3
+ },
+ {
+  "key": "destinyMatrix.positionArcana.talents.14",
+  "domain": "destinyMatrix",
+  "title": "Talents : arcane 14",
+  "priority": 3
+ },
+ {
+  "key": "destinyMatrix.positionArcana.talents.15",
+  "domain": "destinyMatrix",
+  "title": "Talents : arcane 15",
+  "priority": 3
+ },
+ {
+  "key": "destinyMatrix.positionArcana.talents.16",
+  "domain": "destinyMatrix",
+  "title": "Talents : arcane 16",
+  "priority": 3
+ },
+ {
+  "key": "destinyMatrix.positionArcana.talents.17",
+  "domain": "destinyMatrix",
+  "title": "Talents : arcane 17",
+  "priority": 3
+ },
+ {
+  "key": "destinyMatrix.positionArcana.talents.18",
+  "domain": "destinyMatrix",
+  "title": "Talents : arcane 18",
+  "priority": 3
+ },
+ {
+  "key": "destinyMatrix.positionArcana.talents.19",
+  "domain": "destinyMatrix",
+  "title": "Talents : arcane 19",
+  "priority": 3
+ },
+ {
+  "key": "destinyMatrix.positionArcana.talents.20",
+  "domain": "destinyMatrix",
+  "title": "Talents : arcane 20",
+  "priority": 3
+ },
+ {
+  "key": "destinyMatrix.positionArcana.talents.21",
+  "domain": "destinyMatrix",
+  "title": "Talents : arcane 21",
+  "priority": 3
+ },
+ {
+  "key": "destinyMatrix.positionArcana.talents.22",
+  "domain": "destinyMatrix",
+  "title": "Talents : arcane 22",
+  "priority": 3
+ },
+ {
+  "key": "destinyMatrix.positionArcana.material.1",
+  "domain": "destinyMatrix",
+  "title": "Ressources matérielles : arcane 1",
+  "priority": 3
+ },
+ {
+  "key": "destinyMatrix.positionArcana.material.2",
+  "domain": "destinyMatrix",
+  "title": "Ressources matérielles : arcane 2",
+  "priority": 3
+ },
+ {
+  "key": "destinyMatrix.positionArcana.material.3",
+  "domain": "destinyMatrix",
+  "title": "Ressources matérielles : arcane 3",
+  "priority": 3
+ },
+ {
+  "key": "destinyMatrix.positionArcana.material.4",
+  "domain": "destinyMatrix",
+  "title": "Ressources matérielles : arcane 4",
+  "priority": 3
+ },
+ {
+  "key": "destinyMatrix.positionArcana.material.5",
+  "domain": "destinyMatrix",
+  "title": "Ressources matérielles : arcane 5",
+  "priority": 3
+ },
+ {
+  "key": "destinyMatrix.positionArcana.material.6",
+  "domain": "destinyMatrix",
+  "title": "Ressources matérielles : arcane 6",
+  "priority": 3
+ },
+ {
+  "key": "destinyMatrix.positionArcana.material.7",
+  "domain": "destinyMatrix",
+  "title": "Ressources matérielles : arcane 7",
+  "priority": 3
+ },
+ {
+  "key": "destinyMatrix.positionArcana.material.8",
+  "domain": "destinyMatrix",
+  "title": "Ressources matérielles : arcane 8",
+  "priority": 3
+ },
+ {
+  "key": "destinyMatrix.positionArcana.material.9",
+  "domain": "destinyMatrix",
+  "title": "Ressources matérielles : arcane 9",
+  "priority": 3
+ },
+ {
+  "key": "destinyMatrix.positionArcana.material.10",
+  "domain": "destinyMatrix",
+  "title": "Ressources matérielles : arcane 10",
+  "priority": 3
+ },
+ {
+  "key": "destinyMatrix.positionArcana.material.11",
+  "domain": "destinyMatrix",
+  "title": "Ressources matérielles : arcane 11",
+  "priority": 3
+ },
+ {
+  "key": "destinyMatrix.positionArcana.material.12",
+  "domain": "destinyMatrix",
+  "title": "Ressources matérielles : arcane 12",
+  "priority": 3
+ },
+ {
+  "key": "destinyMatrix.positionArcana.material.13",
+  "domain": "destinyMatrix",
+  "title": "Ressources matérielles : arcane 13",
+  "priority": 3
+ },
+ {
+  "key": "destinyMatrix.positionArcana.material.14",
+  "domain": "destinyMatrix",
+  "title": "Ressources matérielles : arcane 14",
+  "priority": 3
+ },
+ {
+  "key": "destinyMatrix.positionArcana.material.15",
+  "domain": "destinyMatrix",
+  "title": "Ressources matérielles : arcane 15",
+  "priority": 3
+ },
+ {
+  "key": "destinyMatrix.positionArcana.material.16",
+  "domain": "destinyMatrix",
+  "title": "Ressources matérielles : arcane 16",
+  "priority": 3
+ },
+ {
+  "key": "destinyMatrix.positionArcana.material.17",
+  "domain": "destinyMatrix",
+  "title": "Ressources matérielles : arcane 17",
+  "priority": 3
+ },
+ {
+  "key": "destinyMatrix.positionArcana.material.18",
+  "domain": "destinyMatrix",
+  "title": "Ressources matérielles : arcane 18",
+  "priority": 3
+ },
+ {
+  "key": "destinyMatrix.positionArcana.material.19",
+  "domain": "destinyMatrix",
+  "title": "Ressources matérielles : arcane 19",
+  "priority": 3
+ },
+ {
+  "key": "destinyMatrix.positionArcana.material.20",
+  "domain": "destinyMatrix",
+  "title": "Ressources matérielles : arcane 20",
+  "priority": 3
+ },
+ {
+  "key": "destinyMatrix.positionArcana.material.21",
+  "domain": "destinyMatrix",
+  "title": "Ressources matérielles : arcane 21",
+  "priority": 3
+ },
+ {
+  "key": "destinyMatrix.positionArcana.material.22",
+  "domain": "destinyMatrix",
+  "title": "Ressources matérielles : arcane 22",
+  "priority": 3
+ },
+ {
+  "key": "destinyMatrix.positionArcana.karmicTask.1",
+  "domain": "destinyMatrix",
+  "title": "Tâche karmique : arcane 1",
+  "priority": 3
+ },
+ {
+  "key": "destinyMatrix.positionArcana.karmicTask.2",
+  "domain": "destinyMatrix",
+  "title": "Tâche karmique : arcane 2",
+  "priority": 3
+ },
+ {
+  "key": "destinyMatrix.positionArcana.karmicTask.3",
+  "domain": "destinyMatrix",
+  "title": "Tâche karmique : arcane 3",
+  "priority": 3
+ },
+ {
+  "key": "destinyMatrix.positionArcana.karmicTask.4",
+  "domain": "destinyMatrix",
+  "title": "Tâche karmique : arcane 4",
+  "priority": 3
+ },
+ {
+  "key": "destinyMatrix.positionArcana.karmicTask.5",
+  "domain": "destinyMatrix",
+  "title": "Tâche karmique : arcane 5",
+  "priority": 3
+ },
+ {
+  "key": "destinyMatrix.positionArcana.karmicTask.6",
+  "domain": "destinyMatrix",
+  "title": "Tâche karmique : arcane 6",
+  "priority": 3
+ },
+ {
+  "key": "destinyMatrix.positionArcana.karmicTask.7",
+  "domain": "destinyMatrix",
+  "title": "Tâche karmique : arcane 7",
+  "priority": 3
+ },
+ {
+  "key": "destinyMatrix.positionArcana.karmicTask.8",
+  "domain": "destinyMatrix",
+  "title": "Tâche karmique : arcane 8",
+  "priority": 3
+ },
+ {
+  "key": "destinyMatrix.positionArcana.karmicTask.9",
+  "domain": "destinyMatrix",
+  "title": "Tâche karmique : arcane 9",
+  "priority": 3
+ },
+ {
+  "key": "destinyMatrix.positionArcana.karmicTask.10",
+  "domain": "destinyMatrix",
+  "title": "Tâche karmique : arcane 10",
+  "priority": 3
+ },
+ {
+  "key": "destinyMatrix.positionArcana.karmicTask.11",
+  "domain": "destinyMatrix",
+  "title": "Tâche karmique : arcane 11",
+  "priority": 3
+ },
+ {
+  "key": "destinyMatrix.positionArcana.karmicTask.12",
+  "domain": "destinyMatrix",
+  "title": "Tâche karmique : arcane 12",
+  "priority": 3
+ },
+ {
+  "key": "destinyMatrix.positionArcana.karmicTask.13",
+  "domain": "destinyMatrix",
+  "title": "Tâche karmique : arcane 13",
+  "priority": 3
+ },
+ {
+  "key": "destinyMatrix.positionArcana.karmicTask.14",
+  "domain": "destinyMatrix",
+  "title": "Tâche karmique : arcane 14",
+  "priority": 3
+ },
+ {
+  "key": "destinyMatrix.positionArcana.karmicTask.15",
+  "domain": "destinyMatrix",
+  "title": "Tâche karmique : arcane 15",
+  "priority": 3
+ },
+ {
+  "key": "destinyMatrix.positionArcana.karmicTask.16",
+  "domain": "destinyMatrix",
+  "title": "Tâche karmique : arcane 16",
+  "priority": 3
+ },
+ {
+  "key": "destinyMatrix.positionArcana.karmicTask.17",
+  "domain": "destinyMatrix",
+  "title": "Tâche karmique : arcane 17",
+  "priority": 3
+ },
+ {
+  "key": "destinyMatrix.positionArcana.karmicTask.18",
+  "domain": "destinyMatrix",
+  "title": "Tâche karmique : arcane 18",
+  "priority": 3
+ },
+ {
+  "key": "destinyMatrix.positionArcana.karmicTask.19",
+  "domain": "destinyMatrix",
+  "title": "Tâche karmique : arcane 19",
+  "priority": 3
+ },
+ {
+  "key": "destinyMatrix.positionArcana.karmicTask.20",
+  "domain": "destinyMatrix",
+  "title": "Tâche karmique : arcane 20",
+  "priority": 3
+ },
+ {
+  "key": "destinyMatrix.positionArcana.karmicTask.21",
+  "domain": "destinyMatrix",
+  "title": "Tâche karmique : arcane 21",
+  "priority": 3
+ },
+ {
+  "key": "destinyMatrix.positionArcana.karmicTask.22",
+  "domain": "destinyMatrix",
+  "title": "Tâche karmique : arcane 22",
+  "priority": 3
+ },
+ {
+  "key": "destinyMatrix.positionArcana.center.1",
+  "domain": "destinyMatrix",
+  "title": "Zone de confort (centre) : arcane 1",
+  "priority": 3
+ },
+ {
+  "key": "destinyMatrix.positionArcana.center.2",
+  "domain": "destinyMatrix",
+  "title": "Zone de confort (centre) : arcane 2",
+  "priority": 3
+ },
+ {
+  "key": "destinyMatrix.positionArcana.center.3",
+  "domain": "destinyMatrix",
+  "title": "Zone de confort (centre) : arcane 3",
+  "priority": 3
+ },
+ {
+  "key": "destinyMatrix.positionArcana.center.4",
+  "domain": "destinyMatrix",
+  "title": "Zone de confort (centre) : arcane 4",
+  "priority": 3
+ },
+ {
+  "key": "destinyMatrix.positionArcana.center.5",
+  "domain": "destinyMatrix",
+  "title": "Zone de confort (centre) : arcane 5",
+  "priority": 3
+ },
+ {
+  "key": "destinyMatrix.positionArcana.center.6",
+  "domain": "destinyMatrix",
+  "title": "Zone de confort (centre) : arcane 6",
+  "priority": 3
+ },
+ {
+  "key": "destinyMatrix.positionArcana.center.7",
+  "domain": "destinyMatrix",
+  "title": "Zone de confort (centre) : arcane 7",
+  "priority": 3
+ },
+ {
+  "key": "destinyMatrix.positionArcana.center.8",
+  "domain": "destinyMatrix",
+  "title": "Zone de confort (centre) : arcane 8",
+  "priority": 3
+ },
+ {
+  "key": "destinyMatrix.positionArcana.center.9",
+  "domain": "destinyMatrix",
+  "title": "Zone de confort (centre) : arcane 9",
+  "priority": 3
+ },
+ {
+  "key": "destinyMatrix.positionArcana.center.10",
+  "domain": "destinyMatrix",
+  "title": "Zone de confort (centre) : arcane 10",
+  "priority": 3
+ },
+ {
+  "key": "destinyMatrix.positionArcana.center.11",
+  "domain": "destinyMatrix",
+  "title": "Zone de confort (centre) : arcane 11",
+  "priority": 3
+ },
+ {
+  "key": "destinyMatrix.positionArcana.center.12",
+  "domain": "destinyMatrix",
+  "title": "Zone de confort (centre) : arcane 12",
+  "priority": 3
+ },
+ {
+  "key": "destinyMatrix.positionArcana.center.13",
+  "domain": "destinyMatrix",
+  "title": "Zone de confort (centre) : arcane 13",
+  "priority": 3
+ },
+ {
+  "key": "destinyMatrix.positionArcana.center.14",
+  "domain": "destinyMatrix",
+  "title": "Zone de confort (centre) : arcane 14",
+  "priority": 3
+ },
+ {
+  "key": "destinyMatrix.positionArcana.center.15",
+  "domain": "destinyMatrix",
+  "title": "Zone de confort (centre) : arcane 15",
+  "priority": 3
+ },
+ {
+  "key": "destinyMatrix.positionArcana.center.16",
+  "domain": "destinyMatrix",
+  "title": "Zone de confort (centre) : arcane 16",
+  "priority": 3
+ },
+ {
+  "key": "destinyMatrix.positionArcana.center.17",
+  "domain": "destinyMatrix",
+  "title": "Zone de confort (centre) : arcane 17",
+  "priority": 3
+ },
+ {
+  "key": "destinyMatrix.positionArcana.center.18",
+  "domain": "destinyMatrix",
+  "title": "Zone de confort (centre) : arcane 18",
+  "priority": 3
+ },
+ {
+  "key": "destinyMatrix.positionArcana.center.19",
+  "domain": "destinyMatrix",
+  "title": "Zone de confort (centre) : arcane 19",
+  "priority": 3
+ },
+ {
+  "key": "destinyMatrix.positionArcana.center.20",
+  "domain": "destinyMatrix",
+  "title": "Zone de confort (centre) : arcane 20",
+  "priority": 3
+ },
+ {
+  "key": "destinyMatrix.positionArcana.center.21",
+  "domain": "destinyMatrix",
+  "title": "Zone de confort (centre) : arcane 21",
+  "priority": 3
+ },
+ {
+  "key": "destinyMatrix.positionArcana.center.22",
+  "domain": "destinyMatrix",
+  "title": "Zone de confort (centre) : arcane 22",
+  "priority": 3
+ },
+ {
+  "key": "destinyMatrix.positionArcana.love.1",
+  "domain": "destinyMatrix",
+  "title": "Relations : arcane 1",
+  "priority": 3
+ },
+ {
+  "key": "destinyMatrix.positionArcana.love.2",
+  "domain": "destinyMatrix",
+  "title": "Relations : arcane 2",
+  "priority": 3
+ },
+ {
+  "key": "destinyMatrix.positionArcana.love.3",
+  "domain": "destinyMatrix",
+  "title": "Relations : arcane 3",
+  "priority": 3
+ },
+ {
+  "key": "destinyMatrix.positionArcana.love.4",
+  "domain": "destinyMatrix",
+  "title": "Relations : arcane 4",
+  "priority": 3
+ },
+ {
+  "key": "destinyMatrix.positionArcana.love.5",
+  "domain": "destinyMatrix",
+  "title": "Relations : arcane 5",
+  "priority": 3
+ },
+ {
+  "key": "destinyMatrix.positionArcana.love.6",
+  "domain": "destinyMatrix",
+  "title": "Relations : arcane 6",
+  "priority": 3
+ },
+ {
+  "key": "destinyMatrix.positionArcana.love.7",
+  "domain": "destinyMatrix",
+  "title": "Relations : arcane 7",
+  "priority": 3
+ },
+ {
+  "key": "destinyMatrix.positionArcana.love.8",
+  "domain": "destinyMatrix",
+  "title": "Relations : arcane 8",
+  "priority": 3
+ },
+ {
+  "key": "destinyMatrix.positionArcana.love.9",
+  "domain": "destinyMatrix",
+  "title": "Relations : arcane 9",
+  "priority": 3
+ },
+ {
+  "key": "destinyMatrix.positionArcana.love.10",
+  "domain": "destinyMatrix",
+  "title": "Relations : arcane 10",
+  "priority": 3
+ },
+ {
+  "key": "destinyMatrix.positionArcana.love.11",
+  "domain": "destinyMatrix",
+  "title": "Relations : arcane 11",
+  "priority": 3
+ },
+ {
+  "key": "destinyMatrix.positionArcana.love.12",
+  "domain": "destinyMatrix",
+  "title": "Relations : arcane 12",
+  "priority": 3
+ },
+ {
+  "key": "destinyMatrix.positionArcana.love.13",
+  "domain": "destinyMatrix",
+  "title": "Relations : arcane 13",
+  "priority": 3
+ },
+ {
+  "key": "destinyMatrix.positionArcana.love.14",
+  "domain": "destinyMatrix",
+  "title": "Relations : arcane 14",
+  "priority": 3
+ },
+ {
+  "key": "destinyMatrix.positionArcana.love.15",
+  "domain": "destinyMatrix",
+  "title": "Relations : arcane 15",
+  "priority": 3
+ },
+ {
+  "key": "destinyMatrix.positionArcana.love.16",
+  "domain": "destinyMatrix",
+  "title": "Relations : arcane 16",
+  "priority": 3
+ },
+ {
+  "key": "destinyMatrix.positionArcana.love.17",
+  "domain": "destinyMatrix",
+  "title": "Relations : arcane 17",
+  "priority": 3
+ },
+ {
+  "key": "destinyMatrix.positionArcana.love.18",
+  "domain": "destinyMatrix",
+  "title": "Relations : arcane 18",
+  "priority": 3
+ },
+ {
+  "key": "destinyMatrix.positionArcana.love.19",
+  "domain": "destinyMatrix",
+  "title": "Relations : arcane 19",
+  "priority": 3
+ },
+ {
+  "key": "destinyMatrix.positionArcana.love.20",
+  "domain": "destinyMatrix",
+  "title": "Relations : arcane 20",
+  "priority": 3
+ },
+ {
+  "key": "destinyMatrix.positionArcana.love.21",
+  "domain": "destinyMatrix",
+  "title": "Relations : arcane 21",
+  "priority": 3
+ },
+ {
+  "key": "destinyMatrix.positionArcana.love.22",
+  "domain": "destinyMatrix",
+  "title": "Relations : arcane 22",
+  "priority": 3
+ },
+ {
+  "key": "destinyMatrix.positionArcana.money.1",
+  "domain": "destinyMatrix",
+  "title": "Argent : arcane 1",
+  "priority": 3
+ },
+ {
+  "key": "destinyMatrix.positionArcana.money.2",
+  "domain": "destinyMatrix",
+  "title": "Argent : arcane 2",
+  "priority": 3
+ },
+ {
+  "key": "destinyMatrix.positionArcana.money.3",
+  "domain": "destinyMatrix",
+  "title": "Argent : arcane 3",
+  "priority": 3
+ },
+ {
+  "key": "destinyMatrix.positionArcana.money.4",
+  "domain": "destinyMatrix",
+  "title": "Argent : arcane 4",
+  "priority": 3
+ },
+ {
+  "key": "destinyMatrix.positionArcana.money.5",
+  "domain": "destinyMatrix",
+  "title": "Argent : arcane 5",
+  "priority": 3
+ },
+ {
+  "key": "destinyMatrix.positionArcana.money.6",
+  "domain": "destinyMatrix",
+  "title": "Argent : arcane 6",
+  "priority": 3
+ },
+ {
+  "key": "destinyMatrix.positionArcana.money.7",
+  "domain": "destinyMatrix",
+  "title": "Argent : arcane 7",
+  "priority": 3
+ },
+ {
+  "key": "destinyMatrix.positionArcana.money.8",
+  "domain": "destinyMatrix",
+  "title": "Argent : arcane 8",
+  "priority": 3
+ },
+ {
+  "key": "destinyMatrix.positionArcana.money.9",
+  "domain": "destinyMatrix",
+  "title": "Argent : arcane 9",
+  "priority": 3
+ },
+ {
+  "key": "destinyMatrix.positionArcana.money.10",
+  "domain": "destinyMatrix",
+  "title": "Argent : arcane 10",
+  "priority": 3
+ },
+ {
+  "key": "destinyMatrix.positionArcana.money.11",
+  "domain": "destinyMatrix",
+  "title": "Argent : arcane 11",
+  "priority": 3
+ },
+ {
+  "key": "destinyMatrix.positionArcana.money.12",
+  "domain": "destinyMatrix",
+  "title": "Argent : arcane 12",
+  "priority": 3
+ },
+ {
+  "key": "destinyMatrix.positionArcana.money.13",
+  "domain": "destinyMatrix",
+  "title": "Argent : arcane 13",
+  "priority": 3
+ },
+ {
+  "key": "destinyMatrix.positionArcana.money.14",
+  "domain": "destinyMatrix",
+  "title": "Argent : arcane 14",
+  "priority": 3
+ },
+ {
+  "key": "destinyMatrix.positionArcana.money.15",
+  "domain": "destinyMatrix",
+  "title": "Argent : arcane 15",
+  "priority": 3
+ },
+ {
+  "key": "destinyMatrix.positionArcana.money.16",
+  "domain": "destinyMatrix",
+  "title": "Argent : arcane 16",
+  "priority": 3
+ },
+ {
+  "key": "destinyMatrix.positionArcana.money.17",
+  "domain": "destinyMatrix",
+  "title": "Argent : arcane 17",
+  "priority": 3
+ },
+ {
+  "key": "destinyMatrix.positionArcana.money.18",
+  "domain": "destinyMatrix",
+  "title": "Argent : arcane 18",
+  "priority": 3
+ },
+ {
+  "key": "destinyMatrix.positionArcana.money.19",
+  "domain": "destinyMatrix",
+  "title": "Argent : arcane 19",
+  "priority": 3
+ },
+ {
+  "key": "destinyMatrix.positionArcana.money.20",
+  "domain": "destinyMatrix",
+  "title": "Argent : arcane 20",
+  "priority": 3
+ },
+ {
+  "key": "destinyMatrix.positionArcana.money.21",
+  "domain": "destinyMatrix",
+  "title": "Argent : arcane 21",
+  "priority": 3
+ },
+ {
+  "key": "destinyMatrix.positionArcana.money.22",
+  "domain": "destinyMatrix",
+  "title": "Argent : arcane 22",
+  "priority": 3
+ },
+ {
+  "key": "destinyMatrix.positionArcana.personalPurpose.1",
+  "domain": "destinyMatrix",
+  "title": "Destination personnelle : arcane 1",
+  "priority": 3
+ },
+ {
+  "key": "destinyMatrix.positionArcana.personalPurpose.2",
+  "domain": "destinyMatrix",
+  "title": "Destination personnelle : arcane 2",
+  "priority": 3
+ },
+ {
+  "key": "destinyMatrix.positionArcana.personalPurpose.3",
+  "domain": "destinyMatrix",
+  "title": "Destination personnelle : arcane 3",
+  "priority": 3
+ },
+ {
+  "key": "destinyMatrix.positionArcana.personalPurpose.4",
+  "domain": "destinyMatrix",
+  "title": "Destination personnelle : arcane 4",
+  "priority": 3
+ },
+ {
+  "key": "destinyMatrix.positionArcana.personalPurpose.5",
+  "domain": "destinyMatrix",
+  "title": "Destination personnelle : arcane 5",
+  "priority": 3
+ },
+ {
+  "key": "destinyMatrix.positionArcana.personalPurpose.6",
+  "domain": "destinyMatrix",
+  "title": "Destination personnelle : arcane 6",
+  "priority": 3
+ },
+ {
+  "key": "destinyMatrix.positionArcana.personalPurpose.7",
+  "domain": "destinyMatrix",
+  "title": "Destination personnelle : arcane 7",
+  "priority": 3
+ },
+ {
+  "key": "destinyMatrix.positionArcana.personalPurpose.8",
+  "domain": "destinyMatrix",
+  "title": "Destination personnelle : arcane 8",
+  "priority": 3
+ },
+ {
+  "key": "destinyMatrix.positionArcana.personalPurpose.9",
+  "domain": "destinyMatrix",
+  "title": "Destination personnelle : arcane 9",
+  "priority": 3
+ },
+ {
+  "key": "destinyMatrix.positionArcana.personalPurpose.10",
+  "domain": "destinyMatrix",
+  "title": "Destination personnelle : arcane 10",
+  "priority": 3
+ },
+ {
+  "key": "destinyMatrix.positionArcana.personalPurpose.11",
+  "domain": "destinyMatrix",
+  "title": "Destination personnelle : arcane 11",
+  "priority": 3
+ },
+ {
+  "key": "destinyMatrix.positionArcana.personalPurpose.12",
+  "domain": "destinyMatrix",
+  "title": "Destination personnelle : arcane 12",
+  "priority": 3
+ },
+ {
+  "key": "destinyMatrix.positionArcana.personalPurpose.13",
+  "domain": "destinyMatrix",
+  "title": "Destination personnelle : arcane 13",
+  "priority": 3
+ },
+ {
+  "key": "destinyMatrix.positionArcana.personalPurpose.14",
+  "domain": "destinyMatrix",
+  "title": "Destination personnelle : arcane 14",
+  "priority": 3
+ },
+ {
+  "key": "destinyMatrix.positionArcana.personalPurpose.15",
+  "domain": "destinyMatrix",
+  "title": "Destination personnelle : arcane 15",
+  "priority": 3
+ },
+ {
+  "key": "destinyMatrix.positionArcana.personalPurpose.16",
+  "domain": "destinyMatrix",
+  "title": "Destination personnelle : arcane 16",
+  "priority": 3
+ },
+ {
+  "key": "destinyMatrix.positionArcana.personalPurpose.17",
+  "domain": "destinyMatrix",
+  "title": "Destination personnelle : arcane 17",
+  "priority": 3
+ },
+ {
+  "key": "destinyMatrix.positionArcana.personalPurpose.18",
+  "domain": "destinyMatrix",
+  "title": "Destination personnelle : arcane 18",
+  "priority": 3
+ },
+ {
+  "key": "destinyMatrix.positionArcana.personalPurpose.19",
+  "domain": "destinyMatrix",
+  "title": "Destination personnelle : arcane 19",
+  "priority": 3
+ },
+ {
+  "key": "destinyMatrix.positionArcana.personalPurpose.20",
+  "domain": "destinyMatrix",
+  "title": "Destination personnelle : arcane 20",
+  "priority": 3
+ },
+ {
+  "key": "destinyMatrix.positionArcana.personalPurpose.21",
+  "domain": "destinyMatrix",
+  "title": "Destination personnelle : arcane 21",
+  "priority": 3
+ },
+ {
+  "key": "destinyMatrix.positionArcana.personalPurpose.22",
+  "domain": "destinyMatrix",
+  "title": "Destination personnelle : arcane 22",
+  "priority": 3
+ },
+ {
+  "key": "destinyMatrix.positionArcana.socialPurpose.1",
+  "domain": "destinyMatrix",
+  "title": "Destination sociale : arcane 1",
+  "priority": 3
+ },
+ {
+  "key": "destinyMatrix.positionArcana.socialPurpose.2",
+  "domain": "destinyMatrix",
+  "title": "Destination sociale : arcane 2",
+  "priority": 3
+ },
+ {
+  "key": "destinyMatrix.positionArcana.socialPurpose.3",
+  "domain": "destinyMatrix",
+  "title": "Destination sociale : arcane 3",
+  "priority": 3
+ },
+ {
+  "key": "destinyMatrix.positionArcana.socialPurpose.4",
+  "domain": "destinyMatrix",
+  "title": "Destination sociale : arcane 4",
+  "priority": 3
+ },
+ {
+  "key": "destinyMatrix.positionArcana.socialPurpose.5",
+  "domain": "destinyMatrix",
+  "title": "Destination sociale : arcane 5",
+  "priority": 3
+ },
+ {
+  "key": "destinyMatrix.positionArcana.socialPurpose.6",
+  "domain": "destinyMatrix",
+  "title": "Destination sociale : arcane 6",
+  "priority": 3
+ },
+ {
+  "key": "destinyMatrix.positionArcana.socialPurpose.7",
+  "domain": "destinyMatrix",
+  "title": "Destination sociale : arcane 7",
+  "priority": 3
+ },
+ {
+  "key": "destinyMatrix.positionArcana.socialPurpose.8",
+  "domain": "destinyMatrix",
+  "title": "Destination sociale : arcane 8",
+  "priority": 3
+ },
+ {
+  "key": "destinyMatrix.positionArcana.socialPurpose.9",
+  "domain": "destinyMatrix",
+  "title": "Destination sociale : arcane 9",
+  "priority": 3
+ },
+ {
+  "key": "destinyMatrix.positionArcana.socialPurpose.10",
+  "domain": "destinyMatrix",
+  "title": "Destination sociale : arcane 10",
+  "priority": 3
+ },
+ {
+  "key": "destinyMatrix.positionArcana.socialPurpose.11",
+  "domain": "destinyMatrix",
+  "title": "Destination sociale : arcane 11",
+  "priority": 3
+ },
+ {
+  "key": "destinyMatrix.positionArcana.socialPurpose.12",
+  "domain": "destinyMatrix",
+  "title": "Destination sociale : arcane 12",
+  "priority": 3
+ },
+ {
+  "key": "destinyMatrix.positionArcana.socialPurpose.13",
+  "domain": "destinyMatrix",
+  "title": "Destination sociale : arcane 13",
+  "priority": 3
+ },
+ {
+  "key": "destinyMatrix.positionArcana.socialPurpose.14",
+  "domain": "destinyMatrix",
+  "title": "Destination sociale : arcane 14",
+  "priority": 3
+ },
+ {
+  "key": "destinyMatrix.positionArcana.socialPurpose.15",
+  "domain": "destinyMatrix",
+  "title": "Destination sociale : arcane 15",
+  "priority": 3
+ },
+ {
+  "key": "destinyMatrix.positionArcana.socialPurpose.16",
+  "domain": "destinyMatrix",
+  "title": "Destination sociale : arcane 16",
+  "priority": 3
+ },
+ {
+  "key": "destinyMatrix.positionArcana.socialPurpose.17",
+  "domain": "destinyMatrix",
+  "title": "Destination sociale : arcane 17",
+  "priority": 3
+ },
+ {
+  "key": "destinyMatrix.positionArcana.socialPurpose.18",
+  "domain": "destinyMatrix",
+  "title": "Destination sociale : arcane 18",
+  "priority": 3
+ },
+ {
+  "key": "destinyMatrix.positionArcana.socialPurpose.19",
+  "domain": "destinyMatrix",
+  "title": "Destination sociale : arcane 19",
+  "priority": 3
+ },
+ {
+  "key": "destinyMatrix.positionArcana.socialPurpose.20",
+  "domain": "destinyMatrix",
+  "title": "Destination sociale : arcane 20",
+  "priority": 3
+ },
+ {
+  "key": "destinyMatrix.positionArcana.socialPurpose.21",
+  "domain": "destinyMatrix",
+  "title": "Destination sociale : arcane 21",
+  "priority": 3
+ },
+ {
+  "key": "destinyMatrix.positionArcana.socialPurpose.22",
+  "domain": "destinyMatrix",
+  "title": "Destination sociale : arcane 22",
+  "priority": 3
+ },
+ {
+  "key": "destinyMatrix.positionArcana.spiritualPurpose.1",
+  "domain": "destinyMatrix",
+  "title": "Destination spirituelle : arcane 1",
+  "priority": 3
+ },
+ {
+  "key": "destinyMatrix.positionArcana.spiritualPurpose.2",
+  "domain": "destinyMatrix",
+  "title": "Destination spirituelle : arcane 2",
+  "priority": 3
+ },
+ {
+  "key": "destinyMatrix.positionArcana.spiritualPurpose.3",
+  "domain": "destinyMatrix",
+  "title": "Destination spirituelle : arcane 3",
+  "priority": 3
+ },
+ {
+  "key": "destinyMatrix.positionArcana.spiritualPurpose.4",
+  "domain": "destinyMatrix",
+  "title": "Destination spirituelle : arcane 4",
+  "priority": 3
+ },
+ {
+  "key": "destinyMatrix.positionArcana.spiritualPurpose.5",
+  "domain": "destinyMatrix",
+  "title": "Destination spirituelle : arcane 5",
+  "priority": 3
+ },
+ {
+  "key": "destinyMatrix.positionArcana.spiritualPurpose.6",
+  "domain": "destinyMatrix",
+  "title": "Destination spirituelle : arcane 6",
+  "priority": 3
+ },
+ {
+  "key": "destinyMatrix.positionArcana.spiritualPurpose.7",
+  "domain": "destinyMatrix",
+  "title": "Destination spirituelle : arcane 7",
+  "priority": 3
+ },
+ {
+  "key": "destinyMatrix.positionArcana.spiritualPurpose.8",
+  "domain": "destinyMatrix",
+  "title": "Destination spirituelle : arcane 8",
+  "priority": 3
+ },
+ {
+  "key": "destinyMatrix.positionArcana.spiritualPurpose.9",
+  "domain": "destinyMatrix",
+  "title": "Destination spirituelle : arcane 9",
+  "priority": 3
+ },
+ {
+  "key": "destinyMatrix.positionArcana.spiritualPurpose.10",
+  "domain": "destinyMatrix",
+  "title": "Destination spirituelle : arcane 10",
+  "priority": 3
+ },
+ {
+  "key": "destinyMatrix.positionArcana.spiritualPurpose.11",
+  "domain": "destinyMatrix",
+  "title": "Destination spirituelle : arcane 11",
+  "priority": 3
+ },
+ {
+  "key": "destinyMatrix.positionArcana.spiritualPurpose.12",
+  "domain": "destinyMatrix",
+  "title": "Destination spirituelle : arcane 12",
+  "priority": 3
+ },
+ {
+  "key": "destinyMatrix.positionArcana.spiritualPurpose.13",
+  "domain": "destinyMatrix",
+  "title": "Destination spirituelle : arcane 13",
+  "priority": 3
+ },
+ {
+  "key": "destinyMatrix.positionArcana.spiritualPurpose.14",
+  "domain": "destinyMatrix",
+  "title": "Destination spirituelle : arcane 14",
+  "priority": 3
+ },
+ {
+  "key": "destinyMatrix.positionArcana.spiritualPurpose.15",
+  "domain": "destinyMatrix",
+  "title": "Destination spirituelle : arcane 15",
+  "priority": 3
+ },
+ {
+  "key": "destinyMatrix.positionArcana.spiritualPurpose.16",
+  "domain": "destinyMatrix",
+  "title": "Destination spirituelle : arcane 16",
+  "priority": 3
+ },
+ {
+  "key": "destinyMatrix.positionArcana.spiritualPurpose.17",
+  "domain": "destinyMatrix",
+  "title": "Destination spirituelle : arcane 17",
+  "priority": 3
+ },
+ {
+  "key": "destinyMatrix.positionArcana.spiritualPurpose.18",
+  "domain": "destinyMatrix",
+  "title": "Destination spirituelle : arcane 18",
+  "priority": 3
+ },
+ {
+  "key": "destinyMatrix.positionArcana.spiritualPurpose.19",
+  "domain": "destinyMatrix",
+  "title": "Destination spirituelle : arcane 19",
+  "priority": 3
+ },
+ {
+  "key": "destinyMatrix.positionArcana.spiritualPurpose.20",
+  "domain": "destinyMatrix",
+  "title": "Destination spirituelle : arcane 20",
+  "priority": 3
+ },
+ {
+  "key": "destinyMatrix.positionArcana.spiritualPurpose.21",
+  "domain": "destinyMatrix",
+  "title": "Destination spirituelle : arcane 21",
+  "priority": 3
+ },
+ {
+  "key": "destinyMatrix.positionArcana.spiritualPurpose.22",
+  "domain": "destinyMatrix",
+  "title": "Destination spirituelle : arcane 22",
+  "priority": 3
  }
 ]

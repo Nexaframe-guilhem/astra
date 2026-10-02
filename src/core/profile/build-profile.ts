@@ -1,8 +1,9 @@
 /**
- * Orchestration : saisie -> données de naissance normalisées -> 3 moteurs -> profil complet validé.
+ * Orchestration : saisie -> données de naissance normalisées -> moteurs -> profil complet validé.
  * Fonction pure à `now` près (injectable pour les tests et la reproductibilité).
  */
 import { calculateAstrology, type AstrologySettings } from '../astrology/index.js';
+import { calculateDestinyMatrix } from '../destiny-matrix/index.js';
 import { normalizeBirthData } from '../birth-data/normalize.js';
 import { calculateHumanDesign, type HumanDesignSettings } from '../human-design/index.js';
 import { calculateNumerology, type NumerologyPreset, type NumerologySettings } from '../numerology/index.js';
@@ -38,6 +39,7 @@ export function buildProfile(rawInput: unknown, options: BuildProfileOptions = {
     options.numerology,
     now,
   );
+  const destinyMatrix = calculateDestinyMatrix({ birthDate: input.birthDate }, now);
 
   const profile: Profile = {
     schemaVersion: SCHEMA_VERSION,
@@ -51,9 +53,10 @@ export function buildProfile(rawInput: unknown, options: BuildProfileOptions = {
     astrology,
     humanDesign,
     numerology,
+    destinyMatrix,
     meta: {
       builtAt: now.toISOString(),
-      inputHash: sha256([astrology.meta.inputHash, humanDesign.meta.inputHash, numerology.meta.inputHash]),
+      inputHash: sha256([astrology.meta.inputHash, humanDesign.meta.inputHash, numerology.meta.inputHash, destinyMatrix.meta.inputHash]),
     },
   };
 

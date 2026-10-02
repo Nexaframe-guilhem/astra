@@ -6,10 +6,11 @@
 import { SIGNS } from '../core/shared/zodiac.js';
 import { ACTIVATION_POINTS, CENTERS, CHANNELS } from '../core/human-design/data.js';
 import { label } from './repository.js';
+import { MATRIX_POSITIONS, POSITIONS_WITH_ARCANA_TEXT } from '../core/destiny-matrix/types.js';
 
 export interface CatalogEntry {
   key: string;
-  domain: 'astrology' | 'humanDesign' | 'numerology';
+  domain: 'astrology' | 'humanDesign' | 'numerology' | 'destinyMatrix';
   title: string;
   /** 1 = utilisé en tête de bilan ; 2 = détail affiché ; 3 = approfondissement. */
   priority: 1 | 2 | 3;
@@ -76,6 +77,11 @@ export function buildContentCatalog(locale = 'fr'): CatalogEntry[] {
   for (let n = 1; n <= 9; n++) add('numerology', `numerology.karmicLessons.${n}`, `Leçon karmique ${n}`, 3);
   for (const kind of ['lifeCycles', 'pinnacles']) for (const n of NUMBERS) add('numerology', `numerology.${kind}.${n}`, `${kind === 'lifeCycles' ? 'Cycle de vie' : 'Réalisation'} ${n}`, 3);
   for (let n = 0; n <= 8; n++) add('numerology', `numerology.challenges.${n}`, `Défi ${n}`, 3);
+
+  // Matrice du destin
+  for (let n = 1; n <= 22; n++) add('destinyMatrix', `destinyMatrix.arcana.${n}`, `Arcane ${n} : ${L(`arcana${n}`)}`, 1);
+  for (const p of MATRIX_POSITIONS) add('destinyMatrix', `destinyMatrix.positions.${p}`, L(`matrix.${p}`), 2);
+  for (const p of POSITIONS_WITH_ARCANA_TEXT) for (let n = 1; n <= 22; n++) add('destinyMatrix', `destinyMatrix.positionArcana.${p}.${n}`, `${L(`matrix.${p}`)} : arcane ${n}`, 3);
 
   return out;
 }
