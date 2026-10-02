@@ -45,6 +45,7 @@ input:focus-visible, select:focus-visible, button:focus-visible, summary:focus-v
 .check { display: flex; gap: 8px; align-items: center; color: var(--fg); font-size: .9rem; }
 .check input { width: auto; }
 button { font: 600 1rem var(--body); border: 0; border-radius: 6px; padding: 10px 14px; cursor: pointer; background: var(--ink); color: var(--surface); }
+button:disabled { opacity: .5; cursor: default; }
 button.ghost { background: transparent; color: var(--ink); border: 1px solid var(--line); font-weight: 400; font-size: .85rem; padding: 6px 10px; }
 .hint { font-size: .8rem; color: var(--muted); margin: 0; }
 .msg { border-radius: 6px; padding: 10px 12px; font-size: .9rem; }
@@ -123,9 +124,11 @@ pre { font: .75rem/1.45 var(--mono); max-height: 420px; overflow: auto; backgrou
   <main>
     <div class="toolbar">
       <span id="who"></span>
+      <button type="button" id="pdf" disabled>Télécharger en PDF</button>
       <span class="meta" id="meta"></span>
     </div>
     <div class="summary" id="summary"></div>
+    <p class="hint" id="pdfHint">Le bouton ouvre la fenêtre d'impression de votre navigateur : choisissez « Enregistrer au format PDF » comme destination.</p>
     <div class="report"><iframe id="report" title="Bilan"></iframe></div>
     <details>
       <summary>Profil calculé (JSON versionné)</summary>
@@ -219,6 +222,7 @@ function run(isExample) {
   const frame = $('report');
   frame.onload = () => { try { frame.style.height = frame.contentDocument.documentElement.scrollHeight + 'px'; } catch {} };
   frame.srcdoc = ASTRA.renderReportHtml(report);
+  $('pdf').disabled = false;
 
   const a = profile.astrology, h = profile.humanDesign, n = profile.numerology;
   const tiles = [
@@ -235,6 +239,13 @@ function run(isExample) {
   $('json').textContent = JSON.stringify(profile, null, 2);
 }
 
+// PDF : impression du bilan seul (mise en page A4 du gabarit) ; le navigateur propose « Enregistrer au format PDF ».
+$('pdf').addEventListener('click', () => {
+  const w = $('report').contentWindow;
+  if (!w) return;
+  w.focus();
+  w.print();
+});
 $('f').addEventListener('submit', (e) => { e.preventDefault(); run(false); });
 $('copy').addEventListener('click', async () => {
   const t = $('json').textContent;
