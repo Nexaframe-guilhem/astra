@@ -24,7 +24,7 @@ describe.each(REFERENCE_CASES)('profil $id', ({ id, input }) => {
   });
 
   it('enregistre moteur, version et paramètres pour chaque section', () => {
-    for (const section of [profile.astrology, profile.humanDesign, profile.numerology, profile.destinyMatrix, profile.jyotish]) {
+    for (const section of [profile.astrology, profile.humanDesign, profile.numerology, profile.destinyMatrix, profile.jyotish, profile.karmic]) {
       expect(section.meta).toMatchObject({ schemaVersion: '1.1', calculatedAt: FIXED_NOW.toISOString() });
       expect(section.meta.engineVersion).toMatch(/^\d+\.\d+\.\d+$/);
       expect(section.meta.inputHash).toMatch(/^[0-9a-f]{64}$/);

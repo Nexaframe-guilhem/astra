@@ -8,6 +8,8 @@ import { renderDestinyMatrix } from '../../components/destiny-matrix/matrix.js';
 import { renderJyotishChart } from '../../components/jyotish/chart.js';
 import { label, resolveContent } from '../../content/repository.js';
 import type { Profile } from '../../core/profile/schema.js';
+
+type KarmicPlaced = NonNullable<Profile['karmic']['chiron']>;
 import {
   REPORT_VERSION, type BuildReportOptions, type ContentBlock, type ReportBlock, type ReportDocument, type ReportSection,
 } from './types.js';
@@ -52,7 +54,7 @@ export function buildReport(profile: Profile, options: BuildReportOptions = {}):
         })),
     );
 
-  const { identity: id, birth: b, astrology: a, humanDesign: h, numerology: n, destinyMatrix: dm, jyotish: jy } = profile;
+  const { identity: id, birth: b, astrology: a, humanDesign: h, numerology: n, destinyMatrix: dm, jyotish: jy, karmic: k } = profile;
   const fullName = [id.firstName, id.middleNames, id.lastName].filter(Boolean).join(' ');
 
   const sections: ReportSection[] = [];
@@ -410,6 +412,48 @@ export function buildReport(profile: Profile, options: BuildReportOptions = {}):
     ],
   });
 
+  // ---------- Astrologie karmique ----------
+  const kRow = (name: string, x: { dms: { degrees: number; minutes: number }; sign: string; house: number; retrograde: boolean } | null, showRetro = true) =>
+    x ? [name, dms(x, locale), String(x.house), showRetro && x.retrograde ? 'rétrograde' : ''] : [name, 'non calculé', '', ''];
+  const kPoint = (key: 'nodes' | 'saturn' | 'chiron' | 'lilith', name: string, x: KarmicPlaced | null): ReportBlock[] => x ? [
+    ...content(x.contentKeys.sign, `${name} en ${L(x.sign)}`),
+    ...content(x.contentKeys.house, `${name} en maison ${x.house}`),
+  ] : [];
+  sections.push({
+    id: 'karmic',
+    title: 'Astrologie karmique',
+    subsections: [
+      {
+        id: 'points',
+        title: 'Points karmiques',
+        blocks: [
+          ...content(k.contentKey, 'L’astrologie karmique'),
+          {
+            kind: 'table',
+            columns: ['Point', 'Position', 'Maison', 'Mouvement'],
+            rows: [
+              kRow(L('northNode'), k.nodes.north, false), kRow(L('southNode'), k.nodes.south, false), kRow(L('saturn'), k.saturn),
+              kRow(L('chiron'), k.chiron), kRow(L('lilith'), k.lilith, false),
+            ],
+          },
+          ...notices(k.warnings),
+        ],
+      },
+      { id: 'nodes', title: 'L’axe des nœuds lunaires', blocks: kPoint('nodes', 'Nœud Nord', k.nodes.north) },
+      { id: 'saturn', title: 'Saturne, maître du temps', blocks: kPoint('saturn', 'Saturne', k.saturn) },
+      ...(k.chiron ? [{ id: 'chiron', title: 'Chiron, la blessure qui enseigne', blocks: kPoint('chiron', 'Chiron', k.chiron) }] : []),
+      { id: 'lilith', title: 'Lilith, la Lune noire', blocks: kPoint('lilith', 'Lilith', k.lilith) },
+      {
+        id: 'retrogrades',
+        title: 'Planètes rétrogrades',
+        blocks: k.retrogrades.length
+          ? k.retrogrades.flatMap((r) => content(r.contentKey, `${L(r.id)} rétrograde`))
+          : [{ kind: 'notice', level: 'info', text: 'Aucune planète n’était rétrograde à la naissance.' }],
+      },
+      ...(k.house12.length ? [{ id: 'house12', title: 'Maison 12', blocks: k.house12.flatMap((b) => content(b.contentKey, `${L(b.id)} en maison 12`)) }] : []),
+    ],
+  });
+
   // ---------- Méthodologie ----------
   sections.push({
     id: 'methodology',
@@ -426,6 +470,7 @@ export function buildReport(profile: Profile, options: BuildReportOptions = {}):
             ['Human Design', `${h.meta.engine} ${h.meta.engineVersion}`, `Design à ${h.design.solarArcDegrees}° d’arc solaire, nœud ${h.meta.settings.nodeType === 'true' ? 'vrai' : 'moyen'}`],
             ['Numérologie', `${n.meta.engine} ${n.meta.engineVersion}`, `convention ${String(n.meta.settings.convention)}${n.meta.settings.customized ? ' (personnalisée)' : ''}, méthode ${L(n.method)}`],
             ['Jyotish', `${jy.meta.engine} ${jy.meta.engineVersion}`, `zodiaque sidéral, ayanamsa Lahiri, maisons en signes entiers, Rahu/Ketu nœud ${jy.meta.settings.nodeType === 'true' ? 'vrai' : 'moyen'}, Vimshottari (année de ${String(jy.meta.settings.dashaYearDays).replace('.', ',')} jours)`],
+            ['Astrologie karmique', `${k.meta.engine} ${k.meta.engineVersion}`, 'thème tropical ci-dessus, Lilith moyenne (apogée lunaire moyen), Chiron par intégration numérique (1900-2100)'],
             ['Matrice du destin', `${dm.meta.engine} ${dm.meta.engineVersion}`, `convention ${String(dm.meta.settings.convention)}, 22 arcanes, réduction par somme des chiffres`],
           ],
         },

@@ -46,7 +46,7 @@ describe.each(profiles)('bilan $id', ({ profile }) => {
   const blocks = (d: typeof prod) => d.sections.flatMap((s) => s.subsections.flatMap((x) => x.blocks));
 
   it('contient les 5 sections dans l’ordre', () => {
-    expect(prod.sections.map((s) => s.id)).toEqual(['identity', 'astrology', 'humanDesign', 'numerology', 'destinyMatrix', 'jyotish', 'methodology']);
+    expect(prod.sections.map((s) => s.id)).toEqual(['identity', 'astrology', 'humanDesign', 'numerology', 'destinyMatrix', 'jyotish', 'karmic', 'methodology']);
   });
   it('en production, n’affiche que des textes validés (aucun emplacement vide)', () => {
     expect(blocks(prod).filter((b) => b.kind === 'content' && b.status !== 'validated')).toEqual([]);
@@ -54,7 +54,7 @@ describe.each(profiles)('bilan $id', ({ profile }) => {
   it('en relecture, tous les textes sont présents (au moins en brouillon) et rattachés à leur clé', () => {
     const content = blocks(draft).filter((b) => b.kind === 'content');
     expect(content.filter((b) => b.status === 'missing')).toEqual([]);
-    for (const b of content) if (b.kind === 'content') expect(b.contentKey).toMatch(/^(astrology|humanDesign|numerology|destinyMatrix|jyotish)\./);
+    for (const b of content) if (b.kind === 'content') expect(b.contentKey).toMatch(/^(astrology|humanDesign|numerology|destinyMatrix|jyotish|karmic)\./);
   });
   it('est déterministe et rattaché au profil source', () => {
     expect(JSON.stringify(buildReport(profile, { now: FIXED_NOW }))).toBe(JSON.stringify(prod));

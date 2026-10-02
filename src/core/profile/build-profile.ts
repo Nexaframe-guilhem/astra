@@ -5,6 +5,7 @@
 import { calculateAstrology, type AstrologySettings } from '../astrology/index.js';
 import { calculateDestinyMatrix } from '../destiny-matrix/index.js';
 import { normalizeBirthData } from '../birth-data/normalize.js';
+import { calculateKarmic } from '../karmic/index.js';
 import { calculateJyotish, type JyotishSettings } from '../jyotish/index.js';
 import { calculateHumanDesign, type HumanDesignSettings } from '../human-design/index.js';
 import { calculateNumerology, type NumerologyPreset, type NumerologySettings } from '../numerology/index.js';
@@ -43,6 +44,7 @@ export function buildProfile(rawInput: unknown, options: BuildProfileOptions = {
   );
   const destinyMatrix = calculateDestinyMatrix({ birthDate: input.birthDate }, now);
   const jyotish = calculateJyotish(birth, options.jyotish, now, referenceDate);
+  const karmic = calculateKarmic(birth, astrology, now);
 
   const profile: Profile = {
     schemaVersion: SCHEMA_VERSION,
@@ -58,9 +60,10 @@ export function buildProfile(rawInput: unknown, options: BuildProfileOptions = {
     numerology,
     destinyMatrix,
     jyotish,
+    karmic,
     meta: {
       builtAt: now.toISOString(),
-      inputHash: sha256([astrology.meta.inputHash, humanDesign.meta.inputHash, numerology.meta.inputHash, destinyMatrix.meta.inputHash, jyotish.meta.inputHash]),
+      inputHash: sha256([astrology.meta.inputHash, humanDesign.meta.inputHash, numerology.meta.inputHash, destinyMatrix.meta.inputHash, jyotish.meta.inputHash, karmic.meta.inputHash]),
     },
   };
 
