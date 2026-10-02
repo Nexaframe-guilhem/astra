@@ -14,9 +14,9 @@ const build = (input: unknown) => buildProfile(input, { now: FIXED_NOW, referenc
 describe.each(REFERENCE_CASES)('profil $id', ({ id, input }) => {
   const profile = build(input);
 
-  it('est conforme au schéma 1.0', () => {
+  it('est conforme au schéma 1.1', () => {
     expect(profileSchema.safeParse(profile).success).toBe(true);
-    expect(profile.schemaVersion).toBe('1.0');
+    expect(profile.schemaVersion).toBe('1.1');
   });
 
   it('est déterministe (même entrée => JSON identique)', () => {
@@ -24,8 +24,8 @@ describe.each(REFERENCE_CASES)('profil $id', ({ id, input }) => {
   });
 
   it('enregistre moteur, version et paramètres pour chaque section', () => {
-    for (const section of [profile.astrology, profile.humanDesign, profile.numerology]) {
-      expect(section.meta).toMatchObject({ schemaVersion: '1.0', calculatedAt: FIXED_NOW.toISOString() });
+    for (const section of [profile.astrology, profile.humanDesign, profile.numerology, profile.destinyMatrix]) {
+      expect(section.meta).toMatchObject({ schemaVersion: '1.1', calculatedAt: FIXED_NOW.toISOString() });
       expect(section.meta.engineVersion).toMatch(/^\d+\.\d+\.\d+$/);
       expect(section.meta.inputHash).toMatch(/^[0-9a-f]{64}$/);
     }

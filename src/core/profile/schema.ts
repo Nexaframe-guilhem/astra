@@ -1,11 +1,12 @@
 /**
- * Schéma du profil complet, version 1.0. Source unique de vérité :
+ * Schéma du profil complet, version 1.1 (1.1 : ajout de la Matrice du destin). Source unique de vérité :
  * - validation runtime (zod) côté serveur avant stockage ;
  * - export JSON Schema (scripts/export-schema.ts -> schema/profile.v1.json) pour Supabase / autres modules.
  */
 import { z } from 'zod';
 import { astrologyResultSchema } from '../astrology/validation.js';
 import { birthDataSchema } from '../birth-data/types.js';
+import { destinyMatrixResultSchema } from '../destiny-matrix/validation.js';
 import { humanDesignResultSchema } from '../human-design/validation.js';
 import { numerologyResultSchema } from '../numerology/validation.js';
 import { SCHEMA_VERSION } from '../shared/meta.js';
@@ -24,6 +25,7 @@ export const profileSchema = z.object({
   astrology: astrologyResultSchema,
   humanDesign: humanDesignResultSchema,
   numerology: numerologyResultSchema,
+  destinyMatrix: destinyMatrixResultSchema,
   meta: z.object({
     builtAt: z.string(),
     /** Empreinte des entrées + paramètres de tous les moteurs (détection de recalcul nécessaire). */

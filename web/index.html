@@ -71,7 +71,7 @@ pre { font: .75rem/1.45 var(--mono); max-height: 420px; overflow: auto; backgrou
 <body>
 <header class="top">
   <h1>Banc d'essai ASTRA</h1>
-  <p class="sub">Saisie des données de naissance, calcul des trois moteurs et bilan complet, exécutés dans votre navigateur.</p>
+  <p class="sub">Saisie des données de naissance, calcul des moteurs (astrologie, Human Design, numérologie, Matrice du destin) et bilan complet, exécutés dans votre navigateur.</p>
 </header>
 
 <p class="demo"><strong>Version de démonstration.</strong> Les textes du bilan sont des brouillons non encore relus par l'école. Les calculs se font entièrement dans votre navigateur : aucune donnée saisie n'est envoyée ni conservée.</p>
@@ -229,6 +229,7 @@ function run(isExample) {
     ['Soleil', L[a.bodies.sun.sign]], ['Lune', L[a.bodies.moon.sign]], ['Ascendant', a.angles?.ascendant ? L[a.angles.ascendant.sign] : '—'],
     ['Type HD', L[h.type.id]], ['Autorité', L[h.authority.id] ?? h.authority.id], ['Profil', h.profile.id],
     ['Chemin de vie', n.lifePath.value], ['Expression', n.expression?.value ?? '—'],
+    ['Matrice · centre', profile.destinyMatrix.points.find((p) => p.id === 'E').value],
   ];
   $('summary').innerHTML = tiles.map(([k, v]) => `<div class="tile"><div class="k">${k}</div><div class="v">${esc(v)}</div></div>`).join('');
   $('who').innerHTML = `<strong>${esc(input.firstName)} ${esc(input.lastName)}</strong>${isExample ? ' <span class="example">exemple</span>' : ''}`;

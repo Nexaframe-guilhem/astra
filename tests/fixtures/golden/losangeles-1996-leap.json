@@ -1,5 +1,5 @@
 {
-  "schemaVersion": "1.0",
+  "schemaVersion": "1.1",
   "identity": {
     "firstName": "Lynn",
     "middleNames": null,
@@ -27,7 +27,7 @@
     "meta": {
       "engine": "astra-astrology",
       "engineVersion": "0.1.0",
-      "schemaVersion": "1.0",
+      "schemaVersion": "1.1",
       "calculatedAt": "2026-10-02T00:00:00.000Z",
       "dependencies": {
         "astronomy-engine": "2.1.19",
@@ -915,7 +915,7 @@
     "meta": {
       "engine": "astra-human-design",
       "engineVersion": "0.1.0",
-      "schemaVersion": "1.0",
+      "schemaVersion": "1.1",
       "calculatedAt": "2026-10-02T00:00:00.000Z",
       "dependencies": {
         "astronomy-engine": "2.1.19",
@@ -1870,7 +1870,7 @@
     "meta": {
       "engine": "astra-numerology",
       "engineVersion": "0.1.0",
-      "schemaVersion": "1.0",
+      "schemaVersion": "1.1",
       "calculatedAt": "2026-10-02T00:00:00.000Z",
       "dependencies": {},
       "settings": {
@@ -2143,8 +2143,397 @@
     },
     "warnings": []
   },
+  "destinyMatrix": {
+    "meta": {
+      "engine": "astra-destiny-matrix",
+      "engineVersion": "0.1.0",
+      "schemaVersion": "1.1",
+      "calculatedAt": "2026-10-02T00:00:00.000Z",
+      "dependencies": {},
+      "settings": {
+        "convention": "astra-matrix"
+      },
+      "inputHash": "741657a53e322e4640b9f9a4827435670f0a0c0ec8fe7ee1d9f05f4387de03d2"
+    },
+    "birthDate": "1996-02-29",
+    "points": [
+      {
+        "id": "A",
+        "value": 11,
+        "formula": "jour",
+        "contentKey": "destinyMatrix.arcana.11"
+      },
+      {
+        "id": "B",
+        "value": 2,
+        "formula": "mois",
+        "contentKey": "destinyMatrix.arcana.2"
+      },
+      {
+        "id": "C",
+        "value": 7,
+        "formula": "somme des chiffres de l’année",
+        "contentKey": "destinyMatrix.arcana.7"
+      },
+      {
+        "id": "D",
+        "value": 20,
+        "formula": "A+B+C",
+        "contentKey": "destinyMatrix.arcana.20"
+      },
+      {
+        "id": "E",
+        "value": 4,
+        "formula": "A+B+C+D",
+        "contentKey": "destinyMatrix.arcana.4"
+      },
+      {
+        "id": "F",
+        "value": 13,
+        "formula": "A+B",
+        "contentKey": "destinyMatrix.arcana.13"
+      },
+      {
+        "id": "G",
+        "value": 9,
+        "formula": "B+C",
+        "contentKey": "destinyMatrix.arcana.9"
+      },
+      {
+        "id": "H",
+        "value": 4,
+        "formula": "D+A",
+        "contentKey": "destinyMatrix.arcana.4"
+      },
+      {
+        "id": "I",
+        "value": 9,
+        "formula": "C+D",
+        "contentKey": "destinyMatrix.arcana.9"
+      },
+      {
+        "id": "J",
+        "value": 6,
+        "formula": "D+E",
+        "contentKey": "destinyMatrix.arcana.6"
+      },
+      {
+        "id": "K",
+        "value": 5,
+        "formula": "J+L",
+        "contentKey": "destinyMatrix.arcana.5"
+      },
+      {
+        "id": "L",
+        "value": 17,
+        "formula": "J+N",
+        "contentKey": "destinyMatrix.arcana.17"
+      },
+      {
+        "id": "M",
+        "value": 10,
+        "formula": "L+N",
+        "contentKey": "destinyMatrix.arcana.10"
+      },
+      {
+        "id": "N",
+        "value": 11,
+        "formula": "C+E",
+        "contentKey": "destinyMatrix.arcana.11"
+      },
+      {
+        "id": "O",
+        "value": 8,
+        "formula": "A+S",
+        "contentKey": "destinyMatrix.arcana.8"
+      },
+      {
+        "id": "P",
+        "value": 8,
+        "formula": "B+T",
+        "contentKey": "destinyMatrix.arcana.8"
+      },
+      {
+        "id": "Q",
+        "value": 18,
+        "formula": "N+C",
+        "contentKey": "destinyMatrix.arcana.18"
+      },
+      {
+        "id": "R",
+        "value": 8,
+        "formula": "J+D",
+        "contentKey": "destinyMatrix.arcana.8"
+      },
+      {
+        "id": "S",
+        "value": 15,
+        "formula": "A+E",
+        "contentKey": "destinyMatrix.arcana.15"
+      },
+      {
+        "id": "T",
+        "value": 6,
+        "formula": "B+E",
+        "contentKey": "destinyMatrix.arcana.6"
+      },
+      {
+        "id": "U",
+        "value": 8,
+        "formula": "F+G+H+I",
+        "contentKey": "destinyMatrix.arcana.8"
+      },
+      {
+        "id": "V",
+        "value": 12,
+        "formula": "E+U",
+        "contentKey": "destinyMatrix.arcana.12"
+      },
+      {
+        "id": "W",
+        "value": 19,
+        "formula": "S+E",
+        "contentKey": "destinyMatrix.arcana.19"
+      },
+      {
+        "id": "X",
+        "value": 10,
+        "formula": "T+E",
+        "contentKey": "destinyMatrix.arcana.10"
+      },
+      {
+        "id": "F1",
+        "value": 7,
+        "formula": "F+F2",
+        "contentKey": "destinyMatrix.arcana.7"
+      },
+      {
+        "id": "F2",
+        "value": 21,
+        "formula": "F+U",
+        "contentKey": "destinyMatrix.arcana.21"
+      },
+      {
+        "id": "G1",
+        "value": 8,
+        "formula": "G+G2",
+        "contentKey": "destinyMatrix.arcana.8"
+      },
+      {
+        "id": "G2",
+        "value": 17,
+        "formula": "G+U",
+        "contentKey": "destinyMatrix.arcana.17"
+      },
+      {
+        "id": "H1",
+        "value": 16,
+        "formula": "H+H2",
+        "contentKey": "destinyMatrix.arcana.16"
+      },
+      {
+        "id": "H2",
+        "value": 12,
+        "formula": "H+U",
+        "contentKey": "destinyMatrix.arcana.12"
+      },
+      {
+        "id": "I1",
+        "value": 8,
+        "formula": "I+I2",
+        "contentKey": "destinyMatrix.arcana.8"
+      },
+      {
+        "id": "I2",
+        "value": 17,
+        "formula": "I+U",
+        "contentKey": "destinyMatrix.arcana.17"
+      }
+    ],
+    "purposes": {
+      "sky": 22,
+      "earth": 18,
+      "personal": 4,
+      "male": 22,
+      "female": 13,
+      "social": 8,
+      "spiritual": 12
+    },
+    "positions": [
+      {
+        "id": "personality",
+        "points": [
+          "A"
+        ],
+        "values": [
+          11
+        ],
+        "contentKey": "destinyMatrix.positions.personality",
+        "arcanaContentKey": "destinyMatrix.positionArcana.personality.11"
+      },
+      {
+        "id": "talents",
+        "points": [
+          "B"
+        ],
+        "values": [
+          2
+        ],
+        "contentKey": "destinyMatrix.positions.talents",
+        "arcanaContentKey": "destinyMatrix.positionArcana.talents.2"
+      },
+      {
+        "id": "material",
+        "points": [
+          "C"
+        ],
+        "values": [
+          7
+        ],
+        "contentKey": "destinyMatrix.positions.material",
+        "arcanaContentKey": "destinyMatrix.positionArcana.material.7"
+      },
+      {
+        "id": "karmicTask",
+        "points": [
+          "D"
+        ],
+        "values": [
+          20
+        ],
+        "contentKey": "destinyMatrix.positions.karmicTask",
+        "arcanaContentKey": "destinyMatrix.positionArcana.karmicTask.20"
+      },
+      {
+        "id": "center",
+        "points": [
+          "E"
+        ],
+        "values": [
+          4
+        ],
+        "contentKey": "destinyMatrix.positions.center",
+        "arcanaContentKey": "destinyMatrix.positionArcana.center.4"
+      },
+      {
+        "id": "karmicTail",
+        "points": [
+          "D",
+          "R",
+          "J"
+        ],
+        "values": [
+          20,
+          8,
+          6
+        ],
+        "contentKey": "destinyMatrix.positions.karmicTail",
+        "arcanaContentKey": null
+      },
+      {
+        "id": "love",
+        "points": [
+          "K"
+        ],
+        "values": [
+          5
+        ],
+        "contentKey": "destinyMatrix.positions.love",
+        "arcanaContentKey": "destinyMatrix.positionArcana.love.5"
+      },
+      {
+        "id": "money",
+        "points": [
+          "M"
+        ],
+        "values": [
+          10
+        ],
+        "contentKey": "destinyMatrix.positions.money",
+        "arcanaContentKey": "destinyMatrix.positionArcana.money.10"
+      },
+      {
+        "id": "paternalLine",
+        "points": [
+          "F",
+          "F1",
+          "F2",
+          "I2",
+          "I1",
+          "I"
+        ],
+        "values": [
+          13,
+          7,
+          21,
+          17,
+          8,
+          9
+        ],
+        "contentKey": "destinyMatrix.positions.paternalLine",
+        "arcanaContentKey": null
+      },
+      {
+        "id": "maternalLine",
+        "points": [
+          "G",
+          "G1",
+          "G2",
+          "H2",
+          "H1",
+          "H"
+        ],
+        "values": [
+          9,
+          8,
+          17,
+          12,
+          16,
+          4
+        ],
+        "contentKey": "destinyMatrix.positions.maternalLine",
+        "arcanaContentKey": null
+      },
+      {
+        "id": "personalPurpose",
+        "points": [
+          "ciel",
+          "terre"
+        ],
+        "values": [
+          4
+        ],
+        "contentKey": "destinyMatrix.positions.personalPurpose",
+        "arcanaContentKey": "destinyMatrix.positionArcana.personalPurpose.4"
+      },
+      {
+        "id": "socialPurpose",
+        "points": [
+          "masculin",
+          "féminin"
+        ],
+        "values": [
+          8
+        ],
+        "contentKey": "destinyMatrix.positions.socialPurpose",
+        "arcanaContentKey": "destinyMatrix.positionArcana.socialPurpose.8"
+      },
+      {
+        "id": "spiritualPurpose",
+        "points": [
+          "personnelle",
+          "sociale"
+        ],
+        "values": [
+          12
+        ],
+        "contentKey": "destinyMatrix.positions.spiritualPurpose",
+        "arcanaContentKey": "destinyMatrix.positionArcana.spiritualPurpose.12"
+      }
+    ]
+  },
   "meta": {
     "builtAt": "2026-10-02T00:00:00.000Z",
-    "inputHash": "d874557d0df64b15a64dd1cfda2406bf3fd9fc7ce56790533b93c630644c2320"
+    "inputHash": "edcbf8899c84abc83cf4b2c4db4f734d60cec96daf9025c69cc50d9e2e755702"
   }
 }

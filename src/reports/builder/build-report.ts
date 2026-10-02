@@ -4,6 +4,7 @@
  */
 import { renderAstroWheel } from '../../components/astrology/wheel.js';
 import { renderBodyGraph } from '../../components/human-design/bodygraph.js';
+import { renderDestinyMatrix } from '../../components/destiny-matrix/matrix.js';
 import { label, resolveContent } from '../../content/repository.js';
 import type { Profile } from '../../core/profile/schema.js';
 import {
@@ -50,7 +51,7 @@ export function buildReport(profile: Profile, options: BuildReportOptions = {}):
         })),
     );
 
-  const { identity: id, birth: b, astrology: a, humanDesign: h, numerology: n } = profile;
+  const { identity: id, birth: b, astrology: a, humanDesign: h, numerology: n, destinyMatrix: dm } = profile;
   const fullName = [id.firstName, id.middleNames, id.lastName].filter(Boolean).join(' ');
 
   const sections: ReportSection[] = [];
@@ -298,6 +299,48 @@ export function buildReport(profile: Profile, options: BuildReportOptions = {}):
     ],
   });
 
+  // ---------- Matrice du destin ----------
+  const arcanaName = (v: number) => `${v} · ${L(`arcana${v}`)}`;
+  const main = dm.positions.filter((p) => p.arcanaContentKey);
+  const pos = (pid: string) => dm.positions.find((p) => p.id === pid)!;
+  sections.push({
+    id: 'destinyMatrix',
+    title: 'Matrice du destin',
+    subsections: [
+      {
+        id: 'chart',
+        title: 'Schéma',
+        blocks: [
+          { kind: 'figure', figure: 'destiny-matrix', caption: `Matrice du destin, née de la date du ${new Date(`${dm.birthDate}T00:00:00Z`).toLocaleDateString(locale, { timeZone: 'UTC' })}`, svg: renderDestinyMatrix(dm, { width: 420 }) },
+          {
+            kind: 'table',
+            columns: ['Position', 'Arcane', 'Points'],
+            rows: [
+              ...main.map((p) => [L(`matrix.${p.id}`), arcanaName(p.values[0]!), p.points.join(', ')]),
+              ...(['karmicTail', 'paternalLine', 'maternalLine'] as const).map((k) => [L(`matrix.${k}`), pos(k).values.join(' – '), pos(k).points.join(', ')]),
+            ],
+          },
+        ],
+      },
+      {
+        id: 'positions',
+        title: 'Lecture par position',
+        blocks: [
+          ...main.flatMap((p) => [
+            ...content(p.contentKey, L(`matrix.${p.id}`)),
+            ...content(p.arcanaContentKey!, `${L(`matrix.${p.id}`)} : ${arcanaName(p.values[0]!)}`),
+          ]),
+          ...content(pos('karmicTail').contentKey, `${L('matrix.karmicTail')} ${pos('karmicTail').values.join('-')}`),
+        ],
+      },
+      {
+        id: 'arcana',
+        title: 'Les arcanes de votre matrice',
+        blocks: [...new Set(main.map((p) => p.values[0]!))].sort((x, y) => x - y).flatMap((v) => content(`destinyMatrix.arcana.${v}`, arcanaName(v))),
+      },
+    ],
+  });
+
   // ---------- Méthodologie ----------
   sections.push({
     id: 'methodology',
@@ -313,6 +356,7 @@ export function buildReport(profile: Profile, options: BuildReportOptions = {}):
             ['Astrologie', `${a.meta.engine} ${a.meta.engineVersion}`, `zodiaque tropical, maisons ${L(a.houseSystem)}, nœud ${a.meta.settings.nodeType === 'true' ? 'vrai' : 'moyen'}`],
             ['Human Design', `${h.meta.engine} ${h.meta.engineVersion}`, `Design à ${h.design.solarArcDegrees}° d’arc solaire, nœud ${h.meta.settings.nodeType === 'true' ? 'vrai' : 'moyen'}`],
             ['Numérologie', `${n.meta.engine} ${n.meta.engineVersion}`, `convention ${String(n.meta.settings.convention)}${n.meta.settings.customized ? ' (personnalisée)' : ''}, méthode ${L(n.method)}`],
+            ['Matrice du destin', `${dm.meta.engine} ${dm.meta.engineVersion}`, `convention ${String(dm.meta.settings.convention)}, 22 arcanes, réduction par somme des chiffres`],
           ],
         },
         { kind: 'notice', level: 'info', text: 'Ce bilan compile des résultats calculés de manière déterministe et des textes validés par l’école. Aucune intelligence artificielle n’intervient dans sa production.' },
