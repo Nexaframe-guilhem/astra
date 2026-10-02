@@ -17,7 +17,7 @@
     "profile": "TZ=UTC tsx scripts/profile-cli.ts",
     "report": "TZ=UTC tsx scripts/report.ts",
     "content:catalog": "tsx scripts/content-catalog.ts",
-    "web:build": "esbuild web/entry.ts --bundle --format=iife --global-name=ASTRA --platform=browser --minify --legal-comments=none --alias:geo-tz/all=./web/geo-stub.ts --alias:node:crypto=./web/crypto-shim.ts --banner:js='globalThis.process??={versions:{}};' --outfile=web/astra.js"
+    "web:build": "esbuild web/entry.ts --bundle --format=iife --global-name=ASTRA --platform=browser --minify --legal-comments=linked --alias:geo-tz/all=./web/geo-stub.ts --alias:node:crypto=./web/crypto-shim.ts --banner:js='globalThis.process??={versions:{}};' --outfile=web/astra.js"
   },
   "dependencies": {
     "astronomy-engine": "2.1.19",
